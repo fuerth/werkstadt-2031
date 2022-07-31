@@ -1,0 +1,216 @@
+:root {
+	--text-main: #333;
+	--background-borders: #999;
+	--background-level-1: #CCC;
+	--background-level-2: #EEE;
+	--card-color-1: #FFFF99;
+	--card-color-2: #D9EAD3;
+	--card-color-3: #D0E0E3;
+}
+
+.accordion-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	color: var(--text-main);
+}
+
+.accordion-container * {
+	padding: 0;
+	margin: 0;
+}
+
+ul.accordion {
+	list-style: none;
+}
+
+ul.accordion.level-1 > .accordion-item > header {
+	background-color: var(--background-level-1);
+}
+ul.accordion.level-2 > .accordion-item > header {
+	background-color: var(--background-level-2);
+}
+
+li.accordion-item {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: fit-content;
+
+	background-color: lightgray
+}
+
+li.accordion-item header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	padding: 0.5rem 1rem;
+
+	color: var(--text-main);
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	cursor: pointer;
+}
+li.accordion-item.disabled header {
+	cursor: default;
+}
+
+li.accordion-item header h2 {
+	display: block;
+	
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1.25rem;
+}
+
+li.accordion-item header .sub-item-count {
+	display: flex;
+	align-items: center;
+	padding: 0.4rem;
+	
+	background-color: var(--card-color-1);
+	border-radius: 0rem;
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.accordion-content {
+	background-color: white;
+}
+
+.accordion-content ul.cards {
+	list-style: none;
+	padding: 0;
+	margin: 2rem;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	word-break: break-word;
+	justify-content: center;
+	gap: 2rem;
+}
+
+.accordion-content ul.cards li.card {
+	display: flex;
+	width: 15rem;
+	height: fit-content;
+	align-items: center;
+	min-height: 15rem;
+	background-color: var(--card-color-1);
+	padding: 1rem;
+
+	box-shadow: 0px 2px 4px rgb(0 0 0 / 30%);
+	transform: rotate(-4deg);
+	transition: transform .15s linear;
+}
+.accordion-content ul.cards li.card:nth-child(even) {
+	transform:rotate(2deg);
+	position:relative;
+	top:5px;
+	background:var(--card-color-2);
+}
+.accordion-content ul.cards li.card:nth-child(3n) {
+	transform:rotate(-2deg);
+	position:relative;
+	top:-5px;
+	background:var(--card-color-3);
+}
+.accordion-content ul.cards li.card:nth-child(5n) {
+	transform:rotate(1deg);
+	position:relative;
+	top:-10px;
+}
+
+.accordion-content ul.cards li.card.xxs {
+	font-size: 3.5rem;
+}
+.accordion-content ul.cards li.card.xs {
+	font-size: 2.5rem;
+}
+.accordion-content ul.cards li.card.s {
+	font-size: 2.0rem;
+}
+.accordion-content ul.cards li.card.m {
+	font-size: 1.75rem;
+}
+.accordion-content ul.cards li.card.l {
+	font-size: 1.25rem;
+}
+.accordion-content ul.cards li.card.xl {
+	width: 33.5rem;
+	font-size: 1.5rem;
+	transform: rotate(0deg);
+}
+.accordion-content ul.cards li.card.xxl {
+	width: 33.5rem;
+	min-height: 33.5rem;
+	transform: rotate(0deg);
+}
+
+.accordion-content ul.cards li.card {
+	font-family: "Square Peg", monospace;
+	font-size: 2rem;
+}
+.accordion-content ul.cards li.card:nth-child(6n) {
+	font-family: "Reenie Beanie", monospace;
+}
+.accordion-content ul.cards li.card:nth-child(7n) {
+	font-family: "Shadows Into Light", monospace;
+}
+
+
+
+.accordion-content ul.cards li.card.postit {
+	border-bottom-right-radius:60px 5px;
+}
+.accordion-content ul.cards li.card.postit::before {
+	content: "";
+	background-color: rgba(0,0,0,0.025);
+	position: absolute;
+	width: 100%;
+	height: 3rem;
+	top: 0;
+	left: 0;
+	border: 0;
+	z-index: -1;
+}
+.accordion-content ul.cards li.card.postit::after {
+	content:"";
+	position: absolute;
+	bottom: 0;
+	right: -4px;
+	width: 100%;
+	height: 140px;
+	background-image: linear-gradient(173deg, rgba(0,0,0,0) 92%, rgba(0,0,0,0.4) 100%);
+	border-bottom-right-radius: 5rem 0.25rem;
+	transform: rotate(2deg);
+	z-index: -1;
+	filter: blur(2px);
+}
+
+.accordion-content ul.cards li.card:hover {
+	transform: rotate(0deg);
+	transform: scale(1.05);
+	box-shadow: 0px 2px 24px rgb(0 0 0 / 60%);
+	z-index: 100;
+}
+
+.accordion-item > article {
+	display: none;
+	height: 0;
+}
+.accordion-item > header > h2::before {
+	content: "❱";
+	padding: 0.5rem;
+	font-size: 1rem;
+	display: inline-block;
+	color: #999;
+}
+
+.accordion-item.open > article {
+	display: block;
+	height: fit-content;
+}
+.accordion-item.open > header > h2::before {
+	transform: rotate(90deg);
+}

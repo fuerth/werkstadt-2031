@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Werkstadt 2031</title>
+
+	<style>
+	html, body {
+		padding: 0;
+		margin: 0;
+	}
+	header {
+		width: 100%;
+		margin: 5rem 0 3rem 0;
+	}
+	header h1 {
+		width: 40vw;
+		height: 33vh;
+		margin: auto;
+		background-image: url(https://fuerth.bluepingu.de/fileadmin/_processed_/8/c/csm_WSF_Logo_2204_rgb_Mittel_7e059889c0.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		text-align: center;
+		color: transparent;
+	}
+	main {
+		max-width: 1152px;
+		margin: auto;
+	}
+	.app-container {
+		width: 100;
+		height: fit-content;
+	}
+	</style>
+
+	<script>
+	function resizeIframe(obj) {
+		obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+	}
+	</script>
+</head>
+<body>
+	<header>
+		<h1>Werkstadt 2031</h1>
+	</header>
+	<main>
+		<div class="app-container">
+			<iframe src="./app.html" frameborder="0" scrolling="no" width="100%" onload="resizeIframe(this)"></iframe>
+		</div>
+	</main>
+	<footer>
+		<ul>
+			<li><a href="https://fullstax.de/impressum/">Impressum</a></li>
+		</ul>
+	</footer>
+</body>
+</html>
