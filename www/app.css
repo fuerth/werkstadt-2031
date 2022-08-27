@@ -214,3 +214,10 @@ li.accordion-item header .sub-item-count {
 .accordion-item.open > header > h2::before {
 	transform: rotate(90deg);
 }
+
+ul.accordion.level-2 > .accordion-item.open > header {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0px;
+	z-index: 110;
+}
