@@ -380,35 +380,5 @@
         "count": 24
       }
     ]
-  },
-  {
-    "id": "age",
-    "name": "age",
-    "count": 0,
-    "sub": [
-      {
-        "count": 0
-      }
-    ]
-  },
-  {
-    "id": "gender",
-    "name": "gender",
-    "count": 0,
-    "sub": [
-      {
-        "count": 0
-      }
-    ]
-  },
-  {
-    "id": "location",
-    "name": "location",
-    "count": 0,
-    "sub": [
-      {
-        "count": 0
-      }
-    ]
   }
 ]

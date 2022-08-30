@@ -25,7 +25,7 @@ function cleanupData(data) {
     return data.map(entry => {
         const categories = [];
         Object.keys(entry).forEach(key => {
-            if (entry[key] === 'x') {
+            if (key.includes('.') && entry[key] === 'x') {
                 categories.push(key);
                 delete entry[key];
             }
