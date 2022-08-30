@@ -1,0 +1,414 @@
+[
+  {
+    "id": "gesellschaft",
+    "name": "gesellschaft",
+    "count": 495,
+    "sub": [
+      {
+        "id": "familie",
+        "name": "familie",
+        "count": 38
+      },
+      {
+        "id": "Jugend",
+        "name": "Jugend",
+        "count": 68
+      },
+      {
+        "id": "wohnraum",
+        "name": "wohnraum",
+        "count": 54
+      },
+      {
+        "id": "Quartiers-entwicklung",
+        "name": "Quartiers-entwicklung",
+        "count": 28
+      },
+      {
+        "id": "gerechtigkeit",
+        "name": "gerechtigkeit",
+        "count": 39
+      },
+      {
+        "id": "gemeinschaft",
+        "name": "gemeinschaft",
+        "count": 72
+      },
+      {
+        "id": "begegnung",
+        "name": "begegnung",
+        "count": 42
+      },
+      {
+        "id": "inklusion",
+        "name": "inklusion",
+        "count": 54
+      },
+      {
+        "id": "senioren",
+        "name": "senioren",
+        "count": 18
+      },
+      {
+        "id": "generationen",
+        "name": "generationen",
+        "count": 22
+      },
+      {
+        "id": "gentrifizierung",
+        "name": "gentrifizierung",
+        "count": 9
+      },
+      {
+        "id": "kinderbetreuung",
+        "name": "kinderbetreuung",
+        "count": 17
+      },
+      {
+        "id": "gesellschaft",
+        "name": "gesellschaft",
+        "count": 34
+      }
+    ]
+  },
+  {
+    "id": "kultur",
+    "name": "kultur",
+    "count": 201,
+    "sub": [
+      {
+        "id": "freizeit",
+        "name": "freizeit",
+        "count": 81
+      },
+      {
+        "id": "kulturangebot",
+        "name": "kulturangebot",
+        "count": 65
+      },
+      {
+        "id": "nachtleben",
+        "name": "nachtleben",
+        "count": 38
+      },
+      {
+        "id": "sport",
+        "name": "sport",
+        "count": 17
+      }
+    ]
+  },
+  {
+    "id": "parks",
+    "name": "parks",
+    "count": 174,
+    "sub": [
+      {
+        "id": "parks",
+        "name": "parks",
+        "count": 46
+      },
+      {
+        "id": "gruenestadt",
+        "name": "gruenestadt",
+        "count": 108
+      },
+      {
+        "id": "hunde",
+        "name": "hunde",
+        "count": 20
+      }
+    ]
+  },
+  {
+    "id": "raeume",
+    "name": "raeume",
+    "count": 123,
+    "sub": [
+      {
+        "id": "raeume",
+        "name": "raeume",
+        "count": 61
+      },
+      {
+        "id": "kreativraeume",
+        "name": "kreativraeume",
+        "count": 39
+      },
+      {
+        "id": "werkstaetten",
+        "name": "werkstaetten",
+        "count": 11
+      },
+      {
+        "id": "experimentierraeume",
+        "name": "experimentierraeume",
+        "count": 12
+      }
+    ]
+  },
+  {
+    "id": "stadtbild",
+    "name": "stadtbild",
+    "count": 430,
+    "sub": [
+      {
+        "id": "autofrei",
+        "name": "autofrei",
+        "count": 95
+      },
+      {
+        "id": "stadtbild",
+        "name": "stadtbild",
+        "count": 84
+      },
+      {
+        "id": "atmosphäre",
+        "name": "atmosphäre",
+        "count": 23
+      },
+      {
+        "id": "sanierung",
+        "name": "sanierung",
+        "count": 37
+      },
+      {
+        "id": "stadtgestaltung",
+        "name": "stadtgestaltung",
+        "count": 54
+      },
+      {
+        "id": "lebenswert",
+        "name": "lebenswert",
+        "count": 43
+      },
+      {
+        "id": "muell",
+        "name": "muell",
+        "count": 47
+      },
+      {
+        "id": "spielplaetze",
+        "name": "spielplaetze",
+        "count": 17
+      },
+      {
+        "id": "beleuchtung",
+        "name": "beleuchtung",
+        "count": 30
+      }
+    ]
+  },
+  {
+    "id": "politik",
+    "name": "politik",
+    "count": 445,
+    "sub": [
+      {
+        "id": "flaechen",
+        "name": "flaechen",
+        "count": 60
+      },
+      {
+        "id": "sicherheit",
+        "name": "sicherheit",
+        "count": 32
+      },
+      {
+        "id": "foerderung",
+        "name": "foerderung",
+        "count": 78
+      },
+      {
+        "id": "stadtplanung",
+        "name": "stadtplanung",
+        "count": 53
+      },
+      {
+        "id": "politik",
+        "name": "politik",
+        "count": 95
+      },
+      {
+        "id": "strukturen",
+        "name": "strukturen",
+        "count": 22
+      },
+      {
+        "id": "transparenz",
+        "name": "transparenz",
+        "count": 16
+      },
+      {
+        "id": "engagement",
+        "name": "engagement",
+        "count": 47
+      },
+      {
+        "id": "klimawandel",
+        "name": "klimawandel",
+        "count": 42
+      }
+    ]
+  },
+  {
+    "id": "mobilitaet",
+    "name": "mobilitaet",
+    "count": 858,
+    "sub": [
+      {
+        "id": "fussgaenger",
+        "name": "fussgaenger",
+        "count": 32
+      },
+      {
+        "id": "mobilitaet",
+        "name": "mobilitaet",
+        "count": 191
+      },
+      {
+        "id": "individualverkehr",
+        "name": "individualverkehr",
+        "count": 65
+      },
+      {
+        "id": "tempo30",
+        "name": "tempo30",
+        "count": 45
+      },
+      {
+        "id": "verkehrsfluss",
+        "name": "verkehrsfluss",
+        "count": 45
+      },
+      {
+        "id": "verkehrsnetz",
+        "name": "verkehrsnetz",
+        "count": 74
+      },
+      {
+        "id": "Parken",
+        "name": "Parken",
+        "count": 79
+      },
+      {
+        "id": "oepnv",
+        "name": "oepnv",
+        "count": 96
+      },
+      {
+        "id": "radwege",
+        "name": "radwege",
+        "count": 118
+      },
+      {
+        "id": "radverkehr",
+        "name": "radverkehr",
+        "count": 113
+      }
+    ]
+  },
+  {
+    "id": "umwelt",
+    "name": "umwelt",
+    "count": 55,
+    "sub": [
+      {
+        "id": "umwelt",
+        "name": "umwelt",
+        "count": 55
+      }
+    ]
+  },
+  {
+    "id": "infrastruktur",
+    "name": "infrastruktur",
+    "count": 174,
+    "sub": [
+      {
+        "id": "Bauen",
+        "name": "Bauen",
+        "count": 51
+      },
+      {
+        "id": "infrastruktur",
+        "name": "infrastruktur",
+        "count": 34
+      },
+      {
+        "id": "energieversorgung",
+        "name": "energieversorgung",
+        "count": 69
+      },
+      {
+        "id": "digitalisierung",
+        "name": "digitalisierung",
+        "count": 20
+      }
+    ]
+  },
+  {
+    "id": "wirtschaft",
+    "name": "wirtschaft",
+    "count": 138,
+    "sub": [
+      {
+        "id": "konsum",
+        "name": "konsum",
+        "count": 52
+      },
+      {
+        "id": "einzelhandel",
+        "name": "einzelhandel",
+        "count": 58
+      },
+      {
+        "id": "carsharing",
+        "name": "carsharing",
+        "count": 28
+      }
+    ]
+  },
+  {
+    "id": "bildung",
+    "name": "bildung",
+    "count": 24,
+    "sub": [
+      {
+        "id": "bildung",
+        "name": "bildung",
+        "count": 24
+      }
+    ]
+  },
+  {
+    "id": "age",
+    "name": "age",
+    "count": 0,
+    "sub": [
+      {
+        "count": 0
+      }
+    ]
+  },
+  {
+    "id": "gender",
+    "name": "gender",
+    "count": 0,
+    "sub": [
+      {
+        "count": 0
+      }
+    ]
+  },
+  {
+    "id": "location",
+    "name": "location",
+    "count": 0,
+    "sub": [
+      {
+        "count": 0
+      }
+    ]
+  }
+]
