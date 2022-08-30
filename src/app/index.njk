@@ -1,0 +1,42 @@
+---
+layout: "app.njk"
+---
+
+<div class="accordion-container">
+    <ul class="accordion level-1">
+        {% for mainCat in categories -%}
+        <li class="accordion-item" id="{{ mainCat.id }}" data-count="{{ mainCat.count }}">
+            <header>
+                <h2>{{ mainCat.name }}</h2>
+                <div class="sub-item-count">{{ mainCat.count }}</div>
+            </header>
+            <article class="accordion-content">
+                <ul class="accordion level-2">
+                    {% for subCat in mainCat.sub -%}
+                    <li class="accordion-item" id="{{ subCat.id }}" data-count="{{ subCat.count }}">
+                        <header>
+                            <h2>{{ subCat.name }}</h2>
+                            <div class="sub-item-count">{{ subCat.count }}</div>
+                        </header>
+                        <article class="accordion-content">
+                            <ul class="cards">
+                                 {% for entry in (entries | filterByCategorie(mainCat.id, subCat.id)) -%}
+                                    <li class="card" 
+                                        data-length="{{ entry.text.length }}"
+                                        data-gender="{{ entry.gender }}"
+                                        data-age="{{ entry.age }}"
+                                        data-location="{{ entry.location }}"
+                                    >
+                                        {{ entry.text }}
+                                    <li>
+                                {%- endfor -%}<!-- end entry -->  
+                            </ul>
+                        </article>
+                    </li>
+                    {%- endfor -%}<!-- end subCat -->
+                </ul>
+            </article>
+        </li>
+        {%- endfor -%}<!-- end mainCat-->
+    </ul>
+</div>
