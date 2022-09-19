@@ -183,3 +183,20 @@ ul.cards li.card:hover {
 	box-shadow: 0px 2px 24px rgb(0 0 0 / 60%);
 	z-index: 100;
 }
+
+footer.copyright {
+	margin: 1rem auto;
+}
+footer.copyright div {
+	font-family: sans-serif;
+	font-size: 0.7rem;
+	padding-left: 43px;
+}
+footer.copyright a {
+	text-decoration: none;
+	background-image: url('https://fullstax.de/img/fullstax.svg');
+	background-repeat: no-repeat;
+	height: 2rem;
+	display: block;
+	color: transparent;;
+}
