@@ -55,6 +55,17 @@ ul.cards li.card:nth-child(5n) {
 	top:-10px;
 }
 
+
+ul.cards li.card:nth-child(4n) {
+	margin-right: 2rem;
+}
+ul.cards li.card:nth-child(6n) {
+	margin-right: 3rem;
+}
+ul.cards li.card:nth-child(8n) {
+	margin-left: 4rem;
+}
+
 ul.cards li.card {
 	font-family: "Square Peg", monospace;
 	font-size: 2rem;

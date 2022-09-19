@@ -1,0 +1,48 @@
+---
+layout: "desktop.njk"
+---
+<header id="page-header">
+	<section class="minSize">große<br>Themen</section>
+	<section class="grow">Eure konkreten Ideen, Wünsche und <br>Anregungen für Fürth 2021</section>
+	<section class="right">
+		<h1>werk<b>stadt</b>fürth<small>2031</small></h1>
+		<div class="subtitle">Für (d)ein lebenswertes übermorgen</div>
+	</section>
+</header>
+<main>
+	<aside>
+		<nav id="navMainCat">
+			<ul>
+				{% for mainCat in categories -%}
+				<li class="btn main" id="{{ mainCat.id }}" data-count="{{ mainCat.count }}">
+					<h2>{{ mainCat.name }}</h2>
+					<div class="sub-item-count">{{ mainCat.count }}</div>
+				</li>
+				{%- endfor -%}<!-- end mainCat-->
+			<ul>
+		</nav>
+	</aside>
+	<div id="container">
+		<article>
+
+			{% for mainCat in categories -%}
+			<header class="subCatHeader" data-main-cat="{{ mainCat.id }}">
+				<nav id="navSubCat">
+					<ul>
+						{% for subCat in mainCat.sub -%}
+						<li class="btn sub" id="{{ subCat.id }}" data-count="{{ subCat.count }}">
+							<h2>{{ subCat.name }}</h2>
+							<div class="sub-item-count">{{ subCat.count }}</div>
+						</li>
+						{%- endfor -%}<!-- end subCat-->
+					<ul>
+				</nav>
+			</header>
+			{%- endfor -%}<!-- end mainCat-->
+
+			<section id="cardsScrollContainer">
+				<ul id="cardsList" class="cards"></ul>
+			</section>
+		</article>
+	</div>
+</main>
