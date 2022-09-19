@@ -2,12 +2,12 @@
   {
     "id": "gesellschaft",
     "name": "gesellschaft",
-    "count": 495,
+    "count": 490,
     "sub": [
       {
         "id": "familie",
         "name": "familie",
-        "count": 38
+        "count": 37
       },
       {
         "id": "Jugend",
@@ -17,12 +17,12 @@
       {
         "id": "wohnraum",
         "name": "wohnraum",
-        "count": 54
+        "count": 53
       },
       {
         "id": "Quartiers-entwicklung",
         "name": "Quartiers-entwicklung",
-        "count": 28
+        "count": 27
       },
       {
         "id": "gerechtigkeit",
@@ -32,7 +32,7 @@
       {
         "id": "gemeinschaft",
         "name": "gemeinschaft",
-        "count": 72
+        "count": 71
       },
       {
         "id": "begegnung",
@@ -67,7 +67,7 @@
       {
         "id": "gesellschaft",
         "name": "gesellschaft",
-        "count": 34
+        "count": 33
       }
     ]
   },
@@ -123,7 +123,7 @@
   {
     "id": "raeume",
     "name": "raeume",
-    "count": 123,
+    "count": 122,
     "sub": [
       {
         "id": "raeume",
@@ -133,7 +133,7 @@
       {
         "id": "kreativraeume",
         "name": "kreativraeume",
-        "count": 39
+        "count": 38
       },
       {
         "id": "werkstaetten",
@@ -150,12 +150,12 @@
   {
     "id": "stadtbild",
     "name": "stadtbild",
-    "count": 430,
+    "count": 429,
     "sub": [
       {
         "id": "autofrei",
         "name": "autofrei",
-        "count": 95
+        "count": 94
       },
       {
         "id": "stadtbild",
@@ -254,17 +254,17 @@
   {
     "id": "mobilitaet",
     "name": "mobilitaet",
-    "count": 858,
+    "count": 856,
     "sub": [
       {
         "id": "fussgaenger",
         "name": "fussgaenger",
-        "count": 32
+        "count": 31
       },
       {
         "id": "mobilitaet",
         "name": "mobilitaet",
-        "count": 191
+        "count": 190
       },
       {
         "id": "individualverkehr",
@@ -323,12 +323,12 @@
   {
     "id": "infrastruktur",
     "name": "infrastruktur",
-    "count": 174,
+    "count": 172,
     "sub": [
       {
         "id": "Bauen",
         "name": "Bauen",
-        "count": 51
+        "count": 49
       },
       {
         "id": "infrastruktur",

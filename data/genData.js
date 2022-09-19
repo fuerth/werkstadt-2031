@@ -21,7 +21,7 @@ async function genDataFromCSV(fileName, headers) {
     return data;
 }
 
-function cleanupData(data) {
+function cleanupEntries(data) {
     return data.map(entry => {
         const categories = [];
         Object.keys(entry).forEach(key => {
@@ -32,7 +32,44 @@ function cleanupData(data) {
         });
         entry.categories = categories;
         return entry;
-    })
+    }).filter(entry => {
+        const hasText = entry.text && entry.text.length > 0;
+        const hasCategories = entry.categories && entry.categories.length > 0;
+        if (!hasText || !hasCategories) {
+            console.warn('invalid entry found: ', entry);
+            return false;
+        }
+        return true;
+    });
+}
+
+function getClassesByLength(textLength) {
+    if (textLength <= 40) {
+        return ['xxs', 'postit'];
+    } else if (textLength <= 75) {
+        return ['xs', 'postit'];
+    } else if (textLength <= 100) {
+        return ['s', 'postit'];
+    } else if (textLength <= 200) {
+        return ['m', 'postit'];
+    } else if (textLength <= 330) {
+        return ['l', 'postit'];
+    } else if (textLength <= 450) {
+        return ['xl', 'postit'];
+    } else {
+        return ['xxl', 'cardboard'];
+    }
+}
+
+function enrichEntries(data) {
+    return data.map(entry => {
+        const length = entry?.text?.length || null;
+        if (length) {
+            entry['length'] = length;
+            entry['classes'] = getClassesByLength(length);
+        }
+        return entry;
+    });
 }
 
 function getEntryCount(data, mainCat, subCat) {
@@ -91,13 +128,11 @@ function getCategoriesFromData(data) {
 (async () => {
     const fileName = "./data/werkstadt_2031.csv";
     const columns = await getColumns(fileName);
-    //console.log(columns);
     const data = await genDataFromCSV(fileName, columns);
-    //console.log(data[0]);
 
-    const cleanData = cleanupData(data);
-    //console.log(cleanData[0]);
-    await fs.writeFile('./src/_data/entries.json', JSON.stringify(cleanData, null, 2));
+    const cleanData = cleanupEntries(data);
+    const enrichedEntries = enrichEntries(cleanData);
+    await fs.writeFile('./src/_data/entries.json', JSON.stringify(enrichedEntries, null, 2));
 
     const categories = getCategoriesFromData(cleanData);
     await fs.writeFile('./src/_data/categories.json', JSON.stringify(categories, null, 2));
