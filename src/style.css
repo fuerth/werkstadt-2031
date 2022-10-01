@@ -1,5 +1,15 @@
 :root {
-	--text-main: #333;
+	--werkstadt-background: #faf9f7;
+	--werkstadt-black: #333;
+	
+	--werkstadt-purple: #cdbad0;
+	--werkstadt-lightblue: #acc6e1;
+	--werkstadt-blue: #1059a5;
+	--werkstadt-yellow: #fde5c9;
+	--werkstadt-orange: #f9b665;
+
+	--text-main: var(--werkstadt-black);
+	--background-color: var(--werkstadt-background);
 	--background-borders: #999;
 	--background-level-1: #CCC;
 	--background-level-2: #EEE;

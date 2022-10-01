@@ -1,5 +1,4 @@
 module.exports = function(eleventyConfig) {
-    eleventyConfig.addPassthroughCopy('./src/index.html');
     eleventyConfig.addPassthroughCopy('./src/pin.svg');
     eleventyConfig.addPassthroughCopy('./src/style.css');
     eleventyConfig.addPassthroughCopy('./src/app/app.css');
