@@ -5,8 +5,10 @@
 	--werkstadt-purple: #cdbad0;
 	--werkstadt-lightblue: #acc6e1;
 	--werkstadt-blue: #1059a5;
+	--werkstadt-darkblue: #324376;
 	--werkstadt-yellow: #fde5c9;
 	--werkstadt-orange: #f9b665;
+	--werkstadt-green: #4ce0b3;
 
 	--text-main: var(--werkstadt-black);
 	--background-color: var(--werkstadt-background);
@@ -196,9 +198,9 @@ ul.cards li.card:hover {
 
 footer.copyright {
 	margin: 1rem auto;
+	font-family: sans-serif;
 }
 footer.copyright div {
-	font-family: sans-serif;
 	font-size: 0.7rem;
 	padding-left: 43px;
 }
@@ -209,4 +211,9 @@ footer.copyright a {
 	height: 2rem;
 	display: block;
 	color: transparent;;
+}
+footer.copyright small {
+	display: block;
+	margin: 2rem 0;
+	font-size: 0.7rem;
 }

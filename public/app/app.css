@@ -27,7 +27,7 @@ li.accordion-item {
 	width: 100%;
 	height: fit-content;
 
-	background-color: lightgray
+	background-color: var(--werkstadt-background);
 }
 
 li.accordion-item summary {
@@ -56,7 +56,7 @@ li.accordion-item summary h2 {
 }
 
 .accordion-content {
-	background-color: white;
+	background-color: var(--werkstadt-background);
 }
 
 .accordion-item > article {
