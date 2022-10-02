@@ -46,6 +46,7 @@ module.exports = async function(data) {
 
 	// remove the cookie popup (not needed here)
 	$('#def-cookieconsent-consent-popup').remove();
+	$('.page-title-link.def-cookieconsent-popup-toggle').parent().parent().remove();
 
 	// replace content with the content of the template
 	$('#content .container').html(data.content);
