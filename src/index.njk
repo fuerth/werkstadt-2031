@@ -3,7 +3,7 @@ layout: "bluepingu.11ty.js"
 ---
 
 <header>
-	<h1>Werkstadt Fürth 2031 – Nachfragen.Umdenken.Mitwirken</h1>
+	<img class="banner image-embed-item" src="https://fuerth.bluepingu.de/fileadmin/_processed_/8/c/csm_WSF_Logo_2204_rgb_Mittel_7e059889c0.png" width="531" height="350" loading="lazy" alt="">
 </header>
 
 <div class="container">
@@ -12,8 +12,8 @@ layout: "bluepingu.11ty.js"
 		<span class="cite author">- mehr wollten wir nicht wissen.</span>
 	</p>
 	<p class="introduction">
-		<b>Clickt</b> Euch hier durch die Daten der Bürger:innenbefragung.
-		Mitgewirkt haben über 400 Fürtherinnen, die wir beim Spazierengehen und online befragt.
+		<b>Clickt</b> Euch hier durch die Daten der Bürger:innenbefragung.<br>
+		Mitgewirkt haben über 400 Fürtherinnen, die wir beim Spazierengehen und online befragt haben.
 		<em>Viel Spaß!</em>
 	</p>
 	<p class="thanks">
@@ -22,7 +22,7 @@ layout: "bluepingu.11ty.js"
 </div>
 
 <div class="app-container">
-	<a href="./desktop/" id="werkstadt-fullscreen-btn">Open in Fullscreen ◹</a>
+	<a href="./desktop/" id="werkstadt-fullscreen-btn">Vollbild ◹</a>
 	<iframe src="./desktop/" 
 		id="werkstadt-iframe" 
 		frameborder="0" 
@@ -54,16 +54,10 @@ layout: "bluepingu.11ty.js"
 
 	header {
 		width: 100%;
-	}
-	header h1 {
-		height: 36vh;
-		margin: 3rem auto;
-		background-image: url(./desktop/csm_WSF_Logo_2204_rgb_Mittel_7e059889c0.png);
-		background-repeat: no-repeat;
-		background-size: contain;
-		background-position: center;
 		text-align: center;
-		color: transparent;
+	}
+	header img.banner {
+		margin: 2rem 0;
 	}
 
 	.container {

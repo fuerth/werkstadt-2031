@@ -5,7 +5,6 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('./src/app/app.js');
     eleventyConfig.addPassthroughCopy('./src/desktop/desktop.css');
     eleventyConfig.addPassthroughCopy('./src/desktop/desktop.js');
-    eleventyConfig.addPassthroughCopy('./src/desktop/csm_WSF_Logo_2204_rgb_Mittel_7e059889c0.png');
     eleventyConfig.addPassthroughCopy({ './src/_data/entries.json': 'desktop/entries.json' });
 
     eleventyConfig.addNunjucksFilter("filterByCategorie", function(entries, mainCat, subCat = null) {
