@@ -3,12 +3,16 @@
   "version": "0.0.0",
   "description": "show results of the survey 'Werkstadt Fürth 2031'",
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy",
+    "11ty": "eleventy --serve",
+    "start": "sirv public --no-clear",
+    "dev": "rollup -c -w",
+    "build": "npm run build:eleventy && npm run build:svelte",
+    "build:eleventy": "eleventy",
+    "build:svelte": "rollup -c",
     "genData": "node ./data/genData.js"
   },
-  "engines" : { 
-    "node" : ">=18"
+  "engines": {
+    "node": ">=18"
   },
   "repository": {
     "type": "git",
@@ -22,8 +26,18 @@
   "homepage": "https://github.com/fuerth/werkstadt-2031#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
     "absolutify": "^0.1.0",
     "cheerio": "^1.0.0-rc.12",
-    "csvtojson": "^2.0.10"
+    "csvtojson": "^2.0.10",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "sirv-cli": "^2.0.2",
+    "svelte": "^3.0.0"
   }
 }

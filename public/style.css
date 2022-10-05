@@ -1,7 +1,7 @@
 :root {
 	--werkstadt-background: #faf9f7;
 	--werkstadt-black: #333;
-	
+	/*
 	--werkstadt-purple: #cdbad0;
 	--werkstadt-lightblue: #acc6e1;
 	--werkstadt-blue: #1059a5;
@@ -9,6 +9,7 @@
 	--werkstadt-yellow: #fde5c9;
 	--werkstadt-orange: #f9b665;
 	--werkstadt-green: #4ce0b3;
+	*/
 
 	--text-main: var(--werkstadt-black);
 	--background-color: var(--werkstadt-background);
@@ -36,14 +37,13 @@ ul.cards {
 ul.cards li.card {
 	display: flex;
 	width: 15rem;
-	height: fit-content;
+	height: max-content;
 	align-items: center;
 	min-height: 15rem;
 	background-color: var(--card-color-1);
 	padding: 1rem;
 
 	word-break: break-word;
-	hyphens: auto;
 
 	box-shadow: 0px 2px 4px rgb(0 0 0 / 30%);
 	transform: rotate(-4deg);

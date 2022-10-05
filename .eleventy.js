@@ -3,8 +3,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('./src/style.css');
     eleventyConfig.addPassthroughCopy('./src/app/app.css');
     eleventyConfig.addPassthroughCopy('./src/app/app.js');
-    eleventyConfig.addPassthroughCopy('./src/desktop/desktop.css');
-    eleventyConfig.addPassthroughCopy('./src/desktop/desktop.js');
+    eleventyConfig.addPassthroughCopy({ './src/_data/categories.json': 'desktop/categories.json' });
     eleventyConfig.addPassthroughCopy({ './src/_data/entries.json': 'desktop/entries.json' });
 
     eleventyConfig.addNunjucksFilter("filterByCategorie", function(entries, mainCat, subCat = null) {
