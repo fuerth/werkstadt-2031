@@ -21,12 +21,7 @@
 <ul id="cardsList" class="cards">
 	{#each cards as card}
 	<li>
-		<WerkstadtCard
-			gender="{card.gender}" 
-			age="{card.age}" 
-			location="{card.location}" 
-			text="{card.text}" 
-		></WerkstadtCard>
+		<WerkstadtCard {...card} />
 	</li>
 	{/each}
 </ul>

@@ -23,12 +23,7 @@ layout: "app.njk"
 								<article class="accordion-content">
 									<ul class="cards">
 										{% for entry in (entries | filterByCategorie(mainCat.id, subCat.id)) -%}
-											<li class="card {{ entry.classes | join(' ') }}" 
-												data-length="{{ entry.text.length }}"
-												data-gender="{{ entry.gender }}"
-												data-age="{{ entry.age }}"
-												data-location="{{ entry.location }}"
-											>
+											<li class="card {{ entry.classes | join(' ') }}">
 												{{ entry.text }}
 											</li>
 										{%- endfor -%}<!-- end entry -->  

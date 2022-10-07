@@ -6,8 +6,8 @@
     "11ty": "eleventy --serve",
     "start": "sirv public --no-clear",
     "dev": "rollup -c -w",
-    "build": "npm run build:eleventy && npm run build:svelte",
-    "build:eleventy": "eleventy",
+    "build": "npm run build:11ty && npm run build:svelte",
+    "build:11ty": "eleventy",
     "build:svelte": "rollup -c",
     "genData": "node ./data/genData.js"
   },
