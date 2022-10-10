@@ -1,12 +1,15 @@
 <script>
+	import { textfit } from 'svelte-textfit';
+	
 	// inputs
 	export let gender = null;
 	export let age = null;
 	export let location = null;
 	export let text = '';
-
+	
 	let title;
 	let classes;
+	let parent;
 	
 	$: {
 		// tooltip on hover	
@@ -36,19 +39,33 @@
 	}
 </script>
 
-<div class="card {classes.join(' ')}" {title}>{text}</div>
+
+<div bind:this={parent}>
+	<div
+		use:textfit={
+			{
+				mode:"multi", width:240, height:240,
+				parent
+			}
+		}
+		class="card { classes.join(' ') }" 
+		{title}
+	>{text}</div>
+</div>
 
 <style>
 	.card {
 		display: flex;
 		width: 15rem;
-		height: fit-content;
+		height: 15rem;
+		/* height: fit-content; */
 		align-items: center;
 		min-height: 15rem;
 		background-color: var(--card-color-1);
 		padding: 1rem;
+		padding-top: 3.5rem;
 
-		word-break: break-word;
+		word-break: normal;
 		hyphens: auto;
 
 		box-shadow: 0px 2px 4px rgb(0 0 0 / 30%);
@@ -56,6 +73,7 @@
 		transform: rotate(-4deg);
 		transition: transform 0.15s linear;
 		*/
+		transform: rotate(0deg);
 	}
 
 	.card {
@@ -75,6 +93,8 @@
 	.card.s {
 		font-family: "Reenie Beanie", monospace;
 		font-size: 2rem;
+		padding: 2rem;
+		padding-top: 3rem;
 	}
 	.card.m {
 		background:var(--card-color-3);
@@ -125,7 +145,7 @@
 			rgba(0, 0, 0, 0.4) 100%
 		);
 		border-bottom-right-radius: 5rem 0.25rem;
-		transform: rotate(2deg);
+		/* transform: rotate(2deg); */
 		z-index: -1;
 		filter: blur(2px);
 	}

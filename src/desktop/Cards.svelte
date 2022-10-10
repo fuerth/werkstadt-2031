@@ -63,14 +63,13 @@
 		position: relative;
 		top: -5px;
 	}
+	li:nth-child(4n) {
+		margin-right: 2rem;
+	}
 	li:nth-child(5n) {
 		transform: rotate(1deg);
 		position: relative;
 		top: -10px;
-	}
-
-	li:nth-child(4n) {
-		margin-right: 2rem;
 	}
 	li:nth-child(6n) {
 		margin-right: 3rem;

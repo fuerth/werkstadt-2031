@@ -6,7 +6,7 @@ Needs node >= v18 (for native fetch support).
 
 ## `npm run genData`
 
-Generates data-files from css.
+Generates data-files from CSV table.
 
 Call This after you updated `data/werkstadt_2031.csv`!
 
