@@ -2,67 +2,67 @@
   {
     "id": "gesellschaft",
     "name": "gesellschaft",
-    "count": 490,
+    "count": 450,
     "sub": [
       {
         "id": "familie",
         "name": "familie",
-        "count": 37
+        "count": 18
       },
       {
         "id": "Jugend",
         "name": "Jugend",
-        "count": 68
+        "count": 71
       },
       {
         "id": "wohnraum",
         "name": "wohnraum",
-        "count": 53
+        "count": 51
       },
       {
         "id": "Quartiers-entwicklung",
         "name": "Quartiers-entwicklung",
-        "count": 27
+        "count": 24
       },
       {
         "id": "gerechtigkeit",
         "name": "gerechtigkeit",
-        "count": 39
+        "count": 40
       },
       {
         "id": "gemeinschaft",
         "name": "gemeinschaft",
-        "count": 71
+        "count": 68
       },
       {
         "id": "begegnung",
         "name": "begegnung",
-        "count": 42
+        "count": 45
       },
       {
         "id": "inklusion",
         "name": "inklusion",
-        "count": 54
+        "count": 47
       },
       {
         "id": "senioren",
         "name": "senioren",
-        "count": 18
+        "count": 15
       },
       {
         "id": "generationen",
         "name": "generationen",
-        "count": 22
+        "count": 6
       },
       {
         "id": "gentrifizierung",
         "name": "gentrifizierung",
-        "count": 9
+        "count": 8
       },
       {
         "id": "kinderbetreuung",
         "name": "kinderbetreuung",
-        "count": 17
+        "count": 24
       },
       {
         "id": "gesellschaft",
@@ -74,44 +74,44 @@
   {
     "id": "kultur",
     "name": "kultur",
-    "count": 201,
+    "count": 191,
     "sub": [
       {
         "id": "freizeit",
         "name": "freizeit",
-        "count": 81
+        "count": 87
       },
       {
         "id": "kulturangebot",
         "name": "kulturangebot",
-        "count": 65
+        "count": 68
       },
       {
         "id": "nachtleben",
         "name": "nachtleben",
-        "count": 38
+        "count": 24
       },
       {
         "id": "sport",
         "name": "sport",
-        "count": 17
+        "count": 12
       }
     ]
   },
   {
     "id": "parks",
     "name": "parks",
-    "count": 174,
+    "count": 172,
     "sub": [
       {
         "id": "parks",
         "name": "parks",
-        "count": 46
+        "count": 43
       },
       {
         "id": "gruenestadt",
         "name": "gruenestadt",
-        "count": 108
+        "count": 109
       },
       {
         "id": "hunde",
@@ -128,256 +128,256 @@
       {
         "id": "raeume",
         "name": "raeume",
-        "count": 61
+        "count": 54
       },
       {
         "id": "kreativraeume",
         "name": "kreativraeume",
-        "count": 38
+        "count": 40
       },
       {
         "id": "werkstaetten",
         "name": "werkstaetten",
-        "count": 11
+        "count": 15
       },
       {
         "id": "experimentierraeume",
         "name": "experimentierraeume",
-        "count": 12
+        "count": 13
       }
     ]
   },
   {
     "id": "stadtbild",
     "name": "stadtbild",
-    "count": 429,
+    "count": 332,
     "sub": [
       {
         "id": "autofrei",
         "name": "autofrei",
-        "count": 94
+        "count": 76
       },
       {
         "id": "stadtbild",
         "name": "stadtbild",
-        "count": 84
+        "count": 66
       },
       {
         "id": "atmosphäre",
         "name": "atmosphäre",
-        "count": 23
+        "count": 20
       },
       {
         "id": "sanierung",
         "name": "sanierung",
-        "count": 37
+        "count": 26
       },
       {
         "id": "stadtgestaltung",
         "name": "stadtgestaltung",
-        "count": 54
+        "count": 44
       },
       {
         "id": "lebenswert",
         "name": "lebenswert",
-        "count": 43
+        "count": 33
       },
       {
         "id": "muell",
         "name": "muell",
-        "count": 47
+        "count": 43
       },
       {
         "id": "spielplaetze",
         "name": "spielplaetze",
-        "count": 17
+        "count": 19
       },
       {
         "id": "beleuchtung",
         "name": "beleuchtung",
-        "count": 30
+        "count": 5
       }
     ]
   },
   {
     "id": "politik",
     "name": "politik",
-    "count": 445,
+    "count": 406,
     "sub": [
       {
         "id": "flaechen",
         "name": "flaechen",
-        "count": 60
+        "count": 49
       },
       {
         "id": "sicherheit",
         "name": "sicherheit",
-        "count": 32
+        "count": 39
       },
       {
         "id": "foerderung",
         "name": "foerderung",
-        "count": 78
+        "count": 89
       },
       {
         "id": "stadtplanung",
         "name": "stadtplanung",
-        "count": 53
+        "count": 35
       },
       {
         "id": "politik",
         "name": "politik",
-        "count": 95
+        "count": 105
       },
       {
         "id": "strukturen",
         "name": "strukturen",
-        "count": 22
+        "count": 15
       },
       {
         "id": "transparenz",
         "name": "transparenz",
-        "count": 16
+        "count": 13
       },
       {
         "id": "engagement",
         "name": "engagement",
-        "count": 47
+        "count": 27
       },
       {
         "id": "klimawandel",
         "name": "klimawandel",
-        "count": 42
+        "count": 34
       }
     ]
   },
   {
     "id": "mobilitaet",
     "name": "mobilitaet",
-    "count": 856,
+    "count": 877,
     "sub": [
       {
         "id": "fussgaenger",
         "name": "fussgaenger",
-        "count": 31
+        "count": 36
       },
       {
         "id": "mobilitaet",
         "name": "mobilitaet",
-        "count": 190
+        "count": 220
       },
       {
         "id": "individualverkehr",
         "name": "individualverkehr",
-        "count": 65
+        "count": 46
       },
       {
         "id": "tempo30",
         "name": "tempo30",
-        "count": 45
+        "count": 27
       },
       {
         "id": "verkehrsfluss",
         "name": "verkehrsfluss",
-        "count": 45
+        "count": 56
       },
       {
         "id": "verkehrsnetz",
         "name": "verkehrsnetz",
-        "count": 74
+        "count": 82
       },
       {
         "id": "Parken",
         "name": "Parken",
-        "count": 79
+        "count": 72
       },
       {
         "id": "oepnv",
         "name": "oepnv",
-        "count": 96
+        "count": 82
       },
       {
         "id": "radwege",
         "name": "radwege",
-        "count": 118
+        "count": 125
       },
       {
         "id": "radverkehr",
         "name": "radverkehr",
-        "count": 113
+        "count": 131
       }
     ]
   },
   {
     "id": "umwelt",
     "name": "umwelt",
-    "count": 55,
+    "count": 73,
     "sub": [
       {
         "id": "umwelt",
         "name": "umwelt",
-        "count": 55
+        "count": 73
       }
     ]
   },
   {
     "id": "infrastruktur",
     "name": "infrastruktur",
-    "count": 172,
+    "count": 128,
     "sub": [
       {
         "id": "Bauen",
         "name": "Bauen",
-        "count": 49
+        "count": 54
       },
       {
         "id": "infrastruktur",
         "name": "infrastruktur",
-        "count": 34
+        "count": 30
       },
       {
         "id": "energieversorgung",
         "name": "energieversorgung",
-        "count": 69
+        "count": 31
       },
       {
         "id": "digitalisierung",
         "name": "digitalisierung",
-        "count": 20
+        "count": 13
       }
     ]
   },
   {
     "id": "wirtschaft",
     "name": "wirtschaft",
-    "count": 138,
+    "count": 135,
     "sub": [
       {
         "id": "konsum",
         "name": "konsum",
-        "count": 52
+        "count": 60
       },
       {
         "id": "einzelhandel",
         "name": "einzelhandel",
-        "count": 58
+        "count": 52
       },
       {
         "id": "carsharing",
         "name": "carsharing",
-        "count": 28
+        "count": 23
       }
     ]
   },
   {
     "id": "bildung",
     "name": "bildung",
-    "count": 24,
+    "count": 30,
     "sub": [
       {
         "id": "bildung",
         "name": "bildung",
-        "count": 24
+        "count": 30
       }
     ]
   }

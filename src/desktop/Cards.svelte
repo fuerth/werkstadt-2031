@@ -76,6 +76,6 @@
 		margin-right: 3rem;
 	}
 	li:nth-child(8n) {
-		margin-left: 4rem;
+		margin-left: 1rem;
 	}
 </style>

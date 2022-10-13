@@ -41,10 +41,10 @@
 <style>
 	.card {
 		display: flex;
-		width: 15rem;
+		width: 13rem;
 		height: fit-content;
 		align-items: center;
-		min-height: 15rem;
+		min-height: 13rem;
 		background-color: var(--card-color-1);
 		padding: 1rem;
 

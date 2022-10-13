@@ -35,8 +35,12 @@ function cleanupEntries(data) {
 	}).filter(entry => {
 		const hasText = entry.text && entry.text.length > 0;
 		const hasCategories = entry.categories && entry.categories.length > 0;
-		if (!hasText || !hasCategories) {
-			console.warn('invalid entry found: ', entry);
+		if (!hasText) {
+			console.warn('invalid entry: missing text: ', JSON.stringify(entry, null, false));
+			return false;
+		}
+		if (!hasCategories) {
+			console.warn('invalid entry: missing categories: ', JSON.stringify(entry, null, false));
 			return false;
 		}
 		return true;
