@@ -7,9 +7,8 @@
 	import NavigationSub from './NavigationSub.svelte';
 	import WerkstadtFooter from './Footer.svelte';
 	import WerkstadtHeader from './Header.svelte';
-	import BarChart from './BarChart.svelte';
 
-	import { categoriesStore, selectedMainCategoryStore, selectedSubCategoryStore } from './stores.js';
+	import { categoriesStore, selectedMainCategoryStore, selectedSubCategoryStore } from '../stores.js';
   
 	let cardsScrollContainer;
 
@@ -17,7 +16,7 @@
 		if (categories.length) {
 			selectedMainCategoryStore.set(categories[0].id);
 		}
-	})
+	});
 
 	const dataStoreUnsubscribe = derived([categoriesStore, selectedMainCategoryStore], ([categories, selectedMainCat], set) => {
 		// select first sub-category
@@ -38,27 +37,9 @@
 		categoriesStoreUnsubscribe();
 		dataStoreUnsubscribe();
 	})
-
-	const dataAge = {
-		"U20": 10,
-		"-30": 30,
-		"-40": 60,
-		"-60": 30,
-		"Ü70": 10,
-	}
-
-	const dataGender = {
-		"m": 40,
-		"w": 55,
-		"*": 5
-	}
 </script>
 
 <div class="werkstadt-container">
-	<!--
-	<BarChart data={dataAge} width=480 height=320 />
-	<BarChart data={dataGender} width=320 height=320 />
-	-->
 	<WerkstadtHeader />
 	{#if $categoriesStore.length}
 	<main>

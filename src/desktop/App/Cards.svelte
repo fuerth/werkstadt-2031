@@ -7,7 +7,7 @@
 <script>
 	import WerkstadtCard from './Card.svelte';
 
-	import { cardsStore } from './stores.js';
+	import { cardsStore } from '../stores.js';
 
 	export let mainCategory;
 	export let subCategory;
@@ -18,7 +18,7 @@
 {#await cards}
 <div>...waiting</div>
 {:then number}
-<ul id="cardsList" class="cards">
+<ul id="cardsList" class="wsf-cards">
 	{#each cards as card}
 	<li>
 		<WerkstadtCard {...card} />
@@ -30,10 +30,10 @@
 {/await}
 
 <style>
-	ul.cards {
+	ul.wsf-cards {
 		justify-content: flex-start;
 	}
-	ul.cards {
+	ul.wsf-cards {
 		list-style: none;
 		margin: 0;
 		padding: 0;

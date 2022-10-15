@@ -5,6 +5,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('./src/app/app.js');
     eleventyConfig.addPassthroughCopy({ './src/_data/categories.json': 'desktop/categories.json' });
     eleventyConfig.addPassthroughCopy({ './src/_data/entries.json': 'desktop/entries.json' });
+    eleventyConfig.addPassthroughCopy({ './src/_data/statistics.json': 'desktop/statistics.json' });
 
     eleventyConfig.addNunjucksFilter("filterByCategorie", function(entries, mainCat, subCat = null) {
         const cat = [mainCat, subCat].filter(Boolean).join('.');

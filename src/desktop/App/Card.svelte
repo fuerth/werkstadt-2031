@@ -1,12 +1,15 @@
 <script>
 	// inputs
+	export let ID = null;
+	export let categories = null;
+	export let length = null;
+	export let classes = null;
 	export let gender = null;
 	export let age = null;
 	export let location = null;
 	export let text = '';
 
 	let title;
-	let classes;
 	
 	$: {
 		// tooltip on hover	
@@ -36,18 +39,26 @@
 	}
 </script>
 
-<div class="card {classes.join(' ')}" {title}>{text}</div>
+<div class="wsf-card 
+	{classes.join(' ')}" 
+	{title} 
+	data-id={ID} 
+	data-length={length} 
+	data-categories={categories.join(',')}
+>{text}</div>
 
 <style>
-	.card {
+	.wsf-card {
 		display: flex;
 		width: 13rem;
 		height: fit-content;
 		align-items: center;
 		min-height: 13rem;
 		background-color: var(--card-color-1);
+		color: var(--text-main);
 		padding: 1rem;
 
+		line-height: initial;
 		word-break: break-word;
 		hyphens: auto;
 
@@ -58,45 +69,45 @@
 		*/
 	}
 
-	.card {
+	.wsf-card {
 		font-family: "Square Peg", monospace;
 		font-size: 2rem;
 	}
-	.card.xxs {
+	.wsf-card.xxs {
 		font-family: "Shadows Into Light Two", monospace;
 		font-size: 2rem;
 		text-align: center;
 	}
-	.card.xs {
+	.wsf-card.xs {
 		background:var(--card-color-2);
 		font-size: 2.2rem;
 		text-align: center;
 	}
-	.card.s {
+	.wsf-card.s {
 		font-family: "Reenie Beanie", monospace;
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
-	.card.m {
+	.wsf-card.m {
 		background:var(--card-color-3);
 		font-size: 1.6rem;
 	}
-	.card.l {
+	.wsf-card.l {
 		font-size: 1.25rem;
 	}
-	.card.xl {
+	.wsf-card.xl {
 		font-family: "Reenie Beanie", monospace;
 		width: 33.5rem;
 		font-size: 1.5rem;
 		transform: rotate(0deg);
 	}
-	.card.xxl {
+	.wsf-card.xxl {
 		width: 33.5rem;
 		min-height: 33.5rem;
 		transform: rotate(0deg);
 	}
 
 	/* postit glue shadow */
-	.card.postit::before {
+	.wsf-card.postit::before {
 		content: "";
 		background-color: rgba(0, 0, 0, 0.025);
 		position: absolute;
@@ -109,10 +120,10 @@
 	}
   
 	/* Eselsohr */
-	.card.postit.xl {
+	.wsf-card.postit.xl {
 	  border-bottom-right-radius: 60px 5px;
 	}
-	.card.postit.xl::after {
+	.wsf-card.postit.xl::after {
 		content: "";
 		position: absolute;
 		bottom: 0;
@@ -131,7 +142,7 @@
 	}
 
 	/* pin */
-	.card.cardboard::after {
+	.wsf-card.wsf-cardboard::after {
 		content: "pin";
 		color: transparent;
 		position: absolute;
@@ -147,14 +158,14 @@
 	}
 
 	/* gener markers */ /*
-	.card[data-gender="m"]::after {
+	.wsf-card[data-gender="m"]::after {
 		content: '♂';
 		position: absolute;
 		bottom: 0;
 		right: 0.5rem;
 		font-size: 1rem;
 	}
-	.card[data-gender="w"]::after {
+	.wsf-card[data-gender="w"]::after {
 		content: '♀';
 		position: absolute;
 		bottom: 0;
@@ -163,10 +174,11 @@
 	}
 	*/
 
-	.card:hover {
+	.wsf-card:hover {
 		transform: rotate(0deg);
-		transform: scale(1.05);
+		transform: scale(1.15);
+		transition: transform 0.1s ease-in-out;
 		box-shadow: 0px 2px 24px rgb(0 0 0 / 60%);
-		z-index: 100;
+		z-index: 999;
 	}
   </style>

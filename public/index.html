@@ -120,22 +120,18 @@
 </div>
 
 <div class="app-container">
-	<a href="./desktop/" id="werkstadt-fullscreen-btn">Vollbild ◹</a>
-	<iframe src="./desktop/" id="werkstadt-iframe" frameborder="0" scrolling="yes" allow="fullscreen" width="100%"></iframe>
+	
+	<div id="werkstadt-2031-statistics"></div>
+	<div id="werkstadt-2031-app"></div>
+	
+	
+	
 </div>
 
-<script type="application/javascript">
-	function resizeIFrameToFitContent(iFrame) {
-		iFrame.height = window.innerHeight;
-	}
-	window.addEventListener('DOMContentLoaded', function(e) {
-		const iFrame = document.getElementById('werkstadt-iframe');
-		window.addEventListener('resize', (event) => {
-			resizeIFrameToFitContent(iFrame);
-		});
-		resizeIFrameToFitContent(iFrame);
-	});
-</script>
+<link rel="stylesheet" type="text/css" href="./desktop/build/bundle.css" media="all">
+<script defer="" src="./desktop/build/bundle.js"></script>
+
+
 
 <link rel="stylesheet" type="text/css" href="style.css" media="all">
 <style type="text/css" media="all">

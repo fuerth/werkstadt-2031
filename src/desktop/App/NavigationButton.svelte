@@ -5,7 +5,7 @@
 	export let name;
 	export let selected = true;
 
-	import { selectedMainCategoryStore, selectedSubCategoryStore } from './stores.js';
+	import { selectedMainCategoryStore, selectedSubCategoryStore } from '../stores.js';
 
 	function onClick() {
 		if (type === "main") {

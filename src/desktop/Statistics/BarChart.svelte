@@ -4,21 +4,22 @@
     export let width = 320;
     export let height = 320;
     export let color = "rgb(0, 0, 255)";
+    export let title = null;
 
     const DEBUG = false;
 
     const marginTop = height*0.1;
     const marginBottom = height*0.1;
-    const marginRight = width*0.1;
-    const marginLeft = width*0.1;
+    const marginRight = width*0.15;
+    const marginLeft = width*0.15;
 
-    const fontSize = Math.abs(width*0.05);
+    const fontSize = Math.abs(height*0.09);
 
     $: chartWidth = width-marginLeft-marginRight;
     $: chartHeight = height-marginTop-marginBottom;
 
-    $: canvasHeight = chartHeight * 0.85;
-    $: labelsHeight = chartHeight * 0.15;
+    $: labelsHeight = fontSize*2;
+    $: canvasHeight = chartHeight - labelsHeight;
 
     $: barCount = Object.keys(data).length;
 
@@ -45,7 +46,13 @@
 </dl>
 {/if}
 
-<svg {width} {height} viewBox="0 0 {width} {height}">
+<div class="wsf-barchart">
+
+{#if title}
+<h3 class="wsf-barchart__title" style="font-size:{fontSize}px;background-color:{color}">{title}</h3>
+{/if}
+
+<svg class="wsf-barchart__chart" {width} {height} viewBox="0 0 {width} {height}">
     {#if DEBUG}
     <!-- show the drawing canvas -->
     <rect 
@@ -65,6 +72,14 @@
     />
     {/if}
 
+    {#if !bars || !bars.length }
+    <text
+        x={width/2}
+        y={height/2}
+        dominant-baseline="middle" text-anchor="middle"
+    >no data</text>
+    {/if}
+
     <!-- draw the bars -->
     {#each bars as bar, index}
     <rect 
@@ -80,7 +95,12 @@
     {#each bars as bar, index}
     <text 
         x={marginLeft + (index)*barWidth + barWidth/2 + index*barSpacing} 
-        y={marginTop + canvasHeight + labelsHeight/2}
+        y={
+            barCount > 3 && index%2 ? 
+            (marginTop + canvasHeight + fontSize*1.75)
+            : (marginTop + canvasHeight + fontSize*.75)
+            
+        }
         dominant-baseline="middle" text-anchor="middle"
         style:fill={color}
         style:font-size={fontSize + 'px'}
@@ -88,7 +108,7 @@
     {/each}
 </svg>
 
-<!-- For screenreaders:
+<!--
 <table>
     <thead>
         <tr>
@@ -107,10 +127,24 @@
 </table>
 -->
 
+</div>
+
 
 <style>
-svg {
-    background-color: rgba(0, 0, 0, 0.025);
+.wsf-barchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+h3.wsf-barchart__title {
+    color: white;
+    padding: 0.25em 1em;
+    border-radius: 0.75em;
+}
+svg.wsf-barchart__chart {
     font-family: Arial, sans-serif;
 }
 </style>
