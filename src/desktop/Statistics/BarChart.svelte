@@ -77,7 +77,8 @@
         x={width/2}
         y={height/2}
         dominant-baseline="middle" text-anchor="middle"
-    >no data</text>
+        style:fill={color}
+    >lade Daten...</text>
     {/if}
 
     <!-- draw the bars -->
@@ -143,6 +144,7 @@ h3.wsf-barchart__title {
     color: white;
     padding: 0.25em 1em;
     border-radius: 0.75em;
+    font-weight: bold;
 }
 svg.wsf-barchart__chart {
     font-family: Arial, sans-serif;

@@ -3,27 +3,31 @@ layout: "bluepingu.11ty.js"
 ---
 
 <header>
+	<h1>Werk Stadt Fürth 2031</h1>
 	<img class="banner image-embed-item" src="https://fuerth.bluepingu.de/fileadmin/_processed_/8/c/csm_WSF_Logo_2204_rgb_Mittel_7e059889c0.png" width="531" height="350" loading="lazy" alt="">
 </header>
 
-<div class="container">
+<section class="container">
 	<p class="cite bubble">
 		<cite class="cite text">Angenommen Du könntest entscheiden - was würde sich in den kommenden 10 Jahren in Fürth verändern?</cite>
 		<span class="cite author">- mehr wollten wir nicht wissen.</span>
 	</p>
 	<p class="introduction">
 		<b>Clickt</b> Euch hier durch die Daten der Bürger:innenbefragung.<br>
-		Mitgewirkt haben über 400 Fürtherinnen, die wir beim Spazierengehen und online befragt haben.
+		Mitgewirkt haben {{ counts.maxId }} Fürtherinnen, die wir beim Spazierengehen und online befragt haben.
 		<em>Viel Spaß!</em>
 	</p>
 	<p class="thanks">
-		Danke fürs mitmachen <span>!</span>
+		Danke fürs mitmachen<span>!</span>
 	</p>
-</div>
+</section>
 
-<div class="app-container">
-	{# embedd as svelte component #}
+<section class="container statistics">
 	<div id="werkstadt-2031-statistics"></div>
+</section>
+
+<section class="container app">
+	{# embedd as svelte component #}
 	<div id="werkstadt-2031-app"></div>
 	
 	{# embed as iframe #}
@@ -37,7 +41,40 @@ layout: "bluepingu.11ty.js"
 		width="100%"
 	></iframe>
 	#}
-</div>
+</section>
+
+<section class="container statistics">
+	<h2>FAQ - Häufige Fragen</h2>
+	<details>
+		<summary>Warum?</summary>
+		<div>
+			<p>Wir haben uns gefragt, welche Themen die Bürger*innen ganz persönlich beschäftigen - vor ihrer Haustüre, in ihrer Stadt. Was haben die Menschen auf dem Herzen? Sind es ganz konkrete Anliegen oder dreht es sich eher um das große Ganze? Als Engagierte schlägt unser Herz für den kulturellen und gesellschaftlichen Wandel, doch wollen wir unsere Vorstellungen einer guten Zukunft anderen nicht überstülpen, sondern herausfinden, an welchen Stellen unseren Mitbürger*innen noch etwas fehlt.</p>
+			<p>Der gewählte Zeithorizont von 10 Jahren soll dabei einerseits zum größer Denken einladen, andererseits auch zum realistisch sein.</p>
+		</div>
+	</details>
+	<details>
+		<summary>Wofür?</summary>
+		<div>
+			<p>Anhand der vielen verschiedenen Perspektiven möchten wir ein fundiertes Gesamtbild erarbeiten. Ein Zwischenstand über die Bedürfnisse der Fürther Bürger*innen, aus dem sich konkrete Projekte, größere Ziele und ganz allgemein auch Werte der Bürger*innen ableiten lassen. Mit Hilfe der Agenda, die wir aus den Daten filtern, wollen wir bei den Ansprechpartnern in Politik und Verwaltung Werbung machen für die Belange der Bürger*innen und den Dialog weiter fördern.</p>
+			<p>Besonders wichtig ist uns außerdem, Menschen das Gefühl zu vermitteln, dass ihre Anliegen und Wünsche auch Chancen sind, die sich verwirklichen lassen. Unser Motto ist: Von der Ohnmacht zur Aktion/Selbstwirksamkeit.</p>
+		</div>
+	</details>
+	<details>
+		<summary>Warum keine soziographischen Daten?</summary>
+		<div>
+			<p>Uns wurde schnell bewusst, dass wir mit unseren begrenzten Mitteln keine wissenschaftlichen Anspruch genügen können. 
+			Bei einem Großteil der Befragten hielten wir Alter und Geschlacht fest.</p>
+			<p>Sie sehen die Daten von {{ counts.maxId }} Bürger:innen, der Rest wurde diesbezüglich nicht erfasst oder enthilet sich.</p>
+		</p>
+	</details>
+	<details>
+		<summary>Warum zeit Ihr nur 3 Geschlechter?</summary>
+		<div>
+			<p>Diese Repräsentation ist nicht unsere Intention. Wir unterstützen jeglichen Ausdruck und jede Orientierung des eigenen Geschlechts.</p>
+			<p><em class="tag">#womanpower</em> <em class="tag">#geschlechtergleichberechtigung</em></p>
+		</div>
+	</details>
+</section>
 
 <link rel="stylesheet" type="text/css" href="./desktop/build/bundle.css" media="all">
 <script defer src="./desktop/build/bundle.js"></script>
@@ -70,6 +107,10 @@ layout: "bluepingu.11ty.js"
 	}
 	header img.banner {
 		margin: 2rem 0;
+	}
+
+	section.container {
+
 	}
 
 	.container {

@@ -132,7 +132,7 @@ function getCategoriesFromData(data) {
 function getStatisticsFromData(data){
 	const genderMap = new Map();
 	data.forEach(entry => {
-		const gender = entry.gender;
+		let gender = entry.gender;
 		if (gender && gender !== "x") {
 			genderValue = genderMap.get(gender) || 0;
 			genderMap.set(gender, genderValue + 1);

@@ -68,7 +68,7 @@
 		--werkstadt-background: #faf9f7;
 		--werkstadt-black: #333;
 		
-		--werkstadt-purple: #cdbad0;
+		--werkstadt-purple: #71387d;
 		--werkstadt-lightblue: #acc6e1;
 		--werkstadt-blue: #1059a5;
 		--werkstadt-darkblue: #6D81A7;
