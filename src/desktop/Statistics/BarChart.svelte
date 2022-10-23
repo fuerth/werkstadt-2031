@@ -5,15 +5,16 @@
 	export let height = 320;
 	export let color = "rgb(0, 0, 255)";
 	export let title = null;
+	export let xVertical = false;
+	export let fontSize = Math.abs(height*0.09);
 
 	const DEBUG = false;
 
 	const marginTop = height*0.1;
-	const marginBottom = height*0.1;
+	const marginBottom = xVertical ? height*0.3: height*0.1;
 	const marginRight = width*0.15;
 	const marginLeft = width*0.15;
 
-	const fontSize = Math.abs(height*0.09);
 
 	$: chartWidth = width-marginLeft-marginRight;
 	$: chartHeight = height-marginTop-marginBottom;
@@ -97,12 +98,17 @@
 	<text 
 		x={marginLeft + (index)*barWidth + barWidth/2 + index*barSpacing} 
 		y={
+			!xVertical && 
 			barCount > 3 && index%2 ? 
 			(marginTop + canvasHeight + fontSize*1.75)
 			: (marginTop + canvasHeight + fontSize*.75)
 			
 		}
-		dominant-baseline="middle" text-anchor="middle"
+
+		dominant-baseline="{ xVertical ? 'start' : 'middle' }"
+		text-anchor="{ xVertical ? 'start' : 'middle' }"
+		writing-mode="{ xVertical ? 'tb' : 'lr'}"
+
 		style:fill={color}
 		style:font-size={fontSize + 'px'}
 	>{bar.label}</text>

@@ -99,6 +99,9 @@ var app = (function (exports) {
         else if (node.getAttribute(attribute) !== value)
             node.setAttribute(attribute, value);
     }
+    function to_number(value) {
+        return value === '' ? null : +value;
+    }
     function children(element) {
         return Array.from(element.childNodes);
     }
@@ -2824,19 +2827,19 @@ var app = (function (exports) {
 
     function get_each_context$1(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[19] = list[i];
-    	child_ctx[21] = i;
+    	child_ctx[20] = list[i];
+    	child_ctx[22] = i;
     	return child_ctx;
     }
 
     function get_each_context_1(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[19] = list[i];
-    	child_ctx[21] = i;
+    	child_ctx[20] = list[i];
+    	child_ctx[22] = i;
     	return child_ctx;
     }
 
-    // (51:0) {#if title}
+    // (52:0) {#if title}
     function create_if_block_2(ctx) {
     	let h3;
     	let t;
@@ -2846,9 +2849,9 @@ var app = (function (exports) {
     			h3 = element("h3");
     			t = text(/*title*/ ctx[3]);
     			attr_dev(h3, "class", "wsf-barchart__title svelte-go1mao");
-    			set_style(h3, "font-size", /*fontSize*/ ctx[14] + "px");
+    			set_style(h3, "font-size", /*fontSize*/ ctx[5] + "px");
     			set_style(h3, "background-color", /*color*/ ctx[2]);
-    			add_location(h3, file$2, 51, 0, 1072);
+    			add_location(h3, file$2, 52, 0, 1132);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -2856,6 +2859,10 @@ var app = (function (exports) {
     		},
     		p: function update(ctx, dirty) {
     			if (dirty & /*title*/ 8) set_data_dev(t, /*title*/ ctx[3]);
+
+    			if (dirty & /*fontSize*/ 32) {
+    				set_style(h3, "font-size", /*fontSize*/ ctx[5] + "px");
+    			}
 
     			if (dirty & /*color*/ 4) {
     				set_style(h3, "background-color", /*color*/ ctx[2]);
@@ -2870,14 +2877,14 @@ var app = (function (exports) {
     		block,
     		id: create_if_block_2.name,
     		type: "if",
-    		source: "(51:0) {#if title}",
+    		source: "(52:0) {#if title}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (75:1) {#if !bars || !bars.length }
+    // (76:1) {#if !bars || !bars.length }
     function create_if_block$1(ctx) {
     	let text_1;
     	let t;
@@ -2893,7 +2900,7 @@ var app = (function (exports) {
     			attr_dev(text_1, "dominant-baseline", "middle");
     			attr_dev(text_1, "text-anchor", "middle");
     			set_style(text_1, "fill", /*color*/ ctx[2], false);
-    			add_location(text_1, file$2, 75, 1, 1666);
+    			add_location(text_1, file$2, 76, 1, 1726);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, text_1, anchor);
@@ -2921,14 +2928,14 @@ var app = (function (exports) {
     		block,
     		id: create_if_block$1.name,
     		type: "if",
-    		source: "(75:1) {#if !bars || !bars.length }",
+    		source: "(76:1) {#if !bars || !bars.length }",
     		ctx
     	});
 
     	return block;
     }
 
-    // (85:1) {#each bars as bar, index}
+    // (86:1) {#each bars as bar, index}
     function create_each_block_1(ctx) {
     	let rect;
     	let rect_x_value;
@@ -2938,30 +2945,30 @@ var app = (function (exports) {
     	const block = {
     		c: function create() {
     			rect = svg_element("rect");
-    			attr_dev(rect, "x", rect_x_value = /*marginLeft*/ ctx[13] + /*index*/ ctx[21] * /*barWidth*/ ctx[5] + /*index*/ ctx[21] * /*barSpacing*/ ctx[9]);
-    			attr_dev(rect, "y", rect_y_value = /*marginTop*/ ctx[12] + /*canvasHeight*/ ctx[11] - /*bar*/ ctx[19].value / /*maxValue*/ ctx[10] * /*canvasHeight*/ ctx[11]);
-    			attr_dev(rect, "width", /*barWidth*/ ctx[5]);
-    			attr_dev(rect, "height", rect_height_value = /*bar*/ ctx[19].value / /*maxValue*/ ctx[10] * /*canvasHeight*/ ctx[11]);
+    			attr_dev(rect, "x", rect_x_value = /*marginLeft*/ ctx[15] + /*index*/ ctx[22] * /*barWidth*/ ctx[7] + /*index*/ ctx[22] * /*barSpacing*/ ctx[11]);
+    			attr_dev(rect, "y", rect_y_value = /*marginTop*/ ctx[14] + /*canvasHeight*/ ctx[13] - /*bar*/ ctx[20].value / /*maxValue*/ ctx[12] * /*canvasHeight*/ ctx[13]);
+    			attr_dev(rect, "width", /*barWidth*/ ctx[7]);
+    			attr_dev(rect, "height", rect_height_value = /*bar*/ ctx[20].value / /*maxValue*/ ctx[12] * /*canvasHeight*/ ctx[13]);
     			set_style(rect, "fill", /*color*/ ctx[2], false);
-    			add_location(rect, file$2, 85, 1, 1856);
+    			add_location(rect, file$2, 86, 1, 1916);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, rect, anchor);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*barWidth, barSpacing*/ 544 && rect_x_value !== (rect_x_value = /*marginLeft*/ ctx[13] + /*index*/ ctx[21] * /*barWidth*/ ctx[5] + /*index*/ ctx[21] * /*barSpacing*/ ctx[9])) {
+    			if (dirty & /*barWidth, barSpacing*/ 2176 && rect_x_value !== (rect_x_value = /*marginLeft*/ ctx[15] + /*index*/ ctx[22] * /*barWidth*/ ctx[7] + /*index*/ ctx[22] * /*barSpacing*/ ctx[11])) {
     				attr_dev(rect, "x", rect_x_value);
     			}
 
-    			if (dirty & /*canvasHeight, bars, maxValue*/ 3200 && rect_y_value !== (rect_y_value = /*marginTop*/ ctx[12] + /*canvasHeight*/ ctx[11] - /*bar*/ ctx[19].value / /*maxValue*/ ctx[10] * /*canvasHeight*/ ctx[11])) {
+    			if (dirty & /*canvasHeight, bars, maxValue*/ 12800 && rect_y_value !== (rect_y_value = /*marginTop*/ ctx[14] + /*canvasHeight*/ ctx[13] - /*bar*/ ctx[20].value / /*maxValue*/ ctx[12] * /*canvasHeight*/ ctx[13])) {
     				attr_dev(rect, "y", rect_y_value);
     			}
 
-    			if (dirty & /*barWidth*/ 32) {
-    				attr_dev(rect, "width", /*barWidth*/ ctx[5]);
+    			if (dirty & /*barWidth*/ 128) {
+    				attr_dev(rect, "width", /*barWidth*/ ctx[7]);
     			}
 
-    			if (dirty & /*bars, maxValue, canvasHeight*/ 3200 && rect_height_value !== (rect_height_value = /*bar*/ ctx[19].value / /*maxValue*/ ctx[10] * /*canvasHeight*/ ctx[11])) {
+    			if (dirty & /*bars, maxValue, canvasHeight*/ 12800 && rect_height_value !== (rect_height_value = /*bar*/ ctx[20].value / /*maxValue*/ ctx[12] * /*canvasHeight*/ ctx[13])) {
     				attr_dev(rect, "height", rect_height_value);
     			}
 
@@ -2978,56 +2985,76 @@ var app = (function (exports) {
     		block,
     		id: create_each_block_1.name,
     		type: "each",
-    		source: "(85:1) {#each bars as bar, index}",
+    		source: "(86:1) {#each bars as bar, index}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (96:1) {#each bars as bar, index}
+    // (97:1) {#each bars as bar, index}
     function create_each_block$1(ctx) {
     	let text_1;
-    	let t_value = /*bar*/ ctx[19].label + "";
+    	let t_value = /*bar*/ ctx[20].label + "";
     	let t;
     	let text_1_x_value;
     	let text_1_y_value;
+    	let text_1_dominant_baseline_value;
+    	let text_1_text_anchor_value;
+    	let text_1_writing_mode_value;
 
     	const block = {
     		c: function create() {
     			text_1 = svg_element("text");
     			t = text(t_value);
-    			attr_dev(text_1, "x", text_1_x_value = /*marginLeft*/ ctx[13] + /*index*/ ctx[21] * /*barWidth*/ ctx[5] + /*barWidth*/ ctx[5] / 2 + /*index*/ ctx[21] * /*barSpacing*/ ctx[9]);
+    			attr_dev(text_1, "x", text_1_x_value = /*marginLeft*/ ctx[15] + /*index*/ ctx[22] * /*barWidth*/ ctx[7] + /*barWidth*/ ctx[7] / 2 + /*index*/ ctx[22] * /*barSpacing*/ ctx[11]);
 
-    			attr_dev(text_1, "y", text_1_y_value = /*barCount*/ ctx[4] > 3 && /*index*/ ctx[21] % 2
-    			? /*marginTop*/ ctx[12] + /*canvasHeight*/ ctx[11] + /*fontSize*/ ctx[14] * 1.75
-    			: /*marginTop*/ ctx[12] + /*canvasHeight*/ ctx[11] + /*fontSize*/ ctx[14] * .75);
+    			attr_dev(text_1, "y", text_1_y_value = !/*xVertical*/ ctx[4] && /*barCount*/ ctx[6] > 3 && /*index*/ ctx[22] % 2
+    			? /*marginTop*/ ctx[14] + /*canvasHeight*/ ctx[13] + /*fontSize*/ ctx[5] * 1.75
+    			: /*marginTop*/ ctx[14] + /*canvasHeight*/ ctx[13] + /*fontSize*/ ctx[5] * .75);
 
-    			attr_dev(text_1, "dominant-baseline", "middle");
-    			attr_dev(text_1, "text-anchor", "middle");
+    			attr_dev(text_1, "dominant-baseline", text_1_dominant_baseline_value = /*xVertical*/ ctx[4] ? 'start' : 'middle');
+    			attr_dev(text_1, "text-anchor", text_1_text_anchor_value = /*xVertical*/ ctx[4] ? 'start' : 'middle');
+    			attr_dev(text_1, "writing-mode", text_1_writing_mode_value = /*xVertical*/ ctx[4] ? 'tb' : 'lr');
     			set_style(text_1, "fill", /*color*/ ctx[2], false);
-    			set_style(text_1, "font-size", /*fontSize*/ ctx[14] + 'px', false);
-    			add_location(text_1, file$2, 96, 1, 2149);
+    			set_style(text_1, "font-size", /*fontSize*/ ctx[5] + 'px', false);
+    			add_location(text_1, file$2, 97, 1, 2209);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, text_1, anchor);
     			append_dev(text_1, t);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*bars*/ 128 && t_value !== (t_value = /*bar*/ ctx[19].label + "")) set_data_dev(t, t_value);
+    			if (dirty & /*bars*/ 512 && t_value !== (t_value = /*bar*/ ctx[20].label + "")) set_data_dev(t, t_value);
 
-    			if (dirty & /*barWidth, barSpacing*/ 544 && text_1_x_value !== (text_1_x_value = /*marginLeft*/ ctx[13] + /*index*/ ctx[21] * /*barWidth*/ ctx[5] + /*barWidth*/ ctx[5] / 2 + /*index*/ ctx[21] * /*barSpacing*/ ctx[9])) {
+    			if (dirty & /*barWidth, barSpacing*/ 2176 && text_1_x_value !== (text_1_x_value = /*marginLeft*/ ctx[15] + /*index*/ ctx[22] * /*barWidth*/ ctx[7] + /*barWidth*/ ctx[7] / 2 + /*index*/ ctx[22] * /*barSpacing*/ ctx[11])) {
     				attr_dev(text_1, "x", text_1_x_value);
     			}
 
-    			if (dirty & /*barCount, canvasHeight*/ 2064 && text_1_y_value !== (text_1_y_value = /*barCount*/ ctx[4] > 3 && /*index*/ ctx[21] % 2
-    			? /*marginTop*/ ctx[12] + /*canvasHeight*/ ctx[11] + /*fontSize*/ ctx[14] * 1.75
-    			: /*marginTop*/ ctx[12] + /*canvasHeight*/ ctx[11] + /*fontSize*/ ctx[14] * .75)) {
+    			if (dirty & /*xVertical, barCount, canvasHeight, fontSize*/ 8304 && text_1_y_value !== (text_1_y_value = !/*xVertical*/ ctx[4] && /*barCount*/ ctx[6] > 3 && /*index*/ ctx[22] % 2
+    			? /*marginTop*/ ctx[14] + /*canvasHeight*/ ctx[13] + /*fontSize*/ ctx[5] * 1.75
+    			: /*marginTop*/ ctx[14] + /*canvasHeight*/ ctx[13] + /*fontSize*/ ctx[5] * .75)) {
     				attr_dev(text_1, "y", text_1_y_value);
+    			}
+
+    			if (dirty & /*xVertical*/ 16 && text_1_dominant_baseline_value !== (text_1_dominant_baseline_value = /*xVertical*/ ctx[4] ? 'start' : 'middle')) {
+    				attr_dev(text_1, "dominant-baseline", text_1_dominant_baseline_value);
+    			}
+
+    			if (dirty & /*xVertical*/ 16 && text_1_text_anchor_value !== (text_1_text_anchor_value = /*xVertical*/ ctx[4] ? 'start' : 'middle')) {
+    				attr_dev(text_1, "text-anchor", text_1_text_anchor_value);
+    			}
+
+    			if (dirty & /*xVertical*/ 16 && text_1_writing_mode_value !== (text_1_writing_mode_value = /*xVertical*/ ctx[4] ? 'tb' : 'lr')) {
+    				attr_dev(text_1, "writing-mode", text_1_writing_mode_value);
     			}
 
     			if (dirty & /*color*/ 4) {
     				set_style(text_1, "fill", /*color*/ ctx[2], false);
+    			}
+
+    			if (dirty & /*fontSize*/ 32) {
+    				set_style(text_1, "font-size", /*fontSize*/ ctx[5] + 'px', false);
     			}
     		},
     		d: function destroy(detaching) {
@@ -3039,7 +3066,7 @@ var app = (function (exports) {
     		block,
     		id: create_each_block$1.name,
     		type: "each",
-    		source: "(96:1) {#each bars as bar, index}",
+    		source: "(97:1) {#each bars as bar, index}",
     		ctx
     	});
 
@@ -3056,8 +3083,8 @@ var app = (function (exports) {
     	let each0_anchor;
     	let svg_viewBox_value;
     	let if_block1 = /*title*/ ctx[3] && create_if_block_2(ctx);
-    	let if_block3 = (!/*bars*/ ctx[7] || !/*bars*/ ctx[7].length) && create_if_block$1(ctx);
-    	let each_value_1 = /*bars*/ ctx[7];
+    	let if_block3 = (!/*bars*/ ctx[9] || !/*bars*/ ctx[9].length) && create_if_block$1(ctx);
+    	let each_value_1 = /*bars*/ ctx[9];
     	validate_each_argument(each_value_1);
     	let each_blocks_1 = [];
 
@@ -3065,7 +3092,7 @@ var app = (function (exports) {
     		each_blocks_1[i] = create_each_block_1(get_each_context_1(ctx, each_value_1, i));
     	}
 
-    	let each_value = /*bars*/ ctx[7];
+    	let each_value = /*bars*/ ctx[9];
     	validate_each_argument(each_value);
     	let each_blocks = [];
 
@@ -3098,9 +3125,9 @@ var app = (function (exports) {
     			attr_dev(svg, "width", /*width*/ ctx[0]);
     			attr_dev(svg, "height", /*height*/ ctx[1]);
     			attr_dev(svg, "viewBox", svg_viewBox_value = "0 0 " + /*width*/ ctx[0] + " " + /*height*/ ctx[1]);
-    			add_location(svg, file$2, 54, 0, 1180);
+    			add_location(svg, file$2, 55, 0, 1240);
     			attr_dev(div, "class", "wsf-barchart svelte-go1mao");
-    			add_location(div, file$2, 48, 0, 1032);
+    			add_location(div, file$2, 49, 0, 1092);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3140,7 +3167,7 @@ var app = (function (exports) {
     				if_block1 = null;
     			}
 
-    			if (!/*bars*/ ctx[7] || !/*bars*/ ctx[7].length) {
+    			if (!/*bars*/ ctx[9] || !/*bars*/ ctx[9].length) {
     				if (if_block3) {
     					if_block3.p(ctx, dirty);
     				} else {
@@ -3153,8 +3180,8 @@ var app = (function (exports) {
     				if_block3 = null;
     			}
 
-    			if (dirty & /*marginLeft, barWidth, barSpacing, marginTop, canvasHeight, bars, maxValue, color*/ 16036) {
-    				each_value_1 = /*bars*/ ctx[7];
+    			if (dirty & /*marginLeft, barWidth, barSpacing, marginTop, canvasHeight, bars, maxValue, color*/ 64132) {
+    				each_value_1 = /*bars*/ ctx[9];
     				validate_each_argument(each_value_1);
     				let i;
 
@@ -3177,8 +3204,8 @@ var app = (function (exports) {
     				each_blocks_1.length = each_value_1.length;
     			}
 
-    			if (dirty & /*marginLeft, barWidth, barSpacing, barCount, marginTop, canvasHeight, fontSize, color, bars*/ 31412) {
-    				each_value = /*bars*/ ctx[7];
+    			if (dirty & /*marginLeft, barWidth, barSpacing, xVertical, barCount, marginTop, canvasHeight, fontSize, color, bars*/ 60148) {
+    				each_value = /*bars*/ ctx[9];
     				validate_each_argument(each_value);
     				let i;
 
@@ -3255,23 +3282,26 @@ var app = (function (exports) {
     	let { height = 320 } = $$props;
     	let { color = "rgb(0, 0, 255)" } = $$props;
     	let { title = null } = $$props;
+    	let { xVertical = false } = $$props;
+    	let { fontSize = Math.abs(height * 0.09) } = $$props;
     	const marginTop = height * 0.1;
-    	const marginBottom = height * 0.1;
+    	const marginBottom = xVertical ? height * 0.3 : height * 0.1;
     	const marginRight = width * 0.15;
     	const marginLeft = width * 0.15;
-    	const fontSize = Math.abs(height * 0.09);
-    	const writable_props = ['data', 'width', 'height', 'color', 'title'];
+    	const writable_props = ['data', 'width', 'height', 'color', 'title', 'xVertical', 'fontSize'];
 
     	Object_1.keys($$props).forEach(key => {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<BarChart> was created with unknown prop '${key}'`);
     	});
 
     	$$self.$$set = $$props => {
-    		if ('data' in $$props) $$invalidate(15, data = $$props.data);
+    		if ('data' in $$props) $$invalidate(16, data = $$props.data);
     		if ('width' in $$props) $$invalidate(0, width = $$props.width);
     		if ('height' in $$props) $$invalidate(1, height = $$props.height);
     		if ('color' in $$props) $$invalidate(2, color = $$props.color);
     		if ('title' in $$props) $$invalidate(3, title = $$props.title);
+    		if ('xVertical' in $$props) $$invalidate(4, xVertical = $$props.xVertical);
+    		if ('fontSize' in $$props) $$invalidate(5, fontSize = $$props.fontSize);
     	};
 
     	$$self.$capture_state = () => ({
@@ -3280,12 +3310,13 @@ var app = (function (exports) {
     		height,
     		color,
     		title,
+    		xVertical,
+    		fontSize,
     		DEBUG,
     		marginTop,
     		marginBottom,
     		marginRight,
     		marginLeft,
-    		fontSize,
     		barCount,
     		barWidth,
     		chartWidth,
@@ -3298,20 +3329,22 @@ var app = (function (exports) {
     	});
 
     	$$self.$inject_state = $$props => {
-    		if ('data' in $$props) $$invalidate(15, data = $$props.data);
+    		if ('data' in $$props) $$invalidate(16, data = $$props.data);
     		if ('width' in $$props) $$invalidate(0, width = $$props.width);
     		if ('height' in $$props) $$invalidate(1, height = $$props.height);
     		if ('color' in $$props) $$invalidate(2, color = $$props.color);
     		if ('title' in $$props) $$invalidate(3, title = $$props.title);
-    		if ('barCount' in $$props) $$invalidate(4, barCount = $$props.barCount);
-    		if ('barWidth' in $$props) $$invalidate(5, barWidth = $$props.barWidth);
-    		if ('chartWidth' in $$props) $$invalidate(6, chartWidth = $$props.chartWidth);
-    		if ('barSpacing' in $$props) $$invalidate(9, barSpacing = $$props.barSpacing);
-    		if ('bars' in $$props) $$invalidate(7, bars = $$props.bars);
-    		if ('maxValue' in $$props) $$invalidate(10, maxValue = $$props.maxValue);
-    		if ('labelsHeight' in $$props) $$invalidate(8, labelsHeight = $$props.labelsHeight);
-    		if ('chartHeight' in $$props) $$invalidate(16, chartHeight = $$props.chartHeight);
-    		if ('canvasHeight' in $$props) $$invalidate(11, canvasHeight = $$props.canvasHeight);
+    		if ('xVertical' in $$props) $$invalidate(4, xVertical = $$props.xVertical);
+    		if ('fontSize' in $$props) $$invalidate(5, fontSize = $$props.fontSize);
+    		if ('barCount' in $$props) $$invalidate(6, barCount = $$props.barCount);
+    		if ('barWidth' in $$props) $$invalidate(7, barWidth = $$props.barWidth);
+    		if ('chartWidth' in $$props) $$invalidate(8, chartWidth = $$props.chartWidth);
+    		if ('barSpacing' in $$props) $$invalidate(11, barSpacing = $$props.barSpacing);
+    		if ('bars' in $$props) $$invalidate(9, bars = $$props.bars);
+    		if ('maxValue' in $$props) $$invalidate(12, maxValue = $$props.maxValue);
+    		if ('labelsHeight' in $$props) $$invalidate(10, labelsHeight = $$props.labelsHeight);
+    		if ('chartHeight' in $$props) $$invalidate(17, chartHeight = $$props.chartHeight);
+    		if ('canvasHeight' in $$props) $$invalidate(13, canvasHeight = $$props.canvasHeight);
     	};
 
     	if ($$props && "$$inject" in $$props) {
@@ -3320,47 +3353,51 @@ var app = (function (exports) {
 
     	$$self.$$.update = () => {
     		if ($$self.$$.dirty & /*width*/ 1) {
-    			$$invalidate(6, chartWidth = width - marginLeft - marginRight);
+    			$$invalidate(8, chartWidth = width - marginLeft - marginRight);
     		}
 
     		if ($$self.$$.dirty & /*height*/ 2) {
-    			$$invalidate(16, chartHeight = height - marginTop - marginBottom);
+    			$$invalidate(17, chartHeight = height - marginTop - marginBottom);
     		}
 
-    		if ($$self.$$.dirty & /*chartHeight, labelsHeight*/ 65792) {
-    			$$invalidate(11, canvasHeight = chartHeight - labelsHeight);
+    		if ($$self.$$.dirty & /*fontSize*/ 32) {
+    			$$invalidate(10, labelsHeight = fontSize * 2);
     		}
 
-    		if ($$self.$$.dirty & /*data*/ 32768) {
-    			$$invalidate(4, barCount = Object.keys(data).length);
+    		if ($$self.$$.dirty & /*chartHeight, labelsHeight*/ 132096) {
+    			$$invalidate(13, canvasHeight = chartHeight - labelsHeight);
     		}
 
-    		if ($$self.$$.dirty & /*data*/ 32768) {
-    			$$invalidate(7, bars = Object.keys(data).map(key => {
+    		if ($$self.$$.dirty & /*data*/ 65536) {
+    			$$invalidate(6, barCount = Object.keys(data).length);
+    		}
+
+    		if ($$self.$$.dirty & /*data*/ 65536) {
+    			$$invalidate(9, bars = Object.keys(data).map(key => {
     				return { label: `${key}`, value: data[key] };
     			}));
     		}
 
-    		if ($$self.$$.dirty & /*bars*/ 128) {
-    			$$invalidate(10, maxValue = Math.max(...bars.map(bar => bar.value)));
+    		if ($$self.$$.dirty & /*bars*/ 512) {
+    			$$invalidate(12, maxValue = Math.max(...bars.map(bar => bar.value)));
     		}
 
-    		if ($$self.$$.dirty & /*chartWidth, barCount*/ 80) {
-    			$$invalidate(5, barWidth = chartWidth / barCount * 0.5);
+    		if ($$self.$$.dirty & /*chartWidth, barCount*/ 320) {
+    			$$invalidate(7, barWidth = chartWidth / barCount * 0.5);
     		}
 
-    		if ($$self.$$.dirty & /*chartWidth, barWidth, barCount*/ 112) {
-    			$$invalidate(9, barSpacing = (chartWidth - barWidth * barCount) / (barCount - 1));
+    		if ($$self.$$.dirty & /*chartWidth, barWidth, barCount*/ 448) {
+    			$$invalidate(11, barSpacing = (chartWidth - barWidth * barCount) / (barCount - 1));
     		}
     	};
-
-    	$$invalidate(8, labelsHeight = fontSize * 2);
 
     	return [
     		width,
     		height,
     		color,
     		title,
+    		xVertical,
+    		fontSize,
     		barCount,
     		barWidth,
     		chartWidth,
@@ -3371,7 +3408,6 @@ var app = (function (exports) {
     		canvasHeight,
     		marginTop,
     		marginLeft,
-    		fontSize,
     		data,
     		chartHeight
     	];
@@ -3382,11 +3418,13 @@ var app = (function (exports) {
     		super(options);
 
     		init(this, options, instance$2, create_fragment$2, safe_not_equal, {
-    			data: 15,
+    			data: 16,
     			width: 0,
     			height: 1,
     			color: 2,
-    			title: 3
+    			title: 3,
+    			xVertical: 4,
+    			fontSize: 5
     		});
 
     		dispatch_dev("SvelteRegisterComponent", {
@@ -3436,12 +3474,26 @@ var app = (function (exports) {
     	set title(value) {
     		throw new Error("<BarChart>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
+
+    	get xVertical() {
+    		throw new Error("<BarChart>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set xVertical(value) {
+    		throw new Error("<BarChart>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	get fontSize() {
+    		throw new Error("<BarChart>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set fontSize(value) {
+    		throw new Error("<BarChart>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
     }
 
-    /* src/desktop/Statistics/WordCloud.svelte generated by Svelte v3.50.1 */
-
-    const { document: document_1 } = globals;
-    const file$1 = "src/desktop/Statistics/WordCloud.svelte";
+    /* src/desktop/Statistics/DonatChart.svelte generated by Svelte v3.50.1 */
+    const file$1 = "src/desktop/Statistics/DonatChart.svelte";
 
     function get_each_context(ctx, list, i) {
     	const child_ctx = ctx.slice();
@@ -3449,7 +3501,7 @@ var app = (function (exports) {
     	return child_ctx;
     }
 
-    // (84:1) {:else}
+    // (451:1) {:else}
     function create_else_block(ctx) {
     	let p;
 
@@ -3457,7 +3509,7 @@ var app = (function (exports) {
     		c: function create() {
     			p = element("p");
     			p.textContent = "lade Daten...";
-    			add_location(p, file$1, 84, 1, 1923);
+    			add_location(p, file$1, 451, 1, 15593);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -3472,14 +3524,14 @@ var app = (function (exports) {
     		block,
     		id: create_else_block.name,
     		type: "else",
-    		source: "(84:1) {:else}",
+    		source: "(451:1) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (78:1) {#if data && data.length}
+    // (445:1) {#if data && data.length}
     function create_if_block(ctx) {
     	let dl;
     	let each_value = /*data*/ ctx[0];
@@ -3498,7 +3550,7 @@ var app = (function (exports) {
     				each_blocks[i].c();
     			}
 
-    			add_location(dl, file$1, 78, 1, 1822);
+    			add_location(dl, file$1, 445, 1, 15492);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, dl, anchor);
@@ -3542,14 +3594,14 @@ var app = (function (exports) {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(78:1) {#if data && data.length}",
+    		source: "(445:1) {#if data && data.length}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (80:2) {#each data as entry}
+    // (447:2) {#each data as entry}
     function create_each_block(ctx) {
     	let dt;
     	let t0_value = /*entry*/ ctx[3].key + "";
@@ -3564,8 +3616,8 @@ var app = (function (exports) {
     			t0 = text(t0_value);
     			dd = element("dd");
     			t1 = text(t1_value);
-    			add_location(dt, file$1, 80, 2, 1853);
-    			add_location(dd, file$1, 80, 22, 1873);
+    			add_location(dt, file$1, 447, 2, 15523);
+    			add_location(dd, file$1, 447, 22, 15543);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, dt, anchor);
@@ -3587,7 +3639,7 @@ var app = (function (exports) {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(80:2) {#each data as entry}",
+    		source: "(447:2) {#each data as entry}",
     		ctx
     	});
 
@@ -3595,14 +3647,10 @@ var app = (function (exports) {
     }
 
     function create_fragment$1(ctx) {
-    	let script0;
-    	let script0_src_value;
-    	let script1;
-    	let script1_src_value;
+    	let script;
+    	let script_src_value;
     	let t;
     	let div;
-    	let mounted;
-    	let dispose;
 
     	function select_block_type(ctx, dirty) {
     		if (/*data*/ ctx[0] && /*data*/ ctx[0].length) return create_if_block;
@@ -3614,33 +3662,23 @@ var app = (function (exports) {
 
     	const block = {
     		c: function create() {
-    			script0 = element("script");
-    			script1 = element("script");
+    			script = element("script");
     			t = space();
     			div = element("div");
     			if_block.c();
-    			if (!src_url_equal(script0.src, script0_src_value = "//unpkg.com/d3@5.15.0/dist/d3.min.js")) attr_dev(script0, "src", script0_src_value);
-    			add_location(script0, file$1, 1, 1, 15);
-    			if (!src_url_equal(script1.src, script1_src_value = "//unpkg.com/d3-cloud@1.2.5/build/d3.layout.cloud.js")) attr_dev(script1, "src", script1_src_value);
-    			add_location(script1, file$1, 2, 1, 77);
-    			attr_dev(div, "class", "wsf-word-cloud");
-    			attr_dev(div, "id", "wsf-word-cloud");
-    			add_location(div, file$1, 76, 0, 1745);
+    			if (!src_url_equal(script.src, script_src_value = "//unpkg.com/d3@5.15.0/dist/d3.min.js")) attr_dev(script, "src", script_src_value);
+    			add_location(script, file$1, 1, 1, 15);
+    			attr_dev(div, "id", "chart");
+    			add_location(div, file$1, 443, 0, 15447);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			append_dev(document_1.head, script0);
-    			append_dev(document_1.head, script1);
+    			append_dev(document.head, script);
     			insert_dev(target, t, anchor);
     			insert_dev(target, div, anchor);
     			if_block.m(div, null);
-
-    			if (!mounted) {
-    				dispose = listen_dev(window, "load", /*showWordCloud*/ ctx[1], false, false, false);
-    				mounted = true;
-    			}
     		},
     		p: function update(ctx, [dirty]) {
     			if (current_block_type === (current_block_type = select_block_type(ctx)) && if_block) {
@@ -3658,13 +3696,10 @@ var app = (function (exports) {
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
-    			detach_dev(script0);
-    			detach_dev(script1);
+    			detach_dev(script);
     			if (detaching) detach_dev(t);
     			if (detaching) detach_dev(div);
     			if_block.d();
-    			mounted = false;
-    			dispose();
     		}
     	};
 
@@ -3679,98 +3714,430 @@ var app = (function (exports) {
     	return block;
     }
 
-    const id = "wsf-word-cloud";
+    function D3DonutChart() {
+    	var data = [],
+    		width,
+    		height,
+    		margin = { top: 10, right: 10, bottom: 10, left: 10 },
+    		colour = d3.scaleOrdinal(d3.schemeCategory20c),
+    		variable,
+    		category,
+    		padAngle,
+    		transTime,
+    		updateData,
+    		floatFormat = d3.format('.4r'),
+    		cornerRadius,
+    		percentFormat = d3.format(',.2%'); // colour scheme
+    	// value in data that will dictate proportions on chart
+    	// compare data by
+    	// effectively dictates the gap between slices
+    	// transition time
+    	// sets how rounded the corners are on each slice
+
+    	function chart(selection) {
+    		selection.each(function () {
+    			// generate chart
+    			// ===========================================================================================
+    			// Set up constructors for making donut. See https://github.com/d3/d3-shape/blob/master/README.md
+    			var radius = Math.min(width, height) / 2;
+
+    			// creates a new pie generator
+    			var pie = d3.pie().value(function (d) {
+    				return floatFormat(d[variable]);
+    			}).sort(null);
+
+    			// contructs and arc generator. This will be used for the donut. The difference between outer and inner
+    			// radius will dictate the thickness of the donut
+    			var arc = d3.arc().outerRadius(radius * 0.8).innerRadius(radius * 0.6).cornerRadius(cornerRadius).padAngle(padAngle);
+
+    			// this arc is used for aligning the text labels
+    			var outerArc = d3.arc().outerRadius(radius * 0.9).innerRadius(radius * 0.9);
+
+    			// ===========================================================================================
+    			// ===========================================================================================
+    			// append the svg object to the selection
+    			// var svg = selection.append('svg')
+    			var svg = selection.append('svg').attr('width', width + margin.left + margin.right).attr('height', height + margin.top + margin.bottom).append('g').attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')');
+
+    			// ===========================================================================================
+    			// ===========================================================================================
+    			// g elements to keep elements within svg modular
+    			svg.append('g').attr('class', 'slices');
+
+    			svg.append('g').attr('class', 'labelName');
+    			svg.append('g').attr('class', 'lines');
+
+    			// ===========================================================================================
+    			// ===========================================================================================
+    			// add and colour the donut slices
+    			var path = svg.select('.slices').selectAll('path').data(pie(data)).enter().append('path').attr('fill', function (d) {
+    				return colour(d.data[category]);
+    			}).attr('d', arc);
+
+    			// ===========================================================================================
+    			// ===========================================================================================
+    			// add text labels
+    			svg.select('.labelName').selectAll('text').data(pie(data)).enter().append('text').attr('dy', '.35em').html(updateLabelText).attr('transform', labelTransform).style('text-anchor', function (d) {
+    				// if slice centre is on the left, anchor text to start, otherwise anchor to end
+    				return midAngle(d) < Math.PI ? 'start' : 'end';
+    			});
+
+    			// ===========================================================================================
+    			// ===========================================================================================
+    			// add lines connecting labels to slice. A polyline creates straight lines connecting several points
+    			svg.select('.lines').selectAll('polyline').data(pie(data)).enter().append('polyline').attr('points', calculatePoints);
+
+    			// ===========================================================================================
+    			// ===========================================================================================
+    			// add tooltip to mouse events on slices and labels
+    			d3.selectAll('.labelName text, .slices path').call(toolTip);
+
+    			// ===========================================================================================
+    			// ===========================================================================================
+    			// FUNCTION TO UPDATE CHART
+    			updateData = function () {
+    				var updatePath = d3.select('.slices').selectAll('path');
+    				var updateLines = d3.select('.lines').selectAll('polyline');
+    				var updateLabels = d3.select('.labelName').selectAll('text');
+    				var data0 = path.data(), data1 = pie(data); // store the current data before updating to the new
+
+    				// update data attached to the slices, labels, and polylines. the key function assigns the data to
+    				// the correct element, rather than in order of how the data appears. This means that if a category
+    				// already exists in the chart, it will have its data updated rather than removed and re-added.
+    				updatePath = updatePath.data(data1, key);
+
+    				updateLines = updateLines.data(data1, key);
+    				updateLabels = updateLabels.data(data1, key);
+
+    				// adds new slices/lines/labels
+    				updatePath.enter().append('path').each(function (d, i) {
+    					this._current = findNeighborArc(i, data0, data1, key) || d;
+    				}).attr('fill', function (d) {
+    					return colour(d.data[category]);
+    				}).attr('d', arc);
+
+    				updateLines.enter().append('polyline').each(function (d, i) {
+    					this._current = findNeighborArc(i, data0, data1, key) || d;
+    				}).attr('points', calculatePoints);
+
+    				updateLabels.enter().append('text').each(function (d, i) {
+    					this._current = findNeighborArc(i, data0, data1, key) || d;
+    				}).html(updateLabelText).attr('transform', labelTransform).style('text-anchor', function (d) {
+    					return midAngle(d) < Math.PI ? 'start' : 'end';
+    				});
+
+    				// removes slices/labels/lines that are not in the current dataset
+    				updatePath.exit().transition().duration(transTime).attrTween("d", arcTween).remove();
+
+    				updateLines.exit().transition().duration(transTime).attrTween("points", pointTween).remove();
+    				updateLabels.exit().remove();
+
+    				// animates the transition from old angle to new angle for slices/lines/labels
+    				updatePath.transition().duration(transTime).attrTween('d', arcTween);
+
+    				updateLines.transition().duration(transTime).attrTween('points', pointTween);
+    				updateLabels.transition().duration(transTime).attrTween('transform', labelTween).styleTween('text-anchor', labelStyleTween);
+    				updateLabels.html(updateLabelText); // update the label text
+
+    				// add tooltip to mouse events on slices and labels
+    				d3.selectAll('.labelName text, .slices path').call(toolTip);
+    			};
+
+    			// ===========================================================================================
+    			// Functions
+    			// calculates the angle for the middle of a slice
+    			function midAngle(d) {
+    				return d.startAngle + (d.endAngle - d.startAngle) / 2;
+    			}
+
+    			// function that creates and adds the tool tip to a selected element
+    			function toolTip(selection) {
+    				// add tooltip (svg circle element) when mouse enters label or slice
+    				selection.on('mouseenter', function (data) {
+    					svg.append('text').attr('class', 'toolCircle').attr('dy', -15).html(toolTipHTML(data)).style('font-size', '.7em').style('text-anchor', 'middle'); // hard-coded. can adjust this to adjust text vertical alignment in tooltip
+    					// add text to the circle.
+    					// centres text in tooltip
+
+    					svg.append('circle').attr('class', 'toolCircle').attr('r', radius * 0.55).style('fill', colour(data.data[category])).style('fill-opacity', 0.35); // radius of tooltip circle
+    					// colour based on category mouse is over
+    				});
+
+    				// remove the tooltip when mouse leaves the slice/label
+    				selection.on('mouseout', function () {
+    					d3.selectAll('.toolCircle').remove();
+    				});
+    			}
+
+    			// function to create the HTML string for the tool tip. Loops through each key in data object
+    			// and returns the html string key: value
+    			function toolTipHTML(data) {
+    				var tip = '', i = 0;
+
+    				for (var key in data.data) {
+    					// if value is a number, format it as a percentage
+    					var value = !isNaN(parseFloat(data.data[key]))
+    					? percentFormat(data.data[key])
+    					: data.data[key];
+
+    					// leave off 'dy' attr for first tspan so the 'dy' attr on text element works. The 'dy' attr on
+    					// tspan effectively imitates a line break.
+    					if (i === 0) tip += '<tspan x="0">' + key + ': ' + value + '</tspan>'; else tip += '<tspan x="0" dy="1.2em">' + key + ': ' + value + '</tspan>';
+
+    					i++;
+    				}
+
+    				return tip;
+    			}
+
+    			// calculate the points for the polyline to pass through
+    			function calculatePoints(d) {
+    				// see label transform function for explanations of these three lines.
+    				var pos = outerArc.centroid(d);
+
+    				pos[0] = radius * 0.95 * (midAngle(d) < Math.PI ? 1 : -1);
+    				return [arc.centroid(d), outerArc.centroid(d), pos];
+    			}
+
+    			function labelTransform(d) {
+    				// effectively computes the centre of the slice.
+    				// see https://github.com/d3/d3-shape/blob/master/README.md#arc_centroid
+    				var pos = outerArc.centroid(d);
+
+    				// changes the point to be on left or right depending on where label is.
+    				pos[0] = radius * 0.95 * (midAngle(d) < Math.PI ? 1 : -1);
+
+    				return 'translate(' + pos + ')';
+    			}
+
+    			function updateLabelText(d) {
+    				return d.data[category] + ': <tspan>' + percentFormat(d.data[variable]) + '</tspan>';
+    			}
+
+    			// function that calculates transition path for label and also it's text anchoring
+    			function labelStyleTween(d) {
+    				this._current = this._current || d;
+    				var interpolate = d3.interpolate(this._current, d);
+    				this._current = interpolate(0);
+
+    				return function (t) {
+    					var d2 = interpolate(t);
+    					return midAngle(d2) < Math.PI ? 'start' : 'end';
+    				};
+    			}
+
+    			function labelTween(d) {
+    				this._current = this._current || d;
+    				var interpolate = d3.interpolate(this._current, d);
+    				this._current = interpolate(0);
+
+    				return function (t) {
+    					var d2 = interpolate(t), pos = outerArc.centroid(d2); // computes the midpoint [x,y] of the centre line that would be
+
+    					// generated by the given arguments. It is defined as startangle + endangle/2 and innerR + outerR/2
+    					pos[0] = radius * (midAngle(d2) < Math.PI ? 1 : -1); // aligns the labels on the sides
+
+    					return 'translate(' + pos + ')';
+    				};
+    			}
+
+    			function pointTween(d) {
+    				this._current = this._current || d;
+    				var interpolate = d3.interpolate(this._current, d);
+    				this._current = interpolate(0);
+
+    				return function (t) {
+    					var d2 = interpolate(t), pos = outerArc.centroid(d2);
+    					pos[0] = radius * 0.95 * (midAngle(d2) < Math.PI ? 1 : -1);
+    					return [arc.centroid(d2), outerArc.centroid(d2), pos];
+    				};
+    			}
+
+    			// function to calculate the tween for an arc's transition.
+    			// see http://bl.ocks.org/mbostock/5100636 for a thorough explanation.
+    			function arcTween(d) {
+    				var i = d3.interpolate(this._current, d);
+    				this._current = i(0);
+
+    				return function (t) {
+    					return arc(i(t));
+    				};
+    			}
+
+    			function findNeighborArc(i, data0, data1, key) {
+    				var d;
+
+    				return (d = findPreceding(i, data0, data1, key))
+    				? {
+    						startAngle: d.endAngle,
+    						endAngle: d.endAngle
+    					}
+    				: (d = findFollowing(i, data0, data1, key))
+    					? {
+    							startAngle: d.startAngle,
+    							endAngle: d.startAngle
+    						}
+    					: null;
+    			}
+
+    			// Find the element in data0 that joins the highest preceding element in data1.
+    			function findPreceding(i, data0, data1, key) {
+    				var m = data0.length;
+
+    				while (--i >= 0) {
+    					var k = key(data1[i]);
+
+    					for (var j = 0; j < m; ++j) {
+    						if (key(data0[j]) === k) return data0[j];
+    					}
+    				}
+    			}
+
+    			function key(d) {
+    				return d.data[category];
+    			}
+
+    			// Find the element in data0 that joins the lowest following element in data1.
+    			function findFollowing(i, data0, data1, key) {
+    				var n = data1.length, m = data0.length;
+
+    				while (++i < n) {
+    					var k = key(data1[i]);
+
+    					for (var j = 0; j < m; ++j) {
+    						if (key(data0[j]) === k) return data0[j];
+    					}
+    				}
+    			}
+    		}); // ===========================================================================================
+    	}
+
+    	// getter and setter functions. See Mike Bostocks post "Towards Reusable Charts" for a tutorial on how this works.
+    	chart.width = function (value) {
+    		if (!arguments.length) return width;
+    		width = value;
+    		return chart;
+    	};
+
+    	chart.height = function (value) {
+    		if (!arguments.length) return height;
+    		height = value;
+    		return chart;
+    	};
+
+    	chart.margin = function (value) {
+    		if (!arguments.length) return margin;
+    		margin = value;
+    		return chart;
+    	};
+
+    	chart.radius = function (value) {
+    		if (!arguments.length) return radius;
+    		radius = value;
+    		return chart;
+    	};
+
+    	chart.padAngle = function (value) {
+    		if (!arguments.length) return padAngle;
+    		padAngle = value;
+    		return chart;
+    	};
+
+    	chart.cornerRadius = function (value) {
+    		if (!arguments.length) return cornerRadius;
+    		cornerRadius = value;
+    		return chart;
+    	};
+
+    	chart.colour = function (value) {
+    		if (!arguments.length) return colour;
+    		colour = value;
+    		return chart;
+    	};
+
+    	chart.variable = function (value) {
+    		if (!arguments.length) return variable;
+    		variable = value;
+    		return chart;
+    	};
+
+    	chart.category = function (value) {
+    		if (!arguments.length) return category;
+    		category = value;
+    		return chart;
+    	};
+
+    	chart.transTime = function (value) {
+    		if (!arguments.length) return transTime;
+    		transTime = value;
+    		return chart;
+    	};
+
+    	chart.data = function (value) {
+    		if (!arguments.length) return data;
+    		data = value;
+    		if (typeof updateData === 'function') updateData();
+    		return chart;
+    	};
+
+    	return chart;
+    }
 
     function instance$1($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
-    	validate_slots('WordCloud', slots, []);
+    	validate_slots('DonatChart', slots, []);
     	let { data = [] } = $$props;
-    	let { color = "#6bbda5" } = $$props;
-
-    	function showWordCloud() {
-    		var cloud = d3.layout.cloud;
-    		const element = document.getElementById(id);
-    		element.innerHTML = "";
-    		const width = element.parentElement.clientWidth * 0.9;
-    		const height = width > 300 ? width * 0.5 : width;
-    		const maxLength = Math.max(...data.map(s => s.key.length));
-    		Math.max(...data.map(s => s.value));
-
-    		function opacity(d) {
-    			return d.text.length / maxLength * 1.25;
-    		}
-
-    		var layout = cloud().size([width, height]).words(data.map(d => ({ text: d.key, size: 16 + d.value * 0.2 }))).padding(1).rotate(() => {
-    			return 0;
-    		}).font("Arial").fontSize(d => {
-    			return d.size;
-    		}).on("end", drawWords);
-
-    		function drawWords(words) {
-    			d3.select(`#${id}`).append("svg").attr("width", layout.size()[0]).attr("height", layout.size()[1]).append("g").attr("transform", "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")").selectAll("text").data(words).enter().append("text").style("font-size", d => {
-    				return d.size + "px";
-    			}).style("font-family", "Arial").style("fill", color).style("opacity", opacity).attr("text-anchor", "middle").attr("transform", d => {
-    				return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
-    			}).text(d => {
-    				return d.text;
-    			});
-    		}
-
-    		layout.start();
-    	}
-
-    	const writable_props = ['data', 'color'];
+    	var timerInterval = 1500;
+    	var i = 0;
+    	const writable_props = ['data'];
 
     	Object.keys($$props).forEach(key => {
-    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<WordCloud> was created with unknown prop '${key}'`);
+    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<DonatChart> was created with unknown prop '${key}'`);
     	});
 
     	$$self.$$set = $$props => {
     		if ('data' in $$props) $$invalidate(0, data = $$props.data);
-    		if ('color' in $$props) $$invalidate(2, color = $$props.color);
     	};
 
-    	$$self.$capture_state = () => ({ data, color, id, showWordCloud });
+    	$$self.$capture_state = () => ({
+    		to_number,
+    		data,
+    		timerInterval,
+    		i,
+    		D3DonutChart
+    	});
 
     	$$self.$inject_state = $$props => {
     		if ('data' in $$props) $$invalidate(0, data = $$props.data);
-    		if ('color' in $$props) $$invalidate(2, color = $$props.color);
+    		if ('timerInterval' in $$props) timerInterval = $$props.timerInterval;
+    		if ('i' in $$props) i = $$props.i;
     	};
 
     	if ($$props && "$$inject" in $$props) {
     		$$self.$inject_state($$props.$$inject);
     	}
 
-    	return [data, showWordCloud, color];
+    	return [data];
     }
 
-    class WordCloud extends SvelteComponentDev {
+    class DonatChart extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$1, create_fragment$1, safe_not_equal, { data: 0, color: 2 });
+    		init(this, options, instance$1, create_fragment$1, safe_not_equal, { data: 0 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
-    			tagName: "WordCloud",
+    			tagName: "DonatChart",
     			options,
     			id: create_fragment$1.name
     		});
     	}
 
     	get data() {
-    		throw new Error("<WordCloud>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    		throw new Error("<DonatChart>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
 
     	set data(value) {
-    		throw new Error("<WordCloud>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-    	}
-
-    	get color() {
-    		throw new Error("<WordCloud>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-    	}
-
-    	set color(value) {
-    		throw new Error("<WordCloud>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    		throw new Error("<DonatChart>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
     }
 
@@ -3785,13 +4152,13 @@ var app = (function (exports) {
     	let barchart1;
     	let t1;
     	let section1;
-    	let wordcloud;
+    	let barchart2;
     	let current;
 
     	barchart0 = new BarChart({
     			props: {
     				title: "Altersverteilung",
-    				data: /*dataAge*/ ctx[1],
+    				data: /*dataAge*/ ctx[2],
     				width: "480",
     				height: "320",
     				color: "var(--werkstadt-orange)"
@@ -3802,7 +4169,7 @@ var app = (function (exports) {
     	barchart1 = new BarChart({
     			props: {
     				title: "Gender",
-    				data: /*dataGender*/ ctx[0],
+    				data: /*dataGender*/ ctx[1],
     				width: "320",
     				height: "320",
     				color: "var(--werkstadt-purple)"
@@ -3810,9 +4177,13 @@ var app = (function (exports) {
     			$$inline: true
     		});
 
-    	wordcloud = new WordCloud({
+    	barchart2 = new BarChart({
     			props: {
-    				data: /*locationData*/ ctx[2],
+    				data: /*datalocation*/ ctx[0],
+    				width: "960",
+    				height: "320",
+    				fontSize: "16",
+    				xVertical: "true",
     				color: "#6bbda5"
     			},
     			$$inline: true
@@ -3827,13 +4198,13 @@ var app = (function (exports) {
     			create_component(barchart1.$$.fragment);
     			t1 = space();
     			section1 = element("section");
-    			create_component(wordcloud.$$.fragment);
+    			create_component(barchart2.$$.fragment);
     			attr_dev(section0, "class", "svelte-ext06q");
-    			add_location(section0, file, 22, 1, 534);
+    			add_location(section0, file, 28, 1, 725);
     			attr_dev(section1, "class", "svelte-ext06q");
-    			add_location(section1, file, 36, 1, 798);
+    			add_location(section1, file, 42, 1, 994);
     			attr_dev(div, "class", "wsf-statistics");
-    			add_location(div, file, 21, 0, 504);
+    			add_location(div, file, 27, 0, 695);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3846,38 +4217,38 @@ var app = (function (exports) {
     			mount_component(barchart1, section0, null);
     			append_dev(div, t1);
     			append_dev(div, section1);
-    			mount_component(wordcloud, section1, null);
+    			mount_component(barchart2, section1, null);
     			current = true;
     		},
     		p: function update(ctx, [dirty]) {
     			const barchart0_changes = {};
-    			if (dirty & /*dataAge*/ 2) barchart0_changes.data = /*dataAge*/ ctx[1];
+    			if (dirty & /*dataAge*/ 4) barchart0_changes.data = /*dataAge*/ ctx[2];
     			barchart0.$set(barchart0_changes);
     			const barchart1_changes = {};
-    			if (dirty & /*dataGender*/ 1) barchart1_changes.data = /*dataGender*/ ctx[0];
+    			if (dirty & /*dataGender*/ 2) barchart1_changes.data = /*dataGender*/ ctx[1];
     			barchart1.$set(barchart1_changes);
-    			const wordcloud_changes = {};
-    			if (dirty & /*locationData*/ 4) wordcloud_changes.data = /*locationData*/ ctx[2];
-    			wordcloud.$set(wordcloud_changes);
+    			const barchart2_changes = {};
+    			if (dirty & /*datalocation*/ 1) barchart2_changes.data = /*datalocation*/ ctx[0];
+    			barchart2.$set(barchart2_changes);
     		},
     		i: function intro(local) {
     			if (current) return;
     			transition_in(barchart0.$$.fragment, local);
     			transition_in(barchart1.$$.fragment, local);
-    			transition_in(wordcloud.$$.fragment, local);
+    			transition_in(barchart2.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
     			transition_out(barchart0.$$.fragment, local);
     			transition_out(barchart1.$$.fragment, local);
-    			transition_out(wordcloud.$$.fragment, local);
+    			transition_out(barchart2.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(div);
     			destroy_component(barchart0);
     			destroy_component(barchart1);
-    			destroy_component(wordcloud);
+    			destroy_component(barchart2);
     		}
     	};
 
@@ -3898,9 +4269,10 @@ var app = (function (exports) {
     	let locationData;
     	let dataAge;
     	let dataGender;
+    	let datalocation;
     	let $statisticsStore;
     	validate_store(statisticsStore, 'statisticsStore');
-    	component_subscribe($$self, statisticsStore, $$value => $$invalidate(5, $statisticsStore = $$value));
+    	component_subscribe($$self, statisticsStore, $$value => $$invalidate(6, $statisticsStore = $$value));
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Statistics', slots, []);
     	const writable_props = [];
@@ -3911,22 +4283,24 @@ var app = (function (exports) {
 
     	$$self.$capture_state = () => ({
     		BarChart,
-    		WordCloud,
+    		DonatChart,
     		statisticsStore,
+    		locationData,
+    		datalocation,
     		genderData,
     		dataGender,
     		ageData,
     		dataAge,
-    		locationData,
     		$statisticsStore
     	});
 
     	$$self.$inject_state = $$props => {
-    		if ('genderData' in $$props) $$invalidate(3, genderData = $$props.genderData);
-    		if ('dataGender' in $$props) $$invalidate(0, dataGender = $$props.dataGender);
-    		if ('ageData' in $$props) $$invalidate(4, ageData = $$props.ageData);
-    		if ('dataAge' in $$props) $$invalidate(1, dataAge = $$props.dataAge);
-    		if ('locationData' in $$props) $$invalidate(2, locationData = $$props.locationData);
+    		if ('locationData' in $$props) $$invalidate(3, locationData = $$props.locationData);
+    		if ('datalocation' in $$props) $$invalidate(0, datalocation = $$props.datalocation);
+    		if ('genderData' in $$props) $$invalidate(4, genderData = $$props.genderData);
+    		if ('dataGender' in $$props) $$invalidate(1, dataGender = $$props.dataGender);
+    		if ('ageData' in $$props) $$invalidate(5, ageData = $$props.ageData);
+    		if ('dataAge' in $$props) $$invalidate(2, dataAge = $$props.dataAge);
     	};
 
     	if ($$props && "$$inject" in $$props) {
@@ -3934,28 +4308,40 @@ var app = (function (exports) {
     	}
 
     	$$self.$$.update = () => {
-    		if ($$self.$$.dirty & /*$statisticsStore*/ 32) {
-    			$$invalidate(4, ageData = $statisticsStore.age || []);
+    		if ($$self.$$.dirty & /*$statisticsStore*/ 64) {
+    			$$invalidate(5, ageData = $statisticsStore.age || []);
     		}
 
-    		if ($$self.$$.dirty & /*$statisticsStore*/ 32) {
-    			$$invalidate(3, genderData = $statisticsStore.gender || []);
+    		if ($$self.$$.dirty & /*$statisticsStore*/ 64) {
+    			$$invalidate(4, genderData = $statisticsStore.gender || []);
     		}
 
-    		if ($$self.$$.dirty & /*$statisticsStore*/ 32) {
-    			$$invalidate(2, locationData = $statisticsStore.location || []);
+    		if ($$self.$$.dirty & /*$statisticsStore*/ 64) {
+    			$$invalidate(3, locationData = $statisticsStore.location || []);
     		}
 
-    		if ($$self.$$.dirty & /*ageData*/ 16) {
-    			$$invalidate(1, dataAge = ageData.reduce((data, entry) => ({ ...data, [entry.key]: entry.value }), {}));
+    		if ($$self.$$.dirty & /*ageData*/ 32) {
+    			$$invalidate(2, dataAge = ageData.reduce((data, entry) => ({ ...data, [entry.key]: entry.value }), {}));
     		}
 
-    		if ($$self.$$.dirty & /*genderData*/ 8) {
-    			$$invalidate(0, dataGender = genderData.reduce((data, entry) => ({ ...data, [entry.key]: entry.value }), {}));
+    		if ($$self.$$.dirty & /*genderData*/ 16) {
+    			$$invalidate(1, dataGender = genderData.reduce((data, entry) => ({ ...data, [entry.key]: entry.value }), {}));
+    		}
+
+    		if ($$self.$$.dirty & /*locationData*/ 8) {
+    			$$invalidate(0, datalocation = locationData.sort((a, b) => b.value - a.value).reduce((data, entry) => ({ ...data, [entry.key]: entry.value }), {}));
     		}
     	};
 
-    	return [dataGender, dataAge, locationData, genderData, ageData, $statisticsStore];
+    	return [
+    		datalocation,
+    		dataGender,
+    		dataAge,
+    		locationData,
+    		genderData,
+    		ageData,
+    		$statisticsStore
+    	];
     }
 
     class Statistics extends SvelteComponentDev {
