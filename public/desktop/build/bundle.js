@@ -1,5 +1,5 @@
 
-(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35730/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
+(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
 var app = (function (exports) {
     'use strict';
 
@@ -2845,10 +2845,10 @@ var app = (function (exports) {
     		c: function create() {
     			h3 = element("h3");
     			t = text(/*title*/ ctx[3]);
-    			attr_dev(h3, "class", "wsf-barchart__title svelte-weosnc");
+    			attr_dev(h3, "class", "wsf-barchart__title svelte-go1mao");
     			set_style(h3, "font-size", /*fontSize*/ ctx[14] + "px");
     			set_style(h3, "background-color", /*color*/ ctx[2]);
-    			add_location(h3, file$2, 51, 0, 1177);
+    			add_location(h3, file$2, 51, 0, 1072);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -2877,7 +2877,7 @@ var app = (function (exports) {
     	return block;
     }
 
-    // (75:4) {#if !bars || !bars.length }
+    // (75:1) {#if !bars || !bars.length }
     function create_if_block$1(ctx) {
     	let text_1;
     	let t;
@@ -2893,7 +2893,7 @@ var app = (function (exports) {
     			attr_dev(text_1, "dominant-baseline", "middle");
     			attr_dev(text_1, "text-anchor", "middle");
     			set_style(text_1, "fill", /*color*/ ctx[2], false);
-    			add_location(text_1, file$2, 75, 4, 1861);
+    			add_location(text_1, file$2, 75, 1, 1666);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, text_1, anchor);
@@ -2921,14 +2921,14 @@ var app = (function (exports) {
     		block,
     		id: create_if_block$1.name,
     		type: "if",
-    		source: "(75:4) {#if !bars || !bars.length }",
+    		source: "(75:1) {#if !bars || !bars.length }",
     		ctx
     	});
 
     	return block;
     }
 
-    // (85:4) {#each bars as bar, index}
+    // (85:1) {#each bars as bar, index}
     function create_each_block_1(ctx) {
     	let rect;
     	let rect_x_value;
@@ -2943,7 +2943,7 @@ var app = (function (exports) {
     			attr_dev(rect, "width", /*barWidth*/ ctx[5]);
     			attr_dev(rect, "height", rect_height_value = /*bar*/ ctx[19].value / /*maxValue*/ ctx[10] * /*canvasHeight*/ ctx[11]);
     			set_style(rect, "fill", /*color*/ ctx[2], false);
-    			add_location(rect, file$2, 85, 4, 2090);
+    			add_location(rect, file$2, 85, 1, 1856);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, rect, anchor);
@@ -2978,14 +2978,14 @@ var app = (function (exports) {
     		block,
     		id: create_each_block_1.name,
     		type: "each",
-    		source: "(85:4) {#each bars as bar, index}",
+    		source: "(85:1) {#each bars as bar, index}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (96:4) {#each bars as bar, index}
+    // (96:1) {#each bars as bar, index}
     function create_each_block$1(ctx) {
     	let text_1;
     	let t_value = /*bar*/ ctx[19].label + "";
@@ -3007,7 +3007,7 @@ var app = (function (exports) {
     			attr_dev(text_1, "text-anchor", "middle");
     			set_style(text_1, "fill", /*color*/ ctx[2], false);
     			set_style(text_1, "font-size", /*fontSize*/ ctx[14] + 'px', false);
-    			add_location(text_1, file$2, 96, 4, 2428);
+    			add_location(text_1, file$2, 96, 1, 2149);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, text_1, anchor);
@@ -3039,7 +3039,7 @@ var app = (function (exports) {
     		block,
     		id: create_each_block$1.name,
     		type: "each",
-    		source: "(96:4) {#each bars as bar, index}",
+    		source: "(96:1) {#each bars as bar, index}",
     		ctx
     	});
 
@@ -3094,13 +3094,13 @@ var app = (function (exports) {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(svg, "class", "wsf-barchart__chart svelte-weosnc");
+    			attr_dev(svg, "class", "wsf-barchart__chart svelte-go1mao");
     			attr_dev(svg, "width", /*width*/ ctx[0]);
     			attr_dev(svg, "height", /*height*/ ctx[1]);
     			attr_dev(svg, "viewBox", svg_viewBox_value = "0 0 " + /*width*/ ctx[0] + " " + /*height*/ ctx[1]);
-    			add_location(svg, file$2, 54, 0, 1285);
-    			attr_dev(div, "class", "wsf-barchart svelte-weosnc");
-    			add_location(div, file$2, 48, 0, 1137);
+    			add_location(svg, file$2, 54, 0, 1180);
+    			attr_dev(div, "class", "wsf-barchart svelte-go1mao");
+    			add_location(div, file$2, 48, 0, 1032);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3445,11 +3445,11 @@ var app = (function (exports) {
 
     function get_each_context(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[2] = list[i];
+    	child_ctx[3] = list[i];
     	return child_ctx;
     }
 
-    // (82:4) {:else}
+    // (84:1) {:else}
     function create_else_block(ctx) {
     	let p;
 
@@ -3457,7 +3457,7 @@ var app = (function (exports) {
     		c: function create() {
     			p = element("p");
     			p.textContent = "lade Daten...";
-    			add_location(p, file$1, 82, 4, 2486);
+    			add_location(p, file$1, 84, 1, 1916);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -3472,14 +3472,14 @@ var app = (function (exports) {
     		block,
     		id: create_else_block.name,
     		type: "else",
-    		source: "(82:4) {:else}",
+    		source: "(84:1) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (76:4) {#if data && data.length}
+    // (78:1) {#if data && data.length}
     function create_if_block(ctx) {
     	let dl;
     	let each_value = /*data*/ ctx[0];
@@ -3498,7 +3498,7 @@ var app = (function (exports) {
     				each_blocks[i].c();
     			}
 
-    			add_location(dl, file$1, 76, 4, 2358);
+    			add_location(dl, file$1, 78, 1, 1815);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, dl, anchor);
@@ -3542,20 +3542,20 @@ var app = (function (exports) {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(76:4) {#if data && data.length}",
+    		source: "(78:1) {#if data && data.length}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (78:8) {#each data as entry}
+    // (80:2) {#each data as entry}
     function create_each_block(ctx) {
     	let dt;
-    	let t0_value = /*entry*/ ctx[2].key + "";
+    	let t0_value = /*entry*/ ctx[3].key + "";
     	let t0;
     	let dd;
-    	let t1_value = /*entry*/ ctx[2].value + "";
+    	let t1_value = /*entry*/ ctx[3].value + "";
     	let t1;
 
     	const block = {
@@ -3564,8 +3564,8 @@ var app = (function (exports) {
     			t0 = text(t0_value);
     			dd = element("dd");
     			t1 = text(t1_value);
-    			add_location(dt, file$1, 78, 8, 2401);
-    			add_location(dd, file$1, 78, 28, 2421);
+    			add_location(dt, file$1, 80, 2, 1846);
+    			add_location(dd, file$1, 80, 22, 1866);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, dt, anchor);
@@ -3574,8 +3574,8 @@ var app = (function (exports) {
     			append_dev(dd, t1);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*data*/ 1 && t0_value !== (t0_value = /*entry*/ ctx[2].key + "")) set_data_dev(t0, t0_value);
-    			if (dirty & /*data*/ 1 && t1_value !== (t1_value = /*entry*/ ctx[2].value + "")) set_data_dev(t1, t1_value);
+    			if (dirty & /*data*/ 1 && t0_value !== (t0_value = /*entry*/ ctx[3].key + "")) set_data_dev(t0, t0_value);
+    			if (dirty & /*data*/ 1 && t1_value !== (t1_value = /*entry*/ ctx[3].value + "")) set_data_dev(t1, t1_value);
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(dt);
@@ -3587,7 +3587,7 @@ var app = (function (exports) {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(78:8) {#each data as entry}",
+    		source: "(80:2) {#each data as entry}",
     		ctx
     	});
 
@@ -3625,7 +3625,7 @@ var app = (function (exports) {
     			add_location(script1, file$1, 2, 1, 77);
     			attr_dev(div, "class", "wsf-word-cloud");
     			attr_dev(div, "id", "wsf-word-cloud");
-    			add_location(div, file$1, 74, 0, 2275);
+    			add_location(div, file$1, 76, 0, 1738);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3685,6 +3685,7 @@ var app = (function (exports) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('WordCloud', slots, []);
     	let { data = [] } = $$props;
+    	let { color = "#6bbda5" } = $$props;
 
     	function showWordCloud() {
     		var cloud = d3.layout.cloud;
@@ -3695,23 +3696,22 @@ var app = (function (exports) {
     		const maxLength = Math.max(...data.map(s => s.key.length));
     		Math.max(...data.map(s => s.value));
 
-    		function fillColor(d, i) {
-    			return `rgba(0, 0, 0, ${1.3 - d.text.length / maxLength})`;
+    		function opacity(d) {
+    			return d.text.length / maxLength;
     		}
 
-    		var layout = cloud().size([width, height]).words(data.map(d => ({ text: d.key, size: 16 + d.value * 0.2 }))).padding(1).rotate(function () {
+    		var layout = cloud().size([width, height]).words(data.map(d => ({ text: d.key, size: 16 + d.value * 0.2 }))).padding(1).rotate(() => {
     			return 0;
-    		}).//.font("Roboto")
-    		fontSize(function (d) {
+    		}).font("Arial").fontSize(d => {
     			return d.size;
     		}).on("end", drawWords);
 
     		function drawWords(words) {
-    			d3.select(`#${id}`).append("svg").attr("width", layout.size()[0]).attr("height", layout.size()[1]).append("g").attr("transform", "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")").selectAll("text").data(words).enter().append("text").style("font-size", function (d) {
+    			d3.select(`#${id}`).append("svg").attr("width", layout.size()[0]).attr("height", layout.size()[1]).append("g").attr("transform", "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")").selectAll("text").data(words).enter().append("text").style("font-size", d => {
     				return d.size + "px";
-    			}).style("font-family", "Roboto").style("fill", fillColor).attr("text-anchor", "middle").attr("transform", function (d) {
+    			}).style("font-family", "Arial").style("fill", color).style("opacity", opacity).attr("text-anchor", "middle").attr("transform", d => {
     				return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
-    			}).text(function (d) {
+    			}).text(d => {
     				return d.text;
     			});
     		}
@@ -3719,7 +3719,7 @@ var app = (function (exports) {
     		layout.start();
     	}
 
-    	const writable_props = ['data'];
+    	const writable_props = ['data', 'color'];
 
     	Object.keys($$props).forEach(key => {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<WordCloud> was created with unknown prop '${key}'`);
@@ -3727,25 +3727,27 @@ var app = (function (exports) {
 
     	$$self.$$set = $$props => {
     		if ('data' in $$props) $$invalidate(0, data = $$props.data);
+    		if ('color' in $$props) $$invalidate(2, color = $$props.color);
     	};
 
-    	$$self.$capture_state = () => ({ data, id, showWordCloud });
+    	$$self.$capture_state = () => ({ data, color, id, showWordCloud });
 
     	$$self.$inject_state = $$props => {
     		if ('data' in $$props) $$invalidate(0, data = $$props.data);
+    		if ('color' in $$props) $$invalidate(2, color = $$props.color);
     	};
 
     	if ($$props && "$$inject" in $$props) {
     		$$self.$inject_state($$props.$$inject);
     	}
 
-    	return [data, showWordCloud];
+    	return [data, showWordCloud, color];
     }
 
     class WordCloud extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$1, create_fragment$1, safe_not_equal, { data: 0 });
+    		init(this, options, instance$1, create_fragment$1, safe_not_equal, { data: 0, color: 2 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
@@ -3760,6 +3762,14 @@ var app = (function (exports) {
     	}
 
     	set data(value) {
+    		throw new Error("<WordCloud>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	get color() {
+    		throw new Error("<WordCloud>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set color(value) {
     		throw new Error("<WordCloud>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
     }
@@ -3801,7 +3811,10 @@ var app = (function (exports) {
     		});
 
     	wordcloud = new WordCloud({
-    			props: { data: /*locationData*/ ctx[2] },
+    			props: {
+    				data: /*locationData*/ ctx[2],
+    				color: "#6bbda5"
+    			},
     			$$inline: true
     		});
 
@@ -3815,12 +3828,12 @@ var app = (function (exports) {
     			t1 = space();
     			section1 = element("section");
     			create_component(wordcloud.$$.fragment);
-    			attr_dev(section0, "class", "svelte-orlskw");
-    			add_location(section0, file, 22, 4, 594);
-    			attr_dev(section1, "class", "svelte-orlskw");
-    			add_location(section1, file, 36, 4, 966);
+    			attr_dev(section0, "class", "svelte-ext06q");
+    			add_location(section0, file, 22, 1, 534);
+    			attr_dev(section1, "class", "svelte-ext06q");
+    			add_location(section1, file, 36, 1, 798);
     			attr_dev(div, "class", "wsf-statistics");
-    			add_location(div, file, 21, 0, 561);
+    			add_location(div, file, 21, 0, 504);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
