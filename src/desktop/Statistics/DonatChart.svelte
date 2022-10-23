@@ -1,48 +1,52 @@
+<!--
 <svelte:head>
-	<script src="//unpkg.com/d3@5.15.0/dist/d3.min.js"></script>
+	<script src="//d3js.org/d3.v4.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 </svelte:head>
+-->
 
 <script>
-  import { to_number } from "svelte/internal";
+	import * as d3 from 'd3';
+	import { onMount } from "svelte";
 
 	export let data = [];
 
-	var timerInterval = 1500;
-	var i = 0;
+	let el;
+	let donutChart;
 
-	/*
-	var donut = D3DonutChart()
-		.width(960)
-		.height(500)
-		.transTime(750) // length of transitions in ms
-		.cornerRadius(3) // sets how rounded the corners are on each slice
-		.padAngle(0.015) // effectively dictates the gap between slices
-		.variable('prob')
-		.category('species');
-		*/
-	
-	/*
-	d3.tsv('species.tsv', function(error, data) {
-		if (error) throw error;
+	$: {
+		console.log(data);
+		drawChart(data);
+	}
 
-		// group entries together by timestamp to simulate  receiving real-time data
-		var nestData = d3.nest()
-			.key(function(d) { return d.time; }) // collects entries with the same time value
-			.entries(data);
-
-		// timer to update chart with new data every timeInterval milliseconds.
-		var timer = setInterval(function() {
-			if (i === nestData.length - 1) { clearInterval(timer); }
-			donut.data(nestData[i].values);
-			if (i === 0) { // if first time receiving data...
-				i++;
-				d3.select('#chart')
-					.call(donut); // draw chart in div
-			}
-			i++;
-		}, timerInterval);
+	onMount(() =>{
+		// remove dl and render svg instead
+		el.innerText = '';
+		drawChart();
 	});
-	*/
+
+	function drawChart(data) {
+		if (!data || !data.length) return;
+
+		const chartData = data.map(d => {
+			return {
+				key: d.key,
+				value: d.value
+			}
+		});
+
+		donutChart = D3DonutChart()
+			.width(960)
+			.height(500)
+			.transTime(750) // length of transitions in ms
+			.cornerRadius(3) // sets how rounded the corners are on each slice
+			.padAngle(0.015) // effectively dictates the gap between slices
+			.variable('value')
+			.category('key')
+			.data(chartData);
+
+		d3.select(el).call(donutChart);
+	}
 
 	/** 
 	 * @license MIT License
@@ -54,7 +58,8 @@
 			width,
 			height,
 			margin = {top: 10, right: 10, bottom: 10, left: 10},
-			colour = d3.scaleOrdinal(d3.schemeCategory20c), // colour scheme
+			//colour = d3.scaleOrdinal(d3.schemeCategory20c), // colour scheme
+			colour = d3.scaleOrdinal(d3.schemeCategory20), // colour scheme
 			variable, // value in data that will dictate proportions on chart
 			category, // compare data by
 			padAngle, // effectively dictates the gap between slices
@@ -62,7 +67,7 @@
 			updateData,
 			floatFormat = d3.format('.4r'),
 			cornerRadius, // sets how rounded the corners are on each slice
-			percentFormat = d3.format(',.2%');
+			percentFormat = d3.format(',.0%');
 
 		function chart(selection){
 			selection.each(function() {
@@ -441,13 +446,15 @@
 	}
 </script>
 
-<div id="chart">
+<div id="chart" bind:this={el}>
 	{#if data && data.length}
-	<dl>
+	<table>
 		{#each data as entry}
-		<dt>{entry.key}</dt><dd>{entry.value}</dd>
+		<tr>
+			<td>{entry.key}</td><td>{entry.value}</td>
+		</tr>
 		{/each}
-	</dl>
+	</table>
 	{:else}
 	<p>lade Daten...</p>
 	{/if}
@@ -482,7 +489,7 @@
 
 	/* In biology we generally italicise species names. */
 	.labelName {
-		font-size: 0.8em;
+		font-size: 1em;
 		font-style: italic;
 }
 </style>
