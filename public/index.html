@@ -121,6 +121,7 @@
 </section>
 
 <section class="container statistics">
+	<h2>Statistisches</h2>
 	<div id="werkstadt-2031-statistics"></div>
 </section>
 
@@ -132,7 +133,7 @@
 	
 </section>
 
-<section class="container statistics">
+<section class="container faq">
 	<h2>FAQ - Häufige Fragen</h2>
 	<details>
 		<summary>Warum?</summary>
@@ -156,8 +157,8 @@
 			<p>Sie sehen die Daten von 386 Bürger:innen, der Rest wurde diesbezüglich nicht erfasst oder enthilet sich.</p>
 		<p></p>
 	</div></details>
-	<details>
-		<summary>Warum zeit Ihr nur 3 Geschlechter?</summary>
+	<details id="faq-geschlechter">
+		<summary>Warum zeigt Ihr nur 3 Geschlechter?</summary>
 		<div>
 			<p>Diese Repräsentation ist nicht unsere Intention. Wir unterstützen jeglichen Ausdruck und jede Orientierung des eigenen Geschlechts.</p>
 			<p><em class="tag">#womanpower</em> <em class="tag">#geschlechtergleichberechtigung</em></p>
@@ -186,11 +187,21 @@
 	}
 
 	section.container {
-
+		margin: 8rem 0;
 	}
 
 	.container {
 		position: relative;
+	}
+
+	section h2 {
+		font-size: xx-large;
+		text-align: center;
+		margin: 2rem 0;
+	}
+
+	section.container.faq details {
+		margin-bottom: 1rem;
 	}
 
 	.cite.bubble {
@@ -253,7 +264,7 @@
 	.thanks {
 		position: absolute;
 		top: 15%;
-		right: 20%;
+		left: 80%;
 		font-size: 2rem;
 		font-weight: bold;
 		color: orange;

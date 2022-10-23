@@ -23,7 +23,7 @@
 		const maxValue = Math.max(...data.map(s => s.value));
 
 		function opacity(d) {
-			return d.text.length / maxLength;
+			return d.text.length / maxLength * 1.25;
 		}
 
 		var layout = cloud()

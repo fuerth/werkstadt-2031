@@ -3457,7 +3457,7 @@ var app = (function (exports) {
     		c: function create() {
     			p = element("p");
     			p.textContent = "lade Daten...";
-    			add_location(p, file$1, 84, 1, 1916);
+    			add_location(p, file$1, 84, 1, 1923);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -3498,7 +3498,7 @@ var app = (function (exports) {
     				each_blocks[i].c();
     			}
 
-    			add_location(dl, file$1, 78, 1, 1815);
+    			add_location(dl, file$1, 78, 1, 1822);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, dl, anchor);
@@ -3564,8 +3564,8 @@ var app = (function (exports) {
     			t0 = text(t0_value);
     			dd = element("dd");
     			t1 = text(t1_value);
-    			add_location(dt, file$1, 80, 2, 1846);
-    			add_location(dd, file$1, 80, 22, 1866);
+    			add_location(dt, file$1, 80, 2, 1853);
+    			add_location(dd, file$1, 80, 22, 1873);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, dt, anchor);
@@ -3625,7 +3625,7 @@ var app = (function (exports) {
     			add_location(script1, file$1, 2, 1, 77);
     			attr_dev(div, "class", "wsf-word-cloud");
     			attr_dev(div, "id", "wsf-word-cloud");
-    			add_location(div, file$1, 76, 0, 1738);
+    			add_location(div, file$1, 76, 0, 1745);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3697,7 +3697,7 @@ var app = (function (exports) {
     		Math.max(...data.map(s => s.value));
 
     		function opacity(d) {
-    			return d.text.length / maxLength;
+    			return d.text.length / maxLength * 1.25;
     		}
 
     		var layout = cloud().size([width, height]).words(data.map(d => ({ text: d.key, size: 16 + d.value * 0.2 }))).padding(1).rotate(() => {
