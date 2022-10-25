@@ -6,20 +6,34 @@
 	import { statisticsStore } from "../stores.js";
 
 	let dataLocation = [];
+	let ageSubtitle = null;
+	let genderSubtitle = null;
 
 	$: ageData = $statisticsStore.age || [];
 	$: genderData = $statisticsStore.gender || [];
 	$: locationData = $statisticsStore.location || [];
 
-	$: dataAge = ageData.reduce((data, entry) => ({
+	$: dataAge = ageData.filter(entry => entry.key !== 'unknown').reduce((data, entry) => ({
 		...data,
 		[entry.key]: entry.value
 	}), {});
 
-	$: dataGender = genderData.reduce((data, entry) => ({
+	$: {
+		const unknownEntry = ageData ? ageData.find(entry => entry.key === 'unknown') : null;
+		const unknownCount = unknownEntry ? unknownEntry.value : null;
+		ageSubtitle = unknownCount ? `${unknownCount} ${unknownCount > 1 ? 'Menschen' : 'Mensch'} haben keine Angabe gemacht` : null;
+	}
+
+	$: dataGender = genderData.filter(entry => entry.key !== 'unknown').reduce((data, entry) => ({
 		...data,
 		[entry.key]: entry.value
 	}), {});
+
+	$: {
+		const unknownEntry = genderData? genderData.find(entry => entry.key === 'unknown') : null;
+		const unknownCount = unknownEntry ? unknownEntry.value : null;
+		genderSubtitle = unknownCount ? `${unknownCount} ${unknownCount > 1 ? 'Menschen' : 'Mensch'} haben keine Angabe gemacht` : null;
+	}
 
 	$: locationSum = locationData.map(d => d.value).reduce((a, b) => a + b, 0);
 
@@ -79,12 +93,14 @@
 	<section>
 		<BarChart 
 			title="Altersverteilung" 
+			subtitle={ageSubtitle} 
 			data={dataAge} 
 			width=480 
 			height=320 
 			color="var(--werkstadt-orange)"/>
 		<BarChart 
-			title="Gender" 
+			title="Geschlecht" 
+			subtitle={genderSubtitle}
 			data={dataGender} 
 			width=320 
 			height=320
@@ -111,4 +127,10 @@
 		justify-content: center;
 		gap: 1rem;
 	}
+
+@media (max-width: 1024px) {
+	section {
+		flex-direction: column;
+	}
+}
 </style>

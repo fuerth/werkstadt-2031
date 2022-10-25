@@ -6,7 +6,8 @@
 	export let color = "rgb(0, 0, 255)";
 	export let title = null;
 	export let xVertical = false;
-	export let fontSize = Math.abs(height*0.09);
+	export let fontSize = Math.abs(height*0.06);
+	export let subtitle = null;
 
 	const DEBUG = false;
 
@@ -33,107 +34,117 @@
 
 	$: maxValue = Math.max(...bars.map(bar => bar.value));
 
-	$: barWidth = chartWidth / barCount * 0.5;
+	$: barWidth = chartWidth / barCount * 0.65;
 
 	$: barSpacing = (chartWidth-(barWidth*barCount)) / (barCount-1);
 </script>
 
-{#if DEBUG}
-<dl>
-	<dt>maxValue</dt><dd>{maxValue}</dd>
-	<dt>barCount</dt><dd>{barCount}</dd>
-	<dt>barWidth</dt><dd>{barWidth}</dd>
-	<dt>barSpacing</dt><dd>{barSpacing}</dd>
-</dl>
-{/if}
-
 <div class="wsf-barchart">
+	{#if title}
+	<h3 class="wsf-barchart__title" style="font-size:{fontSize}px;background-color:{color}">{title}</h3>
+	{/if}
 
-{#if title}
-<h3 class="wsf-barchart__title" style="font-size:{fontSize}px;background-color:{color}">{title}</h3>
-{/if}
-
-<svg class="wsf-barchart__chart" {width} {height} viewBox="0 0 {width} {height}">
 	{#if DEBUG}
-	<!-- show the drawing canvas -->
-	<rect 
-		x={marginLeft}
-		y={marginTop}
-		width={chartWidth}
-		height={canvasHeight}
-		style:fill="transparent" style:stroke="red"
-	/>
-	<!-- show the labels area -->
-	<rect 
-		x={marginLeft}
-		y={marginTop+canvasHeight}
-		width={chartWidth}
-		height={labelsHeight}
-		style:fill="transparent" style:stroke="green"
-	/>
+	<dl>
+		<dt>maxValue</dt><dd>{maxValue}</dd>
+		<dt>barCount</dt><dd>{barCount}</dd>
+		<dt>barWidth</dt><dd>{barWidth}</dd>
+		<dt>barSpacing</dt><dd>{barSpacing}</dd>
+	</dl>
 	{/if}
 
-	{#if !bars || !bars.length }
-	<text
-		x={width/2}
-		y={height/2}
-		dominant-baseline="middle" text-anchor="middle"
-		style:fill={color}
-	>lade Daten...</text>
-	{/if}
+	<figure>
+		<svg class="wsf-barchart__chart" {width} {height} viewBox="0 0 {width} {height}">
+			{#if DEBUG}
+			<!-- show the drawing canvas -->
+			<rect 
+				x={marginLeft}
+				y={marginTop}
+				width={chartWidth}
+				height={canvasHeight}
+				style:fill="transparent" style:stroke="red"
+			/>
+			<!-- show the labels area -->
+			<rect 
+				x={marginLeft}
+				y={marginTop+canvasHeight}
+				width={chartWidth}
+				height={labelsHeight}
+				style:fill="transparent" style:stroke="green"
+			/>
+			{/if}
 
-	<!-- draw the bars -->
-	{#each bars as bar, index}
-	<rect 
-		x={marginLeft + index*barWidth + index*barSpacing} 
-		y={marginTop + canvasHeight-((bar.value/maxValue)*canvasHeight)} 
-		width={barWidth} 
-		height={(bar.value/maxValue)*canvasHeight} 
-		style:fill={color} 
-	/>
-	{/each}
+			{#if !bars || !bars.length }
+			<text
+				x={width/2}
+				y={height/2}
+				dominant-baseline="middle" text-anchor="middle"
+				style:fill={color}
+			>lade Daten...</text>
+			{/if}
 
-	<!-- draw the x-axes labels -->
-	{#each bars as bar, index}
-	<text 
-		x={marginLeft + (index)*barWidth + barWidth/2 + index*barSpacing} 
-		y={
-			!xVertical && 
-			barCount > 3 && index%2 ? 
-			(marginTop + canvasHeight + fontSize*1.75)
-			: (marginTop + canvasHeight + fontSize*.75)
-			
-		}
+			<!-- draw the bars -->
+			{#each bars as bar, index}
+			<rect 
+				x={marginLeft + index*barWidth + index*barSpacing} 
+				y={marginTop + canvasHeight-((bar.value/maxValue)*canvasHeight)} 
+				width={barWidth} 
+				height={(bar.value/maxValue)*canvasHeight} 
+				style:fill={color} 
+			/>
+			{/each}
 
-		dominant-baseline="{ xVertical ? 'start' : 'middle' }"
-		text-anchor="{ xVertical ? 'start' : 'middle' }"
-		writing-mode="{ xVertical ? 'tb' : 'lr'}"
+			<!-- draw the x-axes labels -->
+			{#each bars as bar, index}
+			<text 
+				x={marginLeft + (index)*barWidth + barWidth/2 + index*barSpacing} 
+				y={
+					!xVertical && 
+					barCount > 3 && index%2 ? 
+					(marginTop + canvasHeight + fontSize*1.75)
+					: (marginTop + canvasHeight + fontSize*.75)
+					
+				}
 
-		style:fill={color}
-		style:font-size={fontSize + 'px'}
-	>{bar.label}</text>
-	{/each}
-</svg>
+				dominant-baseline="{ xVertical ? 'start' : 'middle' }"
+				text-anchor="{ xVertical ? 'start' : 'middle' }"
+				writing-mode="{ xVertical ? 'tb' : 'lr'}"
 
-<!--
-<table>
-	<thead>
-		<tr>
-			<th>key</th>
-			<th>value</th>
-		</tr>
-	</thead>
-	<tbody>
-		{#each bars as bar, index}
-		<tr>
-			<td>{bar.label}</td>
-			<td>{bar.value}</td>
-		</tr>
-		{/each}
-	</tbody>
-</table>
--->
+				style:fill={color}
+				style:font-size={fontSize + 'px'}
+				style:font-weight="bold"
+			>{bar.label}</text>
+			{/each}
 
+			{#if subtitle}
+			<text
+				x={width/2}
+				y={marginTop+chartHeight+fontSize}
+				dominant-baseline='middle'
+				text-anchor='middle'
+				style:fill={color}
+			>{subtitle}</text>
+			{/if}
+		</svg>
+		<figcaption class="sr-only" >
+			<table border="1">
+				<thead>
+					<tr>
+						<th>{title || "Key"}</th>
+						<th>Anzahl</th>
+					</tr>
+				</thead>
+				<tbody>
+					{#each bars as bar, index}
+					<tr>
+						<td>{bar.label}</td>
+						<td>{bar.value}</td>
+					</tr>
+					{/each}
+				</tbody>
+			</table>
+		</figcaption>
+	</figure>
 </div>
 
 

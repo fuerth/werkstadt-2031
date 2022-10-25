@@ -134,12 +134,16 @@ function getStatisticsFromData(data){
 	data.forEach(entry => {
 		let gender = entry.gender;
 		if (gender && gender !== "x") {
-			genderValue = genderMap.get(gender) || 0;
+			const genderValue = genderMap.get(gender) || 0;
 			genderMap.set(gender, genderValue + 1);
+		} else {
+			const genderValue = genderMap.get('unknown') || 0;
+			genderMap.set('unknown', genderValue + 1);
 		}
 	});
 	
 	const ageMap = new Map();
+	ageMap.set('unknown', 0);
 	ageMap.set('bis 20', 0);
 	ageMap.set('21-30', 0);
 	ageMap.set('31-40', 0);
@@ -148,13 +152,11 @@ function getStatisticsFromData(data){
 	ageMap.set('61-70', 0);
 	ageMap.set('70+', 0);
 	for (let entry of data) {
+		let group;
 		const age = entry.age;
 		if (!age || age === "x") {
-			continue;
-		}
-		
-		let group;
-		if (age === 'bis 20' || age === 'unter 20' || age === '10-20' || (age <= 20) ) {
+			group = 'unknown';
+		} else if (age === 'bis 20' || age === 'unter 20' || age === '10-20' || (age <= 20) ) {
 			group = 'bis 20';
 		} else if (age === '21-30' || (age >= 21 && age <= 30) ) {
 			group = '21-30';
