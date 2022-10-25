@@ -6,12 +6,16 @@ async function fetchJson(url) {
 	return json;
 }
 
+export const statisticsStore = readable([], set => {
+	fetchJson('./desktop/statistics.json').then(set);
+});
+
 export const categoriesStore = readable([], set => {
-	fetchJson('./categories.json').then(set);
+	fetchJson('./desktop/categories.json').then(set);
 });
 
 export const cardsStore = readable([], set => {
-	fetchJson('./entries.json').then(set);
+	fetchJson('./desktop/entries.json').then(set);
 });
 
 export const selectedMainCategoryStore = writable();

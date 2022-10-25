@@ -1,6 +1,6 @@
 <script>
 	import WerkstadtNavigationButton from './NavigationButton.svelte';
-	import { categoriesStore, selectedMainCategoryStore } from './stores.js';
+	import { categoriesStore, selectedMainCategoryStore } from '../stores.js';
 </script>
 
 <nav>

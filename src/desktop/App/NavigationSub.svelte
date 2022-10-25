@@ -2,7 +2,7 @@
 	import { derived } from 'svelte/store';
 
 	import WerkstadtNavigationButton from './NavigationButton.svelte';
-	import { categoriesStore, selectedMainCategoryStore, selectedSubCategoryStore } from './stores.js';
+	import { categoriesStore, selectedMainCategoryStore, selectedSubCategoryStore } from '../stores.js';
 
 	let subCatsStore = derived([categoriesStore, selectedMainCategoryStore], ([categories, selectedMainCategory], set) => {
 		if (categories.length && selectedMainCategory) {

@@ -129,15 +129,85 @@ function getCategoriesFromData(data) {
 	return categories;
 }
 
+function getStatisticsFromData(data){
+	const genderMap = new Map();
+	data.forEach(entry => {
+		let gender = entry.gender;
+		if (gender && gender !== "x") {
+			genderValue = genderMap.get(gender) || 0;
+			genderMap.set(gender, genderValue + 1);
+		}
+	});
+	
+	const ageMap = new Map();
+	ageMap.set('bis 20', 0);
+	ageMap.set('21-30', 0);
+	ageMap.set('31-40', 0);
+	ageMap.set('41-50', 0);
+	ageMap.set('51-60', 0);
+	ageMap.set('61-70', 0);
+	ageMap.set('70+', 0);
+	for (let entry of data) {
+		const age = entry.age;
+		if (!age || age === "x") {
+			continue;
+		}
+		
+		let group;
+		if (age === 'bis 20' || age === 'unter 20' || age === '10-20' || (age <= 20) ) {
+			group = 'bis 20';
+		} else if (age === '21-30' || (age >= 21 && age <= 30) ) {
+			group = '21-30';
+		} else if (age === '31-40' || (age >= 31 && age <= 40) ) {
+			group = '31-40';
+		} else if (age === '41-50' || (age >= 41 && age <=50) ) {
+			group = '41-50';
+		} else if (age === '51-60' || (age >= 51 && age <= 60) ) {
+			group = '51-60';
+		} else if (age === '61-70' || (age >= 61 && age <= 70) ) {
+			group = '61-70';
+		} else if (age === '70+' || age >= 71 ) {
+			group = '70+';
+		} else {
+			group = age;
+		}
+
+		groupValue = ageMap.get(group) || 0;
+		ageMap.set(group, groupValue + 1);
+	};
+	
+	const locationMap = new Map();
+	data.forEach(entry => {
+		const location = entry.location;
+		if (location 
+		&& location !== "-"
+		&& location !== "x") {
+			locationValue = locationMap.get(location) || 0;
+			locationMap.set(location, locationValue + 1);
+		}
+	});
+
+	return {
+		gender: Array.from(genderMap.entries()).map(([key, value]) => ({key, value})),
+		age: Array.from(ageMap.entries()).map(([key, value]) => ({key, value})),
+		location: Array.from(locationMap.entries()).map(([key, value]) => ({key, value}))
+	}
+}
+
 (async () => {
 	const fileName = "./data/werkstadt_2031.csv";
 	const columns = await getColumns(fileName);
 	const data = await genDataFromCSV(fileName, columns);
 
 	const cleanData = cleanupEntries(data);
+	await fs.writeFile('./src/_data/_cleanData.json', JSON.stringify(cleanData, null, 2));
+
 	const enrichedEntries = enrichEntries(cleanData);
 	await fs.writeFile('./src/_data/entries.json', JSON.stringify(enrichedEntries, null, 2));
 
 	const categories = getCategoriesFromData(cleanData);
 	await fs.writeFile('./src/_data/categories.json', JSON.stringify(categories, null, 2));
+
+	const statistics = getStatisticsFromData(cleanData);
+	await fs.writeFile('./src/_data/statistics.json', JSON.stringify(statistics, null, 2));
 })()

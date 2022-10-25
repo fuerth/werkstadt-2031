@@ -3,35 +3,89 @@ layout: "bluepingu.11ty.js"
 ---
 
 <header>
-	<img class="banner image-embed-item" src="https://fuerth.bluepingu.de/fileadmin/_processed_/8/c/csm_WSF_Logo_2204_rgb_Mittel_7e059889c0.png" width="531" height="350" loading="lazy" alt="">
+	<img class="banner image-embed-item" 
+		src="https://fuerth.bluepingu.de/fileadmin/_processed_/8/c/csm_WSF_Logo_2204_rgb_Mittel_7e059889c0.png" loading="lazy" 
+		width="531" height="350" 
+		alt="Das 'Werk Stadt Fürth 2031' logo zeigt die Fasade mehrerer Fachwerkhäuser in Entstehung">
 </header>
 
-<div class="container">
+<section class="container">
 	<p class="cite bubble">
 		<cite class="cite text">Angenommen Du könntest entscheiden - was würde sich in den kommenden 10 Jahren in Fürth verändern?</cite>
 		<span class="cite author">- mehr wollten wir nicht wissen.</span>
 	</p>
 	<p class="introduction">
 		<b>Clickt</b> Euch hier durch die Daten der Bürger:innenbefragung.<br>
-		Mitgewirkt haben über 400 Fürtherinnen, die wir beim Spazierengehen und online befragt haben.
+		Mitgewirkt haben {{ counts.maxId }} Fürtherinnen, die wir beim Spazierengehen und online befragt haben.
 		<em>Viel Spaß!</em>
 	</p>
 	<p class="thanks">
-		Danke fürs mitmachen <span>!</span>
+		Danke fürs mitmachen<span>!</span>
 	</p>
-</div>
+</section>
 
-<div class="app-container">
+<section class="container statistics">
+	<h2>Statistisches</h2>
+	<div id="werkstadt-2031-statistics"></div>
+</section>
+
+<section class="container app">
+	{# embedd as svelte component #}
+	<div id="werkstadt-2031-app"></div>
+
+	{# embed as iframe #}
+	{# 
 	<a href="./desktop/" id="werkstadt-fullscreen-btn">Vollbild ◹</a>
-	<iframe src="./desktop/" 
+	<iframe src="./desktop/app.html" 
 		id="werkstadt-iframe" 
 		frameborder="0" 
 		scrolling="yes" 
 		allow="fullscreen" 
 		width="100%"
 	></iframe>
-</div>
+	#}
+</section>
 
+<section class="container faq">
+	<h2>FAQ - Häufige Fragen</h2>
+	<details>
+		<summary>Warum?</summary>
+		<div>
+			<p>Wir haben uns gefragt, welche Themen die Bürger*innen ganz persönlich beschäftigen - vor ihrer Haustüre, in ihrer Stadt. Was haben die Menschen auf dem Herzen? Sind es ganz konkrete Anliegen oder dreht es sich eher um das große Ganze? Als Engagierte schlägt unser Herz für den kulturellen und gesellschaftlichen Wandel, doch wollen wir unsere Vorstellungen einer guten Zukunft anderen nicht überstülpen, sondern herausfinden, an welchen Stellen unseren Mitbürger*innen noch etwas fehlt.</p>
+			<p>Der gewählte Zeithorizont von 10 Jahren soll dabei einerseits zum größer Denken einladen, andererseits auch zum realistisch sein.</p>
+		</div>
+	</details>
+	<details>
+		<summary>Wofür?</summary>
+		<div>
+			<p>Anhand der vielen verschiedenen Perspektiven möchten wir ein fundiertes Gesamtbild erarbeiten. Ein Zwischenstand über die Bedürfnisse der Fürther Bürger*innen, aus dem sich konkrete Projekte, größere Ziele und ganz allgemein auch Werte der Bürger*innen ableiten lassen. Mit Hilfe der Agenda, die wir aus den Daten filtern, wollen wir bei den Ansprechpartnern in Politik und Verwaltung Werbung machen für die Belange der Bürger*innen und den Dialog weiter fördern.</p>
+			<p>Besonders wichtig ist uns außerdem, Menschen das Gefühl zu vermitteln, dass ihre Anliegen und Wünsche auch Chancen sind, die sich verwirklichen lassen. Unser Motto ist: Von der Ohnmacht zur Aktion/Selbstwirksamkeit.</p>
+		</div>
+	</details>
+	<details>
+		<summary>Warum keine soziographischen Daten?</summary>
+		<div>
+			<p>Uns wurde schnell bewusst, dass wir mit unseren begrenzten Mitteln keine wissenschaftlichen Anspruch genügen können. 
+			Bei einem Großteil der Befragten hielten wir Alter und Geschlacht fest.</p>
+			<p>Sie sehen die Daten von {{ counts.maxId }} Bürger:innen, der Rest wurde diesbezüglich nicht erfasst oder enthilet sich.</p>
+		</p>
+	</details>
+	<details id="faq-geschlechter">
+		<summary>Warum zeigt Ihr nur 3 Geschlechter?</summary>
+		<div>
+			<p>Diese Repräsentation ist nicht unsere Intention. Wir unterstützen jeglichen Ausdruck und jede Orientierung des eigenen Geschlechts.</p>
+			<p>
+				<em class="tag">#womanpower</em>
+				<em class="tag">#geschlechtergleichberechtigung</em>
+			</p>
+		</div>
+	</details>
+</section>
+
+<link rel="stylesheet" type="text/css" href="./desktop/build/bundle.css" media="all">
+<script defer src="./desktop/build/bundle.js"></script>
+
+{#
 <script type="application/javascript">
 	function resizeIFrameToFitContent(iFrame) {
 		iFrame.height = window.innerHeight;
@@ -44,10 +98,12 @@ layout: "bluepingu.11ty.js"
 		resizeIFrameToFitContent(iFrame);
 	});
 </script>
+#}
 
 <link rel="stylesheet" type="text/css" href="style.css" media="all">
 <style type="text/css" media="all">
-	html, body {
+	body,
+	html {
 		padding: 0;
 		margin: 0;
 	}
@@ -60,8 +116,22 @@ layout: "bluepingu.11ty.js"
 		margin: 2rem 0;
 	}
 
+	section.container {
+		margin: 8rem 0;
+	}
+
 	.container {
 		position: relative;
+	}
+
+	section h2 {
+		font-size: xx-large;
+		text-align: center;
+		margin: 2rem 0;
+	}
+
+	section.container.faq details {
+		margin-bottom: 1rem;
 	}
 
 	.cite.bubble {
@@ -124,7 +194,7 @@ layout: "bluepingu.11ty.js"
 	.thanks {
 		position: absolute;
 		top: 15%;
-		right: 20%;
+		left: 80%;
 		font-size: 2rem;
 		font-weight: bold;
 		color: orange;
@@ -143,8 +213,7 @@ layout: "bluepingu.11ty.js"
 		padding-bottom: 3rem !important;
 	}
 	main.section {
-		padding: 0;
-		padding-left: 0rem !important;
+		padding: 0 0 0 0 !important;
 	}
 
 	#werkstadt-fullscreen-btn {
@@ -176,7 +245,7 @@ layout: "bluepingu.11ty.js"
 
 		.cite.bubble {
 			max-width: 90%;
-			margin: 2rem auto 5rem auto;
+			margin: 2rem auto 5rem;
 		}
 
 		.introduction {
@@ -195,7 +264,7 @@ layout: "bluepingu.11ty.js"
 			right: 0;
 			rotate: 5deg;
 			justify-content: space-around;
-			margin: 2rem auto 4rem auto;
+			margin: 2rem auto 4rem;
 		}
 	}
 </style>

@@ -1,0 +1,124 @@
+{
+  "gender": [
+    {
+      "key": "w",
+      "value": 449
+    },
+    {
+      "key": "m",
+      "value": 381
+    },
+    {
+      "key": "d",
+      "value": 11
+    }
+  ],
+  "age": [
+    {
+      "key": "bis 20",
+      "value": 11
+    },
+    {
+      "key": "21-30",
+      "value": 83
+    },
+    {
+      "key": "31-40",
+      "value": 241
+    },
+    {
+      "key": "41-50",
+      "value": 165
+    },
+    {
+      "key": "51-60",
+      "value": 231
+    },
+    {
+      "key": "61-70",
+      "value": 88
+    },
+    {
+      "key": "70+",
+      "value": 28
+    }
+  ],
+  "location": [
+    {
+      "key": "Poppenreuth",
+      "value": 14
+    },
+    {
+      "key": "Stadeln",
+      "value": 19
+    },
+    {
+      "key": "Südstadt",
+      "value": 222
+    },
+    {
+      "key": "Innenstadt",
+      "value": 350
+    },
+    {
+      "key": "Vach",
+      "value": 5
+    },
+    {
+      "key": "Hardhöhe",
+      "value": 22
+    },
+    {
+      "key": "Ronhof",
+      "value": 20
+    },
+    {
+      "key": "Dambach",
+      "value": 43
+    },
+    {
+      "key": "Burgfarrnbach",
+      "value": 15
+    },
+    {
+      "key": "Espan",
+      "value": 10
+    },
+    {
+      "key": "Oberfürberg",
+      "value": 4
+    },
+    {
+      "key": "Eigenes Heim",
+      "value": 44
+    },
+    {
+      "key": "Stadtgrenze",
+      "value": 13
+    },
+    {
+      "key": "Ritzmannshof",
+      "value": 1
+    },
+    {
+      "key": "Westvorstadt",
+      "value": 18
+    },
+    {
+      "key": "Unterfürberg",
+      "value": 14
+    },
+    {
+      "key": "Atzenhof",
+      "value": 2
+    },
+    {
+      "key": "Unterfarrnbach",
+      "value": 13
+    },
+    {
+      "key": "Mannhof",
+      "value": 9
+    }
+  ]
+}
