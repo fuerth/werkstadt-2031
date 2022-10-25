@@ -1,7 +1,7 @@
 <script>
 	import BarChart from "./BarChart.svelte";
 	//import WordCloud from './WordCloud.svelte';
-	import DonatChart from "./DonatChart.svelte";
+	//import DonatChart from "./DonatChart.svelte";
 	
 	import { statisticsStore } from "../stores.js";
 
@@ -99,7 +99,8 @@
 			fontSize=16
 			xVertical=true 
 			color="#6bbda5"/> -->
-		<DonatChart data={dataLocation} />
+		<img src="./location_statistics.svg" alt="" width="80%"/>
+		<!-- <DonatChart data={dataLocation} /> -->
 	</section>
 </div>
 

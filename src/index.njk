@@ -3,8 +3,10 @@ layout: "bluepingu.11ty.js"
 ---
 
 <header>
-	<h1>Werk Stadt Fürth 2031</h1>
-	<img class="banner image-embed-item" src="https://fuerth.bluepingu.de/fileadmin/_processed_/8/c/csm_WSF_Logo_2204_rgb_Mittel_7e059889c0.png" width="531" height="350" loading="lazy" alt="">
+	<img class="banner image-embed-item" 
+		src="https://fuerth.bluepingu.de/fileadmin/_processed_/8/c/csm_WSF_Logo_2204_rgb_Mittel_7e059889c0.png" loading="lazy" 
+		width="531" height="350" 
+		alt="Das 'Werk Stadt Fürth 2031' logo zeigt die Fasade mehrerer Fachwerkhäuser in Entstehung">
 </header>
 
 <section class="container">
@@ -30,7 +32,7 @@ layout: "bluepingu.11ty.js"
 <section class="container app">
 	{# embedd as svelte component #}
 	<div id="werkstadt-2031-app"></div>
-	
+
 	{# embed as iframe #}
 	{# 
 	<a href="./desktop/" id="werkstadt-fullscreen-btn">Vollbild ◹</a>
@@ -72,7 +74,10 @@ layout: "bluepingu.11ty.js"
 		<summary>Warum zeigt Ihr nur 3 Geschlechter?</summary>
 		<div>
 			<p>Diese Repräsentation ist nicht unsere Intention. Wir unterstützen jeglichen Ausdruck und jede Orientierung des eigenen Geschlechts.</p>
-			<p><em class="tag">#womanpower</em> <em class="tag">#geschlechtergleichberechtigung</em></p>
+			<p>
+				<em class="tag">#womanpower</em>
+				<em class="tag">#geschlechtergleichberechtigung</em>
+			</p>
 		</div>
 	</details>
 </section>
@@ -97,7 +102,8 @@ layout: "bluepingu.11ty.js"
 
 <link rel="stylesheet" type="text/css" href="style.css" media="all">
 <style type="text/css" media="all">
-	html, body {
+	body,
+	html {
 		padding: 0;
 		margin: 0;
 	}
@@ -207,8 +213,7 @@ layout: "bluepingu.11ty.js"
 		padding-bottom: 3rem !important;
 	}
 	main.section {
-		padding: 0;
-		padding-left: 0rem !important;
+		padding: 0 0 0 0 !important;
 	}
 
 	#werkstadt-fullscreen-btn {
@@ -240,7 +245,7 @@ layout: "bluepingu.11ty.js"
 
 		.cite.bubble {
 			max-width: 90%;
-			margin: 2rem auto 5rem auto;
+			margin: 2rem auto 5rem;
 		}
 
 		.introduction {
@@ -259,7 +264,7 @@ layout: "bluepingu.11ty.js"
 			right: 0;
 			rotate: 5deg;
 			justify-content: space-around;
-			margin: 2rem auto 4rem auto;
+			margin: 2rem auto 4rem;
 		}
 	}
 </style>

@@ -6,6 +6,16 @@ const cheerio = require('cheerio');
 const template = './tmp/werkstadt-2031.html';
 const templateUrl = 'https://fuerth.bluepingu.de/werkstadt-2031/';
 
+/* https://stackoverflow.com/a/36555927 */
+function replaceAll(str, find, replace) {
+	var $r = "";
+	while ($r != str) {
+		$r = str;
+		str = str.replace(find, replace);
+	}
+	return str;
+}
+
 /* This function loads html-code from the the "templateUrl"
  * cleans it up and uses it as a template for the generated html-code.
  * The original inner-content gets replaced by "data.content". */
@@ -40,7 +50,7 @@ module.exports = async function(data) {
 	let parsed = absolutify(html, templateUrlBase);
 
 	// sadly absolutify breaks the glyphicons. Lets fix this!
-	parsed = parsed.replaceAll(`xlink:href="${templateUrlBase}/#`, 'xlink:href="#');
+	parsed = replaceAll(parsed, `xlink:href="${templateUrlBase}/#`, 'xlink:href="#');
 
 	const $ = cheerio.load(parsed);
 

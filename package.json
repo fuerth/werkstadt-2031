@@ -11,9 +11,6 @@
     "build:svelte": "rollup -c",
     "genData": "node ./data/genData.js"
   },
-  "engines": {
-    "node": ">=18"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fuerth/werkstadt-2031.git"

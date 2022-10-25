@@ -155,4 +155,8 @@ h3.wsf-barchart__title {
 svg.wsf-barchart__chart {
 	font-family: Arial, sans-serif;
 }
+
+svg.wsf-barchart__chart rect:hover {
+	opacity: 0.5;
+}
 </style>

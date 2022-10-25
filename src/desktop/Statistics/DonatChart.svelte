@@ -9,6 +9,8 @@
 	import * as d3 from 'd3';
 	import { onMount } from "svelte";
 
+	export let width = 960;
+	export let height = 500;
 	export let data = [];
 
 	let el;
@@ -36,8 +38,8 @@
 		});
 
 		donutChart = D3DonutChart()
-			.width(960)
-			.height(500)
+			.width(width)
+			.height(height)
 			.transTime(750) // length of transitions in ms
 			.cornerRadius(3) // sets how rounded the corners are on each slice
 			.padAngle(0.015) // effectively dictates the gap between slices
@@ -290,7 +292,11 @@
 				}
 
 				function updateLabelText(d) {
-					return d.data[category] + ': <tspan>' + percentFormat(d.data[variable]) + '</tspan>';
+					return `
+						<tspan>${d.data[category]}</span>
+						<tspan>${ percentFormat(d.data[variable]) }</tspan>
+						<tspan>Innenstadt, Westvorstadt</span>
+					`.replace(/\s+/g, ' ').trim();
 				}
 
 				// function that calculates transition path for label and also it's text anchoring
@@ -468,7 +474,7 @@
 	}
 
 	/*Styling for the lines connecting the labels to the slices*/
-	polyline{
+	polyline {
 		opacity: .3;
 		stroke: black;
 		stroke-width: 2px;
