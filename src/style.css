@@ -226,3 +226,7 @@ footer.copyright small {
 	height:1px;
 	overflow:hidden;
 }
+
+.wsf-donatchart {
+	font-weight: bold;
+}
