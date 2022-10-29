@@ -2,16 +2,15 @@
 	export let width = 960;
 	export let height = 500;
 	export let data = [];
-	export let fontSize = height*0.05;
+	export let fontSize = width*0.03;
 
-	let centerX = width / 2;
-	let centerY = height / 2;
-
-	$: radius = 150;
-	
+	$: centerX = width / 2;
+	$: centerY = height / 2;
 	$: viewBox = `0 0 ${width} ${height}`;
-
-	$: radiusDistance = 30;
+	$: radius = width*0.15;
+	$: radiusDistance = radius*0.25;
+	$: maxValue = data.reduce((sum, d) => sum+d.value, 0);
+	$: arcs = getArcs(data);
 	$: spacing = 1;
 
 	/**
@@ -25,6 +24,9 @@
 		};
 	}
 
+	/**
+	 * @see http://jsbin.com/quhujowota/1
+	 */
 	function describeArc(x, y, radius, startAngle, endAngle) {
 		var start = polarToCartesian(x, y, radius, endAngle);
 		var end = polarToCartesian(x, y, radius, startAngle);
@@ -37,12 +39,9 @@
 		return d;
 	}
 
-	$: maxValue = data.reduce((sum, d) => sum+d.value, 0);
-
-	let arcs = 0;
-	$: {
+	function getArcs(data) {
 		let lastAngle = 0;
-		arcs = data.map((arc, index) => {
+		return data.map((arc, index) => {
 			let percentage = arc.value / maxValue;
 			let startAngle = lastAngle
 			let endAngle = lastAngle = startAngle + 360 * percentage;
@@ -59,16 +58,14 @@
 				subTitle: arc.subTitle || arc.keys.join(', '),
 				value: arc.value,
 			};
-		})
+		});
 	}
 </script>
 
 <div class="wsf-donatchart">
 	{#if data && data.length}
 	<figure>
-		<svg width={width} height={height} {viewBox}>
-			<!-- <circle r={radius} cx={centerX} cy={centerY} stroke-width="1" stroke="lightgray" fill="none" /> -->
-
+		<svg width={width} height={height} {viewBox} >
 			{#each arcs as arc}
 			<path 
 				d={arc.d}
@@ -117,7 +114,7 @@
 				<p xmlns="http://www.w3.org/1999/xhtml"
 					style={[
 						`color: ${arc.color}`,
-						`font-size: ${fontSize*0.5}px`,
+						`font-size: ${fontSize*0.4}px`,
 						`line-height: ${fontSize*0.5}px`,
 						`text-align: ${arc.x > centerX ? 'left' : 'right'}`,
 					].join(';')}>
@@ -145,5 +142,7 @@
 </div>
 
 <style>
-
+.wsf-donatchart path:hover {
+	opacity: 0.5;
+}
 </style>

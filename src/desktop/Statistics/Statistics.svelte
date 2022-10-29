@@ -117,6 +117,10 @@
 			color="var(--werkstadt-purple)"/>
 	</section>
 	<section>
+		<DonatChart 
+			width=800 
+			height=500 
+			data={dataLocation} />
 		<!-- <WordCloud data={locationData} color="#6bbda5"/> -->
 		<!-- <BarChart 
 			data={datalocation} 
@@ -125,8 +129,6 @@
 			fontSize=16
 			xVertical=true 
 			color="#6bbda5"/> -->
-		<!-- <img src="./location_statistics.svg" alt="" width="80%"/> -->
-		<DonatChart data={dataLocation} />
 	</section>
 </div>
 

@@ -62,7 +62,8 @@ layout: "bluepingu.11ty.js"
 	}
 
 	section.container {
-		margin: 8rem 0;
+		margin: 2rem 0;
+		padding: 2rem 0;
 	}
 
 	.container {
@@ -175,6 +176,13 @@ layout: "bluepingu.11ty.js"
 		background-color: var(--werkstadt-background);
 	}
 
+	@media screen and (min-width: 1056px) {
+		.thanks {
+			left: 75%;
+		}
+	}
+
+
 	@media (max-width: 1024px) {
 		.pageTree-200 .section:not(.is-highlight) {
 			background-image: none;
@@ -205,6 +213,7 @@ layout: "bluepingu.11ty.js"
 		}
 
 		.thanks {
+			display: none;
 			position: relative;
 			top: 0;
 			right: 0;
