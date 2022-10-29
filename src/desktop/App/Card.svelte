@@ -29,7 +29,7 @@
 			classes = ['s', 'postit'];
 		} else if (textLength <= 200) {
 			classes = ['m', 'postit'];
-		} else if (textLength <= 270) {
+		} else if (textLength <= 300) {
 			classes = ['l', 'postit'];
 		} else if (textLength <= 450) {
 			classes = ['xl', 'postit'];
@@ -79,23 +79,24 @@
 		text-align: center;
 	}
 	.wsf-card.xs {
-		background:var(--card-color-2);
 		font-size: 2.2rem;
 		text-align: center;
+		background:var(--card-color-2);
 	}
 	.wsf-card.s {
 		font-family: "Reenie Beanie", monospace;
-		font-size: 1.5rem;
+		font-size: 1.6rem;
+		background: var(--werkstadt-orange);
 	}
 	.wsf-card.m {
 		background:var(--card-color-3);
-		font-size: 1.6rem;
+		font-size: 1.5rem;
 	}
 	.wsf-card.l {
-		font-size: 1.25rem;
+		width: 33.5rem;
+		font-size: 1.75rem;
 	}
 	.wsf-card.xl {
-		font-family: "Reenie Beanie", monospace;
 		width: 33.5rem;
 		font-size: 1.5rem;
 		transform: rotate(0deg);
@@ -181,4 +182,4 @@
 		box-shadow: 0px 2px 24px rgb(0 0 0 / 60%);
 		z-index: 999;
 	}
-  </style>
+</style>

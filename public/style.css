@@ -217,3 +217,16 @@ footer.copyright small {
 	margin: 2rem 0;
 	font-size: 0.7rem;
 }
+
+.sr-only {
+	position:absolute;
+	left:-10000px;
+	top:auto;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
+
+.wsf-donatchart {
+	font-weight: bold;
+}

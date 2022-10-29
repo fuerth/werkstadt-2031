@@ -1,27 +1,51 @@
 <script>
 	import BarChart from "./BarChart.svelte";
 	//import WordCloud from './WordCloud.svelte';
-	//import DonatChart from "./DonatChart.svelte";
+	import DonatChart from "./DonatChart.svelte";
 	
 	import { statisticsStore } from "../stores.js";
 
 	let dataLocation = [];
+	let ageSubtitle = null;
+	let genderSubtitle = null;
 
 	$: ageData = $statisticsStore.age || [];
 	$: genderData = $statisticsStore.gender || [];
 	$: locationData = $statisticsStore.location || [];
 
-	$: dataAge = ageData.reduce((data, entry) => ({
-		...data,
-		[entry.key]: entry.value
-	}), {});
+	$: dataAge = ageData
+		.filter(entry => entry.key !== 'unknown')
+		.reduce((data, entry) => ({
+			...data,
+			[entry.key]: entry.value
+		}), {});
 
-	$: dataGender = genderData.reduce((data, entry) => ({
-		...data,
-		[entry.key]: entry.value
-	}), {});
+	$: {
+		const unknownEntry = ageData ? ageData.find(entry => entry.key === 'unknown') : null;
+		const unknownCount = unknownEntry ? unknownEntry.value : null;
+		ageSubtitle = unknownCount 
+			? `${unknownCount} ${unknownCount > 1 ? 'Menschen' 
+			: 'Mensch'} haben keine Angabe gemacht` : null;
+	}
 
-	$: locationSum = locationData.map(d => d.value).reduce((a, b) => a + b, 0);
+	$: dataGender = genderData
+		.filter(entry => entry.key !== 'unknown')
+		.reduce((data, entry) => ({
+			...data,
+			[entry.key]: entry.value
+		}), {});
+
+	$: {
+		const unknownEntry = genderData? genderData.find(entry => entry.key === 'unknown') : null;
+		const unknownCount = unknownEntry ? unknownEntry.value : null;
+		genderSubtitle = unknownCount 
+			? `${unknownCount} ${unknownCount > 1 ? 'Menschen' 
+			: 'Mensch'} haben keine Angabe gemacht` : null;
+	}
+
+	$: locationSum = locationData
+		.map(d => d.value)
+		.reduce((a, b) => a + b, 0);
 
 	$: {
 		const groups = [
@@ -29,31 +53,31 @@
 				key: "Zentrum",
 				keys: ["Innenstadt", "Westvorstadt"],
 				value: 0,
-				color: "#FF0000"
-			},
-			{
-				key: "Norden",
-				keys: ["Vach", "Stadeln", "Ronhof", "Mannhof", "Ritzmannshof", "Atzenhof"],
-				value: 0,
-				color: "#00FF00"
+				color: "rgba(60, 188, 150, 1)",
 			},
 			{
 				key: "Osten",
 				keys: ["Stadtgrenze", "Poppenreuth", "Espan"],
 				value: 0,
-				color: "#FF0000"
+				color: "rgba(60, 188, 150, 0.4)",
 			},
 			{
 				key: "Süden",
 				keys: ["Südstadt", "Dambach"],
 				value: 0,
-				color: "#00FF00"
+				color: "rgba(60, 188, 150, 0.9)",
+			},
+			{
+				key: "Norden",
+				keys: ["Vach", "Stadeln", "Ronhof", "Mannhof", "Ritzmannshof", "Atzenhof"],
+				value: 0,
+				color: "rgba(60, 188, 150, 0.6)",
 			},
 			{
 				key: "Westen",
 				keys: ["Hardhöhe", "Eigenes Heim","Burgfarrnbach","Oberfürberg","Unterfürberg","Unterfarrnbach"],
 				value: 0,
-				color: "#00FF00"
+				color: "rgba(60, 188, 150, 0.8)",
 			}
 		]
 
@@ -79,12 +103,14 @@
 	<section>
 		<BarChart 
 			title="Altersverteilung" 
+			subtitle={ageSubtitle} 
 			data={dataAge} 
 			width=480 
 			height=320 
 			color="var(--werkstadt-orange)"/>
 		<BarChart 
-			title="Gender" 
+			title="Geschlecht" 
+			subtitle={genderSubtitle}
 			data={dataGender} 
 			width=320 
 			height=320
@@ -99,8 +125,8 @@
 			fontSize=16
 			xVertical=true 
 			color="#6bbda5"/> -->
-		<img src="./location_statistics.svg" alt="" width="80%"/>
-		<!-- <DonatChart data={dataLocation} /> -->
+		<!-- <img src="./location_statistics.svg" alt="" width="80%"/> -->
+		<DonatChart data={dataLocation} />
 	</section>
 </div>
 
@@ -111,4 +137,10 @@
 		justify-content: center;
 		gap: 1rem;
 	}
+
+@media (max-width: 1024px) {
+	section {
+		flex-direction: column;
+	}
+}
 </style>
