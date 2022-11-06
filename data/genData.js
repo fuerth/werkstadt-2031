@@ -186,6 +186,9 @@ function getStatisticsFromData(data){
 		&& location !== "x") {
 			locationValue = locationMap.get(location) || 0;
 			locationMap.set(location, locationValue + 1);
+		} else {
+			locationValue = locationMap.get('unknown') || 0;
+			locationMap.set('unknown', locationValue + 1);
 		}
 	});
 

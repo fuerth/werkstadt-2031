@@ -93,16 +93,19 @@
 		font-size: 1.5rem;
 	}
 	.wsf-card.l {
-		width: 33.5rem;
+		width: 100%;
+		max-width: 33.5rem;
 		font-size: 1.75rem;
 	}
 	.wsf-card.xl {
-		width: 33.5rem;
+		width: 100%;
+		max-width: 33.5rem;
 		font-size: 1.5rem;
 		transform: rotate(0deg);
 	}
 	.wsf-card.xxl {
-		width: 33.5rem;
+		width: 100%;
+		max-width: 33.5rem;
 		min-height: 33.5rem;
 		transform: rotate(0deg);
 	}

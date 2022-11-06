@@ -9,8 +9,6 @@
 	export let fontSize = Math.abs(height*0.06);
 	export let subtitle = null;
 
-	const DEBUG = false;
-
 	const marginTop = height*0.1;
 	const marginBottom = xVertical ? height*0.3: height*0.1;
 	const marginRight = width*0.15;
@@ -23,12 +21,12 @@
 	$: labelsHeight = fontSize*2;
 	$: canvasHeight = chartHeight - labelsHeight;
 
-	$: barCount = Object.keys(data).length;
+	$: barCount = data.length;
 
-	$: bars = Object.keys(data).map(key => {
+	$: bars = data.map(entry => {
 		return {
-			label: `${key}`,
-			value: data[key],
+			label: `${entry.key}`,
+			value: entry.value,
 		}
 	});
 
@@ -41,38 +39,14 @@
 
 <div class="wsf-barchart">
 	{#if title}
-	<h3 class="wsf-barchart__title" style="font-size:{fontSize}px;background-color:{color}">{title}</h3>
-	{/if}
-
-	{#if DEBUG}
-	<dl>
-		<dt>maxValue</dt><dd>{maxValue}</dd>
-		<dt>barCount</dt><dd>{barCount}</dd>
-		<dt>barWidth</dt><dd>{barWidth}</dd>
-		<dt>barSpacing</dt><dd>{barSpacing}</dd>
-	</dl>
+	<h3 class="wsf-barchart__title" style="background-color:{color}">{title}</h3>
 	{/if}
 
 	<figure>
-		<svg class="wsf-barchart__chart" {width} {height} viewBox="0 0 {width} {height}">
-			{#if DEBUG}
-			<!-- show the drawing canvas -->
-			<rect 
-				x={marginLeft}
-				y={marginTop}
-				width={chartWidth}
-				height={canvasHeight}
-				style:fill="transparent" style:stroke="red"
-			/>
-			<!-- show the labels area -->
-			<rect 
-				x={marginLeft}
-				y={marginTop+canvasHeight}
-				width={chartWidth}
-				height={labelsHeight}
-				style:fill="transparent" style:stroke="green"
-			/>
-			{/if}
+		<svg class="wsf-barchart__chart"
+			width="100%"
+			height="100%"
+			viewBox="0 0 {width} {height}">
 
 			{#if !bars || !bars.length }
 			<text
@@ -105,11 +79,9 @@
 					: (marginTop + canvasHeight + fontSize*.75)
 					
 				}
-
 				dominant-baseline="{ xVertical ? 'start' : 'middle' }"
 				text-anchor="{ xVertical ? 'start' : 'middle' }"
 				writing-mode="{ xVertical ? 'tb' : 'lr'}"
-
 				style:fill={color}
 				style:font-size={fontSize + 'px'}
 				style:font-weight="bold"
@@ -152,16 +124,16 @@
 .wsf-barchart {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	justify-content: center;
-	background-color: rgba(0, 0, 0, 0);
 }
-
 h3.wsf-barchart__title {
 	color: white;
 	padding: 0.25em 1em;
 	border-radius: 0.75em;
+	font-size: 150%;
 	font-weight: bold;
+	max-width: fit-content;
+	margin: 0 auto;
 }
 svg.wsf-barchart__chart {
 	font-family: Arial, sans-serif;
