@@ -4,7 +4,7 @@
   "description": "show results of the survey 'Werkstadt Fürth 2031'",
   "scripts": {
     "11ty": "eleventy --serve",
-    "start": "sirv public --no-clear",
+    "start": "sirv docs --no-clear",
     "dev": "rollup -c -w",
     "build": "npm run build:11ty && npm run build:svelte",
     "build:11ty": "eleventy",
