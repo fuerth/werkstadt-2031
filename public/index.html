@@ -177,6 +177,17 @@
 		</p>
 	</cite>
 </details>
+
+<details id="faq-geschlechter">
+	<summary>Cool, wer hat das Programmiert?</summary>
+	<cite>
+		<p>Ehrenamtlich programmiert mit ❤️ von <a href="https://github.com/mojoaxel">Alexander Wunschik</a> von <a href="https://fullstax.de">fullstax</a>.</p>
+		<p>
+			Die Webseite ist <em class="tag">#OpenSource</em> und kann auf <a href="https://github.com/fuerth/werkstadt-2031">GitHub</a> eingesehen werden.
+			Verbesserungsvorschläge sind jederzeit willkommen.
+		</p>
+	</cite>
+</details>
 	</section>
 
 	<section id="sponsors" class="container sponsors">
@@ -285,6 +296,7 @@
 	}
 	header img.banner {
 		margin: 0;
+		max-width: 100%;
 	}
 
 	section.container {
@@ -300,6 +312,10 @@
 		font-size: xx-large;
 		text-align: center;
 		margin: 2rem 0;
+		margin-left: 0;
+	}
+	section h2.title {
+		margin-left: 0;
 	}
 
 	section.container.faq details {
@@ -366,7 +382,7 @@
 	.thanks {
 		position: absolute;
 		top: 15%;
-		left: 65%;
+		left: 60%;
 		font-size: 2rem;
 		line-height: 2rem;
 		font-weight: bold;
@@ -383,6 +399,7 @@
 
 	main {
 		width: 100%;
+		overflow: hidden;
 		padding-bottom: 3rem !important;
 	}
 	main.section {
@@ -404,7 +421,8 @@
 
 	@media screen and (min-width: 1056px) {
 		.thanks {
-			left: 75%;
+			top: 25%;
+			left: 65%;
 		}
 	}
 

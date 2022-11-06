@@ -1,6 +1,5 @@
 <script>
 	import BarChart from "./BarChart.svelte";
-	//import WordCloud from './WordCloud.svelte';
 	import DonatChart from "./DonatChart.svelte";
 	
 	import { statisticsStore } from "../stores.js";
@@ -8,44 +7,43 @@
 	let dataLocation = [];
 	let ageSubtitle = null;
 	let genderSubtitle = null;
+	let locationSubtitle = null;
 
 	$: ageData = $statisticsStore.age || [];
 	$: genderData = $statisticsStore.gender || [];
 	$: locationData = $statisticsStore.location || [];
 
-	$: dataAge = ageData
-		.filter(entry => entry.key !== 'unknown')
-		.reduce((data, entry) => ({
-			...data,
-			[entry.key]: entry.value
-		}), {});
+	$: dataAge = ageData.filter(entry => entry.key !== 'unknown');
 
 	$: {
 		const unknownEntry = ageData ? ageData.find(entry => entry.key === 'unknown') : null;
 		const unknownCount = unknownEntry ? unknownEntry.value : null;
 		ageSubtitle = unknownCount 
-			? `${unknownCount} ${unknownCount > 1 ? 'Menschen' 
-			: 'Mensch'} haben keine Angabe gemacht` : null;
+			? `${unknownCount} ${unknownCount > 1 ? 'Menschen haben' 
+			: 'Mensch hat'} keine Angabe gemacht` : null;
 	}
 
-	$: dataGender = genderData
-		.filter(entry => entry.key !== 'unknown')
-		.reduce((data, entry) => ({
-			...data,
-			[entry.key]: entry.value
-		}), {});
+	$: dataGender = genderData.filter(entry => entry.key !== 'unknown');
 
 	$: {
 		const unknownEntry = genderData? genderData.find(entry => entry.key === 'unknown') : null;
 		const unknownCount = unknownEntry ? unknownEntry.value : null;
 		genderSubtitle = unknownCount 
-			? `${unknownCount} ${unknownCount > 1 ? 'Menschen' 
-			: 'Mensch'} haben keine Angabe gemacht` : null;
+			? `${unknownCount} ${unknownCount > 1 ? 'Menschen haben' 
+			: 'Mensch hat'} keine Angabe gemacht` : null;
 	}
 
 	$: locationSum = locationData
 		.map(d => d.value)
 		.reduce((a, b) => a + b, 0);
+
+	$: {
+		const unknownEntry = locationData? locationData.find(entry => entry.key === 'unknown') : null;
+		const unknownCount = unknownEntry ? unknownEntry.value : null;
+		locationSubtitle = unknownCount 
+			? `${unknownCount} ${unknownCount > 1 ? 'Menschen haben' 
+			: 'Mensch hat'} keine Angabe gemacht` : null;
+	}
 
 	$: {
 		const groups = [
@@ -83,7 +81,7 @@
 
 		for (const entry of locationData) {
 			let found = false;
-			for (const group of groups) {
+			for (const group of groups.filter(entry => entry.key !== 'unknown')) {
 				if (group.keys.includes(entry.key)) {
 					group.value += entry.value / locationSum;
 					found = true;
@@ -94,6 +92,7 @@
 			}
 		}
 
+		
 
 		dataLocation = groups;
 	}
@@ -101,34 +100,34 @@
 
 <div class="wsf-statistics">
 	<section>
-		<BarChart 
-			title="Altersverteilung" 
-			subtitle={ageSubtitle} 
-			data={dataAge} 
-			width=480 
-			height=320 
-			color="var(--werkstadt-orange)"/>
-		<BarChart 
-			title="Geschlecht" 
-			subtitle={genderSubtitle}
-			data={dataGender} 
-			width=320 
-			height=320
-			color="var(--werkstadt-purple)"/>
+		<div class="chart">
+			<BarChart 
+				title="Altersverteilung" 
+				subtitle={ageSubtitle} 
+				data={dataAge} 
+				width=480 
+				height=320 
+				color="var(--werkstadt-orange)"/>
+		</div>
+		<div class="chart">
+			<BarChart 
+				title="Geschlecht" 
+				subtitle={genderSubtitle}
+				data={dataGender} 
+				width=480 
+				height=320
+				color="var(--werkstadt-purple)"/>
+		</div>
 	</section>
 	<section>
-		<DonatChart 
-			width=800 
-			height=500 
-			data={dataLocation} />
-		<!-- <WordCloud data={locationData} color="#6bbda5"/> -->
-		<!-- <BarChart 
-			data={datalocation} 
-			width=960 
-			height=320 
-			fontSize=16
-			xVertical=true 
-			color="#6bbda5"/> -->
+		<div class="chart">
+			<DonatChart 
+				width=800 
+				height=500 
+				color="rgba(60, 188, 150, 1)" 
+				subtitle={locationSubtitle}
+				data={dataLocation} />
+		</div>
 	</section>
 </div>
 
@@ -138,6 +137,11 @@
 		flex-direction: row;
 		justify-content: center;
 		gap: 1rem;
+	}
+
+	section > .chart {
+		flex-grow: 1;
+		align-items: stretch;
 	}
 
 @media (max-width: 1024px) {

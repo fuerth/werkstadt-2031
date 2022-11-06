@@ -59,6 +59,7 @@ layout: "bluepingu.11ty.js"
 	}
 	header img.banner {
 		margin: 0;
+		max-width: 100%;
 	}
 
 	section.container {
@@ -74,6 +75,10 @@ layout: "bluepingu.11ty.js"
 		font-size: xx-large;
 		text-align: center;
 		margin: 2rem 0;
+		margin-left: 0;
+	}
+	section h2.title {
+		margin-left: 0;
 	}
 
 	section.container.faq details {
@@ -140,7 +145,7 @@ layout: "bluepingu.11ty.js"
 	.thanks {
 		position: absolute;
 		top: 15%;
-		left: 65%;
+		left: 60%;
 		font-size: 2rem;
 		line-height: 2rem;
 		font-weight: bold;
@@ -157,6 +162,7 @@ layout: "bluepingu.11ty.js"
 
 	main {
 		width: 100%;
+		overflow: hidden;
 		padding-bottom: 3rem !important;
 	}
 	main.section {
@@ -178,7 +184,8 @@ layout: "bluepingu.11ty.js"
 
 	@media screen and (min-width: 1056px) {
 		.thanks {
-			left: 75%;
+			top: 25%;
+			left: 65%;
 		}
 	}
 
