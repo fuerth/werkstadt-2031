@@ -144,7 +144,7 @@
 		align-items: stretch;
 	}
 
-@media (max-width: 1024px) {
+@media (max-width: 800px) {
 	section {
 		flex-direction: column;
 	}

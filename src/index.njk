@@ -19,21 +19,6 @@ layout: "bluepingu.11ty.js"
 <link rel="stylesheet" type="text/css" href="./desktop/build/bundle.css" media="all">
 <script defer src="./desktop/build/bundle.js"></script>
 
-{#
-<script type="application/javascript">
-	function resizeIFrameToFitContent(iFrame) {
-		iFrame.height = window.innerHeight;
-	}
-	window.addEventListener('DOMContentLoaded', function(e) {
-		const iFrame = document.getElementById('werkstadt-iframe');
-		window.addEventListener('resize', (event) => {
-			resizeIFrameToFitContent(iFrame);
-		});
-		resizeIFrameToFitContent(iFrame);
-	});
-</script>
-#}
-
 <link rel="stylesheet" type="text/css" href="style.css" media="all">
 <style type="text/css" media="all">
 	body,
@@ -196,8 +181,8 @@ layout: "bluepingu.11ty.js"
 		}
 
 		.container {
-			margin-left: 1rem;
-			margin-right: 1rem;
+			padding-left: 1rem;
+			padding-right: 1rem;
 		}
 
 		header h1 {

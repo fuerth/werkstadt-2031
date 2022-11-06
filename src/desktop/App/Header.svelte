@@ -52,4 +52,9 @@
 		color: white;
 	}
 
+@media (max-width: 1024px) {
+	header .grow h2 {
+		font-size: 2.5rem;
+	}
+}
 </style>
