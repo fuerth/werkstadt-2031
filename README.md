@@ -2,7 +2,7 @@
 
 ## Setup
 
-Needs node >= v18 (for native fetch support).
+Needs node >= v18 (for native `fetch` support).
 
 ## `npm run genData`
 
@@ -14,7 +14,7 @@ Call This after you updated `data/werkstadt_2031.csv`!
 
 Start the svelte dev-webserver.
 
-This is usefull while working on a svelte component.
+This is useful while working on a svelte component.
 ## `npm 11ty`
 
 Start the 11ty webserver.

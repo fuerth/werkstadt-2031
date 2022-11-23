@@ -52,6 +52,27 @@ module.exports = async function(data) {
 	// sadly absolutify breaks the glyphicons. Lets fix this!
 	parsed = replaceAll(parsed, `xlink:href="${templateUrlBase}/#`, 'xlink:href="#');
 
+	// remove unnecessary js to reduce loading time
+	[
+		'<script src="https://cdn.bluepingu.de/jquery/3.6.0/jquery-3.6.0.min.js"></script>',
+		'<script src="https://fuerth.bluepingu.de/typo3conf/ext/def_cookieconsent/Resources/Public/JavaScript/cookieconsent.js?1620639799"></script>',
+		'<script src="https://fuerth.bluepingu.de/typo3conf/ext/powermail/Resources/Public/JavaScript/Powermail/Form.min.js?1628678410"></script>',
+		'<script src="https://cdn.bluepingu.de/parsley/2.9.2/parsley.min.js"></script>',
+		'<script src="https://cdn.bluepingu.de/smoothscroll/2.2.0/jquery.smoothscroll.min.js"></script>',
+		'<script src="https://cdn.bluepingu.de/zebrapin/2.0.0/zebrapin.min.js"></script>',
+		'<script src="https://cdn.bluepingu.de/tooltipster/4.2.8/tooltipster.min.js"></script>',
+		'<script src="https://cdn.bluepingu.de/fancybox/3.5.7/jquery.fancybox.min.js"></script>',
+		'<script src="https://cdn.bluepingu.de/masterslider/2.81.9/masterslider.min.js"></script>',
+		'<script src="https://cdn.bluepingu.de/swiper/6.7.0/swiper-bundle.min.js"></script>',
+		'<script src="https://cdn.bluepingu.de/plyr/3.6.3/plyr.min.js"></script>',
+		'<script src="https://cdn.bluepingu.de/bulma-calendar/6.0.8/bulma-calendar.min.js"></script>',
+		'<script src="https://fuerth.bluepingu.de/typo3conf/ext/def_package/Resources/Public/JavaScript/jquery.minimal.js?1656596780"></script>',
+		'<script src="https://fuerth.bluepingu.de/typo3conf/ext/def_package/Resources/Public/JavaScript/jquery.www.js?1650970500"></script>',
+		'<script src="https://fuerth.bluepingu.de/typo3conf/ext/def_package/Resources/Public/JavaScript/jquery.forms.js?1643020119"></script>',
+	].forEach(scriptTag => {
+		parsed = parsed.replace(scriptTag, `<!-- ${scriptTag} -->`);
+	});
+
 	const $ = cheerio.load(parsed);
 
 	// remove the cookie popup (not needed here)
