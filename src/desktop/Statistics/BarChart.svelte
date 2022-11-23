@@ -59,13 +59,17 @@
 
 			<!-- draw the bars -->
 			{#each bars as bar, index}
-			<rect 
-				x={marginLeft + index*barWidth + index*barSpacing} 
-				y={marginTop + canvasHeight-((bar.value/maxValue)*canvasHeight)} 
-				width={barWidth} 
-				height={(bar.value/maxValue)*canvasHeight} 
-				style:fill={color} 
-			/>
+			<g>
+				<rect 
+					x={marginLeft + index*barWidth + index*barSpacing} 
+					y={marginTop + canvasHeight-((bar.value/maxValue)*canvasHeight)} 
+					width={barWidth} 
+					height={(bar.value/maxValue)*canvasHeight} 
+					style:fill={color} 
+					title={bar.value}
+				/>
+				<title>{bar.value}</title>
+			</g>
 			{/each}
 
 			<!-- draw the x-axes labels -->
