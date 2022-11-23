@@ -146,4 +146,13 @@ svg.wsf-barchart__chart {
 svg.wsf-barchart__chart rect:hover {
 	opacity: 0.5;
 }
+
+.sr-only {
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
 </style>

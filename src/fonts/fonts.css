@@ -7,6 +7,7 @@
 	font-family: 'Reenie Beanie';
 	font-style: normal;
 	font-weight: 400;
+	font-display: swap;
 	src: url('./reenie-beanie-v16-latin-regular.eot'); /* IE9 Compat Modes */
 	src: local(''),
 		url('./reenie-beanie-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -25,6 +26,7 @@
 	font-family: 'Shadows Into Light Two';
 	font-style: normal;
 	font-weight: 400;
+	font-display: swap;
 	src: url('./shadows-into-light-two-v13-latin-regular.eot'); /* IE9 Compat Modes */
 	src: local(''),
 		url('./shadows-into-light-two-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -43,6 +45,7 @@
 	font-family: 'Square Peg';
 	font-style: normal;
 	font-weight: 400;
+	font-display: swap;
 	src: url('./square-peg-v2-latin-regular.eot'); /* IE9 Compat Modes */
 	src: local(''),
 		url('./square-peg-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */

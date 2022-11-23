@@ -63,18 +63,16 @@
 		hyphens: auto;
 
 		box-shadow: 0px 2px 4px rgb(0 0 0 / 30%);
-		/*
-		transform: rotate(-4deg);
-		transition: transform 0.15s linear;
-		*/
+
+		font-family: "Comic Sans MS", "Comic Sans", "Gill Sans", 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif, serif, cursive;
 	}
 
 	.wsf-card {
-		font-family: "Square Peg", monospace;
+		font-family: "Square Peg";
 		font-size: 2rem;
 	}
 	.wsf-card.xxs {
-		font-family: "Shadows Into Light Two", monospace;
+		font-family: "Shadows Into Light Two";
 		font-size: 2rem;
 		text-align: center;
 	}
@@ -84,7 +82,7 @@
 		background:var(--card-color-2);
 	}
 	.wsf-card.s {
-		font-family: "Reenie Beanie", monospace;
+		font-family: "Reenie Beanie";
 		font-size: 1.6rem;
 		background: var(--werkstadt-orange);
 	}
