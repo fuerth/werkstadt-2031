@@ -5,7 +5,7 @@ layout: "bluepingu.11ty.js"
 	<a href="https://fuerth.bluepingu.de/werkstadt-2031/">Zurück zur Projektseite</a>
 </nav>
 <header>
-	<h1>Werkstadt Fürth 2031 – Nachfragen.Umdenken.Mitwirken</h1>
+	<h1>Werkstadt Fürth 2031 <span class="h1-sub">Nachfragen.Umdenken.Mitwirken</span></h1>
 	<img class="banner image-embed-item"
 		src="http://bluepingu.de/fileadmin/_processed_/8/c/csm_WSF_Logo_2204_rgb_Mittel_7e059889c0.png" loading="lazy"
 		width="531" height="350"
@@ -33,9 +33,14 @@ layout: "bluepingu.11ty.js"
 
 	nav#results-nav {
 		margin: 1rem 0;
+		font-size: 1.5rem;
+	}
+	nav#results-nav a {
+		color: var(--werkstadt-orange);
 	}
 	nav#results-nav a:before {
 		content: "« ";
+		font-weight: bold;
 	}
 
 	header {
@@ -50,6 +55,9 @@ layout: "bluepingu.11ty.js"
 		line-height: 1.25;
 		margin: 1rem 0 3rem 0;
 		text-align: left;
+	}
+	header h1 span.h1-sub:before {
+		content: "– ";
 	}
 	header img.banner {
 		margin: 0;
@@ -195,7 +203,16 @@ layout: "bluepingu.11ty.js"
 		}
 
 		header h1 {
-			margin: 3rem 0;
+			margin: 1rem 0 3rem 0;
+		}
+		header h1 span.h1-sub {
+			display: block;
+			font-size: 1.75rem;
+			font-weight: 400;
+			margin-top: 0;
+		}
+		header h1 span.h1-sub:before {
+			content: "";
 		}
 
 		.cite.bubble {
