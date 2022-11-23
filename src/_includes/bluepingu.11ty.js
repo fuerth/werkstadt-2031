@@ -55,9 +55,6 @@ module.exports = async function(data) {
 	// remove unnecessary links to reduce loading time
 	[
 		'<link rel="stylesheet" type="text/css" href="https://fuerth.bluepingu.de/typo3conf/ext/def_cookieconsent/Resources/Public/Css/cookieconsent.css?1626256420" media="all">',
-		'<link rel="stylesheet" type="text/css" href="https://fuerth.bluepingu.de/typo3conf/ext/def_package/Resources/Public/Fonts/open-sans/17/font_open-sans.css?1586015357" media="all">',
-		'<link rel="stylesheet" type="text/css" href="https://fuerth.bluepingu.de/typo3conf/ext/def_package/Resources/Public/Fonts/sen/1/font_sen.css?1585918353" media="all">',
-		'<link rel="stylesheet" type="text/css" href="https://fuerth.bluepingu.de/typo3conf/ext/def_package/Resources/Public/Fonts/mali/4/font_mali.css?1615222076" media="all">',
 		'<link rel="stylesheet" type="text/css" href="https://cdn.bluepingu.de/tooltipster/4.2.8/tooltipster.css" media="all">',
 		'<link rel="stylesheet" type="text/css" href="https://cdn.bluepingu.de/fancybox/3.5.7/fancybox.css" media="all">',
 		'<link rel="stylesheet" type="text/css" href="https://cdn.bluepingu.de/masterslider/2.81.9/style/masterslider.css" media="all">',
