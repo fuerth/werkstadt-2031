@@ -1,0 +1,53 @@
+/* reenie-beanie-regular - latin
+ * SIL Open Font License, 1.1 (https://fonts.google.com/attribution)
+ * Copyright (c) 2010 Typeco (james@typeco.com). All rights reserved.
+ * http://google-webfonts-helper.herokuapp.com/fonts/reenie-beanie?subsets=latin
+ */
+@font-face {
+	font-family: 'Reenie Beanie';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./reenie-beanie-v16-latin-regular.eot'); /* IE9 Compat Modes */
+	src: local(''),
+		url('./reenie-beanie-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('./reenie-beanie-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./reenie-beanie-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+		url('./reenie-beanie-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./reenie-beanie-v16-latin-regular.svg#ReenieBeanie') format('svg'); /* Legacy iOS */
+}
+
+/* shadows-into-light-two-regular - latin
+ * SIL Open Font License, 1.1 (https://fonts.google.com/attribution)
+ * Copyright (c) 2012, Kimberly Geswein.
+ * http://google-webfonts-helper.herokuapp.com/fonts/shadows-into-light-two?subsets=latin
+ */
+@font-face {
+	font-family: 'Shadows Into Light Two';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./shadows-into-light-two-v13-latin-regular.eot'); /* IE9 Compat Modes */
+	src: local(''),
+		url('./shadows-into-light-two-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('./shadows-into-light-two-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./shadows-into-light-two-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+		url('./shadows-into-light-two-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./shadows-into-light-two-v13-latin-regular.svg#ShadowsIntoLightTwo') format('svg'); /* Legacy iOS */
+}
+
+/* square-peg-regular - latin
+ * SIL Open Font License, 1.1 (https://fonts.google.com/attribution)
+ * Copyright 1995-2021 The Square Peg Project Authors (https://github.com/googlefonts/square-peg)
+ * http://google-webfonts-helper.herokuapp.com/fonts/square-peg?subsets=latin
+ */
+@font-face {
+	font-family: 'Square Peg';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./square-peg-v2-latin-regular.eot'); /* IE9 Compat Modes */
+	src: local(''),
+		url('./square-peg-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('./square-peg-v2-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./square-peg-v2-latin-regular.woff') format('woff'), /* Modern Browsers */
+		url('./square-peg-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./square-peg-v2-latin-regular.svg#SquarePeg') format('svg'); /* Legacy iOS */
+}

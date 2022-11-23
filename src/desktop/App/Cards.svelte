@@ -1,7 +1,5 @@
 <svelte:head>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-	<link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&amp;family=Shadows+Into+Light+Two&amp;family=Square+Peg&amp;display=swap" rel="stylesheet">
+	<link href="./fonts/fonts.css" rel="stylesheet">
 </svelte:head>
 
 <script>
