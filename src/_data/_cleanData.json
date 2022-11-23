@@ -463,7 +463,7 @@
   },
   {
     "ID": "11",
-    "text": "Vorkaufs-/Vormietrecht für Bürger:innen der Stadt auf Immobilien in Kombination mit reglementierten Wohnmarktpreisen (Bodenrichtwertentwicklung ist jährlich prozentual gedeckelt); wohnen ist ein Grundrecht und sollte nicht derart vom Turbokapitalismus vereinnahmt werden",
+    "text": "Vorkaufs-/Vormietrecht für Bürger:innen der Stadt auf Immobilien in Kombination mit reglementierten Wohnmarktpreisen (Bodenrichtwertentwicklung ist jährlich prozentual gedeckelt), wohnen ist ein Grundrecht und sollte nicht derart vom Turbokapitalismus vereinnahmt werden",
     "gender": "m",
     "age": "31-40",
     "location": "Innenstadt",
@@ -477,7 +477,7 @@
   },
   {
     "ID": "11",
-    "text": "Städtische Initiative oder Finanzierung zur Lebensmittelrettung/-verteilung; sollte nicht alleine von ehrenamtlichen ausgehen",
+    "text": "Städtische Initiative oder Finanzierung zur Lebensmittelrettung/-verteilung, sollte nicht alleine von ehrenamtlichen ausgehen",
     "gender": "m",
     "age": "31-40",
     "location": "Innenstadt",
@@ -504,7 +504,7 @@
   },
   {
     "ID": "11",
-    "text": "längere Öffnungszeiten in der Gusti (wichtig für unsere Nachtkultur und die jungen Menschen der Stadt; außerdem Konkurrenzfähigkeit zu Nürnberg/Erlangen)",
+    "text": "längere Öffnungszeiten in der Gusti (wichtig für unsere Nachtkultur und die jungen Menschen der Stadt, außerdem Konkurrenzfähigkeit zu Nürnberg/Erlangen)",
     "gender": "m",
     "age": "31-40",
     "location": "Innenstadt",
@@ -946,7 +946,7 @@
   },
   {
     "ID": "22",
-    "text": "viel mehr Fahrradwege und barrierefreie Unterführungen von der Südstadt in die Innenstadt; ;",
+    "text": "viel mehr Fahrradwege und barrierefreie Unterführungen von der Südstadt in die Innenstadt",
     "gender": "w",
     "age": "41-50",
     "location": "Südstadt",
@@ -971,7 +971,7 @@
   },
   {
     "ID": "22",
-    "text": "Halteverbote für Autos vor Schulen; Tempo 30 in der Stadt",
+    "text": "Halteverbote für Autos vor Schulen, Tempo 30 in der Stadt",
     "gender": "w",
     "age": "41-50",
     "location": "Südstadt",
@@ -1659,7 +1659,7 @@
   },
   {
     "ID": "45",
-    "text": "mehr Beteiligung und mehr Transparenz bei politischen Entscheidungen;",
+    "text": "mehr Beteiligung und mehr Transparenz bei politischen Entscheidungen",
     "gender": "w",
     "age": "51-60",
     "location": "Südstadt",
@@ -1670,7 +1670,7 @@
   },
   {
     "ID": "45",
-    "text": "NachbarschaftsmotiviererInnen installieren; leer stehenden Wohnraum angehen und vermeiden;",
+    "text": "NachbarschaftsmotiviererInnen installieren, leer stehenden Wohnraum angehen und vermeiden",
     "gender": "w",
     "age": "51-60",
     "location": "Südstadt",
@@ -2145,7 +2145,7 @@
   },
   {
     "ID": "62",
-    "text": "Weniger Auto- und Lieferwagenverkehr; mehr Grün.",
+    "text": "Weniger Auto- und Lieferwagenverkehr,\" mehr Grün.",
     "gender": "w",
     "age": "41-50",
     "location": "Innenstadt",
@@ -4239,7 +4239,7 @@
   },
   {
     "ID": "124",
-    "text": "Vertretung von regionalen Lebensmitteln auf dem Wochenmarkt; gefördert von der Stadt; nicht nur Großmarkt- Stände",
+    "text": "Vertretung von regionalen Lebensmitteln auf dem Wochenmarkt, gefördert von der Stadt, nicht nur Großmarkt- Stände",
     "gender": "w",
     "age": "31-40",
     "location": "Innenstadt",
@@ -5100,7 +5100,7 @@
   },
   {
     "ID": "147",
-    "text": "Ein Baggersee wäre auch noch schön ;)",
+    "text": "Ein Baggersee wäre auch noch schön",
     "gender": "w",
     "age": "41-50",
     "location": "Südstadt",
@@ -6076,7 +6076,7 @@
   },
   {
     "ID": "176",
-    "text": "Autos raus aus der Stadt;",
+    "text": "Autos raus aus der Stadt",
     "gender": "m",
     "age": "61-70",
     "location": "Poppenreuth",
@@ -6166,6 +6166,7 @@
     "gender": "w",
     "age": "21-30",
     "location": "Westvorstadt",
+    "field67": "x",
     "categories": [
       "parks.gruenestadt",
       "politik.klimawandel"
@@ -6210,6 +6211,7 @@
     "gender": "w",
     "age": "21-30",
     "location": "Westvorstadt",
+    "field68": "x",
     "categories": [
       "politik.foerderung",
       "bildung.bildung"
@@ -6762,7 +6764,7 @@
   },
   {
     "ID": "188",
-    "text": "öffentlichen Nahverkehr behindertengerecht gestalten (in Max 5 Jahren)",
+    "text": " öffentlichen Nahverkehr behindertengerecht gestalten (in Max 5 Jahren)",
     "gender": "w",
     "age": "51-60",
     "location": "Dambach",
@@ -7016,6 +7018,7 @@
     "gender": "m",
     "age": "51-60",
     "location": "Südstadt",
+    "field67": "x",
     "categories": [
       "gesellschaft.wohnraum",
       "gesellschaft.gerechtigkeit"
@@ -7112,6 +7115,7 @@
     "gender": "m",
     "age": "31-40",
     "location": "Innenstadt",
+    "field67": "x",
     "categories": [
       "wirtschaft.einzelhandel"
     ]
@@ -7711,7 +7715,11 @@
     ]
   },
   {
+    "ID": "218",
     "text": " Schaffung von Raum für \"Subkultur\" in der Feuerwache mit Konzert\"halle\" für ca. 200 Menschen",
+    "gender": "m",
+    "age": "51-60",
+    "location": "Südstadt",
     "categories": [
       "gesellschaft.gerechtigkeit"
     ]
@@ -9707,7 +9715,6 @@
     "age": "38",
     "location": "Innenstadt",
     "categories": [
-      "mobilitaet.verkehrsfluss",
       "mobilitaet.mobilitaet",
       "mobilitaet.individualverkehr",
       "mobilitaet.tempo30",
@@ -10137,7 +10144,6 @@
   {
     "ID": "305",
     "text": "kostenlose Energieversorgung für alle",
-    "age": "x",
     "categories": [
       "infrastruktur.energieversorgung",
       "infrastruktur.infrastruktur"
@@ -10157,7 +10163,6 @@
   {
     "ID": "305",
     "text": "drei Bürgermeister (einen für Recht, einen für Bildung einen für Gesundheit und Natur)",
-    "age": "x",
     "categories": [
       "politik.politik"
     ]
@@ -10165,25 +10170,20 @@
   {
     "ID": "306",
     "text": "Autohäuser und Supermarktflächen als Grünflächen und Gemeinschaftsgärten",
-    "age": "x",
     "categories": [
-      "stadtbild.muell",
       "stadtbild.stadtbild",
       "stadtbild.stadtgestaltung",
       "politik.stadtplanung",
       "stadtbild.lebenswert",
-      "parks.gruenestadt",
-      "gesellschaft.gemeinschaft"
+      "parks.gruenestadt"
     ]
   },
   {
     "ID": "306",
     "text": "einfacherer und inklusiverer Zugang zu Kultur",
     "categories": [
-      "gesellschaft.gemeinschaft",
-      "kultur.kulturangebot",
-      "raeume.werkstaetten",
-      "raeume.kreativraeume"
+      "gesellschaft.inklusion",
+      "kultur.kulturangebot"
     ]
   },
   {
@@ -10194,7 +10194,9 @@
       "politik.engagement",
       "politik.strukturen",
       "raeume.raeume",
-      "raeume.werkstaetten"
+      "raeume.werkstaetten",
+      "raeume.kreativraeume",
+      "raeume.experimentierraeume"
     ]
   },
   {
@@ -10209,21 +10211,16 @@
   {
     "ID": "306",
     "text": "Ökologie und Umwelt als Schulfach",
-    "age": "x",
     "categories": [
-      "parks.gruenestadt",
       "umwelt.umwelt",
-      "raeume.werkstaetten",
+      "gesellschaft.Jugend",
       "bildung.bildung"
     ]
   },
   {
     "ID": "307",
     "text": "Regenwasserfilter für alle Haushalte",
-    "age": "x",
     "categories": [
-      "wirtschaft.carsharing",
-      "mobilitaet.tempo30",
       "umwelt.umwelt"
     ]
   },
@@ -10231,7 +10228,7 @@
     "ID": "307",
     "text": "Energieversorgung günstiger zur Verfügung stellen",
     "categories": [
-      "politik.flaechen"
+      "infrastruktur.energieversorgung"
     ]
   },
   {
@@ -10246,7 +10243,6 @@
     "ID": "308",
     "text": "Wohnraum günstiger zur Verfügung stellen",
     "categories": [
-      "politik.flaechen",
       "gesellschaft.wohnraum",
       "politik.foerderung"
     ]
@@ -10262,10 +10258,8 @@
   {
     "ID": "309",
     "text": "Gemeinschaft statt Egoismus fördern",
-    "age": "x",
     "categories": [
-      "politik.stadtplanung",
-      "gesellschaft.Jugend",
+      "gesellschaft.gesellschaft",
       "gesellschaft.gemeinschaft"
     ]
   },
@@ -10283,14 +10277,14 @@
     "text": "Hürden verringern für ökologisches Engagement",
     "categories": [
       "umwelt.umwelt",
-      "politik.foerderung"
+      "politik.foerderung",
+      "politik.engagement"
     ]
   },
   {
     "ID": "311",
     "text": "Autos raus aus der Innenstadt",
     "categories": [
-      "mobilitaet.oepnv",
       "mobilitaet.mobilitaet",
       "stadtbild.autofrei"
     ]
@@ -10298,7 +10292,6 @@
   {
     "ID": "311",
     "text": "Sauberkeit an der Uferpromenade sollte besser werden",
-    "gender": "x",
     "categories": [
       "stadtbild.muell",
       "umwelt.umwelt"
@@ -10308,7 +10301,7 @@
     "ID": "312",
     "text": "weniger Radwege",
     "categories": [
-      "mobilitaet.verkehrsfluss",
+      "mobilitaet.radwege",
       "mobilitaet.verkehrsnetz",
       "stadtbild.stadtbild"
     ]
@@ -10324,16 +10317,20 @@
     "ID": "313",
     "text": "Uferpromenade an der Pegnitz einrichten",
     "categories": [
-      "parks.parks",
-      "raeume.raeume"
+      "stadtbild.stadtbild",
+      "stadtbild.stadtgestaltung",
+      "parks.parks"
     ]
   },
   {
     "ID": "313",
     "text": "Kofferfabrik nicht schließen oder umsiedeln",
     "categories": [
+      "politik.foerderung",
       "kultur.kulturangebot",
-      "kultur.freizeit"
+      "kultur.freizeit",
+      "raeume.raeume",
+      "raeume.kreativraeume"
     ]
   },
   {
@@ -10347,9 +10344,9 @@
   {
     "ID": "314",
     "text": "ÖPNV ausbauen (insb. Anbindung an Städte der Region - aus Vach ist es sehr schwierig)",
-    "location": "x",
     "categories": [
       "mobilitaet.oepnv",
+      "mobilitaet.verkehrsnetz",
       "mobilitaet.mobilitaet"
     ]
   },
@@ -10357,6 +10354,7 @@
     "ID": "314",
     "text": "Radwegenetz erweitern",
     "categories": [
+      "mobilitaet.radwege",
       "mobilitaet.verkehrsnetz",
       "mobilitaet.radverkehr"
     ]
@@ -10365,7 +10363,6 @@
     "ID": "314",
     "text": "nachhaltige Lebensmittel fördern und finanzierbar machen",
     "categories": [
-      "politik.flaechen",
       "wirtschaft.konsum",
       "wirtschaft.einzelhandel",
       "politik.foerderung"
@@ -10376,7 +10373,7 @@
     "text": "Förderung nachhaltiger Läden und Konzepte",
     "categories": [
       "wirtschaft.konsum",
-      "umwelt.umwelt",
+      "wirtschaft.einzelhandel",
       "politik.foerderung"
     ]
   },
@@ -10386,7 +10383,8 @@
     "categories": [
       "mobilitaet.oepnv",
       "mobilitaet.verkehrsnetz",
-      "stadtbild.autofrei"
+      "stadtbild.autofrei",
+      "wirtschaft.einzelhandel"
     ]
   },
   {
@@ -10401,7 +10399,6 @@
     "ID": "316",
     "text": "Radwege ausbauen",
     "categories": [
-      "mobilitaet.oepnv",
       "mobilitaet.radwege",
       "mobilitaet.mobilitaet"
     ]
@@ -10419,13 +10416,12 @@
     "text": "KITA-Plätze sind zu rar",
     "categories": [
       "gesellschaft.kinderbetreuung",
-      "gesellschaft.Jugend"
+      "politik.foerderung"
     ]
   },
   {
     "ID": "317",
     "text": "Natur soll bewahrt werden",
-    "age": "x",
     "categories": [
       "umwelt.umwelt",
       "politik.klimawandel"
@@ -10435,14 +10431,16 @@
     "ID": "317",
     "text": "Mieten sind hoch (Nachfrage ist hoch - viele Bewerber, auf wenig Angebot)",
     "categories": [
-      "gesellschaft.wohnraum"
+      "gesellschaft.wohnraum",
+      "gesellschaft.gerechtigkeit"
     ]
   },
   {
     "ID": "318",
     "text": "bessere Parkplatzsituation in der Innenstadt",
     "categories": [
-      "mobilitaet.mobilitaet"
+      "mobilitaet.mobilitaet",
+      "mobilitaet.Parken"
     ]
   },
   {
@@ -10472,7 +10470,7 @@
     "ID": "319",
     "text": "weniger Einbahnstraßen",
     "categories": [
-      "mobilitaet.verkehrsnetz",
+      "mobilitaet.verkehrsfluss",
       "mobilitaet.mobilitaet"
     ]
   },
@@ -10480,8 +10478,9 @@
     "ID": "319",
     "text": "Die Baustellen wegen des Glasfaserausbaus stören",
     "categories": [
+      "infrastruktur.digitalisierung",
       "stadtbild.sanierung",
-      "politik.flaechen"
+      "infrastruktur.Bauen"
     ]
   },
   {
@@ -10497,6 +10496,7 @@
     "text": "bezahlbare Wohnungen für Rentner",
     "categories": [
       "gesellschaft.wohnraum",
+      "gesellschaft.gerechtigkeit",
       "parks.hunde",
       "gesellschaft.senioren"
     ]
@@ -10504,9 +10504,9 @@
   {
     "ID": "320",
     "text": "bereitere Fuß- und Radwege am Scherbsgrabenbad",
-    "gender": "x",
     "categories": [
       "mobilitaet.radwege",
+      "mobilitaet.radverkehr",
       "mobilitaet.individualverkehr",
       "mobilitaet.fussgaenger",
       "politik.sicherheit"
@@ -10516,7 +10516,6 @@
     "ID": "320",
     "text": "Tempo30 in der Innenstadt",
     "categories": [
-      "mobilitaet.verkehrsfluss",
       "stadtbild.atmosphäre",
       "mobilitaet.tempo30"
     ]
@@ -10524,27 +10523,24 @@
   {
     "ID": "320",
     "text": "Einbahnstraßen an der Billinganlage statt kompliziertem Gegenverkehr (Solonstr. / Scherbsgraben Hallenbad Freibad Gegenverkehr in beide Richtungen)",
-    "gender": "x",
     "categories": [
       "mobilitaet.verkehrsfluss",
-      "mobilitaet.verkehrsnetz",
-      "mobilitaet.mobilitaet",
-      "mobilitaet.individualverkehr"
+      "mobilitaet.mobilitaet"
     ]
   },
   {
     "ID": "320",
     "text": "Poller am Freibad oder Fußgängerzone/ Anlieger aus Sicherheitsgründen",
-    "gender": "x",
     "categories": [
-      "mobilitaet.verkehrsfluss"
+      "mobilitaet.verkehrsfluss",
+      "politik.sicherheit"
     ]
   },
   {
     "ID": "320",
     "text": "Park an Ride an der U-Bahn Stadthalle",
-    "gender": "x",
     "categories": [
+      "mobilitaet.verkehrsnetz",
       "mobilitaet.mobilitaet",
       "wirtschaft.carsharing",
       "mobilitaet.individualverkehr"
@@ -10553,7 +10549,6 @@
   {
     "ID": "321",
     "text": "anderes Geldsystem",
-    "age": "x",
     "categories": [
       "gesellschaft.gerechtigkeit",
       "politik.politik"
@@ -10562,7 +10557,6 @@
   {
     "ID": "321",
     "text": "Weltfrieden",
-    "age": "x",
     "categories": [
       "politik.politik"
     ]
@@ -10570,26 +10564,20 @@
   {
     "ID": "321",
     "text": "eigene Währung in Fürth",
-    "age": "x",
     "categories": [
-      "gesellschaft.inklusion",
-      "umwelt.umwelt",
       "politik.politik"
     ]
   },
   {
     "ID": "321",
     "text": "Gegenwert zum Geld (Tausch)",
-    "age": "x",
     "categories": [
-      "politik.politik",
-      "kultur.freizeit"
+      "politik.politik"
     ]
   },
   {
     "ID": "322",
     "text": "Fahrradfreundlich und gute Anbindung an Öffis",
-    "location": "x",
     "categories": [
       "mobilitaet.oepnv",
       "mobilitaet.radwege"
@@ -10616,9 +10604,9 @@
     "ID": "322",
     "text": "Besseres Nightlife (Discos, Kneipen, ...)",
     "categories": [
-      "stadtbild.muell",
       "kultur.nachtleben",
-      "gesellschaft.begegnung"
+      "gesellschaft.begegnung",
+      "kultur.kulturangebot"
     ]
   },
   {
@@ -10635,7 +10623,8 @@
       "stadtbild.stadtbild",
       "stadtbild.autofrei",
       "stadtbild.stadtgestaltung",
-      "parks.gruenestadt"
+      "parks.gruenestadt",
+      "umwelt.umwelt"
     ]
   },
   {
@@ -10644,7 +10633,9 @@
     "categories": [
       "gesellschaft.gemeinschaft",
       "kultur.nachtleben",
-      "kultur.kulturangebot"
+      "kultur.kulturangebot",
+      "kultur.freizeit",
+      "raeume.raeume"
     ]
   },
   {
@@ -10659,7 +10650,6 @@
   {
     "ID": "326",
     "text": "Gewaltfreie Schulen, verbundenes Lernen, Lehrer als Mentor und Coach",
-    "age": "x",
     "categories": [
       "gesellschaft.Jugend",
       "politik.sicherheit",
@@ -10669,7 +10659,6 @@
   {
     "ID": "326",
     "text": "Dezentrale Lebensmittelversorgung",
-    "age": "x",
     "categories": [
       "wirtschaft.konsum"
     ]
@@ -10677,9 +10666,8 @@
   {
     "ID": "326",
     "text": "Wasserkreisläufe umwelt- und stadtverträglich ausbauen",
-    "age": "x",
     "categories": [
-      "infrastruktur.energieversorgung",
+      "infrastruktur.infrastruktur",
       "umwelt.umwelt",
       "politik.politik"
     ]
@@ -10687,11 +10675,10 @@
   {
     "ID": "326",
     "text": "Öffentliches Eigentum teilen (WGs, ...)",
-    "age": "x",
     "categories": [
       "gesellschaft.wohnraum",
       "gesellschaft.gerechtigkeit",
-      "politik.foerderung"
+      "gesellschaft.gemeinschaft"
     ]
   },
   {
@@ -10704,7 +10691,6 @@
   {
     "ID": "327",
     "text": "Wiese an der Siebenbogenbrücke auch nach 21:30 zugänglich machen",
-    "gender": "x",
     "categories": [
       "politik.politik",
       "parks.parks"
@@ -10755,7 +10741,6 @@
   {
     "ID": "330",
     "text": "Günstigeres ÖPNV",
-    "location": "x",
     "categories": [
       "mobilitaet.oepnv",
       "politik.foerderung"
@@ -10764,7 +10749,6 @@
   {
     "ID": "331",
     "text": "Bessere Busverbindung, höhere Frequenz",
-    "location": "x",
     "categories": [
       "mobilitaet.oepnv",
       "mobilitaet.mobilitaet"
@@ -10781,7 +10765,6 @@
   {
     "ID": "332",
     "text": "Solarpflicht auf allen Gebäuden",
-    "age": "x",
     "categories": [
       "infrastruktur.energieversorgung",
       "infrastruktur.infrastruktur"
@@ -10833,7 +10816,6 @@
   {
     "ID": "333",
     "text": "Saturngebäude für Subkultur nutzen",
-    "gender": "x",
     "categories": [
       "gesellschaft.gemeinschaft",
       "kultur.kulturangebot",
@@ -10878,7 +10860,6 @@
   {
     "ID": "336",
     "text": "Klimaziele einhalten",
-    "age": "x",
     "categories": [
       "umwelt.umwelt",
       "politik.klimawandel"
@@ -10929,7 +10910,6 @@
   {
     "ID": "338",
     "text": "Ausbau der Fahrradwege und ÖPNV",
-    "location": "x",
     "categories": [
       "mobilitaet.oepnv",
       "mobilitaet.radwege",
@@ -10954,7 +10934,6 @@
   {
     "ID": "339",
     "text": "weniger Grundstücksknappheit",
-    "age": "x",
     "categories": [
       "gesellschaft.wohnraum"
     ]
@@ -10978,8 +10957,6 @@
   {
     "ID": "339",
     "text": "Unterfarrnbach S-Bahn barrierefrei (Kinderwägen)",
-    "gender": "x",
-    "location": "x",
     "categories": [
       "mobilitaet.oepnv",
       "mobilitaet.mobilitaet"
@@ -11006,7 +10983,6 @@
   {
     "ID": "340",
     "text": "An der Kreuzung Sparkasse/Maxstraße sollte der Fahrbahnbelag irritierend sein zur Vorsicht (man ist sich nicht sicher, dass es eine Straße ist) / außerdem sollte dort die Fussgängerinsel weg",
-    "gender": "x",
     "categories": [
       "mobilitaet.verkehrsfluss",
       "mobilitaet.verkehrsnetz"
@@ -11032,7 +11008,6 @@
   {
     "ID": "340",
     "text": "Corona-Außenbestuhlung verstetigen",
-    "gender": "x",
     "categories": [
       "wirtschaft.konsum",
       "politik.politik"
@@ -11041,7 +11016,6 @@
   {
     "ID": "340",
     "text": "Parkplatz nach Länge in der Karolinenstr. (Vorbild Tübingen)",
-    "gender": "x",
     "categories": [
       "mobilitaet.mobilitaet",
       "mobilitaet.Parken"
@@ -11067,7 +11041,6 @@
   {
     "ID": "342",
     "text": "mehr Kulanz und weniger Regeln (Hundeleinenpflicht)",
-    "age": "x",
     "categories": [
       "parks.hunde"
     ]
@@ -11076,7 +11049,7 @@
     "ID": "342",
     "text": "keine Verbrenner in der Innenstadt (Taxis und Busse elektrisch)",
     "categories": [
-      "infrastruktur.energieversorgung",
+      "mobilitaet.oepnv",
       "mobilitaet.mobilitaet",
       "umwelt.umwelt"
     ]
@@ -11091,7 +11064,6 @@
   {
     "ID": "343",
     "text": "Baustellen schneller fertig machen (nicht so lange)",
-    "age": "x",
     "categories": [
       "infrastruktur.Bauen"
     ]
@@ -11161,7 +11133,6 @@
   {
     "ID": "348",
     "text": "besseres Angebot für ÖPNV",
-    "location": "x",
     "categories": [
       "mobilitaet.oepnv",
       "mobilitaet.mobilitaet"
@@ -11178,7 +11149,6 @@
   {
     "ID": "350",
     "text": "30er Zone in der Innenstadt",
-    "gender": "x",
     "categories": [
       "mobilitaet.tempo30"
     ]
@@ -11236,7 +11206,6 @@
   {
     "ID": "353",
     "text": "weniger Baustellen in Fürth",
-    "age": "x",
     "categories": [
       "infrastruktur.Bauen"
     ]
@@ -11252,7 +11221,6 @@
   {
     "ID": "354",
     "text": "NBG-Str./Königsstraße Richtung Rathaus Ampelschaltung",
-    "gender": "x",
     "categories": [
       "mobilitaet.verkehrsfluss",
       "mobilitaet.mobilitaet",
@@ -11288,10 +11256,8 @@
   {
     "ID": "355",
     "text": "ÖPNV-Umstiegsfreundlichere Anreizstrukturen (Shuttlebusse an Knotenpunkten)",
-    "location": "x",
     "categories": [
       "mobilitaet.oepnv",
-      "mobilitaet.verkehrsfluss",
       "mobilitaet.mobilitaet"
     ]
   },
@@ -11362,7 +11328,6 @@
   {
     "ID": "360",
     "text": "Stiftungsstraße (runter nach rechts abbiegen nicht möglich mim Rad --> Parkbucht.. letzte Parkbucht weg und zum Fahrradweg umwidmen)",
-    "gender": "x",
     "categories": [
       "mobilitaet.verkehrsfluss",
       "mobilitaet.verkehrsnetz",
@@ -11388,7 +11353,6 @@
   {
     "ID": "361",
     "text": "Rathaus im 1,5 Stock nicht inklusiv (Gehbehinderung)",
-    "gender": "x",
     "categories": [
       "infrastruktur.Bauen",
       "gesellschaft.inklusion"
@@ -11397,8 +11361,6 @@
   {
     "ID": "361",
     "text": "Bhf Jakobinenstraße ist nicht inklusiv",
-    "gender": "x",
-    "location": "x",
     "categories": [
       "infrastruktur.Bauen",
       "gesellschaft.inklusion"
@@ -11407,7 +11369,6 @@
   {
     "ID": "361",
     "text": "Es ist immer Müll vor der Norma am grünen Markt",
-    "gender": "x",
     "categories": [
       "stadtbild.muell"
     ]
@@ -11446,7 +11407,6 @@
   {
     "ID": "364",
     "text": "lasst Fußgänger leben (radikale Radfahrer Nürnberger Straße am Morgen - Rücksicht auf Kids und Spaziergänger)",
-    "gender": "x",
     "categories": [
       "mobilitaet.radwege",
       "mobilitaet.radverkehr",
@@ -11471,7 +11431,6 @@
   {
     "ID": "366",
     "text": "mehr Mitmenschlichkeit / keine Hilfe in der Not (mehr Solidarität und Zusammenhalt)",
-    "age": "x",
     "categories": [
       "gesellschaft.gemeinschaft"
     ]
@@ -11502,7 +11461,6 @@
   {
     "ID": "367",
     "text": "bessere Öffis (Abends und Wochenends)",
-    "location": "x",
     "categories": [
       "mobilitaet.oepnv"
     ]
@@ -11552,7 +11510,6 @@
   {
     "ID": "370",
     "text": "Billinganlage - bauliche Trennung (Radfahrer nehmen Bürgersteig)",
-    "gender": "x",
     "categories": [
       "mobilitaet.radwege",
       "mobilitaet.radverkehr"
@@ -11561,7 +11518,6 @@
   {
     "ID": "370",
     "text": "mehr Bäume am grünen Markt, Innenstadt, Fussgängerzone",
-    "gender": "x",
     "categories": [
       "parks.gruenestadt",
       "umwelt.umwelt"
@@ -11577,10 +11533,8 @@
   {
     "ID": "371",
     "text": "Elektrobus vermehrt einsetzen",
-    "location": "x",
     "categories": [
       "mobilitaet.oepnv",
-      "mobilitaet.verkehrsfluss",
       "infrastruktur.energieversorgung"
     ]
   },
@@ -11595,7 +11549,6 @@
   {
     "ID": "372",
     "text": "Zulassungsstelle im Bürgeramt terminlich einfacher gestalten (schwer, welche zu bekommen)",
-    "gender": "x",
     "categories": [
       "politik.politik",
       "politik.transparenz"
@@ -11627,7 +11580,6 @@
   {
     "ID": "373",
     "text": "Steuern senken",
-    "age": "x",
     "categories": [
       "politik.politik"
     ]
@@ -11644,7 +11596,6 @@
   {
     "ID": "374",
     "text": "Hirschenstraße Radweg in beide Richtungen",
-    "gender": "x",
     "categories": [
       "mobilitaet.radwege",
       "mobilitaet.radverkehr",
@@ -11653,7 +11604,7 @@
   },
   {
     "ID": "375",
-    "text": "es soll lebendiger werden (mehr abgehen; es ist tot)",
+    "text": "es soll lebendiger werden (mehr abgehen, es ist tot)",
     "categories": [
       "gesellschaft.gemeinschaft",
       "kultur.nachtleben",
@@ -11663,7 +11614,6 @@
   {
     "ID": "376",
     "text": "mehr lächeln auf der Straße",
-    "age": "x",
     "categories": [
       "gesellschaft.gesellschaft"
     ]
@@ -11696,7 +11646,6 @@
   {
     "ID": "379",
     "text": "besserer Umgang mit Lebensmitteln (foodsharing)",
-    "age": "x",
     "categories": [
       "wirtschaft.konsum"
     ]
@@ -11728,7 +11677,7 @@
   },
   {
     "ID": "379",
-    "text": "breiteres öffentliches Angebot für die Kids (häufiger, besser^^)",
+    "text": "breiteres öffentliches Angebot für die Kids (häufiger, besser)",
     "categories": [
       "gesellschaft.Jugend"
     ]
@@ -11743,7 +11692,6 @@
   {
     "ID": "379",
     "text": "Räume in denen man mit Talenten bezahlen kann",
-    "age": "x",
     "categories": [
       "gesellschaft.gemeinschaft",
       "politik.engagement",
@@ -11782,7 +11730,6 @@
   {
     "ID": "381",
     "text": "Renovierung der Ludwig Erhardt Schule",
-    "gender": "x",
     "categories": [
       "stadtbild.sanierung",
       "bildung.bildung"
@@ -11807,7 +11754,6 @@
   {
     "ID": "381",
     "text": "An der Kläranlage im Wiesengrund Rosenbüsche pflanzen",
-    "gender": "x",
     "categories": [
       "stadtbild.lebenswert",
       "parks.gruenestadt",
@@ -11872,7 +11818,6 @@
   {
     "ID": "383",
     "text": "Gemeinschaft statt Egoismus fördern",
-    "age": "x",
     "categories": [
       "gesellschaft.gesellschaft",
       "gesellschaft.gemeinschaft",
