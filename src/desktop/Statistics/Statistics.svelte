@@ -18,9 +18,7 @@
 	$: {
 		const unknownEntry = ageData ? ageData.find(entry => entry.key === 'unknown') : null;
 		const unknownCount = unknownEntry ? unknownEntry.value : null;
-		ageSubtitle = unknownCount 
-			? `${unknownCount} ${unknownCount > 1 ? 'Menschen haben' 
-			: 'Mensch hat'} keine Angabe gemacht` : null;
+		ageSubtitle = unknownCount ? `Von ${unknownCount} Menschen wurden diese Daten nicht erhoben` : null;
 	}
 
 	$: dataGender = genderData.filter(entry => entry.key !== 'unknown');
@@ -28,9 +26,7 @@
 	$: {
 		const unknownEntry = genderData? genderData.find(entry => entry.key === 'unknown') : null;
 		const unknownCount = unknownEntry ? unknownEntry.value : null;
-		genderSubtitle = unknownCount 
-			? `${unknownCount} ${unknownCount > 1 ? 'Menschen haben' 
-			: 'Mensch hat'} keine Angabe gemacht` : null;
+		genderSubtitle = unknownCount ? `Von ${unknownCount} Menschen wurden diese Daten nicht erhoben` : null;
 	}
 
 	$: locationSum = locationData
@@ -40,9 +36,7 @@
 	$: {
 		const unknownEntry = locationData? locationData.find(entry => entry.key === 'unknown') : null;
 		const unknownCount = unknownEntry ? unknownEntry.value : null;
-		locationSubtitle = unknownCount 
-			? `${unknownCount} ${unknownCount > 1 ? 'Menschen haben' 
-			: 'Mensch hat'} keine Angabe gemacht` : null;
+		locationSubtitle = unknownCount ? `Von ${unknownCount} Menschen wurden diese Daten nicht erhoben` : null;
 	}
 
 	$: {
