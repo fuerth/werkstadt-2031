@@ -58,6 +58,7 @@
 					radius+radiusDistance, 
 					endAngle - 360 * percentage / 2
 				);
+				const key = arc.key;
 				const x = labelPointPosition.x;
 				const y = labelPointPosition.y;
 				const d = describeArc(
@@ -68,13 +69,15 @@
 					endAngle - spacing
 				);
 				return {
+					key,
 					x,
 					y,
 					d,
 					color: arc.color || color,
 					opacity: 1, //(percentage+opacityMin) > 1 ? 1 : percentage + opacityMin,
-					title: `${arc.title || arc.key} ${(percentage * 100).toFixed(0)}%`,
+					title: `${arc.title || arc.key} ${Math.round(percentage * 100)}%`,
 					subTitle: arc.subTitle || arc.keys.join(', '),
+					percentage,
 					value: arc.value,
 				};
 			});
@@ -167,9 +170,9 @@
 				<tr>
 					<th>Key</th><th>Value</th>
 				</tr>
-				{#each data as entry}
+				{#each arcs as arc}
 				<tr>
-					<td>{entry.key}</td><td>{entry.value.toFixed(2)}</td>
+					<td>{arc.key}</td><td>{Math.round(arc.percentage * 100)}%</td>
 				</tr>
 				{/each}
 			</table>
@@ -181,7 +184,19 @@
 </div>
 
 <style>
+.wsf-donatchart {
+	font-weight: bold;
+}
 .wsf-donatchart path:hover {
 	opacity: 0.5;
 }
+
+/* .sr-only {
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+} */
 </style>
