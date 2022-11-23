@@ -99,7 +99,9 @@
 			<nav class="navbar navbar-aktion" role="navigation" aria-label="navigation"> <a href="https://fuerth.bluepingu.de/unterstuetzen" target="_self" class="navbar-item is-last"><span class="icon-text"><svg class="icon"><use xlink:href="#glyphicons-heart"></use></svg><span>Spenden</span></span></a> </nav>
 			 </header>
 		 <main id="content" class="section">
-			<div class="container">
+			<div class="container"><nav id="results-nav">
+	<a href="https://fuerth.bluepingu.de/werkstadt-2031/">Zurück zur Projektseite</a>
+</nav>
 <header>
 	<h1>Werkstadt Fürth 2031 – Nachfragen.Umdenken.Mitwirken</h1>
 	<img class="banner image-embed-item" src="http://bluepingu.de/fileadmin/_processed_/8/c/csm_WSF_Logo_2204_rgb_Mittel_7e059889c0.png" loading="lazy" width="531" height="350" alt="Das 'Werk Stadt Fürth 2031' logo zeigt die Fasade mehrerer Fachwerkhäuser in Entstehung">
@@ -277,6 +279,13 @@
 		font-family: "Sen", sans-serif;
 	}
 
+	nav#results-nav {
+		margin: 1rem 0;
+	}
+	nav#results-nav a:before {
+		content: "« ";
+	}
+
 	header {
 		width: 100%;
 		text-align: center;
@@ -287,7 +296,7 @@
 		font-size: 2.25rem;
 		font-weight: 600;
 		line-height: 1.25;
-		margin: 3rem 0;
+		margin: 1rem 0 3rem 0;
 		text-align: left;
 	}
 	header img.banner {

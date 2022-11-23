@@ -1,7 +1,9 @@
 ---
 layout: "bluepingu.11ty.js"
 ---
-
+<nav id="results-nav">
+	<a href="https://fuerth.bluepingu.de/werkstadt-2031/">Zurück zur Projektseite</a>
+</nav>
 <header>
 	<h1>Werkstadt Fürth 2031 – Nachfragen.Umdenken.Mitwirken</h1>
 	<img class="banner image-embed-item"
@@ -29,6 +31,13 @@ layout: "bluepingu.11ty.js"
 		font-family: "Sen", sans-serif;
 	}
 
+	nav#results-nav {
+		margin: 1rem 0;
+	}
+	nav#results-nav a:before {
+		content: "« ";
+	}
+
 	header {
 		width: 100%;
 		text-align: center;
@@ -39,7 +48,7 @@ layout: "bluepingu.11ty.js"
 		font-size: 2.25rem;
 		font-weight: 600;
 		line-height: 1.25;
-		margin: 3rem 0;
+		margin: 1rem 0 3rem 0;
 		text-align: left;
 	}
 	header img.banner {
