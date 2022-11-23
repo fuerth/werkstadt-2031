@@ -12,7 +12,6 @@
       "parks.parks",
       "raeume.raeume"
     ],
-    "length": 78,
     "classes": [
       "s",
       "postit"
@@ -30,7 +29,6 @@
       "mobilitaet.fussgaenger",
       "politik.sicherheit"
     ],
-    "length": 78,
     "classes": [
       "s",
       "postit"
@@ -47,7 +45,6 @@
       "mobilitaet.fussgaenger",
       "politik.sicherheit"
     ],
-    "length": 114,
     "classes": [
       "m",
       "postit"
@@ -65,7 +62,6 @@
       "stadtbild.stadtbild",
       "mobilitaet.tempo30"
     ],
-    "length": 34,
     "classes": [
       "xxs",
       "postit"
@@ -82,7 +78,6 @@
       "mobilitaet.verkehrsnetz",
       "mobilitaet.Parken"
     ],
-    "length": 76,
     "classes": [
       "s",
       "postit"
@@ -99,7 +94,6 @@
       "mobilitaet.Parken",
       "politik.flaechen"
     ],
-    "length": 129,
     "classes": [
       "m",
       "postit"
@@ -115,7 +109,6 @@
       "mobilitaet.oepnv",
       "mobilitaet.mobilitaet"
     ],
-    "length": 494,
     "classes": [
       "xxl",
       "cardboard"
@@ -132,7 +125,6 @@
       "mobilitaet.verkehrsnetz",
       "mobilitaet.mobilitaet"
     ],
-    "length": 116,
     "classes": [
       "m",
       "postit"
@@ -149,7 +141,6 @@
       "politik.flaechen",
       "raeume.raeume"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"
@@ -167,7 +158,6 @@
       "parks.gruenestadt",
       "umwelt.umwelt"
     ],
-    "length": 50,
     "classes": [
       "xs",
       "postit"
@@ -188,7 +178,6 @@
       "infrastruktur.Bauen",
       "stadtbild.lebenswert"
     ],
-    "length": 77,
     "classes": [
       "s",
       "postit"
@@ -208,7 +197,6 @@
       "mobilitaet.mobilitaet",
       "stadtbild.autofrei"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -223,7 +211,6 @@
       "parks.parks",
       "raeume.raeume"
     ],
-    "length": 71,
     "classes": [
       "xs",
       "postit"
@@ -239,7 +226,6 @@
       "mobilitaet.Parken",
       "politik.foerderung"
     ],
-    "length": 139,
     "classes": [
       "m",
       "postit"
@@ -254,7 +240,6 @@
     "categories": [
       "mobilitaet.Parken"
     ],
-    "length": 111,
     "classes": [
       "m",
       "postit"
@@ -269,7 +254,6 @@
     "categories": [
       "mobilitaet.Parken"
     ],
-    "length": 55,
     "classes": [
       "xs",
       "postit"
@@ -289,7 +273,6 @@
       "gesellschaft.gemeinschaft",
       "gesellschaft.begegnung"
     ],
-    "length": 39,
     "classes": [
       "xxs",
       "postit"
@@ -307,7 +290,6 @@
       "gesellschaft.senioren",
       "gesellschaft.gemeinschaft"
     ],
-    "length": 160,
     "classes": [
       "m",
       "postit"
@@ -328,7 +310,6 @@
       "mobilitaet.fussgaenger",
       "politik.sicherheit"
     ],
-    "length": 37,
     "classes": [
       "xxs",
       "postit"
@@ -347,7 +328,6 @@
       "gesellschaft.begegnung",
       "parks.parks"
     ],
-    "length": 51,
     "classes": [
       "xs",
       "postit"
@@ -365,7 +345,6 @@
       "mobilitaet.mobilitaet",
       "politik.foerderung"
     ],
-    "length": 35,
     "classes": [
       "xxs",
       "postit"
@@ -381,7 +360,6 @@
       "mobilitaet.verkehrsnetz",
       "mobilitaet.mobilitaet"
     ],
-    "length": 258,
     "classes": [
       "l",
       "postit"
@@ -401,7 +379,6 @@
       "gesellschaft.senioren",
       "kultur.kulturangebot"
     ],
-    "length": 230,
     "classes": [
       "l",
       "postit"
@@ -416,7 +393,6 @@
     "categories": [
       "politik.politik"
     ],
-    "length": 152,
     "classes": [
       "m",
       "postit"
@@ -433,7 +409,6 @@
       "gesellschaft.generationen",
       "gesellschaft.familie"
     ],
-    "length": 99,
     "classes": [
       "s",
       "postit"
@@ -448,7 +423,6 @@
     "categories": [
       "wirtschaft.konsum"
     ],
-    "length": 95,
     "classes": [
       "s",
       "postit"
@@ -467,7 +441,6 @@
       "wirtschaft.konsum",
       "wirtschaft.einzelhandel"
     ],
-    "length": 152,
     "classes": [
       "m",
       "postit"
@@ -485,7 +458,6 @@
       "raeume.raeume",
       "mobilitaet.fussgaenger"
     ],
-    "length": 39,
     "classes": [
       "xxs",
       "postit"
@@ -501,7 +473,6 @@
       "wirtschaft.konsum",
       "wirtschaft.einzelhandel"
     ],
-    "length": 251,
     "classes": [
       "l",
       "postit"
@@ -518,7 +489,6 @@
       "politik.strukturen",
       "politik.transparenz"
     ],
-    "length": 38,
     "classes": [
       "xxs",
       "postit"
@@ -535,7 +505,6 @@
       "mobilitaet.mobilitaet",
       "gesellschaft.gerechtigkeit"
     ],
-    "length": 101,
     "classes": [
       "m",
       "postit"
@@ -554,7 +523,6 @@
       "mobilitaet.fussgaenger",
       "politik.sicherheit"
     ],
-    "length": 44,
     "classes": [
       "xs",
       "postit"
@@ -576,7 +544,6 @@
       "raeume.raeume",
       "raeume.kreativraeume"
     ],
-    "length": 261,
     "classes": [
       "l",
       "postit"
@@ -594,7 +561,6 @@
       "kultur.kulturangebot",
       "kultur.freizeit"
     ],
-    "length": 223,
     "classes": [
       "l",
       "postit"
@@ -618,7 +584,6 @@
       "raeume.kreativraeume",
       "raeume.experimentierraeume"
     ],
-    "length": 124,
     "classes": [
       "m",
       "postit"
@@ -635,7 +600,6 @@
       "gesellschaft.Jugend",
       "politik.politik"
     ],
-    "length": 101,
     "classes": [
       "m",
       "postit"
@@ -654,7 +618,6 @@
       "gesellschaft.gerechtigkeit",
       "politik.foerderung"
     ],
-    "length": 270,
     "classes": [
       "l",
       "postit"
@@ -672,7 +635,6 @@
       "politik.politik",
       "politik.engagement"
     ],
-    "length": 125,
     "classes": [
       "m",
       "postit"
@@ -691,7 +653,6 @@
       "gesellschaft.Jugend",
       "politik.politik"
     ],
-    "length": 43,
     "classes": [
       "xs",
       "postit"
@@ -711,7 +672,6 @@
       "gesellschaft.begegnung",
       "politik.politik"
     ],
-    "length": 153,
     "classes": [
       "m",
       "postit"
@@ -728,7 +688,6 @@
       "mobilitaet.mobilitaet",
       "politik.foerderung"
     ],
-    "length": 241,
     "classes": [
       "l",
       "postit"
@@ -744,7 +703,6 @@
       "infrastruktur.energieversorgung",
       "politik.politik"
     ],
-    "length": 213,
     "classes": [
       "l",
       "postit"
@@ -762,7 +720,6 @@
       "umwelt.umwelt",
       "kultur.freizeit"
     ],
-    "length": 34,
     "classes": [
       "xxs",
       "postit"
@@ -779,7 +736,6 @@
       "infrastruktur.Bauen",
       "politik.politik"
     ],
-    "length": 174,
     "classes": [
       "m",
       "postit"
@@ -798,7 +754,6 @@
       "kultur.kulturangebot",
       "kultur.freizeit"
     ],
-    "length": 123,
     "classes": [
       "m",
       "postit"
@@ -815,7 +770,6 @@
       "politik.politik",
       "raeume.kreativraeume"
     ],
-    "length": 144,
     "classes": [
       "m",
       "postit"
@@ -832,7 +786,6 @@
       "mobilitaet.mobilitaet",
       "politik.politik"
     ],
-    "length": 43,
     "classes": [
       "xs",
       "postit"
@@ -849,7 +802,6 @@
       "stadtbild.sanierung",
       "raeume.kreativraeume"
     ],
-    "length": 127,
     "classes": [
       "m",
       "postit"
@@ -866,7 +818,6 @@
       "parks.gruenestadt",
       "umwelt.umwelt"
     ],
-    "length": 48,
     "classes": [
       "xs",
       "postit"
@@ -883,7 +834,6 @@
       "infrastruktur.infrastruktur",
       "politik.politik"
     ],
-    "length": 268,
     "classes": [
       "l",
       "postit"
@@ -900,7 +850,6 @@
       "kultur.freizeit",
       "raeume.raeume"
     ],
-    "length": 50,
     "classes": [
       "xs",
       "postit"
@@ -918,7 +867,6 @@
       "gesellschaft.begegnung",
       "kultur.kulturangebot"
     ],
-    "length": 71,
     "classes": [
       "xs",
       "postit"
@@ -934,7 +882,6 @@
       "mobilitaet.oepnv",
       "mobilitaet.mobilitaet"
     ],
-    "length": 42,
     "classes": [
       "xs",
       "postit"
@@ -950,7 +897,6 @@
       "mobilitaet.oepnv",
       "mobilitaet.mobilitaet"
     ],
-    "length": 148,
     "classes": [
       "m",
       "postit"
@@ -970,7 +916,6 @@
       "gesellschaft.begegnung",
       "kultur.kulturangebot"
     ],
-    "length": 119,
     "classes": [
       "m",
       "postit"
@@ -986,7 +931,6 @@
       "gesellschaft.inklusion",
       "gesellschaft.gemeinschaft"
     ],
-    "length": 89,
     "classes": [
       "s",
       "postit"
@@ -1002,7 +946,6 @@
       "politik.foerderung",
       "politik.politik"
     ],
-    "length": 52,
     "classes": [
       "xs",
       "postit"
@@ -1019,7 +962,6 @@
       "politik.politik",
       "politik.transparenz"
     ],
-    "length": 60,
     "classes": [
       "xs",
       "postit"
@@ -1034,7 +976,6 @@
     "categories": [
       "wirtschaft.konsum"
     ],
-    "length": 77,
     "classes": [
       "s",
       "postit"
@@ -1050,7 +991,6 @@
       "gesellschaft.inklusion",
       "politik.foerderung"
     ],
-    "length": 55,
     "classes": [
       "xs",
       "postit"
@@ -1068,7 +1008,6 @@
       "politik.foerderung",
       "politik.politik"
     ],
-    "length": 194,
     "classes": [
       "m",
       "postit"
@@ -1086,7 +1025,6 @@
       "raeume.raeume",
       "mobilitaet.fussgaenger"
     ],
-    "length": 70,
     "classes": [
       "xs",
       "postit"
@@ -1102,7 +1040,6 @@
       "wirtschaft.konsum",
       "kultur.kulturangebot"
     ],
-    "length": 35,
     "classes": [
       "xxs",
       "postit"
@@ -1121,7 +1058,6 @@
       "parks.gruenestadt",
       "umwelt.umwelt"
     ],
-    "length": 268,
     "classes": [
       "l",
       "postit"
@@ -1140,7 +1076,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 49,
     "classes": [
       "xs",
       "postit"
@@ -1158,7 +1093,6 @@
       "stadtbild.autofrei",
       "politik.flaechen"
     ],
-    "length": 37,
     "classes": [
       "xxs",
       "postit"
@@ -1174,7 +1108,6 @@
       "gesellschaft.Quartiers-entwicklung",
       "infrastruktur.Bauen"
     ],
-    "length": 26,
     "classes": [
       "xxs",
       "postit"
@@ -1191,7 +1124,6 @@
       "wirtschaft.einzelhandel",
       "politik.foerderung"
     ],
-    "length": 78,
     "classes": [
       "s",
       "postit"
@@ -1209,7 +1141,6 @@
       "umwelt.umwelt",
       "mobilitaet.fussgaenger"
     ],
-    "length": 41,
     "classes": [
       "xs",
       "postit"
@@ -1226,7 +1157,6 @@
       "mobilitaet.tempo30",
       "stadtbild.stadtgestaltung"
     ],
-    "length": 36,
     "classes": [
       "xxs",
       "postit"
@@ -1244,7 +1174,6 @@
       "mobilitaet.Parken",
       "politik.flaechen"
     ],
-    "length": 51,
     "classes": [
       "xs",
       "postit"
@@ -1261,7 +1190,6 @@
       "gesellschaft.begegnung",
       "raeume.raeume"
     ],
-    "length": 114,
     "classes": [
       "m",
       "postit"
@@ -1277,7 +1205,6 @@
       "mobilitaet.verkehrsnetz",
       "mobilitaet.mobilitaet"
     ],
-    "length": 81,
     "classes": [
       "s",
       "postit"
@@ -1294,7 +1221,6 @@
       "infrastruktur.energieversorgung",
       "infrastruktur.Bauen"
     ],
-    "length": 114,
     "classes": [
       "m",
       "postit"
@@ -1313,7 +1239,6 @@
       "stadtbild.lebenswert",
       "politik.politik"
     ],
-    "length": 221,
     "classes": [
       "l",
       "postit"
@@ -1331,7 +1256,6 @@
       "mobilitaet.mobilitaet",
       "infrastruktur.Bauen"
     ],
-    "length": 92,
     "classes": [
       "s",
       "postit"
@@ -1348,7 +1272,6 @@
       "mobilitaet.mobilitaet",
       "politik.foerderung"
     ],
-    "length": 39,
     "classes": [
       "xxs",
       "postit"
@@ -1366,7 +1289,6 @@
       "stadtbild.autofrei",
       "politik.flaechen"
     ],
-    "length": 57,
     "classes": [
       "xs",
       "postit"
@@ -1383,7 +1305,6 @@
       "parks.gruenestadt",
       "umwelt.umwelt"
     ],
-    "length": 43,
     "classes": [
       "xs",
       "postit"
@@ -1400,7 +1321,6 @@
       "gesellschaft.gemeinschaft",
       "gesellschaft.begegnung"
     ],
-    "length": 32,
     "classes": [
       "xxs",
       "postit"
@@ -1417,7 +1337,6 @@
       "gesellschaft.gemeinschaft",
       "gesellschaft.begegnung"
     ],
-    "length": 63,
     "classes": [
       "xs",
       "postit"
@@ -1438,7 +1357,6 @@
       "mobilitaet.mobilitaet",
       "politik.foerderung"
     ],
-    "length": 67,
     "classes": [
       "xs",
       "postit"
@@ -1455,7 +1373,6 @@
       "gesellschaft.senioren",
       "politik.foerderung"
     ],
-    "length": 102,
     "classes": [
       "m",
       "postit"
@@ -1472,7 +1389,6 @@
       "mobilitaet.verkehrsfluss",
       "mobilitaet.mobilitaet"
     ],
-    "length": 65,
     "classes": [
       "xs",
       "postit"
@@ -1491,7 +1407,6 @@
       "parks.parks",
       "raeume.raeume"
     ],
-    "length": 71,
     "classes": [
       "xs",
       "postit"
@@ -1507,7 +1422,6 @@
       "mobilitaet.oepnv",
       "stadtbild.autofrei"
     ],
-    "length": 46,
     "classes": [
       "xs",
       "postit"
@@ -1524,7 +1438,6 @@
       "parks.gruenestadt",
       "gesellschaft.begegnung"
     ],
-    "length": 102,
     "classes": [
       "m",
       "postit"
@@ -1541,7 +1454,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.tempo30"
     ],
-    "length": 102,
     "classes": [
       "m",
       "postit"
@@ -1558,7 +1470,6 @@
       "umwelt.umwelt",
       "parks.parks"
     ],
-    "length": 135,
     "classes": [
       "m",
       "postit"
@@ -1576,7 +1487,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 356,
     "classes": [
       "xl",
       "postit"
@@ -1592,7 +1502,6 @@
       "stadtbild.stadtgestaltung",
       "wirtschaft.einzelhandel"
     ],
-    "length": 119,
     "classes": [
       "m",
       "postit"
@@ -1609,7 +1518,6 @@
       "stadtbild.stadtgestaltung",
       "gesellschaft.gemeinschaft"
     ],
-    "length": 75,
     "classes": [
       "xs",
       "postit"
@@ -1626,7 +1534,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 42,
     "classes": [
       "xs",
       "postit"
@@ -1643,7 +1550,6 @@
       "gesellschaft.generationen",
       "gesellschaft.gemeinschaft"
     ],
-    "length": 144,
     "classes": [
       "m",
       "postit"
@@ -1662,7 +1568,6 @@
       "mobilitaet.Parken",
       "politik.flaechen"
     ],
-    "length": 93,
     "classes": [
       "s",
       "postit"
@@ -1678,7 +1583,6 @@
       "mobilitaet.mobilitaet",
       "stadtbild.autofrei"
     ],
-    "length": 135,
     "classes": [
       "m",
       "postit"
@@ -1697,7 +1601,6 @@
       "gesellschaft.gentrifizierung",
       "raeume.raeume"
     ],
-    "length": 141,
     "classes": [
       "m",
       "postit"
@@ -1713,7 +1616,6 @@
       "mobilitaet.verkehrsfluss",
       "wirtschaft.carsharing"
     ],
-    "length": 29,
     "classes": [
       "xxs",
       "postit"
@@ -1729,7 +1631,6 @@
       "mobilitaet.oepnv",
       "politik.foerderung"
     ],
-    "length": 160,
     "classes": [
       "m",
       "postit"
@@ -1748,7 +1649,6 @@
       "gesellschaft.gemeinschaft",
       "gesellschaft.begegnung"
     ],
-    "length": 73,
     "classes": [
       "xs",
       "postit"
@@ -1769,7 +1669,6 @@
       "parks.gruenestadt",
       "politik.foerderung"
     ],
-    "length": 266,
     "classes": [
       "l",
       "postit"
@@ -1786,7 +1685,6 @@
       "gesellschaft.wohnraum",
       "politik.stadtplanung"
     ],
-    "length": 100,
     "classes": [
       "s",
       "postit"
@@ -1802,7 +1700,6 @@
       "mobilitaet.radwege",
       "mobilitaet.radverkehr"
     ],
-    "length": 28,
     "classes": [
       "xxs",
       "postit"
@@ -1820,7 +1717,6 @@
       "raeume.raeume",
       "raeume.kreativraeume"
     ],
-    "length": 66,
     "classes": [
       "xs",
       "postit"
@@ -1837,7 +1733,6 @@
       "stadtbild.stadtbild",
       "umwelt.umwelt"
     ],
-    "length": 117,
     "classes": [
       "m",
       "postit"
@@ -1853,7 +1748,6 @@
       "gesellschaft.inklusion",
       "gesellschaft.gemeinschaft"
     ],
-    "length": 49,
     "classes": [
       "xs",
       "postit"
@@ -1873,7 +1767,6 @@
       "stadtbild.stadtgestaltung",
       "politik.klimawandel"
     ],
-    "length": 48,
     "classes": [
       "xs",
       "postit"
@@ -1892,7 +1785,6 @@
       "stadtbild.autofrei",
       "politik.flaechen"
     ],
-    "length": 94,
     "classes": [
       "s",
       "postit"
@@ -1907,7 +1799,6 @@
     "categories": [
       "parks.gruenestadt"
     ],
-    "length": 92,
     "classes": [
       "s",
       "postit"
@@ -1924,7 +1815,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.Parken"
     ],
-    "length": 192,
     "classes": [
       "m",
       "postit"
@@ -1941,7 +1831,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 212,
     "classes": [
       "l",
       "postit"
@@ -1957,7 +1846,6 @@
       "mobilitaet.oepnv",
       "politik.foerderung"
     ],
-    "length": 117,
     "classes": [
       "m",
       "postit"
@@ -1976,7 +1864,6 @@
       "umwelt.umwelt",
       "politik.klimawandel"
     ],
-    "length": 59,
     "classes": [
       "xs",
       "postit"
@@ -1995,7 +1882,6 @@
       "mobilitaet.fussgaenger",
       "politik.sicherheit"
     ],
-    "length": 164,
     "classes": [
       "m",
       "postit"
@@ -2011,7 +1897,6 @@
       "infrastruktur.energieversorgung",
       "politik.politik"
     ],
-    "length": 143,
     "classes": [
       "m",
       "postit"
@@ -2027,7 +1912,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.tempo30"
     ],
-    "length": 337,
     "classes": [
       "xl",
       "postit"
@@ -2044,7 +1928,6 @@
       "mobilitaet.Parken",
       "stadtbild.autofrei"
     ],
-    "length": 190,
     "classes": [
       "m",
       "postit"
@@ -2059,7 +1942,6 @@
     "categories": [
       "mobilitaet.oepnv"
     ],
-    "length": 296,
     "classes": [
       "xl",
       "postit"
@@ -2076,7 +1958,6 @@
       "mobilitaet.radwege",
       "wirtschaft.einzelhandel"
     ],
-    "length": 205,
     "classes": [
       "l",
       "postit"
@@ -2094,7 +1975,6 @@
       "politik.stadtplanung",
       "stadtbild.lebenswert"
     ],
-    "length": 88,
     "classes": [
       "s",
       "postit"
@@ -2110,7 +1990,6 @@
       "mobilitaet.oepnv",
       "kultur.freizeit"
     ],
-    "length": 146,
     "classes": [
       "m",
       "postit"
@@ -2127,7 +2006,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 19,
     "classes": [
       "xxs",
       "postit"
@@ -2143,7 +2021,6 @@
       "mobilitaet.verkehrsfluss",
       "mobilitaet.verkehrsnetz"
     ],
-    "length": 142,
     "classes": [
       "m",
       "postit"
@@ -2159,7 +2036,6 @@
       "mobilitaet.tempo30",
       "politik.politik"
     ],
-    "length": 76,
     "classes": [
       "s",
       "postit"
@@ -2177,7 +2053,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.individualverkehr"
     ],
-    "length": 36,
     "classes": [
       "xxs",
       "postit"
@@ -2193,7 +2068,6 @@
       "stadtbild.autofrei",
       "gesellschaft.Quartiers-entwicklung"
     ],
-    "length": 44,
     "classes": [
       "xs",
       "postit"
@@ -2212,7 +2086,6 @@
       "raeume.raeume",
       "raeume.kreativraeume"
     ],
-    "length": 148,
     "classes": [
       "m",
       "postit"
@@ -2231,7 +2104,6 @@
       "kultur.kulturangebot",
       "kultur.freizeit"
     ],
-    "length": 81,
     "classes": [
       "s",
       "postit"
@@ -2249,7 +2121,6 @@
       "gesellschaft.begegnung",
       "politik.politik"
     ],
-    "length": 96,
     "classes": [
       "s",
       "postit"
@@ -2266,7 +2137,6 @@
       "gesellschaft.kinderbetreuung",
       "gesellschaft.Jugend"
     ],
-    "length": 173,
     "classes": [
       "m",
       "postit"
@@ -2285,7 +2155,6 @@
       "stadtbild.autofrei",
       "parks.gruenestadt"
     ],
-    "length": 82,
     "classes": [
       "s",
       "postit"
@@ -2299,7 +2168,6 @@
       "politik.klimawandel",
       "gesellschaft.gemeinschaft"
     ],
-    "length": 60,
     "classes": [
       "xs",
       "postit"
@@ -2316,7 +2184,6 @@
       "parks.gruenestadt",
       "wirtschaft.konsum"
     ],
-    "length": 83,
     "classes": [
       "s",
       "postit"
@@ -2332,7 +2199,6 @@
       "politik.politik",
       "politik.engagement"
     ],
-    "length": 69,
     "classes": [
       "xs",
       "postit"
@@ -2351,7 +2217,6 @@
       "gesellschaft.wohnraum",
       "politik.stadtplanung"
     ],
-    "length": 90,
     "classes": [
       "s",
       "postit"
@@ -2367,7 +2232,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.tempo30"
     ],
-    "length": 16,
     "classes": [
       "xxs",
       "postit"
@@ -2389,7 +2253,6 @@
       "gesellschaft.senioren",
       "gesellschaft.gemeinschaft"
     ],
-    "length": 129,
     "classes": [
       "m",
       "postit"
@@ -2405,7 +2268,6 @@
       "gesellschaft.wohnraum",
       "politik.stadtplanung"
     ],
-    "length": 110,
     "classes": [
       "m",
       "postit"
@@ -2423,7 +2285,6 @@
       "mobilitaet.mobilitaet",
       "gesellschaft.inklusion"
     ],
-    "length": 39,
     "classes": [
       "xxs",
       "postit"
@@ -2440,7 +2301,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 21,
     "classes": [
       "xxs",
       "postit"
@@ -2459,7 +2319,6 @@
       "kultur.freizeit",
       "raeume.kreativraeume"
     ],
-    "length": 69,
     "classes": [
       "xs",
       "postit"
@@ -2477,7 +2336,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.tempo30"
     ],
-    "length": 68,
     "classes": [
       "xs",
       "postit"
@@ -2493,7 +2351,6 @@
       "politik.flaechen",
       "parks.gruenestadt"
     ],
-    "length": 159,
     "classes": [
       "m",
       "postit"
@@ -2512,7 +2369,6 @@
       "mobilitaet.Parken",
       "politik.flaechen"
     ],
-    "length": 179,
     "classes": [
       "m",
       "postit"
@@ -2528,7 +2384,6 @@
       "stadtbild.atmosphäre",
       "stadtbild.autofrei"
     ],
-    "length": 156,
     "classes": [
       "m",
       "postit"
@@ -2545,7 +2400,6 @@
       "parks.gruenestadt",
       "umwelt.umwelt"
     ],
-    "length": 65,
     "classes": [
       "xs",
       "postit"
@@ -2561,7 +2415,6 @@
       "stadtbild.muell",
       "umwelt.umwelt"
     ],
-    "length": 81,
     "classes": [
       "s",
       "postit"
@@ -2579,7 +2432,6 @@
       "mobilitaet.mobilitaet",
       "politik.sicherheit"
     ],
-    "length": 119,
     "classes": [
       "m",
       "postit"
@@ -2595,7 +2447,6 @@
       "stadtbild.muell",
       "umwelt.umwelt"
     ],
-    "length": 130,
     "classes": [
       "m",
       "postit"
@@ -2610,7 +2461,6 @@
     "categories": [
       "stadtbild.autofrei"
     ],
-    "length": 127,
     "classes": [
       "m",
       "postit"
@@ -2627,7 +2477,6 @@
       "mobilitaet.mobilitaet",
       "politik.foerderung"
     ],
-    "length": 108,
     "classes": [
       "m",
       "postit"
@@ -2644,7 +2493,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 87,
     "classes": [
       "s",
       "postit"
@@ -2659,7 +2507,6 @@
     "categories": [
       "mobilitaet.oepnv"
     ],
-    "length": 299,
     "classes": [
       "xl",
       "postit"
@@ -2676,7 +2523,6 @@
       "gesellschaft.generationen",
       "gesellschaft.gemeinschaft"
     ],
-    "length": 164,
     "classes": [
       "m",
       "postit"
@@ -2693,7 +2539,6 @@
       "infrastruktur.digitalisierung",
       "politik.politik"
     ],
-    "length": 778,
     "classes": [
       "xxl",
       "cardboard"
@@ -2710,7 +2555,6 @@
       "mobilitaet.Parken",
       "stadtbild.autofrei"
     ],
-    "length": 110,
     "classes": [
       "m",
       "postit"
@@ -2727,7 +2571,6 @@
       "mobilitaet.fussgaenger",
       "politik.sicherheit"
     ],
-    "length": 34,
     "classes": [
       "xxs",
       "postit"
@@ -2744,7 +2587,6 @@
       "raeume.raeume",
       "raeume.kreativraeume"
     ],
-    "length": 72,
     "classes": [
       "xs",
       "postit"
@@ -2761,7 +2603,6 @@
       "gesellschaft.gerechtigkeit",
       "politik.foerderung"
     ],
-    "length": 84,
     "classes": [
       "s",
       "postit"
@@ -2777,7 +2618,6 @@
       "infrastruktur.Bauen",
       "politik.foerderung"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"
@@ -2795,7 +2635,6 @@
       "politik.foerderung",
       "kultur.kulturangebot"
     ],
-    "length": 152,
     "classes": [
       "m",
       "postit"
@@ -2813,7 +2652,6 @@
       "raeume.werkstaetten",
       "raeume.experimentierraeume"
     ],
-    "length": 156,
     "classes": [
       "m",
       "postit"
@@ -2831,7 +2669,6 @@
       "stadtbild.autofrei",
       "parks.gruenestadt"
     ],
-    "length": 140,
     "classes": [
       "m",
       "postit"
@@ -2848,7 +2685,6 @@
       "wirtschaft.carsharing",
       "gesellschaft.wohnraum"
     ],
-    "length": 356,
     "classes": [
       "xl",
       "postit"
@@ -2865,7 +2701,6 @@
       "stadtbild.stadtgestaltung",
       "infrastruktur.Bauen"
     ],
-    "length": 188,
     "classes": [
       "m",
       "postit"
@@ -2882,7 +2717,6 @@
       "gesellschaft.Jugend",
       "kultur.freizeit"
     ],
-    "length": 78,
     "classes": [
       "s",
       "postit"
@@ -2899,7 +2733,6 @@
       "wirtschaft.einzelhandel",
       "politik.foerderung"
     ],
-    "length": 94,
     "classes": [
       "s",
       "postit"
@@ -2916,7 +2749,6 @@
       "infrastruktur.Bauen",
       "raeume.raeume"
     ],
-    "length": 36,
     "classes": [
       "xxs",
       "postit"
@@ -2934,7 +2766,6 @@
       "mobilitaet.fussgaenger",
       "politik.sicherheit"
     ],
-    "length": 121,
     "classes": [
       "m",
       "postit"
@@ -2950,7 +2781,6 @@
       "parks.gruenestadt",
       "parks.parks"
     ],
-    "length": 16,
     "classes": [
       "xxs",
       "postit"
@@ -2967,7 +2797,6 @@
       "kultur.kulturangebot",
       "kultur.freizeit"
     ],
-    "length": 73,
     "classes": [
       "xs",
       "postit"
@@ -2985,7 +2814,6 @@
       "kultur.kulturangebot",
       "kultur.freizeit"
     ],
-    "length": 117,
     "classes": [
       "m",
       "postit"
@@ -3002,7 +2830,6 @@
       "gesellschaft.Jugend",
       "kultur.freizeit"
     ],
-    "length": 74,
     "classes": [
       "xs",
       "postit"
@@ -3020,7 +2847,6 @@
       "mobilitaet.Parken",
       "parks.gruenestadt"
     ],
-    "length": 48,
     "classes": [
       "xs",
       "postit"
@@ -3039,7 +2865,6 @@
       "stadtbild.stadtbild",
       "politik.foerderung"
     ],
-    "length": 88,
     "classes": [
       "s",
       "postit"
@@ -3057,7 +2882,6 @@
       "mobilitaet.mobilitaet",
       "stadtbild.stadtbild"
     ],
-    "length": 212,
     "classes": [
       "l",
       "postit"
@@ -3075,7 +2899,6 @@
       "gesellschaft.begegnung",
       "kultur.freizeit"
     ],
-    "length": 358,
     "classes": [
       "xl",
       "postit"
@@ -3094,7 +2917,6 @@
       "parks.parks",
       "stadtbild.spielplaetze"
     ],
-    "length": 128,
     "classes": [
       "m",
       "postit"
@@ -3111,7 +2933,6 @@
       "stadtbild.autofrei",
       "stadtbild.stadtgestaltung"
     ],
-    "length": 208,
     "classes": [
       "l",
       "postit"
@@ -3132,7 +2953,6 @@
       "raeume.kreativraeume",
       "raeume.experimentierraeume"
     ],
-    "length": 344,
     "classes": [
       "xl",
       "postit"
@@ -3148,7 +2968,6 @@
       "stadtbild.stadtbild",
       "stadtbild.sanierung"
     ],
-    "length": 98,
     "classes": [
       "s",
       "postit"
@@ -3165,7 +2984,6 @@
       "politik.politik",
       "politik.sicherheit"
     ],
-    "length": 208,
     "classes": [
       "l",
       "postit"
@@ -3180,7 +2998,6 @@
     "categories": [
       "parks.gruenestadt"
     ],
-    "length": 117,
     "classes": [
       "m",
       "postit"
@@ -3198,7 +3015,6 @@
       "umwelt.umwelt",
       "gesellschaft.gemeinschaft"
     ],
-    "length": 67,
     "classes": [
       "xs",
       "postit"
@@ -3213,7 +3029,6 @@
     "categories": [
       "kultur.kulturangebot"
     ],
-    "length": 215,
     "classes": [
       "l",
       "postit"
@@ -3231,7 +3046,6 @@
       "kultur.kulturangebot",
       "kultur.freizeit"
     ],
-    "length": 61,
     "classes": [
       "xs",
       "postit"
@@ -3248,7 +3062,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -3266,7 +3079,6 @@
       "kultur.freizeit",
       "raeume.kreativraeume"
     ],
-    "length": 88,
     "classes": [
       "s",
       "postit"
@@ -3282,7 +3094,6 @@
       "kultur.nachtleben",
       "gesellschaft.begegnung"
     ],
-    "length": 43,
     "classes": [
       "xs",
       "postit"
@@ -3299,7 +3110,6 @@
       "gesellschaft.begegnung",
       "politik.politik"
     ],
-    "length": 91,
     "classes": [
       "s",
       "postit"
@@ -3316,7 +3126,6 @@
       "mobilitaet.Parken",
       "stadtbild.autofrei"
     ],
-    "length": 200,
     "classes": [
       "m",
       "postit"
@@ -3332,7 +3141,6 @@
       "stadtbild.autofrei",
       "parks.gruenestadt"
     ],
-    "length": 129,
     "classes": [
       "m",
       "postit"
@@ -3348,7 +3156,6 @@
       "infrastruktur.energieversorgung",
       "politik.klimawandel"
     ],
-    "length": 68,
     "classes": [
       "xs",
       "postit"
@@ -3365,7 +3172,6 @@
       "mobilitaet.radverkehr",
       "stadtbild.beleuchtung"
     ],
-    "length": 314,
     "classes": [
       "xl",
       "postit"
@@ -3378,7 +3184,6 @@
       "stadtbild.autofrei",
       "wirtschaft.einzelhandel"
     ],
-    "length": 407,
     "classes": [
       "xl",
       "postit"
@@ -3392,7 +3197,6 @@
       "stadtbild.stadtgestaltung",
       "infrastruktur.Bauen"
     ],
-    "length": 122,
     "classes": [
       "m",
       "postit"
@@ -3409,7 +3213,6 @@
       "parks.parks",
       "stadtbild.spielplaetze"
     ],
-    "length": 72,
     "classes": [
       "xs",
       "postit"
@@ -3424,7 +3227,6 @@
     "categories": [
       "wirtschaft.einzelhandel"
     ],
-    "length": 332,
     "classes": [
       "xl",
       "postit"
@@ -3442,7 +3244,6 @@
       "parks.gruenestadt",
       "wirtschaft.einzelhandel"
     ],
-    "length": 76,
     "classes": [
       "s",
       "postit"
@@ -3464,7 +3265,6 @@
       "raeume.raeume",
       "raeume.kreativraeume"
     ],
-    "length": 63,
     "classes": [
       "xs",
       "postit"
@@ -3481,7 +3281,6 @@
       "raeume.raeume",
       "raeume.kreativraeume"
     ],
-    "length": 72,
     "classes": [
       "xs",
       "postit"
@@ -3497,7 +3296,6 @@
       "raeume.raeume",
       "stadtbild.spielplaetze"
     ],
-    "length": 72,
     "classes": [
       "xs",
       "postit"
@@ -3514,7 +3312,6 @@
       "parks.gruenestadt",
       "umwelt.umwelt"
     ],
-    "length": 43,
     "classes": [
       "xs",
       "postit"
@@ -3530,7 +3327,6 @@
       "stadtbild.stadtbild",
       "stadtbild.autofrei"
     ],
-    "length": 54,
     "classes": [
       "xs",
       "postit"
@@ -3546,7 +3342,6 @@
       "gesellschaft.Jugend",
       "bildung.bildung"
     ],
-    "length": 42,
     "classes": [
       "xs",
       "postit"
@@ -3563,7 +3358,6 @@
       "gesellschaft.senioren",
       "bildung.bildung"
     ],
-    "length": 42,
     "classes": [
       "xs",
       "postit"
@@ -3582,7 +3376,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.Parken"
     ],
-    "length": 87,
     "classes": [
       "s",
       "postit"
@@ -3596,7 +3389,6 @@
     "categories": [
       "kultur.nachtleben"
     ],
-    "length": 38,
     "classes": [
       "xxs",
       "postit"
@@ -3616,7 +3408,6 @@
       "parks.parks",
       "stadtbild.spielplaetze"
     ],
-    "length": 128,
     "classes": [
       "m",
       "postit"
@@ -3636,7 +3427,6 @@
       "stadtbild.spielplaetze",
       "mobilitaet.fussgaenger"
     ],
-    "length": 76,
     "classes": [
       "s",
       "postit"
@@ -3652,7 +3442,6 @@
       "mobilitaet.oepnv",
       "politik.foerderung"
     ],
-    "length": 46,
     "classes": [
       "xs",
       "postit"
@@ -3669,7 +3458,6 @@
       "gesellschaft.Jugend",
       "bildung.bildung"
     ],
-    "length": 35,
     "classes": [
       "xxs",
       "postit"
@@ -3686,7 +3474,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 128,
     "classes": [
       "m",
       "postit"
@@ -3702,7 +3489,6 @@
       "mobilitaet.radwege",
       "mobilitaet.radverkehr"
     ],
-    "length": 108,
     "classes": [
       "m",
       "postit"
@@ -3719,7 +3505,6 @@
       "mobilitaet.fussgaenger",
       "politik.sicherheit"
     ],
-    "length": 46,
     "classes": [
       "xs",
       "postit"
@@ -3736,7 +3521,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 113,
     "classes": [
       "m",
       "postit"
@@ -3754,7 +3538,6 @@
       "gesellschaft.gemeinschaft",
       "kultur.freizeit"
     ],
-    "length": 129,
     "classes": [
       "m",
       "postit"
@@ -3771,7 +3554,6 @@
       "gesellschaft.kinderbetreuung",
       "politik.foerderung"
     ],
-    "length": 62,
     "classes": [
       "xs",
       "postit"
@@ -3788,7 +3570,6 @@
       "mobilitaet.mobilitaet",
       "infrastruktur.Bauen"
     ],
-    "length": 50,
     "classes": [
       "xs",
       "postit"
@@ -3805,7 +3586,6 @@
       "mobilitaet.verkehrsnetz",
       "mobilitaet.mobilitaet"
     ],
-    "length": 177,
     "classes": [
       "m",
       "postit"
@@ -3822,7 +3602,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 16,
     "classes": [
       "xxs",
       "postit"
@@ -3838,7 +3617,6 @@
       "stadtbild.stadtbild",
       "parks.gruenestadt"
     ],
-    "length": 36,
     "classes": [
       "xxs",
       "postit"
@@ -3856,7 +3634,6 @@
       "mobilitaet.mobilitaet",
       "stadtbild.autofrei"
     ],
-    "length": 19,
     "classes": [
       "xxs",
       "postit"
@@ -3875,7 +3652,6 @@
       "raeume.werkstaetten",
       "raeume.kreativraeume"
     ],
-    "length": 44,
     "classes": [
       "xs",
       "postit"
@@ -3891,7 +3667,6 @@
       "infrastruktur.Bauen",
       "parks.gruenestadt"
     ],
-    "length": 64,
     "classes": [
       "xs",
       "postit"
@@ -3909,7 +3684,6 @@
       "politik.foerderung",
       "politik.politik"
     ],
-    "length": 64,
     "classes": [
       "xs",
       "postit"
@@ -3927,7 +3701,6 @@
       "stadtbild.autofrei",
       "mobilitaet.tempo30"
     ],
-    "length": 58,
     "classes": [
       "xs",
       "postit"
@@ -3944,7 +3717,6 @@
       "stadtbild.autofrei",
       "infrastruktur.Bauen"
     ],
-    "length": 29,
     "classes": [
       "xxs",
       "postit"
@@ -3962,7 +3734,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 38,
     "classes": [
       "xxs",
       "postit"
@@ -3979,7 +3750,6 @@
       "infrastruktur.Bauen",
       "gesellschaft.gentrifizierung"
     ],
-    "length": 40,
     "classes": [
       "xxs",
       "postit"
@@ -3995,7 +3765,6 @@
       "mobilitaet.oepnv",
       "mobilitaet.Parken"
     ],
-    "length": 42,
     "classes": [
       "xs",
       "postit"
@@ -4011,7 +3780,6 @@
       "stadtbild.sanierung",
       "infrastruktur.Bauen"
     ],
-    "length": 44,
     "classes": [
       "xs",
       "postit"
@@ -4028,7 +3796,6 @@
       "mobilitaet.radverkehr",
       "gesellschaft.kinderbetreuung"
     ],
-    "length": 49,
     "classes": [
       "xs",
       "postit"
@@ -4046,7 +3813,6 @@
       "mobilitaet.Parken",
       "stadtbild.sanierung"
     ],
-    "length": 89,
     "classes": [
       "s",
       "postit"
@@ -4062,7 +3828,6 @@
       "parks.parks",
       "mobilitaet.fussgaenger"
     ],
-    "length": 41,
     "classes": [
       "xs",
       "postit"
@@ -4078,7 +3843,6 @@
       "gesellschaft.gerechtigkeit",
       "gesellschaft.gesellschaft"
     ],
-    "length": 75,
     "classes": [
       "xs",
       "postit"
@@ -4096,7 +3860,6 @@
       "mobilitaet.fussgaenger",
       "politik.sicherheit"
     ],
-    "length": 229,
     "classes": [
       "l",
       "postit"
@@ -4112,7 +3875,6 @@
       "stadtbild.sanierung",
       "wirtschaft.einzelhandel"
     ],
-    "length": 37,
     "classes": [
       "xxs",
       "postit"
@@ -4128,7 +3890,6 @@
       "infrastruktur.Bauen",
       "gesellschaft.begegnung"
     ],
-    "length": 26,
     "classes": [
       "xxs",
       "postit"
@@ -4145,7 +3906,6 @@
       "mobilitaet.verkehrsnetz",
       "mobilitaet.radverkehr"
     ],
-    "length": 44,
     "classes": [
       "xs",
       "postit"
@@ -4161,7 +3921,6 @@
       "mobilitaet.tempo30",
       "gesellschaft.begegnung"
     ],
-    "length": 61,
     "classes": [
       "xs",
       "postit"
@@ -4178,7 +3937,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 22,
     "classes": [
       "xxs",
       "postit"
@@ -4195,7 +3953,6 @@
       "umwelt.umwelt",
       "parks.parks"
     ],
-    "length": 23,
     "classes": [
       "xxs",
       "postit"
@@ -4214,7 +3971,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.fussgaenger"
     ],
-    "length": 84,
     "classes": [
       "s",
       "postit"
@@ -4232,7 +3988,6 @@
       "wirtschaft.konsum",
       "umwelt.umwelt"
     ],
-    "length": 106,
     "classes": [
       "m",
       "postit"
@@ -4247,7 +4002,6 @@
     "categories": [
       "wirtschaft.einzelhandel"
     ],
-    "length": 236,
     "classes": [
       "l",
       "postit"
@@ -4264,7 +4018,6 @@
       "kultur.nachtleben",
       "gesellschaft.begegnung"
     ],
-    "length": 93,
     "classes": [
       "s",
       "postit"
@@ -4281,7 +4034,6 @@
       "kultur.freizeit",
       "raeume.kreativraeume"
     ],
-    "length": 57,
     "classes": [
       "xs",
       "postit"
@@ -4300,7 +4052,6 @@
       "stadtbild.sanierung",
       "infrastruktur.Bauen"
     ],
-    "length": 52,
     "classes": [
       "xs",
       "postit"
@@ -4317,7 +4068,6 @@
       "gesellschaft.familie",
       "kultur.freizeit"
     ],
-    "length": 94,
     "classes": [
       "s",
       "postit"
@@ -4337,7 +4087,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 224,
     "classes": [
       "l",
       "postit"
@@ -4352,7 +4101,6 @@
     "categories": [
       "mobilitaet.mobilitaet"
     ],
-    "length": 320,
     "classes": [
       "xl",
       "postit"
@@ -4369,7 +4117,6 @@
       "wirtschaft.einzelhandel",
       "politik.politik"
     ],
-    "length": 110,
     "classes": [
       "m",
       "postit"
@@ -4384,7 +4131,6 @@
     "categories": [
       "wirtschaft.konsum"
     ],
-    "length": 24,
     "classes": [
       "xxs",
       "postit"
@@ -4402,7 +4148,6 @@
       "umwelt.umwelt",
       "gesellschaft.senioren"
     ],
-    "length": 12,
     "classes": [
       "xxs",
       "postit"
@@ -4422,7 +4167,6 @@
       "politik.engagement",
       "politik.strukturen"
     ],
-    "length": 50,
     "classes": [
       "xs",
       "postit"
@@ -4440,7 +4184,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 112,
     "classes": [
       "m",
       "postit"
@@ -4455,7 +4198,6 @@
     "categories": [
       "mobilitaet.Parken"
     ],
-    "length": 77,
     "classes": [
       "s",
       "postit"
@@ -4473,7 +4215,6 @@
       "infrastruktur.digitalisierung",
       "politik.politik"
     ],
-    "length": 93,
     "classes": [
       "s",
       "postit"
@@ -4489,7 +4230,6 @@
       "mobilitaet.verkehrsnetz",
       "mobilitaet.mobilitaet"
     ],
-    "length": 113,
     "classes": [
       "m",
       "postit"
@@ -4504,7 +4244,6 @@
     "categories": [
       "mobilitaet.Parken"
     ],
-    "length": 111,
     "classes": [
       "m",
       "postit"
@@ -4523,7 +4262,6 @@
       "gesellschaft.gemeinschaft",
       "kultur.freizeit"
     ],
-    "length": 103,
     "classes": [
       "m",
       "postit"
@@ -4539,7 +4277,6 @@
       "wirtschaft.konsum",
       "wirtschaft.einzelhandel"
     ],
-    "length": 49,
     "classes": [
       "xs",
       "postit"
@@ -4556,7 +4293,6 @@
       "parks.parks",
       "raeume.raeume"
     ],
-    "length": 274,
     "classes": [
       "xl",
       "postit"
@@ -4575,7 +4311,6 @@
       "wirtschaft.konsum",
       "wirtschaft.einzelhandel"
     ],
-    "length": 197,
     "classes": [
       "m",
       "postit"
@@ -4594,7 +4329,6 @@
       "stadtbild.stadtbild",
       "kultur.freizeit"
     ],
-    "length": 15,
     "classes": [
       "xxs",
       "postit"
@@ -4609,7 +4343,6 @@
     "categories": [
       "politik.sicherheit"
     ],
-    "length": 38,
     "classes": [
       "xxs",
       "postit"
@@ -4626,7 +4359,6 @@
       "gesellschaft.Jugend",
       "kultur.freizeit"
     ],
-    "length": 31,
     "classes": [
       "xxs",
       "postit"
@@ -4642,7 +4374,6 @@
       "infrastruktur.Bauen",
       "parks.gruenestadt"
     ],
-    "length": 61,
     "classes": [
       "xs",
       "postit"
@@ -4658,7 +4389,6 @@
       "gesellschaft.Jugend",
       "politik.foerderung"
     ],
-    "length": 26,
     "classes": [
       "xxs",
       "postit"
@@ -4676,7 +4406,6 @@
       "stadtbild.stadtbild",
       "stadtbild.autofrei"
     ],
-    "length": 67,
     "classes": [
       "xs",
       "postit"
@@ -4694,7 +4423,6 @@
       "wirtschaft.carsharing",
       "mobilitaet.Parken"
     ],
-    "length": 57,
     "classes": [
       "xs",
       "postit"
@@ -4712,7 +4440,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 115,
     "classes": [
       "m",
       "postit"
@@ -4729,7 +4456,6 @@
       "umwelt.umwelt",
       "politik.klimawandel"
     ],
-    "length": 68,
     "classes": [
       "xs",
       "postit"
@@ -4746,7 +4472,6 @@
       "gesellschaft.inklusion",
       "kultur.sport"
     ],
-    "length": 97,
     "classes": [
       "s",
       "postit"
@@ -4762,7 +4487,6 @@
       "raeume.raeume",
       "raeume.kreativraeume"
     ],
-    "length": 41,
     "classes": [
       "xs",
       "postit"
@@ -4781,7 +4505,6 @@
       "mobilitaet.Parken",
       "parks.gruenestadt"
     ],
-    "length": 61,
     "classes": [
       "xs",
       "postit"
@@ -4797,7 +4520,6 @@
       "politik.foerderung",
       "politik.sicherheit"
     ],
-    "length": 47,
     "classes": [
       "xs",
       "postit"
@@ -4814,7 +4536,6 @@
       "mobilitaet.mobilitaet",
       "stadtbild.autofrei"
     ],
-    "length": 30,
     "classes": [
       "xxs",
       "postit"
@@ -4829,7 +4550,6 @@
     "categories": [
       "infrastruktur.energieversorgung"
     ],
-    "length": 49,
     "classes": [
       "xs",
       "postit"
@@ -4846,7 +4566,6 @@
       "politik.politik",
       "politik.engagement"
     ],
-    "length": 178,
     "classes": [
       "m",
       "postit"
@@ -4863,7 +4582,6 @@
       "mobilitaet.radverkehr",
       "kultur.kulturangebot"
     ],
-    "length": 66,
     "classes": [
       "xs",
       "postit"
@@ -4879,7 +4597,6 @@
       "mobilitaet.verkehrsfluss",
       "mobilitaet.verkehrsnetz"
     ],
-    "length": 15,
     "classes": [
       "xxs",
       "postit"
@@ -4894,7 +4611,6 @@
     "categories": [
       "mobilitaet.mobilitaet"
     ],
-    "length": 12,
     "classes": [
       "xxs",
       "postit"
@@ -4909,7 +4625,6 @@
     "categories": [
       "politik.politik"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -4922,7 +4637,6 @@
       "gesellschaft.wohnraum",
       "politik.foerderung"
     ],
-    "length": 65,
     "classes": [
       "xs",
       "postit"
@@ -4936,7 +4650,6 @@
       "politik.politik",
       "kultur.freizeit"
     ],
-    "length": 27,
     "classes": [
       "xxs",
       "postit"
@@ -4952,7 +4665,6 @@
       "mobilitaet.oepnv",
       "parks.gruenestadt"
     ],
-    "length": 38,
     "classes": [
       "xxs",
       "postit"
@@ -4970,7 +4682,6 @@
       "mobilitaet.mobilitaet",
       "politik.foerderung"
     ],
-    "length": 287,
     "classes": [
       "xl",
       "postit"
@@ -4988,7 +4699,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.Parken"
     ],
-    "length": 195,
     "classes": [
       "m",
       "postit"
@@ -5003,7 +4713,6 @@
     "categories": [
       "mobilitaet.mobilitaet"
     ],
-    "length": 80,
     "classes": [
       "s",
       "postit"
@@ -5019,7 +4728,6 @@
       "infrastruktur.digitalisierung",
       "politik.politik"
     ],
-    "length": 127,
     "classes": [
       "m",
       "postit"
@@ -5035,7 +4743,6 @@
       "parks.gruenestadt",
       "kultur.freizeit"
     ],
-    "length": 91,
     "classes": [
       "s",
       "postit"
@@ -5051,7 +4758,6 @@
       "mobilitaet.verkehrsnetz",
       "parks.gruenestadt"
     ],
-    "length": 134,
     "classes": [
       "m",
       "postit"
@@ -5067,7 +4773,6 @@
       "umwelt.umwelt",
       "politik.sicherheit"
     ],
-    "length": 133,
     "classes": [
       "m",
       "postit"
@@ -5082,7 +4787,6 @@
     "categories": [
       "parks.gruenestadt"
     ],
-    "length": 96,
     "classes": [
       "s",
       "postit"
@@ -5098,7 +4802,6 @@
       "gesellschaft.Quartiers-entwicklung",
       "politik.politik"
     ],
-    "length": 87,
     "classes": [
       "s",
       "postit"
@@ -5113,7 +4816,6 @@
     "categories": [
       "politik.politik"
     ],
-    "length": 88,
     "classes": [
       "s",
       "postit"
@@ -5129,7 +4831,6 @@
       "stadtbild.stadtgestaltung",
       "kultur.freizeit"
     ],
-    "length": 90,
     "classes": [
       "s",
       "postit"
@@ -5145,7 +4846,6 @@
       "stadtbild.stadtgestaltung",
       "gesellschaft.gemeinschaft"
     ],
-    "length": 28,
     "classes": [
       "xxs",
       "postit"
@@ -5161,7 +4861,6 @@
       "mobilitaet.Parken",
       "stadtbild.autofrei"
     ],
-    "length": 24,
     "classes": [
       "xxs",
       "postit"
@@ -5179,7 +4878,6 @@
       "raeume.raeume",
       "raeume.kreativraeume"
     ],
-    "length": 29,
     "classes": [
       "xxs",
       "postit"
@@ -5196,7 +4894,6 @@
       "raeume.raeume",
       "raeume.kreativraeume"
     ],
-    "length": 48,
     "classes": [
       "xs",
       "postit"
@@ -5212,7 +4909,6 @@
       "raeume.kreativraeume",
       "raeume.experimentierraeume"
     ],
-    "length": 40,
     "classes": [
       "xxs",
       "postit"
@@ -5227,7 +4923,6 @@
     "categories": [
       "wirtschaft.konsum"
     ],
-    "length": 16,
     "classes": [
       "xxs",
       "postit"
@@ -5245,7 +4940,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.tempo30"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"
@@ -5261,7 +4955,6 @@
       "mobilitaet.verkehrsfluss",
       "mobilitaet.Parken"
     ],
-    "length": 24,
     "classes": [
       "xxs",
       "postit"
@@ -5277,7 +4970,6 @@
       "mobilitaet.oepnv",
       "mobilitaet.mobilitaet"
     ],
-    "length": 73,
     "classes": [
       "xs",
       "postit"
@@ -5292,7 +4984,6 @@
     "categories": [
       "mobilitaet.mobilitaet"
     ],
-    "length": 85,
     "classes": [
       "s",
       "postit"
@@ -5312,7 +5003,6 @@
       "wirtschaft.konsum",
       "wirtschaft.einzelhandel"
     ],
-    "length": 82,
     "classes": [
       "s",
       "postit"
@@ -5329,7 +5019,6 @@
       "mobilitaet.verkehrsnetz",
       "mobilitaet.Parken"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"
@@ -5345,7 +5034,6 @@
       "stadtbild.beleuchtung",
       "stadtbild.sanierung"
     ],
-    "length": 50,
     "classes": [
       "xs",
       "postit"
@@ -5360,7 +5048,6 @@
     "categories": [
       "mobilitaet.oepnv"
     ],
-    "length": 39,
     "classes": [
       "xxs",
       "postit"
@@ -5375,7 +5062,6 @@
     "categories": [
       "politik.politik"
     ],
-    "length": 58,
     "classes": [
       "xs",
       "postit"
@@ -5391,7 +5077,6 @@
       "gesellschaft.wohnraum",
       "gesellschaft.familie"
     ],
-    "length": 42,
     "classes": [
       "xs",
       "postit"
@@ -5409,7 +5094,6 @@
       "kultur.freizeit",
       "raeume.raeume"
     ],
-    "length": 48,
     "classes": [
       "xs",
       "postit"
@@ -5424,7 +5108,6 @@
     "categories": [
       "politik.politik"
     ],
-    "length": 29,
     "classes": [
       "xxs",
       "postit"
@@ -5440,7 +5123,6 @@
       "gesellschaft.wohnraum",
       "politik.foerderung"
     ],
-    "length": 45,
     "classes": [
       "xs",
       "postit"
@@ -5456,7 +5138,6 @@
       "wirtschaft.konsum",
       "wirtschaft.einzelhandel"
     ],
-    "length": 56,
     "classes": [
       "xs",
       "postit"
@@ -5473,7 +5154,6 @@
       "gesellschaft.Jugend",
       "kultur.freizeit"
     ],
-    "length": 90,
     "classes": [
       "s",
       "postit"
@@ -5489,7 +5169,6 @@
       "mobilitaet.Parken",
       "politik.foerderung"
     ],
-    "length": 67,
     "classes": [
       "xs",
       "postit"
@@ -5505,7 +5184,6 @@
       "kultur.kulturangebot",
       "raeume.kreativraeume"
     ],
-    "length": 83,
     "classes": [
       "s",
       "postit"
@@ -5521,7 +5199,6 @@
       "mobilitaet.verkehrsfluss",
       "mobilitaet.verkehrsnetz"
     ],
-    "length": 155,
     "classes": [
       "m",
       "postit"
@@ -5537,7 +5214,6 @@
       "politik.stadtplanung",
       "politik.politik"
     ],
-    "length": 113,
     "classes": [
       "m",
       "postit"
@@ -5554,7 +5230,6 @@
       "politik.engagement",
       "politik.strukturen"
     ],
-    "length": 206,
     "classes": [
       "l",
       "postit"
@@ -5569,7 +5244,6 @@
     "categories": [
       "politik.politik"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -5587,7 +5261,6 @@
       "stadtbild.stadtbild",
       "stadtbild.autofrei"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -5602,7 +5275,6 @@
     "categories": [
       "politik.foerderung"
     ],
-    "length": 24,
     "classes": [
       "xxs",
       "postit"
@@ -5622,7 +5294,6 @@
       "raeume.kreativraeume",
       "stadtbild.spielplaetze"
     ],
-    "length": 115,
     "classes": [
       "m",
       "postit"
@@ -5638,7 +5309,6 @@
       "gesellschaft.gemeinschaft",
       "raeume.werkstaetten"
     ],
-    "length": 150,
     "classes": [
       "m",
       "postit"
@@ -5655,7 +5325,6 @@
       "infrastruktur.Bauen",
       "parks.gruenestadt"
     ],
-    "length": 10,
     "classes": [
       "xxs",
       "postit"
@@ -5671,7 +5340,6 @@
       "mobilitaet.verkehrsnetz",
       "parks.gruenestadt"
     ],
-    "length": 174,
     "classes": [
       "m",
       "postit"
@@ -5687,7 +5355,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.Parken"
     ],
-    "length": 50,
     "classes": [
       "xs",
       "postit"
@@ -5706,7 +5373,6 @@
       "mobilitaet.fussgaenger",
       "politik.sicherheit"
     ],
-    "length": 70,
     "classes": [
       "xs",
       "postit"
@@ -5725,7 +5391,6 @@
       "mobilitaet.individualverkehr",
       "politik.sicherheit"
     ],
-    "length": 347,
     "classes": [
       "xl",
       "postit"
@@ -5744,7 +5409,6 @@
       "wirtschaft.carsharing",
       "mobilitaet.Parken"
     ],
-    "length": 65,
     "classes": [
       "xs",
       "postit"
@@ -5760,7 +5424,6 @@
       "mobilitaet.verkehrsfluss",
       "mobilitaet.verkehrsnetz"
     ],
-    "length": 23,
     "classes": [
       "xxs",
       "postit"
@@ -5775,7 +5438,6 @@
     "categories": [
       "mobilitaet.mobilitaet"
     ],
-    "length": 16,
     "classes": [
       "xxs",
       "postit"
@@ -5792,7 +5454,6 @@
       "raeume.raeume",
       "raeume.kreativraeume"
     ],
-    "length": 80,
     "classes": [
       "s",
       "postit"
@@ -5809,7 +5470,6 @@
       "gesellschaft.wohnraum",
       "politik.stadtplanung"
     ],
-    "length": 47,
     "classes": [
       "xs",
       "postit"
@@ -5827,7 +5487,6 @@
       "kultur.nachtleben",
       "kultur.freizeit"
     ],
-    "length": 396,
     "classes": [
       "xl",
       "postit"
@@ -5845,7 +5504,6 @@
       "parks.gruenestadt",
       "umwelt.umwelt"
     ],
-    "length": 223,
     "classes": [
       "l",
       "postit"
@@ -5861,7 +5519,6 @@
       "wirtschaft.konsum",
       "kultur.freizeit"
     ],
-    "length": 231,
     "classes": [
       "l",
       "postit"
@@ -5879,7 +5536,6 @@
       "gesellschaft.gemeinschaft",
       "kultur.freizeit"
     ],
-    "length": 561,
     "classes": [
       "xxl",
       "cardboard"
@@ -5897,7 +5553,6 @@
       "stadtbild.atmosphäre",
       "politik.sicherheit"
     ],
-    "length": 48,
     "classes": [
       "xs",
       "postit"
@@ -5914,7 +5569,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.individualverkehr"
     ],
-    "length": 30,
     "classes": [
       "xxs",
       "postit"
@@ -5930,7 +5584,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.tempo30"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"
@@ -5945,7 +5598,6 @@
     "categories": [
       "parks.gruenestadt"
     ],
-    "length": 32,
     "classes": [
       "xxs",
       "postit"
@@ -5966,7 +5618,6 @@
       "raeume.raeume",
       "raeume.werkstaetten"
     ],
-    "length": 29,
     "classes": [
       "xxs",
       "postit"
@@ -5981,7 +5632,6 @@
     "categories": [
       "mobilitaet.mobilitaet"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -5998,7 +5648,6 @@
       "stadtbild.stadtbild",
       "stadtbild.autofrei"
     ],
-    "length": 113,
     "classes": [
       "m",
       "postit"
@@ -6016,7 +5665,6 @@
       "stadtbild.stadtbild",
       "wirtschaft.konsum"
     ],
-    "length": 82,
     "classes": [
       "s",
       "postit"
@@ -6034,7 +5682,6 @@
       "wirtschaft.konsum",
       "wirtschaft.einzelhandel"
     ],
-    "length": 30,
     "classes": [
       "xxs",
       "postit"
@@ -6052,7 +5699,6 @@
       "mobilitaet.verkehrsnetz",
       "mobilitaet.mobilitaet"
     ],
-    "length": 79,
     "classes": [
       "s",
       "postit"
@@ -6069,7 +5715,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 1338,
     "classes": [
       "xxl",
       "cardboard"
@@ -6087,7 +5732,6 @@
       "gesellschaft.gesellschaft",
       "gesellschaft.gemeinschaft"
     ],
-    "length": 12,
     "classes": [
       "xxs",
       "postit"
@@ -6102,7 +5746,6 @@
     "categories": [
       "mobilitaet.mobilitaet"
     ],
-    "length": 111,
     "classes": [
       "m",
       "postit"
@@ -6119,7 +5762,6 @@
       "mobilitaet.tempo30",
       "politik.sicherheit"
     ],
-    "length": 59,
     "classes": [
       "xs",
       "postit"
@@ -6138,7 +5780,6 @@
       "umwelt.umwelt",
       "parks.parks"
     ],
-    "length": 41,
     "classes": [
       "xs",
       "postit"
@@ -6154,7 +5795,6 @@
       "wirtschaft.konsum",
       "wirtschaft.einzelhandel"
     ],
-    "length": 52,
     "classes": [
       "xs",
       "postit"
@@ -6171,7 +5811,6 @@
       "gesellschaft.gemeinschaft",
       "gesellschaft.begegnung"
     ],
-    "length": 58,
     "classes": [
       "xs",
       "postit"
@@ -6188,7 +5827,6 @@
       "parks.hunde",
       "parks.parks"
     ],
-    "length": 46,
     "classes": [
       "xs",
       "postit"
@@ -6207,7 +5845,6 @@
       "gesellschaft.wohnraum",
       "wirtschaft.einzelhandel"
     ],
-    "length": 122,
     "classes": [
       "m",
       "postit"
@@ -6225,7 +5862,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.Parken"
     ],
-    "length": 253,
     "classes": [
       "l",
       "postit"
@@ -6241,7 +5877,6 @@
       "mobilitaet.verkehrsfluss",
       "mobilitaet.mobilitaet"
     ],
-    "length": 184,
     "classes": [
       "m",
       "postit"
@@ -6256,7 +5891,6 @@
     "categories": [
       "mobilitaet.mobilitaet"
     ],
-    "length": 18,
     "classes": [
       "xxs",
       "postit"
@@ -6273,7 +5907,6 @@
       "mobilitaet.verkehrsnetz",
       "mobilitaet.mobilitaet"
     ],
-    "length": 323,
     "classes": [
       "xl",
       "postit"
@@ -6293,7 +5926,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.tempo30"
     ],
-    "length": 378,
     "classes": [
       "xl",
       "postit"
@@ -6308,7 +5940,6 @@
     "categories": [
       "umwelt.umwelt"
     ],
-    "length": 228,
     "classes": [
       "l",
       "postit"
@@ -6323,7 +5954,6 @@
     "categories": [
       "mobilitaet.Parken"
     ],
-    "length": 460,
     "classes": [
       "xxl",
       "cardboard"
@@ -6340,7 +5970,6 @@
       "kultur.freizeit",
       "raeume.kreativraeume"
     ],
-    "length": 87,
     "classes": [
       "s",
       "postit"
@@ -6358,7 +5987,6 @@
       "wirtschaft.konsum",
       "wirtschaft.einzelhandel"
     ],
-    "length": 884,
     "classes": [
       "xxl",
       "cardboard"
@@ -6377,7 +6005,6 @@
       "politik.politik",
       "bildung.bildung"
     ],
-    "length": 27,
     "classes": [
       "xxs",
       "postit"
@@ -6392,7 +6019,6 @@
     "categories": [
       "mobilitaet.mobilitaet"
     ],
-    "length": 257,
     "classes": [
       "l",
       "postit"
@@ -6409,7 +6035,6 @@
       "mobilitaet.Parken",
       "parks.gruenestadt"
     ],
-    "length": 37,
     "classes": [
       "xxs",
       "postit"
@@ -6424,7 +6049,6 @@
     "categories": [
       "mobilitaet.fussgaenger"
     ],
-    "length": 42,
     "classes": [
       "xs",
       "postit"
@@ -6440,7 +6064,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.tempo30"
     ],
-    "length": 43,
     "classes": [
       "xs",
       "postit"
@@ -6457,7 +6080,6 @@
       "mobilitaet.verkehrsnetz",
       "mobilitaet.mobilitaet"
     ],
-    "length": 42,
     "classes": [
       "xs",
       "postit"
@@ -6475,7 +6097,6 @@
       "mobilitaet.mobilitaet",
       "stadtbild.autofrei"
     ],
-    "length": 99,
     "classes": [
       "s",
       "postit"
@@ -6491,7 +6112,6 @@
       "mobilitaet.oepnv",
       "mobilitaet.mobilitaet"
     ],
-    "length": 16,
     "classes": [
       "xxs",
       "postit"
@@ -6506,7 +6126,6 @@
     "categories": [
       "politik.foerderung"
     ],
-    "length": 41,
     "classes": [
       "xs",
       "postit"
@@ -6523,7 +6142,6 @@
       "mobilitaet.radverkehr",
       "umwelt.umwelt"
     ],
-    "length": 88,
     "classes": [
       "s",
       "postit"
@@ -6540,7 +6158,6 @@
       "mobilitaet.verkehrsnetz",
       "mobilitaet.radverkehr"
     ],
-    "length": 230,
     "classes": [
       "l",
       "postit"
@@ -6559,7 +6176,6 @@
       "umwelt.umwelt",
       "parks.parks"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"
@@ -6573,7 +6189,6 @@
     "categories": [
       "mobilitaet.mobilitaet"
     ],
-    "length": 23,
     "classes": [
       "xxs",
       "postit"
@@ -6590,7 +6205,6 @@
       "gesellschaft.wohnraum",
       "infrastruktur.Bauen"
     ],
-    "length": 24,
     "classes": [
       "xxs",
       "postit"
@@ -6607,7 +6221,6 @@
       "mobilitaet.mobilitaet",
       "politik.sicherheit"
     ],
-    "length": 66,
     "classes": [
       "xs",
       "postit"
@@ -6621,7 +6234,6 @@
     "categories": [
       "wirtschaft.carsharing"
     ],
-    "length": 174,
     "classes": [
       "m",
       "postit"
@@ -6637,7 +6249,6 @@
       "mobilitaet.radwege",
       "mobilitaet.radverkehr"
     ],
-    "length": 37,
     "classes": [
       "xxs",
       "postit"
@@ -6653,7 +6264,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.fussgaenger"
     ],
-    "length": 39,
     "classes": [
       "xxs",
       "postit"
@@ -6672,7 +6282,6 @@
       "kultur.freizeit",
       "raeume.raeume"
     ],
-    "length": 44,
     "classes": [
       "xs",
       "postit"
@@ -6691,7 +6300,6 @@
       "kultur.kulturangebot",
       "raeume.kreativraeume"
     ],
-    "length": 76,
     "classes": [
       "s",
       "postit"
@@ -6710,7 +6318,6 @@
       "mobilitaet.Parken",
       "stadtbild.autofrei"
     ],
-    "length": 27,
     "classes": [
       "xxs",
       "postit"
@@ -6726,7 +6333,6 @@
       "mobilitaet.oepnv",
       "mobilitaet.mobilitaet"
     ],
-    "length": 56,
     "classes": [
       "xs",
       "postit"
@@ -6742,7 +6348,6 @@
       "stadtbild.autofrei",
       "parks.gruenestadt"
     ],
-    "length": 127,
     "classes": [
       "m",
       "postit"
@@ -6759,7 +6364,6 @@
       "parks.gruenestadt",
       "politik.foerderung"
     ],
-    "length": 24,
     "classes": [
       "xxs",
       "postit"
@@ -6778,7 +6382,6 @@
       "kultur.kulturangebot",
       "kultur.freizeit"
     ],
-    "length": 44,
     "classes": [
       "xs",
       "postit"
@@ -6794,7 +6397,6 @@
       "parks.gruenestadt",
       "umwelt.umwelt"
     ],
-    "length": 115,
     "classes": [
       "m",
       "postit"
@@ -6812,7 +6414,6 @@
       "kultur.nachtleben",
       "kultur.freizeit"
     ],
-    "length": 58,
     "classes": [
       "xs",
       "postit"
@@ -6828,7 +6429,6 @@
       "stadtbild.autofrei",
       "parks.gruenestadt"
     ],
-    "length": 44,
     "classes": [
       "xs",
       "postit"
@@ -6843,7 +6443,6 @@
     "categories": [
       "stadtbild.muell"
     ],
-    "length": 118,
     "classes": [
       "m",
       "postit"
@@ -6859,7 +6458,6 @@
       "stadtbild.stadtbild",
       "infrastruktur.Bauen"
     ],
-    "length": 1375,
     "classes": [
       "xxl",
       "cardboard"
@@ -6876,7 +6474,6 @@
       "stadtbild.sanierung",
       "bildung.bildung"
     ],
-    "length": 413,
     "classes": [
       "xl",
       "postit"
@@ -6894,7 +6491,6 @@
       "wirtschaft.konsum",
       "wirtschaft.einzelhandel"
     ],
-    "length": 405,
     "classes": [
       "xl",
       "postit"
@@ -6910,7 +6506,6 @@
       "mobilitaet.mobilitaet",
       "politik.politik"
     ],
-    "length": 356,
     "classes": [
       "xl",
       "postit"
@@ -6927,7 +6522,6 @@
       "mobilitaet.radverkehr",
       "politik.politik"
     ],
-    "length": 30,
     "classes": [
       "xxs",
       "postit"
@@ -6944,7 +6538,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 19,
     "classes": [
       "xxs",
       "postit"
@@ -6959,7 +6552,6 @@
     "categories": [
       "mobilitaet.mobilitaet"
     ],
-    "length": 49,
     "classes": [
       "xs",
       "postit"
@@ -6975,7 +6567,6 @@
       "politik.sicherheit",
       "bildung.bildung"
     ],
-    "length": 29,
     "classes": [
       "xxs",
       "postit"
@@ -6992,7 +6583,6 @@
       "kultur.kulturangebot",
       "kultur.freizeit"
     ],
-    "length": 46,
     "classes": [
       "xs",
       "postit"
@@ -7008,7 +6598,6 @@
       "kultur.kulturangebot",
       "kultur.freizeit"
     ],
-    "length": 194,
     "classes": [
       "m",
       "postit"
@@ -7024,7 +6613,6 @@
       "kultur.kulturangebot",
       "kultur.freizeit"
     ],
-    "length": 57,
     "classes": [
       "xs",
       "postit"
@@ -7040,7 +6628,6 @@
       "parks.gruenestadt",
       "umwelt.umwelt"
     ],
-    "length": 93,
     "classes": [
       "s",
       "postit"
@@ -7057,7 +6644,6 @@
       "gesellschaft.begegnung",
       "kultur.freizeit"
     ],
-    "length": 156,
     "classes": [
       "m",
       "postit"
@@ -7072,7 +6658,6 @@
     "categories": [
       "infrastruktur.Bauen"
     ],
-    "length": 104,
     "classes": [
       "m",
       "postit"
@@ -7089,7 +6674,6 @@
       "mobilitaet.radverkehr",
       "politik.politik"
     ],
-    "length": 86,
     "classes": [
       "s",
       "postit"
@@ -7105,7 +6689,6 @@
       "mobilitaet.oepnv",
       "mobilitaet.mobilitaet"
     ],
-    "length": 91,
     "classes": [
       "s",
       "postit"
@@ -7120,7 +6703,6 @@
     "categories": [
       "politik.foerderung"
     ],
-    "length": 17,
     "classes": [
       "xxs",
       "postit"
@@ -7135,7 +6717,6 @@
     "categories": [
       "stadtbild.spielplaetze"
     ],
-    "length": 333,
     "classes": [
       "xl",
       "postit"
@@ -7155,7 +6736,6 @@
       "kultur.freizeit",
       "raeume.kreativraeume"
     ],
-    "length": 31,
     "classes": [
       "xxs",
       "postit"
@@ -7171,7 +6751,6 @@
       "gesellschaft.gesellschaft",
       "gesellschaft.gemeinschaft"
     ],
-    "length": 55,
     "classes": [
       "xs",
       "postit"
@@ -7192,7 +6771,6 @@
       "umwelt.umwelt",
       "gesellschaft.gemeinschaft"
     ],
-    "length": 426,
     "classes": [
       "xl",
       "postit"
@@ -7207,7 +6785,6 @@
     "categories": [
       "mobilitaet.mobilitaet"
     ],
-    "length": 347,
     "classes": [
       "xl",
       "postit"
@@ -7223,7 +6800,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.Parken"
     ],
-    "length": 37,
     "classes": [
       "xxs",
       "postit"
@@ -7239,7 +6815,6 @@
       "umwelt.umwelt",
       "kultur.freizeit"
     ],
-    "length": 233,
     "classes": [
       "l",
       "postit"
@@ -7258,7 +6833,6 @@
       "infrastruktur.Bauen",
       "parks.gruenestadt"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"
@@ -7274,7 +6848,6 @@
       "mobilitaet.mobilitaet",
       "wirtschaft.carsharing"
     ],
-    "length": 18,
     "classes": [
       "xxs",
       "postit"
@@ -7290,7 +6863,6 @@
       "politik.politik",
       "bildung.bildung"
     ],
-    "length": 15,
     "classes": [
       "xxs",
       "postit"
@@ -7311,7 +6883,6 @@
       "kultur.kulturangebot",
       "kultur.freizeit"
     ],
-    "length": 45,
     "classes": [
       "xs",
       "postit"
@@ -7326,7 +6897,6 @@
     "categories": [
       "politik.sicherheit"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"
@@ -7343,7 +6913,6 @@
       "politik.foerderung",
       "kultur.kulturangebot"
     ],
-    "length": 34,
     "classes": [
       "xxs",
       "postit"
@@ -7358,7 +6927,6 @@
     "categories": [
       "kultur.kulturangebot"
     ],
-    "length": 21,
     "classes": [
       "xxs",
       "postit"
@@ -7376,7 +6944,6 @@
       "infrastruktur.Bauen",
       "gesellschaft.inklusion"
     ],
-    "length": 87,
     "classes": [
       "s",
       "postit"
@@ -7394,7 +6961,6 @@
       "mobilitaet.fussgaenger",
       "politik.sicherheit"
     ],
-    "length": 50,
     "classes": [
       "xs",
       "postit"
@@ -7410,7 +6976,6 @@
       "stadtbild.spielplaetze",
       "bildung.bildung"
     ],
-    "length": 195,
     "classes": [
       "m",
       "postit"
@@ -7426,7 +6991,6 @@
       "infrastruktur.Bauen",
       "gesellschaft.inklusion"
     ],
-    "length": 28,
     "classes": [
       "xxs",
       "postit"
@@ -7444,7 +7008,6 @@
       "politik.flaechen",
       "infrastruktur.Bauen"
     ],
-    "length": 25,
     "classes": [
       "xxs",
       "postit"
@@ -7459,7 +7022,6 @@
     "categories": [
       "mobilitaet.mobilitaet"
     ],
-    "length": 37,
     "classes": [
       "xxs",
       "postit"
@@ -7475,7 +7037,6 @@
       "mobilitaet.verkehrsnetz",
       "politik.politik"
     ],
-    "length": 71,
     "classes": [
       "xs",
       "postit"
@@ -7494,7 +7055,6 @@
       "wirtschaft.konsum",
       "wirtschaft.einzelhandel"
     ],
-    "length": 632,
     "classes": [
       "xxl",
       "cardboard"
@@ -7509,7 +7069,6 @@
     "categories": [
       "mobilitaet.mobilitaet"
     ],
-    "length": 326,
     "classes": [
       "xl",
       "postit"
@@ -7525,7 +7084,6 @@
       "mobilitaet.mobilitaet",
       "parks.hunde"
     ],
-    "length": 317,
     "classes": [
       "xl",
       "postit"
@@ -7541,7 +7099,6 @@
       "mobilitaet.mobilitaet",
       "wirtschaft.carsharing"
     ],
-    "length": 87,
     "classes": [
       "s",
       "postit"
@@ -7557,7 +7114,6 @@
       "parks.gruenestadt",
       "parks.parks"
     ],
-    "length": 79,
     "classes": [
       "s",
       "postit"
@@ -7574,7 +7130,6 @@
       "parks.gruenestadt",
       "parks.parks"
     ],
-    "length": 227,
     "classes": [
       "l",
       "postit"
@@ -7591,7 +7146,6 @@
       "politik.foerderung",
       "raeume.werkstaetten"
     ],
-    "length": 699,
     "classes": [
       "xxl",
       "cardboard"
@@ -7608,7 +7162,6 @@
       "stadtbild.stadtbild",
       "politik.flaechen"
     ],
-    "length": 265,
     "classes": [
       "l",
       "postit"
@@ -7625,7 +7178,6 @@
       "stadtbild.autofrei",
       "parks.gruenestadt"
     ],
-    "length": 43,
     "classes": [
       "xs",
       "postit"
@@ -7641,7 +7193,6 @@
       "mobilitaet.mobilitaet",
       "stadtbild.autofrei"
     ],
-    "length": 109,
     "classes": [
       "m",
       "postit"
@@ -7660,7 +7211,6 @@
       "parks.parks",
       "stadtbild.spielplaetze"
     ],
-    "length": 150,
     "classes": [
       "m",
       "postit"
@@ -7675,7 +7225,6 @@
     "categories": [
       "infrastruktur.energieversorgung"
     ],
-    "length": 66,
     "classes": [
       "xs",
       "postit"
@@ -7692,7 +7241,6 @@
       "mobilitaet.verkehrsnetz",
       "mobilitaet.radverkehr"
     ],
-    "length": 36,
     "classes": [
       "xxs",
       "postit"
@@ -7707,7 +7255,6 @@
     "categories": [
       "mobilitaet.mobilitaet"
     ],
-    "length": 90,
     "classes": [
       "s",
       "postit"
@@ -7723,7 +7270,6 @@
       "mobilitaet.Parken",
       "gesellschaft.begegnung"
     ],
-    "length": 128,
     "classes": [
       "m",
       "postit"
@@ -7739,7 +7285,6 @@
       "parks.gruenestadt",
       "gesellschaft.gemeinschaft"
     ],
-    "length": 206,
     "classes": [
       "l",
       "postit"
@@ -7755,7 +7300,6 @@
       "gesellschaft.inklusion",
       "politik.foerderung"
     ],
-    "length": 97,
     "classes": [
       "s",
       "postit"
@@ -7772,7 +7316,6 @@
       "mobilitaet.mobilitaet",
       "wirtschaft.carsharing"
     ],
-    "length": 113,
     "classes": [
       "m",
       "postit"
@@ -7788,7 +7331,6 @@
       "mobilitaet.Parken",
       "gesellschaft.inklusion"
     ],
-    "length": 269,
     "classes": [
       "l",
       "postit"
@@ -7805,7 +7347,6 @@
       "mobilitaet.verkehrsnetz",
       "infrastruktur.Bauen"
     ],
-    "length": 67,
     "classes": [
       "xs",
       "postit"
@@ -7820,7 +7361,6 @@
     "categories": [
       "mobilitaet.mobilitaet"
     ],
-    "length": 69,
     "classes": [
       "xs",
       "postit"
@@ -7838,7 +7378,6 @@
       "gesellschaft.wohnraum",
       "parks.gruenestadt"
     ],
-    "length": 96,
     "classes": [
       "s",
       "postit"
@@ -7853,7 +7392,6 @@
     "categories": [
       "wirtschaft.einzelhandel"
     ],
-    "length": 675,
     "classes": [
       "xxl",
       "cardboard"
@@ -7869,7 +7407,6 @@
       "infrastruktur.energieversorgung",
       "mobilitaet.mobilitaet"
     ],
-    "length": 442,
     "classes": [
       "xl",
       "postit"
@@ -7889,7 +7426,6 @@
       "politik.politik",
       "politik.transparenz"
     ],
-    "length": 74,
     "classes": [
       "xs",
       "postit"
@@ -7908,7 +7444,6 @@
       "gesellschaft.Quartiers-entwicklung",
       "stadtbild.lebenswert"
     ],
-    "length": 125,
     "classes": [
       "m",
       "postit"
@@ -7924,7 +7459,6 @@
       "mobilitaet.Parken",
       "politik.flaechen"
     ],
-    "length": 70,
     "classes": [
       "xs",
       "postit"
@@ -7939,7 +7473,6 @@
     "categories": [
       "mobilitaet.mobilitaet"
     ],
-    "length": 83,
     "classes": [
       "s",
       "postit"
@@ -7957,7 +7490,6 @@
       "stadtbild.lebenswert",
       "mobilitaet.fussgaenger"
     ],
-    "length": 38,
     "classes": [
       "xxs",
       "postit"
@@ -7973,7 +7505,6 @@
       "kultur.kulturangebot",
       "raeume.raeume"
     ],
-    "length": 16,
     "classes": [
       "xxs",
       "postit"
@@ -7988,7 +7519,6 @@
     "categories": [
       "mobilitaet.tempo30"
     ],
-    "length": 65,
     "classes": [
       "xs",
       "postit"
@@ -8005,7 +7535,6 @@
       "stadtbild.stadtbild",
       "stadtbild.autofrei"
     ],
-    "length": 80,
     "classes": [
       "s",
       "postit"
@@ -8024,7 +7553,6 @@
       "stadtbild.spielplaetze",
       "politik.sicherheit"
     ],
-    "length": 198,
     "classes": [
       "m",
       "postit"
@@ -8040,7 +7568,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.Parken"
     ],
-    "length": 31,
     "classes": [
       "xxs",
       "postit"
@@ -8058,7 +7585,6 @@
       "mobilitaet.individualverkehr",
       "mobilitaet.fussgaenger"
     ],
-    "length": 15,
     "classes": [
       "xxs",
       "postit"
@@ -8073,7 +7599,6 @@
     "categories": [
       "gesellschaft.gerechtigkeit"
     ],
-    "length": 72,
     "classes": [
       "xs",
       "postit"
@@ -8092,7 +7617,6 @@
       "stadtbild.lebenswert",
       "parks.gruenestadt"
     ],
-    "length": 252,
     "classes": [
       "l",
       "postit"
@@ -8108,7 +7632,6 @@
       "gesellschaft.gesellschaft",
       "politik.politik"
     ],
-    "length": 133,
     "classes": [
       "m",
       "postit"
@@ -8126,7 +7649,6 @@
       "umwelt.umwelt",
       "parks.parks"
     ],
-    "length": 47,
     "classes": [
       "xs",
       "postit"
@@ -8143,7 +7665,6 @@
       "parks.hunde",
       "gesellschaft.gemeinschaft"
     ],
-    "length": 25,
     "classes": [
       "xxs",
       "postit"
@@ -8160,7 +7681,6 @@
       "politik.stadtplanung",
       "gesellschaft.gerechtigkeit"
     ],
-    "length": 35,
     "classes": [
       "xxs",
       "postit"
@@ -8177,7 +7697,6 @@
       "mobilitaet.verkehrsnetz",
       "stadtbild.muell"
     ],
-    "length": 59,
     "classes": [
       "xs",
       "postit"
@@ -8193,7 +7712,6 @@
       "mobilitaet.mobilitaet",
       "politik.flaechen"
     ],
-    "length": 67,
     "classes": [
       "xs",
       "postit"
@@ -8208,7 +7726,6 @@
     "categories": [
       "stadtbild.lebenswert"
     ],
-    "length": 55,
     "classes": [
       "xs",
       "postit"
@@ -8224,7 +7741,6 @@
       "gesellschaft.Jugend",
       "raeume.raeume"
     ],
-    "length": 114,
     "classes": [
       "m",
       "postit"
@@ -8243,7 +7759,6 @@
       "politik.klimawandel",
       "politik.foerderung"
     ],
-    "length": 54,
     "classes": [
       "xs",
       "postit"
@@ -8258,7 +7773,6 @@
     "categories": [
       "mobilitaet.individualverkehr"
     ],
-    "length": 123,
     "classes": [
       "m",
       "postit"
@@ -8274,7 +7788,6 @@
       "infrastruktur.digitalisierung",
       "politik.engagement"
     ],
-    "length": 77,
     "classes": [
       "s",
       "postit"
@@ -8290,7 +7803,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.Parken"
     ],
-    "length": 55,
     "classes": [
       "xs",
       "postit"
@@ -8306,7 +7818,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.fussgaenger"
     ],
-    "length": 10,
     "classes": [
       "xxs",
       "postit"
@@ -8321,7 +7832,6 @@
     "categories": [
       "parks.gruenestadt"
     ],
-    "length": 45,
     "classes": [
       "xs",
       "postit"
@@ -8337,7 +7847,6 @@
       "politik.klimawandel",
       "politik.politik"
     ],
-    "length": 38,
     "classes": [
       "xxs",
       "postit"
@@ -8352,7 +7861,6 @@
     "categories": [
       "mobilitaet.tempo30"
     ],
-    "length": 80,
     "classes": [
       "s",
       "postit"
@@ -8370,7 +7878,6 @@
       "gesellschaft.gentrifizierung",
       "gesellschaft.gesellschaft"
     ],
-    "length": 10,
     "classes": [
       "xxs",
       "postit"
@@ -8387,7 +7894,6 @@
       "stadtbild.stadtbild",
       "stadtbild.autofrei"
     ],
-    "length": 90,
     "classes": [
       "s",
       "postit"
@@ -8404,7 +7910,6 @@
       "gesellschaft.Jugend",
       "bildung.bildung"
     ],
-    "length": 25,
     "classes": [
       "xxs",
       "postit"
@@ -8419,7 +7924,6 @@
     "categories": [
       "gesellschaft.Jugend"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -8435,7 +7939,6 @@
       "gesellschaft.wohnraum",
       "gesellschaft.gerechtigkeit"
     ],
-    "length": 19,
     "classes": [
       "xxs",
       "postit"
@@ -8451,7 +7954,6 @@
       "mobilitaet.verkehrsnetz",
       "politik.politik"
     ],
-    "length": 23,
     "classes": [
       "xxs",
       "postit"
@@ -8466,7 +7968,6 @@
     "categories": [
       "stadtbild.stadtbild"
     ],
-    "length": 54,
     "classes": [
       "xs",
       "postit"
@@ -8482,7 +7983,6 @@
       "stadtbild.stadtbild",
       "wirtschaft.einzelhandel"
     ],
-    "length": 39,
     "classes": [
       "xxs",
       "postit"
@@ -8498,7 +7998,6 @@
       "parks.gruenestadt",
       "bildung.bildung"
     ],
-    "length": 26,
     "classes": [
       "xxs",
       "postit"
@@ -8514,7 +8013,6 @@
       "infrastruktur.digitalisierung",
       "mobilitaet.individualverkehr"
     ],
-    "length": 13,
     "classes": [
       "xxs",
       "postit"
@@ -8529,7 +8027,6 @@
     "categories": [
       "mobilitaet.radverkehr"
     ],
-    "length": 22,
     "classes": [
       "xxs",
       "postit"
@@ -8545,7 +8042,6 @@
       "mobilitaet.oepnv",
       "politik.flaechen"
     ],
-    "length": 36,
     "classes": [
       "xxs",
       "postit"
@@ -8560,7 +8056,6 @@
     "categories": [
       "gesellschaft.gerechtigkeit"
     ],
-    "length": 86,
     "classes": [
       "s",
       "postit"
@@ -8577,7 +8072,6 @@
       "politik.klimawandel",
       "wirtschaft.einzelhandel"
     ],
-    "length": 77,
     "classes": [
       "s",
       "postit"
@@ -8592,7 +8086,6 @@
     "categories": [
       "wirtschaft.einzelhandel"
     ],
-    "length": 37,
     "classes": [
       "xxs",
       "postit"
@@ -8608,7 +8101,6 @@
       "stadtbild.muell",
       "politik.klimawandel"
     ],
-    "length": 73,
     "classes": [
       "xs",
       "postit"
@@ -8623,7 +8115,6 @@
     "categories": [
       "bildung.bildung"
     ],
-    "length": 25,
     "classes": [
       "xxs",
       "postit"
@@ -8641,7 +8132,6 @@
       "politik.flaechen",
       "politik.klimawandel"
     ],
-    "length": 16,
     "classes": [
       "xxs",
       "postit"
@@ -8657,7 +8147,6 @@
       "mobilitaet.oepnv",
       "gesellschaft.gerechtigkeit"
     ],
-    "length": 81,
     "classes": [
       "s",
       "postit"
@@ -8672,7 +8161,6 @@
     "categories": [
       "stadtbild.muell"
     ],
-    "length": 388,
     "classes": [
       "xl",
       "postit"
@@ -8688,7 +8176,6 @@
       "stadtbild.muell",
       "parks.hunde"
     ],
-    "length": 675,
     "classes": [
       "xxl",
       "cardboard"
@@ -8703,7 +8190,6 @@
     "categories": [
       "mobilitaet.Parken"
     ],
-    "length": 178,
     "classes": [
       "m",
       "postit"
@@ -8719,7 +8205,6 @@
       "mobilitaet.individualverkehr",
       "politik.sicherheit"
     ],
-    "length": 16,
     "classes": [
       "xxs",
       "postit"
@@ -8734,7 +8219,6 @@
     "categories": [
       "stadtbild.autofrei"
     ],
-    "length": 64,
     "classes": [
       "xs",
       "postit"
@@ -8750,7 +8234,6 @@
       "parks.gruenestadt",
       "politik.klimawandel"
     ],
-    "length": 86,
     "classes": [
       "s",
       "postit"
@@ -8767,7 +8250,6 @@
       "wirtschaft.einzelhandel",
       "politik.foerderung"
     ],
-    "length": 39,
     "classes": [
       "xxs",
       "postit"
@@ -8783,7 +8265,6 @@
       "gesellschaft.gerechtigkeit",
       "politik.klimawandel"
     ],
-    "length": 73,
     "classes": [
       "xs",
       "postit"
@@ -8798,7 +8279,6 @@
     "categories": [
       "bildung.bildung"
     ],
-    "length": 26,
     "classes": [
       "xxs",
       "postit"
@@ -8814,7 +8294,6 @@
       "politik.foerderung",
       "bildung.bildung"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"
@@ -8830,7 +8309,6 @@
       "gesellschaft.wohnraum",
       "gesellschaft.generationen"
     ],
-    "length": 83,
     "classes": [
       "s",
       "postit"
@@ -8846,7 +8324,6 @@
       "politik.klimawandel",
       "politik.politik"
     ],
-    "length": 41,
     "classes": [
       "xs",
       "postit"
@@ -8862,7 +8339,6 @@
       "mobilitaet.verkehrsfluss",
       "stadtbild.muell"
     ],
-    "length": 324,
     "classes": [
       "xl",
       "postit"
@@ -8878,7 +8354,6 @@
       "mobilitaet.radverkehr",
       "politik.sicherheit"
     ],
-    "length": 235,
     "classes": [
       "l",
       "postit"
@@ -8893,7 +8368,6 @@
     "categories": [
       "politik.sicherheit"
     ],
-    "length": 242,
     "classes": [
       "l",
       "postit"
@@ -8908,7 +8382,6 @@
     "categories": [
       "parks.hunde"
     ],
-    "length": 321,
     "classes": [
       "xl",
       "postit"
@@ -8924,7 +8397,6 @@
       "gesellschaft.Jugend",
       "politik.sicherheit"
     ],
-    "length": 127,
     "classes": [
       "m",
       "postit"
@@ -8941,7 +8413,6 @@
       "gesellschaft.Jugend",
       "bildung.bildung"
     ],
-    "length": 173,
     "classes": [
       "m",
       "postit"
@@ -8956,7 +8427,6 @@
     "categories": [
       "parks.gruenestadt"
     ],
-    "length": 106,
     "classes": [
       "m",
       "postit"
@@ -8971,7 +8441,6 @@
     "categories": [
       "stadtbild.autofrei"
     ],
-    "length": 164,
     "classes": [
       "m",
       "postit"
@@ -8987,7 +8456,6 @@
       "gesellschaft.Jugend",
       "stadtbild.spielplaetze"
     ],
-    "length": 98,
     "classes": [
       "s",
       "postit"
@@ -9004,7 +8472,6 @@
       "raeume.raeume",
       "raeume.experimentierraeume"
     ],
-    "length": 98,
     "classes": [
       "s",
       "postit"
@@ -9019,7 +8486,6 @@
     "categories": [
       "kultur.sport"
     ],
-    "length": 94,
     "classes": [
       "s",
       "postit"
@@ -9036,7 +8502,6 @@
       "politik.engagement",
       "politik.strukturen"
     ],
-    "length": 56,
     "classes": [
       "xs",
       "postit"
@@ -9052,7 +8517,6 @@
       "gesellschaft.Jugend",
       "politik.engagement"
     ],
-    "length": 70,
     "classes": [
       "xs",
       "postit"
@@ -9069,7 +8533,6 @@
       "politik.engagement",
       "kultur.kulturangebot"
     ],
-    "length": 164,
     "classes": [
       "m",
       "postit"
@@ -9084,7 +8547,6 @@
     "categories": [
       "gesellschaft.Quartiers-entwicklung"
     ],
-    "length": 160,
     "classes": [
       "m",
       "postit"
@@ -9099,7 +8561,6 @@
     "categories": [
       "stadtbild.stadtbild"
     ],
-    "length": 179,
     "classes": [
       "m",
       "postit"
@@ -9114,7 +8575,6 @@
     "categories": [
       "kultur.kulturangebot"
     ],
-    "length": 191,
     "classes": [
       "m",
       "postit"
@@ -9130,7 +8590,6 @@
       "politik.politik",
       "politik.strukturen"
     ],
-    "length": 42,
     "classes": [
       "xs",
       "postit"
@@ -9145,7 +8604,6 @@
     "categories": [
       "wirtschaft.einzelhandel"
     ],
-    "length": 26,
     "classes": [
       "xxs",
       "postit"
@@ -9161,7 +8619,6 @@
       "stadtbild.autofrei",
       "politik.flaechen"
     ],
-    "length": 26,
     "classes": [
       "xxs",
       "postit"
@@ -9177,7 +8634,6 @@
       "parks.gruenestadt",
       "politik.klimawandel"
     ],
-    "length": 24,
     "classes": [
       "xxs",
       "postit"
@@ -9193,7 +8649,6 @@
       "mobilitaet.oepnv",
       "gesellschaft.wohnraum"
     ],
-    "length": 14,
     "classes": [
       "xxs",
       "postit"
@@ -9208,7 +8663,6 @@
     "categories": [
       "gesellschaft.gerechtigkeit"
     ],
-    "length": 75,
     "classes": [
       "xs",
       "postit"
@@ -9224,7 +8678,6 @@
       "gesellschaft.gemeinschaft",
       "gesellschaft.begegnung"
     ],
-    "length": 66,
     "classes": [
       "xs",
       "postit"
@@ -9239,7 +8692,6 @@
     "categories": [
       "gesellschaft.Jugend"
     ],
-    "length": 31,
     "classes": [
       "xxs",
       "postit"
@@ -9254,7 +8706,6 @@
     "categories": [
       "politik.stadtplanung"
     ],
-    "length": 179,
     "classes": [
       "m",
       "postit"
@@ -9273,7 +8724,6 @@
       "gesellschaft.familie",
       "politik.klimawandel"
     ],
-    "length": 245,
     "classes": [
       "l",
       "postit"
@@ -9289,7 +8739,6 @@
       "mobilitaet.radwege",
       "politik.stadtplanung"
     ],
-    "length": 98,
     "classes": [
       "s",
       "postit"
@@ -9304,7 +8753,6 @@
     "categories": [
       "mobilitaet.individualverkehr"
     ],
-    "length": 80,
     "classes": [
       "s",
       "postit"
@@ -9320,7 +8768,6 @@
       "wirtschaft.einzelhandel",
       "kultur.nachtleben"
     ],
-    "length": 48,
     "classes": [
       "xs",
       "postit"
@@ -9337,7 +8784,6 @@
       "raeume.raeume",
       "raeume.kreativraeume"
     ],
-    "length": 43,
     "classes": [
       "xs",
       "postit"
@@ -9352,7 +8798,6 @@
     "categories": [
       "kultur.kulturangebot"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -9368,7 +8813,6 @@
       "politik.foerderung",
       "kultur.kulturangebot"
     ],
-    "length": 34,
     "classes": [
       "xxs",
       "postit"
@@ -9385,7 +8829,6 @@
       "raeume.kreativraeume",
       "raeume.experimentierraeume"
     ],
-    "length": 39,
     "classes": [
       "xxs",
       "postit"
@@ -9401,7 +8844,6 @@
       "gesellschaft.gemeinschaft",
       "gesellschaft.begegnung"
     ],
-    "length": 61,
     "classes": [
       "xs",
       "postit"
@@ -9417,7 +8859,6 @@
       "gesellschaft.inklusion",
       "politik.engagement"
     ],
-    "length": 13,
     "classes": [
       "xxs",
       "postit"
@@ -9435,7 +8876,6 @@
       "mobilitaet.individualverkehr",
       "stadtbild.autofrei"
     ],
-    "length": 24,
     "classes": [
       "xxs",
       "postit"
@@ -9451,7 +8891,6 @@
       "mobilitaet.verkehrsfluss",
       "mobilitaet.fussgaenger"
     ],
-    "length": 138,
     "classes": [
       "m",
       "postit"
@@ -9466,7 +8905,6 @@
     "categories": [
       "mobilitaet.fussgaenger"
     ],
-    "length": 39,
     "classes": [
       "xxs",
       "postit"
@@ -9482,7 +8920,6 @@
       "mobilitaet.Parken",
       "stadtbild.stadtbild"
     ],
-    "length": 27,
     "classes": [
       "xxs",
       "postit"
@@ -9498,7 +8935,6 @@
       "mobilitaet.oepnv",
       "parks.gruenestadt"
     ],
-    "length": 18,
     "classes": [
       "xxs",
       "postit"
@@ -9513,7 +8949,6 @@
     "categories": [
       "kultur.nachtleben"
     ],
-    "length": 131,
     "classes": [
       "m",
       "postit"
@@ -9528,7 +8963,6 @@
     "categories": [
       "kultur.nachtleben"
     ],
-    "length": 73,
     "classes": [
       "xs",
       "postit"
@@ -9544,7 +8978,6 @@
       "politik.engagement",
       "politik.transparenz"
     ],
-    "length": 69,
     "classes": [
       "xs",
       "postit"
@@ -9560,7 +8993,6 @@
       "politik.stadtplanung",
       "infrastruktur.Bauen"
     ],
-    "length": 30,
     "classes": [
       "xxs",
       "postit"
@@ -9576,7 +9008,6 @@
       "parks.gruenestadt",
       "umwelt.umwelt"
     ],
-    "length": 38,
     "classes": [
       "xxs",
       "postit"
@@ -9592,7 +9023,6 @@
       "politik.stadtplanung",
       "infrastruktur.Bauen"
     ],
-    "length": 29,
     "classes": [
       "xxs",
       "postit"
@@ -9609,7 +9039,6 @@
       "stadtbild.autofrei",
       "stadtbild.lebenswert"
     ],
-    "length": 49,
     "classes": [
       "xs",
       "postit"
@@ -9624,7 +9053,6 @@
     "categories": [
       "mobilitaet.oepnv"
     ],
-    "length": 70,
     "classes": [
       "xs",
       "postit"
@@ -9639,7 +9067,6 @@
     "categories": [
       "gesellschaft.inklusion"
     ],
-    "length": 43,
     "classes": [
       "xs",
       "postit"
@@ -9655,7 +9082,6 @@
       "politik.politik",
       "politik.strukturen"
     ],
-    "length": 41,
     "classes": [
       "xs",
       "postit"
@@ -9670,7 +9096,6 @@
     "categories": [
       "politik.politik"
     ],
-    "length": 82,
     "classes": [
       "s",
       "postit"
@@ -9687,7 +9112,6 @@
       "gesellschaft.Jugend",
       "politik.engagement"
     ],
-    "length": 64,
     "classes": [
       "xs",
       "postit"
@@ -9703,7 +9127,6 @@
       "infrastruktur.Bauen",
       "politik.klimawandel"
     ],
-    "length": 26,
     "classes": [
       "xxs",
       "postit"
@@ -9718,7 +9141,6 @@
     "categories": [
       "stadtbild.muell"
     ],
-    "length": 64,
     "classes": [
       "xs",
       "postit"
@@ -9734,7 +9156,6 @@
       "umwelt.umwelt",
       "politik.klimawandel"
     ],
-    "length": 251,
     "classes": [
       "l",
       "postit"
@@ -9749,7 +9170,6 @@
     "categories": [
       "politik.stadtplanung"
     ],
-    "length": 151,
     "classes": [
       "m",
       "postit"
@@ -9765,7 +9185,6 @@
       "mobilitaet.individualverkehr",
       "politik.flaechen"
     ],
-    "length": 115,
     "classes": [
       "m",
       "postit"
@@ -9780,7 +9199,6 @@
     "categories": [
       "mobilitaet.radwege"
     ],
-    "length": 111,
     "classes": [
       "m",
       "postit"
@@ -9796,7 +9214,6 @@
       "wirtschaft.carsharing",
       "stadtbild.stadtbild"
     ],
-    "length": 158,
     "classes": [
       "m",
       "postit"
@@ -9811,7 +9228,6 @@
     "categories": [
       "mobilitaet.fussgaenger"
     ],
-    "length": 39,
     "classes": [
       "xxs",
       "postit"
@@ -9827,7 +9243,6 @@
       "mobilitaet.radwege",
       "mobilitaet.radverkehr"
     ],
-    "length": 132,
     "classes": [
       "m",
       "postit"
@@ -9843,7 +9258,6 @@
       "mobilitaet.oepnv",
       "gesellschaft.inklusion"
     ],
-    "length": 205,
     "classes": [
       "l",
       "postit"
@@ -9859,7 +9273,6 @@
       "parks.gruenestadt",
       "mobilitaet.fussgaenger"
     ],
-    "length": 39,
     "classes": [
       "xxs",
       "postit"
@@ -9874,7 +9287,6 @@
     "categories": [
       "mobilitaet.individualverkehr"
     ],
-    "length": 263,
     "classes": [
       "l",
       "postit"
@@ -9890,7 +9302,6 @@
       "mobilitaet.oepnv",
       "parks.gruenestadt"
     ],
-    "length": 25,
     "classes": [
       "xxs",
       "postit"
@@ -9906,7 +9317,6 @@
       "politik.stadtplanung",
       "infrastruktur.Bauen"
     ],
-    "length": 28,
     "classes": [
       "xxs",
       "postit"
@@ -9921,7 +9331,6 @@
     "categories": [
       "parks.gruenestadt"
     ],
-    "length": 163,
     "classes": [
       "m",
       "postit"
@@ -9936,7 +9345,6 @@
     "categories": [
       "gesellschaft.inklusion"
     ],
-    "length": 153,
     "classes": [
       "m",
       "postit"
@@ -9955,7 +9363,6 @@
       "parks.gruenestadt",
       "wirtschaft.konsum"
     ],
-    "length": 284,
     "classes": [
       "xl",
       "postit"
@@ -9974,7 +9381,6 @@
       "parks.gruenestadt",
       "mobilitaet.fussgaenger"
     ],
-    "length": 294,
     "classes": [
       "xl",
       "postit"
@@ -9990,7 +9396,6 @@
       "gesellschaft.wohnraum",
       "gesellschaft.gerechtigkeit"
     ],
-    "length": 113,
     "classes": [
       "m",
       "postit"
@@ -10006,7 +9411,6 @@
       "gesellschaft.Jugend",
       "kultur.freizeit"
     ],
-    "length": 16,
     "classes": [
       "xxs",
       "postit"
@@ -10021,7 +9425,6 @@
     "categories": [
       "infrastruktur.digitalisierung"
     ],
-    "length": 60,
     "classes": [
       "xs",
       "postit"
@@ -10037,7 +9440,6 @@
       "infrastruktur.digitalisierung",
       "politik.strukturen"
     ],
-    "length": 53,
     "classes": [
       "xs",
       "postit"
@@ -10053,7 +9455,6 @@
       "infrastruktur.digitalisierung",
       "kultur.kulturangebot"
     ],
-    "length": 124,
     "classes": [
       "m",
       "postit"
@@ -10069,7 +9470,6 @@
       "politik.klimawandel",
       "bildung.bildung"
     ],
-    "length": 31,
     "classes": [
       "xxs",
       "postit"
@@ -10084,7 +9484,6 @@
     "categories": [
       "mobilitaet.Parken"
     ],
-    "length": 102,
     "classes": [
       "m",
       "postit"
@@ -10100,7 +9499,6 @@
       "mobilitaet.radwege",
       "mobilitaet.Parken"
     ],
-    "length": 78,
     "classes": [
       "s",
       "postit"
@@ -10115,7 +9513,6 @@
     "categories": [
       "parks.hunde"
     ],
-    "length": 23,
     "classes": [
       "xxs",
       "postit"
@@ -10130,7 +9527,6 @@
     "categories": [
       "wirtschaft.einzelhandel"
     ],
-    "length": 9,
     "classes": [
       "xxs",
       "postit"
@@ -10145,7 +9541,6 @@
     "categories": [
       "parks.gruenestadt"
     ],
-    "length": 81,
     "classes": [
       "s",
       "postit"
@@ -10163,7 +9558,6 @@
       "gesellschaft.gemeinschaft",
       "gesellschaft.begegnung"
     ],
-    "length": 44,
     "classes": [
       "xs",
       "postit"
@@ -10178,7 +9572,6 @@
     "categories": [
       "politik.flaechen"
     ],
-    "length": 23,
     "classes": [
       "xxs",
       "postit"
@@ -10193,7 +9586,6 @@
     "categories": [
       "gesellschaft.gesellschaft"
     ],
-    "length": 34,
     "classes": [
       "xxs",
       "postit"
@@ -10208,7 +9600,6 @@
     "categories": [
       "wirtschaft.einzelhandel"
     ],
-    "length": 11,
     "classes": [
       "xxs",
       "postit"
@@ -10223,7 +9614,6 @@
     "categories": [
       "kultur.kulturangebot"
     ],
-    "length": 40,
     "classes": [
       "xxs",
       "postit"
@@ -10238,7 +9628,6 @@
     "categories": [
       "gesellschaft.wohnraum"
     ],
-    "length": 30,
     "classes": [
       "xxs",
       "postit"
@@ -10256,7 +9645,6 @@
       "stadtbild.autofrei",
       "stadtbild.lebenswert"
     ],
-    "length": 132,
     "classes": [
       "m",
       "postit"
@@ -10272,7 +9660,6 @@
       "stadtbild.lebenswert",
       "mobilitaet.fussgaenger"
     ],
-    "length": 48,
     "classes": [
       "xs",
       "postit"
@@ -10291,7 +9678,6 @@
       "raeume.raeume",
       "raeume.kreativraeume"
     ],
-    "length": 49,
     "classes": [
       "xs",
       "postit"
@@ -10306,7 +9692,6 @@
     "categories": [
       "stadtbild.autofrei"
     ],
-    "length": 89,
     "classes": [
       "s",
       "postit"
@@ -10324,7 +9709,6 @@
       "raeume.werkstaetten",
       "raeume.experimentierraeume"
     ],
-    "length": 28,
     "classes": [
       "xxs",
       "postit"
@@ -10339,7 +9723,6 @@
     "categories": [
       "parks.gruenestadt"
     ],
-    "length": 73,
     "classes": [
       "xs",
       "postit"
@@ -10358,7 +9741,6 @@
       "politik.engagement",
       "raeume.raeume"
     ],
-    "length": 66,
     "classes": [
       "xs",
       "postit"
@@ -10373,7 +9755,6 @@
     "categories": [
       "kultur.sport"
     ],
-    "length": 43,
     "classes": [
       "xs",
       "postit"
@@ -10388,7 +9769,6 @@
     "categories": [
       "stadtbild.spielplaetze"
     ],
-    "length": 16,
     "classes": [
       "xxs",
       "postit"
@@ -10403,7 +9783,6 @@
     "categories": [
       "infrastruktur.digitalisierung"
     ],
-    "length": 40,
     "classes": [
       "xxs",
       "postit"
@@ -10418,7 +9797,6 @@
     "categories": [
       "bildung.bildung"
     ],
-    "length": 70,
     "classes": [
       "xs",
       "postit"
@@ -10434,7 +9812,6 @@
       "mobilitaet.Parken",
       "politik.flaechen"
     ],
-    "length": 53,
     "classes": [
       "xs",
       "postit"
@@ -10446,7 +9823,6 @@
     "categories": [
       "wirtschaft.einzelhandel"
     ],
-    "length": 41,
     "classes": [
       "xs",
       "postit"
@@ -10465,7 +9841,6 @@
       "politik.flaechen",
       "parks.gruenestadt"
     ],
-    "length": 23,
     "classes": [
       "xxs",
       "postit"
@@ -10481,7 +9856,6 @@
       "wirtschaft.carsharing",
       "mobilitaet.individualverkehr"
     ],
-    "length": 62,
     "classes": [
       "xs",
       "postit"
@@ -10497,7 +9871,6 @@
       "gesellschaft.Jugend",
       "raeume.kreativraeume"
     ],
-    "length": 14,
     "classes": [
       "xxs",
       "postit"
@@ -10512,7 +9885,6 @@
     "categories": [
       "stadtbild.muell"
     ],
-    "length": 29,
     "classes": [
       "xxs",
       "postit"
@@ -10528,7 +9900,6 @@
       "kultur.sport",
       "stadtbild.spielplaetze"
     ],
-    "length": 55,
     "classes": [
       "xs",
       "postit"
@@ -10545,7 +9916,6 @@
       "gesellschaft.Jugend",
       "bildung.bildung"
     ],
-    "length": 54,
     "classes": [
       "xs",
       "postit"
@@ -10561,7 +9931,6 @@
       "gesellschaft.inklusion",
       "bildung.bildung"
     ],
-    "length": 64,
     "classes": [
       "xs",
       "postit"
@@ -10576,7 +9945,6 @@
     "categories": [
       "stadtbild.spielplaetze"
     ],
-    "length": 46,
     "classes": [
       "xs",
       "postit"
@@ -10593,7 +9961,6 @@
       "mobilitaet.mobilitaet",
       "gesellschaft.inklusion"
     ],
-    "length": 47,
     "classes": [
       "xs",
       "postit"
@@ -10609,7 +9976,6 @@
       "mobilitaet.radverkehr",
       "gesellschaft.gerechtigkeit"
     ],
-    "length": 36,
     "classes": [
       "xxs",
       "postit"
@@ -10625,7 +9991,6 @@
       "mobilitaet.radverkehr",
       "politik.klimawandel"
     ],
-    "length": 572,
     "classes": [
       "xxl",
       "cardboard"
@@ -10640,7 +10005,6 @@
     "categories": [
       "mobilitaet.Parken"
     ],
-    "length": 848,
     "classes": [
       "xxl",
       "cardboard"
@@ -10655,7 +10019,6 @@
     "categories": [
       "parks.hunde"
     ],
-    "length": 35,
     "classes": [
       "xxs",
       "postit"
@@ -10670,7 +10033,6 @@
     "categories": [
       "mobilitaet.tempo30"
     ],
-    "length": 52,
     "classes": [
       "xs",
       "postit"
@@ -10682,7 +10044,6 @@
     "categories": [
       "wirtschaft.einzelhandel"
     ],
-    "length": 68,
     "classes": [
       "xs",
       "postit"
@@ -10697,7 +10058,6 @@
     "categories": [
       "stadtbild.muell"
     ],
-    "length": 55,
     "classes": [
       "xs",
       "postit"
@@ -10712,7 +10072,6 @@
     "categories": [
       "raeume.raeume"
     ],
-    "length": 126,
     "classes": [
       "m",
       "postit"
@@ -10728,7 +10087,6 @@
       "politik.politik",
       "politik.transparenz"
     ],
-    "length": 53,
     "classes": [
       "xs",
       "postit"
@@ -10744,7 +10102,6 @@
       "politik.politik",
       "politik.transparenz"
     ],
-    "length": 84,
     "classes": [
       "s",
       "postit"
@@ -10759,7 +10116,6 @@
     "categories": [
       "politik.engagement"
     ],
-    "length": 27,
     "classes": [
       "xxs",
       "postit"
@@ -10776,7 +10132,6 @@
       "politik.engagement",
       "politik.strukturen"
     ],
-    "length": 148,
     "classes": [
       "m",
       "postit"
@@ -10793,7 +10148,6 @@
       "gesellschaft.Jugend",
       "gesellschaft.senioren"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -10809,7 +10163,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.tempo30"
     ],
-    "length": 100,
     "classes": [
       "s",
       "postit"
@@ -10826,7 +10179,6 @@
       "politik.flaechen",
       "mobilitaet.fussgaenger"
     ],
-    "length": 257,
     "classes": [
       "l",
       "postit"
@@ -10842,7 +10194,6 @@
       "wirtschaft.konsum",
       "wirtschaft.einzelhandel"
     ],
-    "length": 84,
     "classes": [
       "s",
       "postit"
@@ -10857,7 +10208,6 @@
     "categories": [
       "gesellschaft.wohnraum"
     ],
-    "length": 29,
     "classes": [
       "xxs",
       "postit"
@@ -10872,7 +10222,6 @@
     "categories": [
       "stadtbild.autofrei"
     ],
-    "length": 16,
     "classes": [
       "xxs",
       "postit"
@@ -10887,7 +10236,6 @@
     "categories": [
       "parks.gruenestadt"
     ],
-    "length": 53,
     "classes": [
       "xs",
       "postit"
@@ -10904,7 +10252,6 @@
       "gesellschaft.begegnung",
       "kultur.kulturangebot"
     ],
-    "length": 19,
     "classes": [
       "xxs",
       "postit"
@@ -10919,7 +10266,6 @@
     "categories": [
       "mobilitaet.individualverkehr"
     ],
-    "length": 21,
     "classes": [
       "xxs",
       "postit"
@@ -10934,7 +10280,6 @@
     "categories": [
       "mobilitaet.tempo30"
     ],
-    "length": 45,
     "classes": [
       "xs",
       "postit"
@@ -10951,7 +10296,6 @@
       "parks.gruenestadt",
       "politik.klimawandel"
     ],
-    "length": 83,
     "classes": [
       "s",
       "postit"
@@ -10967,7 +10311,6 @@
       "gesellschaft.inklusion",
       "politik.transparenz"
     ],
-    "length": 37,
     "classes": [
       "xxs",
       "postit"
@@ -10984,7 +10327,6 @@
       "politik.engagement",
       "raeume.raeume"
     ],
-    "length": 80,
     "classes": [
       "s",
       "postit"
@@ -10999,7 +10341,6 @@
     "categories": [
       "gesellschaft.inklusion"
     ],
-    "length": 110,
     "classes": [
       "m",
       "postit"
@@ -11010,7 +10351,6 @@
     "categories": [
       "gesellschaft.gerechtigkeit"
     ],
-    "length": 93,
     "classes": [
       "s",
       "postit"
@@ -11027,7 +10367,6 @@
       "umwelt.umwelt",
       "politik.klimawandel"
     ],
-    "length": 32,
     "classes": [
       "xxs",
       "postit"
@@ -11045,7 +10384,6 @@
       "gesellschaft.gerechtigkeit",
       "politik.foerderung"
     ],
-    "length": 29,
     "classes": [
       "xxs",
       "postit"
@@ -11062,7 +10400,6 @@
       "politik.klimawandel",
       "bildung.bildung"
     ],
-    "length": 25,
     "classes": [
       "xxs",
       "postit"
@@ -11078,7 +10415,6 @@
       "stadtbild.lebenswert",
       "parks.gruenestadt"
     ],
-    "length": 34,
     "classes": [
       "xxs",
       "postit"
@@ -11096,7 +10432,6 @@
       "parks.gruenestadt",
       "umwelt.umwelt"
     ],
-    "length": 18,
     "classes": [
       "xxs",
       "postit"
@@ -11112,7 +10447,6 @@
       "gesellschaft.gesellschaft",
       "gesellschaft.gemeinschaft"
     ],
-    "length": 16,
     "classes": [
       "xxs",
       "postit"
@@ -11131,7 +10465,6 @@
       "mobilitaet.mobilitaet",
       "stadtbild.stadtbild"
     ],
-    "length": 16,
     "classes": [
       "xxs",
       "postit"
@@ -11149,7 +10482,6 @@
       "mobilitaet.mobilitaet",
       "stadtbild.sanierung"
     ],
-    "length": 19,
     "classes": [
       "xxs",
       "postit"
@@ -11167,7 +10499,6 @@
       "mobilitaet.mobilitaet",
       "politik.sicherheit"
     ],
-    "length": 19,
     "classes": [
       "xxs",
       "postit"
@@ -11183,7 +10514,6 @@
       "infrastruktur.infrastruktur",
       "gesellschaft.familie"
     ],
-    "length": 24,
     "classes": [
       "xxs",
       "postit"
@@ -11199,7 +10529,6 @@
       "kultur.sport",
       "politik.foerderung"
     ],
-    "length": 18,
     "classes": [
       "xxs",
       "postit"
@@ -11215,7 +10544,6 @@
       "wirtschaft.carsharing",
       "wirtschaft.konsum"
     ],
-    "length": 69,
     "classes": [
       "xs",
       "postit"
@@ -11232,7 +10560,6 @@
       "parks.gruenestadt",
       "umwelt.umwelt"
     ],
-    "length": 18,
     "classes": [
       "xxs",
       "postit"
@@ -11248,7 +10575,6 @@
       "infrastruktur.infrastruktur",
       "gesellschaft.inklusion"
     ],
-    "length": 45,
     "classes": [
       "xs",
       "postit"
@@ -11263,7 +10589,6 @@
     "categories": [
       "umwelt.umwelt"
     ],
-    "length": 38,
     "classes": [
       "xxs",
       "postit"
@@ -11279,7 +10604,6 @@
       "wirtschaft.konsum",
       "politik.klimawandel"
     ],
-    "length": 39,
     "classes": [
       "xxs",
       "postit"
@@ -11296,7 +10620,6 @@
       "politik.engagement",
       "politik.strukturen"
     ],
-    "length": 55,
     "classes": [
       "xs",
       "postit"
@@ -11313,7 +10636,6 @@
       "politik.strukturen",
       "politik.transparenz"
     ],
-    "length": 36,
     "classes": [
       "xxs",
       "postit"
@@ -11329,7 +10651,6 @@
       "politik.politik",
       "politik.strukturen"
     ],
-    "length": 23,
     "classes": [
       "xxs",
       "postit"
@@ -11349,7 +10670,6 @@
       "mobilitaet.mobilitaet",
       "stadtbild.sanierung"
     ],
-    "length": 52,
     "classes": [
       "xs",
       "postit"
@@ -11364,7 +10684,6 @@
     "categories": [
       "politik.politik"
     ],
-    "length": 41,
     "classes": [
       "xs",
       "postit"
@@ -11381,7 +10700,6 @@
       "politik.foerderung",
       "kultur.kulturangebot"
     ],
-    "length": 48,
     "classes": [
       "xs",
       "postit"
@@ -11397,7 +10715,6 @@
       "kultur.kulturangebot",
       "politik.transparenz"
     ],
-    "length": 41,
     "classes": [
       "xs",
       "postit"
@@ -11413,7 +10730,6 @@
       "politik.foerderung",
       "politik.engagement"
     ],
-    "length": 47,
     "classes": [
       "xs",
       "postit"
@@ -11429,7 +10745,6 @@
       "gesellschaft.gesellschaft",
       "gesellschaft.gemeinschaft"
     ],
-    "length": 28,
     "classes": [
       "xxs",
       "postit"
@@ -11446,7 +10761,6 @@
       "politik.politik",
       "kultur.freizeit"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"
@@ -11464,7 +10778,6 @@
       "gesellschaft.gerechtigkeit",
       "politik.foerderung"
     ],
-    "length": 25,
     "classes": [
       "xxs",
       "postit"
@@ -11482,7 +10795,6 @@
       "gesellschaft.gemeinschaft",
       "kultur.freizeit"
     ],
-    "length": 48,
     "classes": [
       "xs",
       "postit"
@@ -11498,7 +10810,6 @@
       "wirtschaft.konsum",
       "wirtschaft.einzelhandel"
     ],
-    "length": 32,
     "classes": [
       "xxs",
       "postit"
@@ -11515,7 +10826,6 @@
       "mobilitaet.individualverkehr",
       "stadtbild.stadtbild"
     ],
-    "length": 13,
     "classes": [
       "xxs",
       "postit"
@@ -11534,7 +10844,6 @@
       "gesellschaft.wohnraum",
       "politik.stadtplanung"
     ],
-    "length": 23,
     "classes": [
       "xxs",
       "postit"
@@ -11551,7 +10860,6 @@
       "politik.foerderung",
       "kultur.freizeit"
     ],
-    "length": 63,
     "classes": [
       "xs",
       "postit"
@@ -11567,7 +10875,6 @@
       "gesellschaft.gerechtigkeit",
       "wirtschaft.konsum"
     ],
-    "length": 23,
     "classes": [
       "xxs",
       "postit"
@@ -11584,7 +10891,6 @@
       "gesellschaft.senioren",
       "politik.politik"
     ],
-    "length": 14,
     "classes": [
       "xxs",
       "postit"
@@ -11601,7 +10907,6 @@
       "politik.politik",
       "politik.sicherheit"
     ],
-    "length": 84,
     "classes": [
       "s",
       "postit"
@@ -11618,7 +10923,6 @@
       "kultur.freizeit",
       "parks.parks"
     ],
-    "length": 30,
     "classes": [
       "xxs",
       "postit"
@@ -11634,7 +10938,6 @@
       "politik.foerderung",
       "kultur.kulturangebot"
     ],
-    "length": 24,
     "classes": [
       "xxs",
       "postit"
@@ -11652,7 +10955,6 @@
       "kultur.kulturangebot",
       "raeume.raeume"
     ],
-    "length": 25,
     "classes": [
       "xxs",
       "postit"
@@ -11667,7 +10969,6 @@
     "categories": [
       "politik.politik"
     ],
-    "length": 71,
     "classes": [
       "xs",
       "postit"
@@ -11685,7 +10986,6 @@
       "mobilitaet.mobilitaet",
       "stadtbild.sanierung"
     ],
-    "length": 61,
     "classes": [
       "xs",
       "postit"
@@ -11704,7 +11004,6 @@
       "politik.foerderung",
       "politik.politik"
     ],
-    "length": 35,
     "classes": [
       "xxs",
       "postit"
@@ -11721,7 +11020,6 @@
       "stadtbild.autofrei",
       "stadtbild.stadtgestaltung"
     ],
-    "length": 28,
     "classes": [
       "xxs",
       "postit"
@@ -11740,7 +11038,6 @@
       "politik.flaechen",
       "stadtbild.lebenswert"
     ],
-    "length": 56,
     "classes": [
       "xs",
       "postit"
@@ -11756,7 +11053,6 @@
       "stadtbild.muell",
       "stadtbild.stadtbild"
     ],
-    "length": 41,
     "classes": [
       "xs",
       "postit"
@@ -11771,7 +11067,6 @@
     "categories": [
       "bildung.bildung"
     ],
-    "length": 57,
     "classes": [
       "xs",
       "postit"
@@ -11790,7 +11085,6 @@
       "stadtbild.stadtgestaltung",
       "politik.flaechen"
     ],
-    "length": 43,
     "classes": [
       "xs",
       "postit"
@@ -11806,7 +11100,6 @@
       "stadtbild.lebenswert",
       "mobilitaet.fussgaenger"
     ],
-    "length": 26,
     "classes": [
       "xxs",
       "postit"
@@ -11823,7 +11116,6 @@
       "gesellschaft.gesellschaft",
       "wirtschaft.konsum"
     ],
-    "length": 30,
     "classes": [
       "xxs",
       "postit"
@@ -11839,7 +11131,6 @@
       "politik.foerderung",
       "politik.engagement"
     ],
-    "length": 48,
     "classes": [
       "xs",
       "postit"
@@ -11854,7 +11145,6 @@
     "categories": [
       "politik.politik"
     ],
-    "length": 29,
     "classes": [
       "xxs",
       "postit"
@@ -11870,7 +11160,6 @@
       "politik.politik",
       "politik.strukturen"
     ],
-    "length": 55,
     "classes": [
       "xs",
       "postit"
@@ -11887,7 +11176,6 @@
       "politik.strukturen",
       "politik.transparenz"
     ],
-    "length": 65,
     "classes": [
       "xs",
       "postit"
@@ -11905,7 +11193,6 @@
       "kultur.kulturangebot",
       "raeume.raeume"
     ],
-    "length": 15,
     "classes": [
       "xxs",
       "postit"
@@ -11922,7 +11209,6 @@
       "raeume.raeume",
       "raeume.kreativraeume"
     ],
-    "length": 15,
     "classes": [
       "xxs",
       "postit"
@@ -11937,7 +11223,6 @@
     "categories": [
       "kultur.kulturangebot"
     ],
-    "length": 24,
     "classes": [
       "xxs",
       "postit"
@@ -11956,7 +11241,6 @@
       "kultur.freizeit",
       "raeume.raeume"
     ],
-    "length": 29,
     "classes": [
       "xxs",
       "postit"
@@ -11973,7 +11257,6 @@
       "gesellschaft.gerechtigkeit",
       "politik.politik"
     ],
-    "length": 17,
     "classes": [
       "xxs",
       "postit"
@@ -11990,7 +11273,6 @@
       "gesellschaft.gerechtigkeit",
       "politik.politik"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -12006,7 +11288,6 @@
       "gesellschaft.inklusion",
       "gesellschaft.gesellschaft"
     ],
-    "length": 40,
     "classes": [
       "xxs",
       "postit"
@@ -12025,7 +11306,6 @@
       "gesellschaft.inklusion",
       "gesellschaft.gesellschaft"
     ],
-    "length": 38,
     "classes": [
       "xxs",
       "postit"
@@ -12042,7 +11322,6 @@
       "mobilitaet.individualverkehr",
       "mobilitaet.tempo30"
     ],
-    "length": 26,
     "classes": [
       "xxs",
       "postit"
@@ -12058,7 +11337,6 @@
       "gesellschaft.gerechtigkeit",
       "bildung.bildung"
     ],
-    "length": 62,
     "classes": [
       "xs",
       "postit"
@@ -12074,7 +11352,6 @@
       "wirtschaft.konsum",
       "politik.foerderung"
     ],
-    "length": 28,
     "classes": [
       "xxs",
       "postit"
@@ -12090,7 +11367,6 @@
       "wirtschaft.konsum",
       "wirtschaft.einzelhandel"
     ],
-    "length": 35,
     "classes": [
       "xxs",
       "postit"
@@ -12106,7 +11382,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.individualverkehr"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"
@@ -12123,7 +11398,6 @@
       "gesellschaft.begegnung",
       "kultur.freizeit"
     ],
-    "length": 38,
     "classes": [
       "xxs",
       "postit"
@@ -12140,7 +11414,6 @@
       "stadtbild.stadtbild",
       "stadtbild.lebenswert"
     ],
-    "length": 34,
     "classes": [
       "xxs",
       "postit"
@@ -12158,7 +11431,6 @@
       "gesellschaft.gerechtigkeit",
       "politik.foerderung"
     ],
-    "length": 45,
     "classes": [
       "xs",
       "postit"
@@ -12174,7 +11446,6 @@
       "stadtbild.muell",
       "wirtschaft.einzelhandel"
     ],
-    "length": 25,
     "classes": [
       "xxs",
       "postit"
@@ -12191,7 +11462,6 @@
       "gesellschaft.inklusion",
       "gesellschaft.senioren"
     ],
-    "length": 52,
     "classes": [
       "xs",
       "postit"
@@ -12207,7 +11477,6 @@
       "politik.foerderung",
       "kultur.kulturangebot"
     ],
-    "length": 39,
     "classes": [
       "xxs",
       "postit"
@@ -12225,7 +11494,6 @@
       "stadtbild.autofrei",
       "stadtbild.lebenswert"
     ],
-    "length": 28,
     "classes": [
       "xxs",
       "postit"
@@ -12241,7 +11509,6 @@
       "kultur.freizeit",
       "politik.sicherheit"
     ],
-    "length": 24,
     "classes": [
       "xxs",
       "postit"
@@ -12256,7 +11523,6 @@
     "categories": [
       "politik.politik"
     ],
-    "length": 64,
     "classes": [
       "xs",
       "postit"
@@ -12272,7 +11538,6 @@
       "politik.engagement",
       "politik.strukturen"
     ],
-    "length": 57,
     "classes": [
       "xs",
       "postit"
@@ -12288,7 +11553,6 @@
       "wirtschaft.konsum",
       "wirtschaft.einzelhandel"
     ],
-    "length": 39,
     "classes": [
       "xxs",
       "postit"
@@ -12307,7 +11571,6 @@
       "stadtbild.stadtgestaltung",
       "stadtbild.lebenswert"
     ],
-    "length": 28,
     "classes": [
       "xxs",
       "postit"
@@ -12324,7 +11587,6 @@
       "politik.foerderung",
       "kultur.freizeit"
     ],
-    "length": 35,
     "classes": [
       "xxs",
       "postit"
@@ -12342,7 +11604,6 @@
       "gesellschaft.inklusion",
       "politik.sicherheit"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -12360,7 +11621,6 @@
       "wirtschaft.konsum",
       "wirtschaft.einzelhandel"
     ],
-    "length": 90,
     "classes": [
       "s",
       "postit"
@@ -12378,7 +11638,6 @@
       "gesellschaft.gesellschaft",
       "gesellschaft.gemeinschaft"
     ],
-    "length": 36,
     "classes": [
       "xxs",
       "postit"
@@ -12395,7 +11654,6 @@
       "politik.foerderung",
       "kultur.freizeit"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"
@@ -12411,7 +11669,6 @@
       "mobilitaet.oepnv",
       "mobilitaet.mobilitaet"
     ],
-    "length": 21,
     "classes": [
       "xxs",
       "postit"
@@ -12427,7 +11684,6 @@
       "wirtschaft.konsum",
       "wirtschaft.einzelhandel"
     ],
-    "length": 29,
     "classes": [
       "xxs",
       "postit"
@@ -12445,7 +11701,6 @@
       "politik.foerderung",
       "politik.politik"
     ],
-    "length": 30,
     "classes": [
       "xxs",
       "postit"
@@ -12460,7 +11715,6 @@
     "categories": [
       "kultur.freizeit"
     ],
-    "length": 65,
     "classes": [
       "xs",
       "postit"
@@ -12478,7 +11732,6 @@
       "parks.gruenestadt",
       "parks.parks"
     ],
-    "length": 30,
     "classes": [
       "xxs",
       "postit"
@@ -12496,7 +11749,6 @@
       "mobilitaet.mobilitaet",
       "politik.stadtplanung"
     ],
-    "length": 22,
     "classes": [
       "xxs",
       "postit"
@@ -12513,7 +11765,6 @@
       "mobilitaet.individualverkehr",
       "politik.stadtplanung"
     ],
-    "length": 13,
     "classes": [
       "xxs",
       "postit"
@@ -12530,7 +11781,6 @@
       "gesellschaft.gesellschaft",
       "wirtschaft.konsum"
     ],
-    "length": 49,
     "classes": [
       "xs",
       "postit"
@@ -12547,7 +11797,6 @@
       "gesellschaft.gemeinschaft",
       "gesellschaft.begegnung"
     ],
-    "length": 29,
     "classes": [
       "xxs",
       "postit"
@@ -12563,7 +11812,6 @@
       "parks.gruenestadt",
       "umwelt.umwelt"
     ],
-    "length": 9,
     "classes": [
       "xxs",
       "postit"
@@ -12580,7 +11828,6 @@
       "stadtbild.atmosphäre",
       "stadtbild.lebenswert"
     ],
-    "length": 40,
     "classes": [
       "xxs",
       "postit"
@@ -12597,7 +11844,6 @@
       "politik.politik",
       "kultur.kulturangebot"
     ],
-    "length": 25,
     "classes": [
       "xxs",
       "postit"
@@ -12612,7 +11858,6 @@
     "categories": [
       "politik.politik"
     ],
-    "length": 17,
     "classes": [
       "xxs",
       "postit"
@@ -12628,7 +11873,6 @@
       "politik.politik",
       "bildung.bildung"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -12644,7 +11888,6 @@
       "stadtbild.sanierung",
       "politik.foerderung"
     ],
-    "length": 58,
     "classes": [
       "xs",
       "postit"
@@ -12666,7 +11909,6 @@
       "stadtbild.autofrei",
       "politik.flaechen"
     ],
-    "length": 42,
     "classes": [
       "xs",
       "postit"
@@ -12684,7 +11926,6 @@
       "stadtbild.stadtbild",
       "parks.hunde"
     ],
-    "length": 32,
     "classes": [
       "xxs",
       "postit"
@@ -12700,7 +11941,6 @@
       "parks.hunde",
       "politik.politik"
     ],
-    "length": 26,
     "classes": [
       "xxs",
       "postit"
@@ -12728,7 +11968,6 @@
       "stadtbild.spielplaetze",
       "bildung.bildung"
     ],
-    "length": 13,
     "classes": [
       "xxs",
       "postit"
@@ -12747,7 +11986,6 @@
       "gesellschaft.begegnung",
       "politik.politik"
     ],
-    "length": 85,
     "classes": [
       "s",
       "postit"
@@ -12764,7 +12002,6 @@
       "wirtschaft.konsum",
       "politik.foerderung"
     ],
-    "length": 22,
     "classes": [
       "xxs",
       "postit"
@@ -12783,7 +12020,6 @@
       "raeume.kreativraeume",
       "raeume.experimentierraeume"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"
@@ -12799,7 +12035,6 @@
       "politik.foerderung",
       "kultur.kulturangebot"
     ],
-    "length": 27,
     "classes": [
       "xxs",
       "postit"
@@ -12818,7 +12053,6 @@
       "gesellschaft.inklusion",
       "politik.foerderung"
     ],
-    "length": 17,
     "classes": [
       "xxs",
       "postit"
@@ -12834,7 +12068,6 @@
       "parks.gruenestadt",
       "politik.klimawandel"
     ],
-    "length": 19,
     "classes": [
       "xxs",
       "postit"
@@ -12850,7 +12083,6 @@
       "stadtbild.muell",
       "stadtbild.stadtbild"
     ],
-    "length": 12,
     "classes": [
       "xxs",
       "postit"
@@ -12866,7 +12098,6 @@
       "parks.gruenestadt",
       "politik.klimawandel"
     ],
-    "length": 19,
     "classes": [
       "xxs",
       "postit"
@@ -12888,7 +12119,6 @@
       "kultur.freizeit",
       "parks.parks"
     ],
-    "length": 26,
     "classes": [
       "xxs",
       "postit"
@@ -12908,7 +12138,6 @@
       "politik.politik",
       "politik.engagement"
     ],
-    "length": 23,
     "classes": [
       "xxs",
       "postit"
@@ -12924,7 +12153,6 @@
       "kultur.sport",
       "kultur.freizeit"
     ],
-    "length": 31,
     "classes": [
       "xxs",
       "postit"
@@ -12944,7 +12172,6 @@
       "mobilitaet.mobilitaet",
       "politik.stadtplanung"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"
@@ -12961,7 +12188,6 @@
       "mobilitaet.individualverkehr",
       "stadtbild.lebenswert"
     ],
-    "length": 26,
     "classes": [
       "xxs",
       "postit"
@@ -12979,7 +12205,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 40,
     "classes": [
       "xxs",
       "postit"
@@ -12997,7 +12222,6 @@
       "umwelt.umwelt",
       "parks.parks"
     ],
-    "length": 24,
     "classes": [
       "xxs",
       "postit"
@@ -13015,7 +12239,6 @@
       "parks.gruenestadt",
       "umwelt.umwelt"
     ],
-    "length": 17,
     "classes": [
       "xxs",
       "postit"
@@ -13034,7 +12257,6 @@
       "politik.foerderung",
       "politik.politik"
     ],
-    "length": 66,
     "classes": [
       "xs",
       "postit"
@@ -13053,7 +12275,6 @@
       "mobilitaet.individualverkehr",
       "politik.stadtplanung"
     ],
-    "length": 23,
     "classes": [
       "xxs",
       "postit"
@@ -13069,7 +12290,6 @@
       "wirtschaft.konsum",
       "parks.parks"
     ],
-    "length": 32,
     "classes": [
       "xxs",
       "postit"
@@ -13088,7 +12308,6 @@
       "kultur.freizeit",
       "raeume.raeume"
     ],
-    "length": 44,
     "classes": [
       "xs",
       "postit"
@@ -13107,7 +12326,6 @@
       "gesellschaft.inklusion",
       "gesellschaft.senioren"
     ],
-    "length": 41,
     "classes": [
       "xs",
       "postit"
@@ -13126,7 +12344,6 @@
       "stadtbild.autofrei",
       "stadtbild.lebenswert"
     ],
-    "length": 28,
     "classes": [
       "xxs",
       "postit"
@@ -13142,7 +12359,6 @@
       "gesellschaft.gesellschaft",
       "kultur.kulturangebot"
     ],
-    "length": 24,
     "classes": [
       "xxs",
       "postit"
@@ -13162,7 +12378,6 @@
       "umwelt.umwelt",
       "parks.parks"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -13179,7 +12394,6 @@
       "politik.politik",
       "bildung.bildung"
     ],
-    "length": 26,
     "classes": [
       "xxs",
       "postit"
@@ -13195,7 +12409,6 @@
       "politik.politik",
       "politik.sicherheit"
     ],
-    "length": 35,
     "classes": [
       "xxs",
       "postit"
@@ -13210,7 +12423,6 @@
     "categories": [
       "parks.parks"
     ],
-    "length": 45,
     "classes": [
       "xs",
       "postit"
@@ -13227,7 +12439,6 @@
       "gesellschaft.gesellschaft",
       "gesellschaft.gemeinschaft"
     ],
-    "length": 24,
     "classes": [
       "xxs",
       "postit"
@@ -13243,7 +12454,6 @@
       "infrastruktur.infrastruktur",
       "stadtbild.muell"
     ],
-    "length": 23,
     "classes": [
       "xxs",
       "postit"
@@ -13259,7 +12469,6 @@
       "wirtschaft.konsum",
       "wirtschaft.einzelhandel"
     ],
-    "length": 30,
     "classes": [
       "xxs",
       "postit"
@@ -13277,7 +12486,6 @@
       "kultur.freizeit",
       "parks.parks"
     ],
-    "length": 30,
     "classes": [
       "xxs",
       "postit"
@@ -13293,7 +12501,6 @@
       "stadtbild.muell",
       "parks.parks"
     ],
-    "length": 28,
     "classes": [
       "xxs",
       "postit"
@@ -13309,7 +12516,6 @@
       "parks.hunde",
       "parks.parks"
     ],
-    "length": 50,
     "classes": [
       "xs",
       "postit"
@@ -13324,7 +12530,6 @@
     "categories": [
       "stadtbild.muell"
     ],
-    "length": 12,
     "classes": [
       "xxs",
       "postit"
@@ -13340,7 +12545,6 @@
       "parks.hunde",
       "parks.parks"
     ],
-    "length": 10,
     "classes": [
       "xxs",
       "postit"
@@ -13356,7 +12560,6 @@
       "stadtbild.muell",
       "parks.parks"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"
@@ -13371,7 +12574,6 @@
     "categories": [
       "politik.politik"
     ],
-    "length": 17,
     "classes": [
       "xxs",
       "postit"
@@ -13391,7 +12593,6 @@
       "umwelt.umwelt",
       "politik.klimawandel"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"
@@ -13409,7 +12610,6 @@
       "politik.stadtplanung",
       "mobilitaet.fussgaenger"
     ],
-    "length": 86,
     "classes": [
       "s",
       "postit"
@@ -13428,7 +12628,6 @@
       "mobilitaet.individualverkehr",
       "stadtbild.stadtbild"
     ],
-    "length": 28,
     "classes": [
       "xxs",
       "postit"
@@ -13443,7 +12642,6 @@
     "categories": [
       "gesellschaft.inklusion"
     ],
-    "length": 72,
     "classes": [
       "xs",
       "postit"
@@ -13459,7 +12657,6 @@
       "mobilitaet.radverkehr",
       "wirtschaft.einzelhandel"
     ],
-    "length": 74,
     "classes": [
       "xs",
       "postit"
@@ -13477,7 +12674,6 @@
       "mobilitaet.Parken",
       "politik.stadtplanung"
     ],
-    "length": 46,
     "classes": [
       "xs",
       "postit"
@@ -13492,7 +12688,6 @@
     "categories": [
       "stadtbild.muell"
     ],
-    "length": 25,
     "classes": [
       "xxs",
       "postit"
@@ -13508,7 +12703,6 @@
       "wirtschaft.konsum",
       "parks.parks"
     ],
-    "length": 27,
     "classes": [
       "xxs",
       "postit"
@@ -13524,7 +12718,6 @@
       "gesellschaft.wohnraum",
       "gesellschaft.gerechtigkeit"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -13542,7 +12735,6 @@
       "infrastruktur.Bauen",
       "politik.politik"
     ],
-    "length": 41,
     "classes": [
       "xs",
       "postit"
@@ -13562,7 +12754,6 @@
       "mobilitaet.mobilitaet",
       "politik.stadtplanung"
     ],
-    "length": 34,
     "classes": [
       "xxs",
       "postit"
@@ -13577,7 +12768,6 @@
     "categories": [
       "kultur.freizeit"
     ],
-    "length": 45,
     "classes": [
       "xs",
       "postit"
@@ -13597,7 +12787,6 @@
       "raeume.kreativraeume",
       "stadtbild.spielplaetze"
     ],
-    "length": 66,
     "classes": [
       "xs",
       "postit"
@@ -13615,7 +12804,6 @@
       "mobilitaet.Parken",
       "politik.stadtplanung"
     ],
-    "length": 27,
     "classes": [
       "xxs",
       "postit"
@@ -13631,7 +12819,6 @@
       "politik.foerderung",
       "kultur.kulturangebot"
     ],
-    "length": 24,
     "classes": [
       "xxs",
       "postit"
@@ -13649,7 +12836,6 @@
       "gesellschaft.begegnung",
       "raeume.raeume"
     ],
-    "length": 57,
     "classes": [
       "xs",
       "postit"
@@ -13666,7 +12852,6 @@
       "wirtschaft.carsharing",
       "politik.foerderung"
     ],
-    "length": 41,
     "classes": [
       "xs",
       "postit"
@@ -13683,7 +12868,6 @@
       "kultur.freizeit",
       "parks.parks"
     ],
-    "length": 74,
     "classes": [
       "xs",
       "postit"
@@ -13699,7 +12883,6 @@
       "wirtschaft.konsum",
       "parks.parks"
     ],
-    "length": 27,
     "classes": [
       "xxs",
       "postit"
@@ -13715,7 +12898,6 @@
       "gesellschaft.familie",
       "stadtbild.spielplaetze"
     ],
-    "length": 39,
     "classes": [
       "xxs",
       "postit"
@@ -13730,7 +12912,6 @@
     "categories": [
       "parks.hunde"
     ],
-    "length": 35,
     "classes": [
       "xxs",
       "postit"
@@ -13746,7 +12927,6 @@
       "stadtbild.muell",
       "politik.politik"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"
@@ -13762,7 +12942,6 @@
       "mobilitaet.radwege",
       "mobilitaet.radverkehr"
     ],
-    "length": 30,
     "classes": [
       "xxs",
       "postit"
@@ -13779,7 +12958,6 @@
       "stadtbild.stadtbild",
       "stadtbild.lebenswert"
     ],
-    "length": 36,
     "classes": [
       "xxs",
       "postit"
@@ -13798,7 +12976,6 @@
       "mobilitaet.mobilitaet",
       "infrastruktur.Bauen"
     ],
-    "length": 17,
     "classes": [
       "xxs",
       "postit"
@@ -13814,7 +12991,6 @@
       "mobilitaet.oepnv",
       "mobilitaet.mobilitaet"
     ],
-    "length": 25,
     "classes": [
       "xxs",
       "postit"
@@ -13834,7 +13010,6 @@
       "politik.stadtplanung",
       "stadtbild.lebenswert"
     ],
-    "length": 26,
     "classes": [
       "xxs",
       "postit"
@@ -13851,7 +13026,6 @@
       "kultur.freizeit",
       "raeume.raeume"
     ],
-    "length": 54,
     "classes": [
       "xs",
       "postit"
@@ -13866,7 +13040,6 @@
     "categories": [
       "parks.hunde"
     ],
-    "length": 35,
     "classes": [
       "xxs",
       "postit"
@@ -13881,7 +13054,6 @@
     "categories": [
       "parks.hunde"
     ],
-    "length": 41,
     "classes": [
       "xs",
       "postit"
@@ -13896,7 +13068,6 @@
     "categories": [
       "parks.hunde"
     ],
-    "length": 23,
     "classes": [
       "xxs",
       "postit"
@@ -13914,7 +13085,6 @@
       "parks.gruenestadt",
       "umwelt.umwelt"
     ],
-    "length": 52,
     "classes": [
       "xs",
       "postit"
@@ -13931,7 +13101,6 @@
       "mobilitaet.individualverkehr",
       "stadtbild.autofrei"
     ],
-    "length": 21,
     "classes": [
       "xxs",
       "postit"
@@ -13947,7 +13116,6 @@
       "mobilitaet.oepnv",
       "mobilitaet.mobilitaet"
     ],
-    "length": 35,
     "classes": [
       "xxs",
       "postit"
@@ -13964,7 +13132,6 @@
       "wirtschaft.konsum",
       "wirtschaft.einzelhandel"
     ],
-    "length": 52,
     "classes": [
       "xs",
       "postit"
@@ -13980,7 +13147,6 @@
       "gesellschaft.gerechtigkeit",
       "wirtschaft.konsum"
     ],
-    "length": 23,
     "classes": [
       "xxs",
       "postit"
@@ -13998,7 +13164,6 @@
       "wirtschaft.konsum",
       "wirtschaft.einzelhandel"
     ],
-    "length": 45,
     "classes": [
       "xs",
       "postit"
@@ -14015,7 +13180,6 @@
       "mobilitaet.Parken",
       "gesellschaft.gerechtigkeit"
     ],
-    "length": 41,
     "classes": [
       "xs",
       "postit"
@@ -14033,7 +13197,6 @@
       "umwelt.umwelt",
       "politik.klimawandel"
     ],
-    "length": 15,
     "classes": [
       "xxs",
       "postit"
@@ -14049,7 +13212,6 @@
       "politik.politik",
       "politik.transparenz"
     ],
-    "length": 47,
     "classes": [
       "xs",
       "postit"
@@ -14066,7 +13228,6 @@
       "raeume.raeume",
       "raeume.kreativraeume"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"
@@ -14081,7 +13242,6 @@
     "categories": [
       "gesellschaft.Jugend"
     ],
-    "length": 34,
     "classes": [
       "xxs",
       "postit"
@@ -14098,7 +13258,6 @@
       "politik.politik",
       "politik.transparenz"
     ],
-    "length": 60,
     "classes": [
       "xs",
       "postit"
@@ -14115,7 +13274,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.individualverkehr"
     ],
-    "length": 23,
     "classes": [
       "xxs",
       "postit"
@@ -14133,7 +13291,6 @@
       "stadtbild.autofrei",
       "stadtbild.lebenswert"
     ],
-    "length": 28,
     "classes": [
       "xxs",
       "postit"
@@ -14152,7 +13309,6 @@
       "mobilitaet.mobilitaet",
       "stadtbild.sanierung"
     ],
-    "length": 38,
     "classes": [
       "xxs",
       "postit"
@@ -14171,7 +13327,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 35,
     "classes": [
       "xxs",
       "postit"
@@ -14187,7 +13342,6 @@
       "infrastruktur.infrastruktur",
       "stadtbild.stadtgestaltung"
     ],
-    "length": 42,
     "classes": [
       "xs",
       "postit"
@@ -14203,7 +13357,6 @@
       "gesellschaft.Jugend",
       "politik.politik"
     ],
-    "length": 62,
     "classes": [
       "xs",
       "postit"
@@ -14220,7 +13373,6 @@
       "gesellschaft.Quartiers-entwicklung",
       "kultur.freizeit"
     ],
-    "length": 25,
     "classes": [
       "xxs",
       "postit"
@@ -14236,7 +13388,6 @@
       "wirtschaft.konsum",
       "wirtschaft.einzelhandel"
     ],
-    "length": 58,
     "classes": [
       "xs",
       "postit"
@@ -14251,7 +13402,6 @@
     "categories": [
       "politik.politik"
     ],
-    "length": 21,
     "classes": [
       "xxs",
       "postit"
@@ -14269,7 +13419,6 @@
       "stadtbild.autofrei",
       "stadtbild.lebenswert"
     ],
-    "length": 28,
     "classes": [
       "xxs",
       "postit"
@@ -14285,7 +13434,6 @@
       "gesellschaft.Jugend",
       "kultur.kulturangebot"
     ],
-    "length": 32,
     "classes": [
       "xxs",
       "postit"
@@ -14303,7 +13451,6 @@
       "kultur.freizeit",
       "parks.parks"
     ],
-    "length": 10,
     "classes": [
       "xxs",
       "postit"
@@ -14319,7 +13466,6 @@
       "kultur.kulturangebot",
       "raeume.kreativraeume"
     ],
-    "length": 27,
     "classes": [
       "xxs",
       "postit"
@@ -14336,7 +13482,6 @@
       "mobilitaet.verkehrsnetz",
       "mobilitaet.mobilitaet"
     ],
-    "length": 34,
     "classes": [
       "xxs",
       "postit"
@@ -14352,7 +13497,6 @@
       "stadtbild.muell",
       "stadtbild.autofrei"
     ],
-    "length": 87,
     "classes": [
       "s",
       "postit"
@@ -14368,7 +13512,6 @@
       "infrastruktur.infrastruktur",
       "infrastruktur.digitalisierung"
     ],
-    "length": 29,
     "classes": [
       "xxs",
       "postit"
@@ -14383,7 +13526,6 @@
       "mobilitaet.radverkehr",
       "stadtbild.autofrei"
     ],
-    "length": 12,
     "classes": [
       "xxs",
       "postit"
@@ -14397,7 +13539,6 @@
       "kultur.freizeit",
       "raeume.raeume"
     ],
-    "length": 21,
     "classes": [
       "xxs",
       "postit"
@@ -14410,7 +13551,6 @@
       "gesellschaft.senioren",
       "politik.sicherheit"
     ],
-    "length": 64,
     "classes": [
       "xs",
       "postit"
@@ -14426,7 +13566,6 @@
       "politik.politik",
       "parks.parks"
     ],
-    "length": 28,
     "classes": [
       "xxs",
       "postit"
@@ -14438,7 +13577,6 @@
     "categories": [
       "infrastruktur.infrastruktur"
     ],
-    "length": 36,
     "classes": [
       "xxs",
       "postit"
@@ -14452,7 +13590,6 @@
       "infrastruktur.energieversorgung",
       "infrastruktur.infrastruktur"
     ],
-    "length": 37,
     "classes": [
       "xxs",
       "postit"
@@ -14468,7 +13605,6 @@
       "raeume.werkstaetten",
       "raeume.kreativraeume"
     ],
-    "length": 62,
     "classes": [
       "xs",
       "postit"
@@ -14481,7 +13617,6 @@
     "categories": [
       "politik.politik"
     ],
-    "length": 86,
     "classes": [
       "s",
       "postit"
@@ -14500,7 +13635,6 @@
       "parks.gruenestadt",
       "gesellschaft.gemeinschaft"
     ],
-    "length": 72,
     "classes": [
       "xs",
       "postit"
@@ -14515,7 +13649,6 @@
       "raeume.werkstaetten",
       "raeume.kreativraeume"
     ],
-    "length": 45,
     "classes": [
       "xs",
       "postit"
@@ -14531,7 +13664,6 @@
       "raeume.raeume",
       "raeume.werkstaetten"
     ],
-    "length": 92,
     "classes": [
       "s",
       "postit"
@@ -14545,7 +13677,6 @@
       "umwelt.umwelt",
       "politik.foerderung"
     ],
-    "length": 35,
     "classes": [
       "xxs",
       "postit"
@@ -14561,7 +13692,6 @@
       "raeume.werkstaetten",
       "bildung.bildung"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"
@@ -14576,7 +13706,6 @@
       "mobilitaet.tempo30",
       "umwelt.umwelt"
     ],
-    "length": 36,
     "classes": [
       "xxs",
       "postit"
@@ -14588,7 +13717,6 @@
     "categories": [
       "politik.flaechen"
     ],
-    "length": 49,
     "classes": [
       "xs",
       "postit"
@@ -14601,7 +13729,6 @@
       "infrastruktur.energieversorgung",
       "politik.foerderung"
     ],
-    "length": 47,
     "classes": [
       "xs",
       "postit"
@@ -14615,7 +13742,6 @@
       "gesellschaft.wohnraum",
       "politik.foerderung"
     ],
-    "length": 40,
     "classes": [
       "xxs",
       "postit"
@@ -14628,7 +13754,6 @@
       "gesellschaft.wohnraum",
       "umwelt.umwelt"
     ],
-    "length": 25,
     "classes": [
       "xxs",
       "postit"
@@ -14643,7 +13768,6 @@
       "gesellschaft.Jugend",
       "gesellschaft.gemeinschaft"
     ],
-    "length": 35,
     "classes": [
       "xxs",
       "postit"
@@ -14657,7 +13781,6 @@
       "kultur.kulturangebot",
       "kultur.freizeit"
     ],
-    "length": 88,
     "classes": [
       "s",
       "postit"
@@ -14670,7 +13793,6 @@
       "umwelt.umwelt",
       "politik.foerderung"
     ],
-    "length": 45,
     "classes": [
       "xs",
       "postit"
@@ -14684,7 +13806,6 @@
       "mobilitaet.mobilitaet",
       "stadtbild.autofrei"
     ],
-    "length": 29,
     "classes": [
       "xxs",
       "postit"
@@ -14698,7 +13819,6 @@
       "stadtbild.muell",
       "umwelt.umwelt"
     ],
-    "length": 52,
     "classes": [
       "xs",
       "postit"
@@ -14712,7 +13832,6 @@
       "mobilitaet.verkehrsnetz",
       "stadtbild.stadtbild"
     ],
-    "length": 15,
     "classes": [
       "xxs",
       "postit"
@@ -14724,7 +13843,6 @@
     "categories": [
       "mobilitaet.verkehrsnetz"
     ],
-    "length": 23,
     "classes": [
       "xxs",
       "postit"
@@ -14737,7 +13855,6 @@
       "parks.parks",
       "raeume.raeume"
     ],
-    "length": 39,
     "classes": [
       "xxs",
       "postit"
@@ -14750,7 +13867,6 @@
       "kultur.kulturangebot",
       "kultur.freizeit"
     ],
-    "length": 43,
     "classes": [
       "xs",
       "postit"
@@ -14763,7 +13879,6 @@
       "politik.foerderung",
       "kultur.kulturangebot"
     ],
-    "length": 22,
     "classes": [
       "xxs",
       "postit"
@@ -14777,7 +13892,6 @@
       "mobilitaet.oepnv",
       "mobilitaet.mobilitaet"
     ],
-    "length": 85,
     "classes": [
       "s",
       "postit"
@@ -14790,7 +13904,6 @@
       "mobilitaet.verkehrsnetz",
       "mobilitaet.radverkehr"
     ],
-    "length": 21,
     "classes": [
       "xxs",
       "postit"
@@ -14805,7 +13918,6 @@
       "wirtschaft.einzelhandel",
       "politik.foerderung"
     ],
-    "length": 56,
     "classes": [
       "xs",
       "postit"
@@ -14819,7 +13931,6 @@
       "umwelt.umwelt",
       "politik.foerderung"
     ],
-    "length": 41,
     "classes": [
       "xs",
       "postit"
@@ -14833,7 +13944,6 @@
       "mobilitaet.verkehrsnetz",
       "stadtbild.autofrei"
     ],
-    "length": 45,
     "classes": [
       "xs",
       "postit"
@@ -14846,7 +13956,6 @@
       "mobilitaet.Parken",
       "politik.flaechen"
     ],
-    "length": 61,
     "classes": [
       "xs",
       "postit"
@@ -14860,7 +13969,6 @@
       "mobilitaet.radwege",
       "mobilitaet.mobilitaet"
     ],
-    "length": 16,
     "classes": [
       "xxs",
       "postit"
@@ -14873,7 +13981,6 @@
       "mobilitaet.verkehrsfluss",
       "mobilitaet.mobilitaet"
     ],
-    "length": 101,
     "classes": [
       "m",
       "postit"
@@ -14886,7 +13993,6 @@
       "gesellschaft.kinderbetreuung",
       "gesellschaft.Jugend"
     ],
-    "length": 23,
     "classes": [
       "xxs",
       "postit"
@@ -14900,7 +14006,6 @@
       "umwelt.umwelt",
       "politik.klimawandel"
     ],
-    "length": 25,
     "classes": [
       "xxs",
       "postit"
@@ -14912,7 +14017,6 @@
     "categories": [
       "gesellschaft.wohnraum"
     ],
-    "length": 73,
     "classes": [
       "xs",
       "postit"
@@ -14924,7 +14028,6 @@
     "categories": [
       "mobilitaet.mobilitaet"
     ],
-    "length": 44,
     "classes": [
       "xs",
       "postit"
@@ -14936,7 +14039,6 @@
     "categories": [
       "mobilitaet.Parken"
     ],
-    "length": 29,
     "classes": [
       "xxs",
       "postit"
@@ -14949,7 +14051,6 @@
       "stadtbild.muell",
       "parks.hunde"
     ],
-    "length": 44,
     "classes": [
       "xs",
       "postit"
@@ -14962,7 +14063,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.Parken"
     ],
-    "length": 15,
     "classes": [
       "xxs",
       "postit"
@@ -14975,7 +14075,6 @@
       "mobilitaet.verkehrsnetz",
       "mobilitaet.mobilitaet"
     ],
-    "length": 22,
     "classes": [
       "xxs",
       "postit"
@@ -14988,7 +14087,6 @@
       "stadtbild.sanierung",
       "politik.flaechen"
     ],
-    "length": 48,
     "classes": [
       "xs",
       "postit"
@@ -15001,7 +14099,6 @@
       "stadtbild.stadtbild",
       "stadtbild.sanierung"
     ],
-    "length": 34,
     "classes": [
       "xxs",
       "postit"
@@ -15015,7 +14112,6 @@
       "parks.hunde",
       "gesellschaft.senioren"
     ],
-    "length": 32,
     "classes": [
       "xxs",
       "postit"
@@ -15031,7 +14127,6 @@
       "mobilitaet.fussgaenger",
       "politik.sicherheit"
     ],
-    "length": 46,
     "classes": [
       "xs",
       "postit"
@@ -15045,7 +14140,6 @@
       "stadtbild.atmosphäre",
       "mobilitaet.tempo30"
     ],
-    "length": 25,
     "classes": [
       "xxs",
       "postit"
@@ -15061,7 +14155,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.individualverkehr"
     ],
-    "length": 147,
     "classes": [
       "m",
       "postit"
@@ -15074,7 +14167,6 @@
     "categories": [
       "mobilitaet.verkehrsfluss"
     ],
-    "length": 69,
     "classes": [
       "xs",
       "postit"
@@ -15089,7 +14181,6 @@
       "wirtschaft.carsharing",
       "mobilitaet.individualverkehr"
     ],
-    "length": 37,
     "classes": [
       "xxs",
       "postit"
@@ -15103,7 +14194,6 @@
       "gesellschaft.gerechtigkeit",
       "politik.politik"
     ],
-    "length": 18,
     "classes": [
       "xxs",
       "postit"
@@ -15116,7 +14206,6 @@
     "categories": [
       "politik.politik"
     ],
-    "length": 11,
     "classes": [
       "xxs",
       "postit"
@@ -15131,7 +14220,6 @@
       "umwelt.umwelt",
       "politik.politik"
     ],
-    "length": 23,
     "classes": [
       "xxs",
       "postit"
@@ -15145,7 +14233,6 @@
       "politik.politik",
       "kultur.freizeit"
     ],
-    "length": 27,
     "classes": [
       "xxs",
       "postit"
@@ -15159,7 +14246,6 @@
       "mobilitaet.oepnv",
       "mobilitaet.radwege"
     ],
-    "length": 45,
     "classes": [
       "xs",
       "postit"
@@ -15173,7 +14259,6 @@
       "gesellschaft.kinderbetreuung",
       "gesellschaft.Jugend"
     ],
-    "length": 28,
     "classes": [
       "xxs",
       "postit"
@@ -15186,7 +14271,6 @@
       "gesellschaft.gesellschaft",
       "kultur.sport"
     ],
-    "length": 39,
     "classes": [
       "xxs",
       "postit"
@@ -15200,7 +14284,6 @@
       "kultur.nachtleben",
       "gesellschaft.begegnung"
     ],
-    "length": 41,
     "classes": [
       "xs",
       "postit"
@@ -15212,7 +14295,6 @@
     "categories": [
       "gesellschaft.gesellschaft"
     ],
-    "length": 37,
     "classes": [
       "xxs",
       "postit"
@@ -15227,7 +14309,6 @@
       "stadtbild.stadtgestaltung",
       "parks.gruenestadt"
     ],
-    "length": 29,
     "classes": [
       "xxs",
       "postit"
@@ -15241,7 +14322,6 @@
       "kultur.nachtleben",
       "kultur.kulturangebot"
     ],
-    "length": 36,
     "classes": [
       "xxs",
       "postit"
@@ -15255,7 +14335,6 @@
       "stadtbild.stadtbild",
       "stadtbild.autofrei"
     ],
-    "length": 29,
     "classes": [
       "xxs",
       "postit"
@@ -15270,7 +14349,6 @@
       "politik.sicherheit",
       "bildung.bildung"
     ],
-    "length": 68,
     "classes": [
       "xs",
       "postit"
@@ -15283,7 +14361,6 @@
     "categories": [
       "wirtschaft.konsum"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"
@@ -15298,7 +14375,6 @@
       "umwelt.umwelt",
       "politik.politik"
     ],
-    "length": 54,
     "classes": [
       "xs",
       "postit"
@@ -15313,7 +14389,6 @@
       "gesellschaft.gerechtigkeit",
       "politik.foerderung"
     ],
-    "length": 39,
     "classes": [
       "xxs",
       "postit"
@@ -15325,7 +14400,6 @@
     "categories": [
       "kultur.freizeit"
     ],
-    "length": 29,
     "classes": [
       "xxs",
       "postit"
@@ -15339,7 +14413,6 @@
       "politik.politik",
       "parks.parks"
     ],
-    "length": 64,
     "classes": [
       "xs",
       "postit"
@@ -15354,7 +14427,6 @@
       "parks.gruenestadt",
       "parks.parks"
     ],
-    "length": 16,
     "classes": [
       "xxs",
       "postit"
@@ -15367,7 +14439,6 @@
       "mobilitaet.radwege",
       "mobilitaet.radverkehr"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -15380,7 +14451,6 @@
       "gesellschaft.kinderbetreuung",
       "gesellschaft.Jugend"
     ],
-    "length": 35,
     "classes": [
       "xxs",
       "postit"
@@ -15392,7 +14462,6 @@
     "categories": [
       "stadtbild.muell"
     ],
-    "length": 44,
     "classes": [
       "xs",
       "postit"
@@ -15406,7 +14475,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 83,
     "classes": [
       "s",
       "postit"
@@ -15420,7 +14488,6 @@
       "mobilitaet.oepnv",
       "politik.foerderung"
     ],
-    "length": 16,
     "classes": [
       "xxs",
       "postit"
@@ -15434,7 +14501,6 @@
       "mobilitaet.oepnv",
       "mobilitaet.mobilitaet"
     ],
-    "length": 38,
     "classes": [
       "xxs",
       "postit"
@@ -15447,7 +14513,6 @@
       "mobilitaet.fussgaenger",
       "politik.sicherheit"
     ],
-    "length": 35,
     "classes": [
       "xxs",
       "postit"
@@ -15461,7 +14526,6 @@
       "infrastruktur.energieversorgung",
       "infrastruktur.infrastruktur"
     ],
-    "length": 31,
     "classes": [
       "xxs",
       "postit"
@@ -15474,7 +14538,6 @@
       "gesellschaft.kinderbetreuung",
       "gesellschaft.Jugend"
     ],
-    "length": 19,
     "classes": [
       "xxs",
       "postit"
@@ -15488,7 +14551,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -15501,7 +14563,6 @@
       "gesellschaft.inklusion",
       "parks.gruenestadt"
     ],
-    "length": 39,
     "classes": [
       "xxs",
       "postit"
@@ -15516,7 +14577,6 @@
       "kultur.kulturangebot",
       "kultur.freizeit"
     ],
-    "length": 17,
     "classes": [
       "xxs",
       "postit"
@@ -15529,7 +14589,6 @@
       "mobilitaet.mobilitaet",
       "stadtbild.autofrei"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -15544,7 +14603,6 @@
       "kultur.kulturangebot",
       "kultur.freizeit"
     ],
-    "length": 34,
     "classes": [
       "xxs",
       "postit"
@@ -15557,7 +14615,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.tempo30"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -15571,7 +14628,6 @@
       "gesellschaft.begegnung",
       "kultur.freizeit"
     ],
-    "length": 12,
     "classes": [
       "xxs",
       "postit"
@@ -15584,7 +14640,6 @@
       "politik.politik",
       "kultur.freizeit"
     ],
-    "length": 30,
     "classes": [
       "xxs",
       "postit"
@@ -15599,7 +14654,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 41,
     "classes": [
       "xs",
       "postit"
@@ -15613,7 +14667,6 @@
       "umwelt.umwelt",
       "politik.klimawandel"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -15627,7 +14680,6 @@
       "mobilitaet.individualverkehr",
       "politik.flaechen"
     ],
-    "length": 44,
     "classes": [
       "xs",
       "postit"
@@ -15640,7 +14692,6 @@
       "mobilitaet.mobilitaet",
       "politik.politik"
     ],
-    "length": 61,
     "classes": [
       "xs",
       "postit"
@@ -15653,7 +14704,6 @@
       "mobilitaet.oepnv",
       "mobilitaet.mobilitaet"
     ],
-    "length": 65,
     "classes": [
       "xs",
       "postit"
@@ -15667,7 +14717,6 @@
       "politik.foerderung",
       "politik.politik"
     ],
-    "length": 39,
     "classes": [
       "xxs",
       "postit"
@@ -15680,7 +14729,6 @@
       "gesellschaft.wohnraum",
       "gesellschaft.gentrifizierung"
     ],
-    "length": 51,
     "classes": [
       "xs",
       "postit"
@@ -15695,7 +14743,6 @@
       "mobilitaet.radwege",
       "mobilitaet.radverkehr"
     ],
-    "length": 31,
     "classes": [
       "xxs",
       "postit"
@@ -15708,7 +14755,6 @@
       "infrastruktur.energieversorgung",
       "mobilitaet.mobilitaet"
     ],
-    "length": 37,
     "classes": [
       "xxs",
       "postit"
@@ -15720,7 +14766,6 @@
     "categories": [
       "gesellschaft.inklusion"
     ],
-    "length": 34,
     "classes": [
       "xxs",
       "postit"
@@ -15733,7 +14778,6 @@
     "categories": [
       "gesellschaft.wohnraum"
     ],
-    "length": 28,
     "classes": [
       "xxs",
       "postit"
@@ -15746,7 +14790,6 @@
       "gesellschaft.wohnraum",
       "politik.foerderung"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -15759,7 +14802,6 @@
       "gesellschaft.kinderbetreuung",
       "gesellschaft.Jugend"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"
@@ -15774,7 +14816,6 @@
       "mobilitaet.oepnv",
       "mobilitaet.mobilitaet"
     ],
-    "length": 48,
     "classes": [
       "xs",
       "postit"
@@ -15788,7 +14829,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 23,
     "classes": [
       "xxs",
       "postit"
@@ -15802,7 +14842,6 @@
       "stadtbild.stadtbild",
       "stadtbild.autofrei"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"
@@ -15816,7 +14855,6 @@
       "mobilitaet.verkehrsfluss",
       "mobilitaet.verkehrsnetz"
     ],
-    "length": 190,
     "classes": [
       "m",
       "postit"
@@ -15829,7 +14867,6 @@
       "stadtbild.muell",
       "parks.parks"
     ],
-    "length": 48,
     "classes": [
       "xs",
       "postit"
@@ -15843,7 +14880,6 @@
       "kultur.kulturangebot",
       "kultur.freizeit"
     ],
-    "length": 38,
     "classes": [
       "xxs",
       "postit"
@@ -15857,7 +14893,6 @@
       "wirtschaft.konsum",
       "politik.politik"
     ],
-    "length": 34,
     "classes": [
       "xxs",
       "postit"
@@ -15871,7 +14906,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.Parken"
     ],
-    "length": 60,
     "classes": [
       "xs",
       "postit"
@@ -15884,7 +14918,6 @@
       "politik.flaechen",
       "gesellschaft.wohnraum"
     ],
-    "length": 37,
     "classes": [
       "xxs",
       "postit"
@@ -15898,7 +14931,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 12,
     "classes": [
       "xxs",
       "postit"
@@ -15911,7 +14943,6 @@
     "categories": [
       "parks.hunde"
     ],
-    "length": 51,
     "classes": [
       "xs",
       "postit"
@@ -15925,7 +14956,6 @@
       "mobilitaet.mobilitaet",
       "umwelt.umwelt"
     ],
-    "length": 63,
     "classes": [
       "xs",
       "postit"
@@ -15937,7 +14967,6 @@
     "categories": [
       "parks.parks"
     ],
-    "length": 37,
     "classes": [
       "xxs",
       "postit"
@@ -15950,7 +14979,6 @@
     "categories": [
       "infrastruktur.Bauen"
     ],
-    "length": 51,
     "classes": [
       "xs",
       "postit"
@@ -15965,7 +14993,6 @@
       "kultur.freizeit",
       "raeume.experimentierraeume"
     ],
-    "length": 51,
     "classes": [
       "xs",
       "postit"
@@ -15979,7 +15006,6 @@
       "mobilitaet.Parken",
       "politik.flaechen"
     ],
-    "length": 68,
     "classes": [
       "xs",
       "postit"
@@ -15993,7 +15019,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 61,
     "classes": [
       "xs",
       "postit"
@@ -16006,7 +15031,6 @@
       "mobilitaet.Parken",
       "politik.flaechen"
     ],
-    "length": 15,
     "classes": [
       "xxs",
       "postit"
@@ -16020,7 +15044,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 75,
     "classes": [
       "xs",
       "postit"
@@ -16033,7 +15056,6 @@
       "stadtbild.muell",
       "stadtbild.stadtbild"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"
@@ -16047,7 +15069,6 @@
       "mobilitaet.Parken",
       "stadtbild.stadtbild"
     ],
-    "length": 58,
     "classes": [
       "xs",
       "postit"
@@ -16061,7 +15082,6 @@
       "mobilitaet.oepnv",
       "mobilitaet.mobilitaet"
     ],
-    "length": 25,
     "classes": [
       "xxs",
       "postit"
@@ -16074,7 +15094,6 @@
       "mobilitaet.radwege",
       "mobilitaet.radverkehr"
     ],
-    "length": 75,
     "classes": [
       "xs",
       "postit"
@@ -16087,7 +15106,6 @@
     "categories": [
       "mobilitaet.tempo30"
     ],
-    "length": 27,
     "classes": [
       "xxs",
       "postit"
@@ -16100,7 +15118,6 @@
       "mobilitaet.radwege",
       "mobilitaet.radverkehr"
     ],
-    "length": 27,
     "classes": [
       "xxs",
       "postit"
@@ -16114,7 +15131,6 @@
       "raeume.raeume",
       "raeume.werkstaetten"
     ],
-    "length": 88,
     "classes": [
       "s",
       "postit"
@@ -16127,7 +15143,6 @@
       "gesellschaft.wohnraum",
       "politik.politik"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -16139,7 +15154,6 @@
     "categories": [
       "stadtbild.muell"
     ],
-    "length": 14,
     "classes": [
       "xxs",
       "postit"
@@ -16151,7 +15165,6 @@
     "categories": [
       "politik.politik"
     ],
-    "length": 59,
     "classes": [
       "xs",
       "postit"
@@ -16167,7 +15180,6 @@
       "politik.flaechen",
       "gesellschaft.wohnraum"
     ],
-    "length": 77,
     "classes": [
       "s",
       "postit"
@@ -16180,7 +15192,6 @@
     "categories": [
       "infrastruktur.Bauen"
     ],
-    "length": 27,
     "classes": [
       "xxs",
       "postit"
@@ -16193,7 +15204,6 @@
       "infrastruktur.Bauen",
       "politik.politik"
     ],
-    "length": 61,
     "classes": [
       "xs",
       "postit"
@@ -16208,7 +15218,6 @@
       "mobilitaet.mobilitaet",
       "politik.sicherheit"
     ],
-    "length": 53,
     "classes": [
       "xs",
       "postit"
@@ -16221,7 +15230,6 @@
       "mobilitaet.verkehrsnetz",
       "mobilitaet.mobilitaet"
     ],
-    "length": 30,
     "classes": [
       "xxs",
       "postit"
@@ -16236,7 +15244,6 @@
       "mobilitaet.mobilitaet",
       "stadtbild.autofrei"
     ],
-    "length": 89,
     "classes": [
       "s",
       "postit"
@@ -16249,7 +15256,6 @@
       "mobilitaet.radwege",
       "mobilitaet.radverkehr"
     ],
-    "length": 26,
     "classes": [
       "xxs",
       "postit"
@@ -16264,7 +15270,6 @@
       "mobilitaet.verkehrsfluss",
       "mobilitaet.mobilitaet"
     ],
-    "length": 75,
     "classes": [
       "xs",
       "postit"
@@ -16278,7 +15283,6 @@
       "wirtschaft.einzelhandel",
       "politik.politik"
     ],
-    "length": 32,
     "classes": [
       "xxs",
       "postit"
@@ -16291,7 +15295,6 @@
       "gesellschaft.Jugend",
       "stadtbild.spielplaetze"
     ],
-    "length": 16,
     "classes": [
       "xxs",
       "postit"
@@ -16304,7 +15307,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.Parken"
     ],
-    "length": 26,
     "classes": [
       "xxs",
       "postit"
@@ -16316,7 +15318,6 @@
     "categories": [
       "stadtbild.stadtgestaltung"
     ],
-    "length": 31,
     "classes": [
       "xxs",
       "postit"
@@ -16328,7 +15329,6 @@
     "categories": [
       "mobilitaet.Parken"
     ],
-    "length": 12,
     "classes": [
       "xxs",
       "postit"
@@ -16341,7 +15341,6 @@
       "gesellschaft.wohnraum",
       "politik.foerderung"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -16355,7 +15354,6 @@
       "kultur.nachtleben",
       "gesellschaft.begegnung"
     ],
-    "length": 17,
     "classes": [
       "xxs",
       "postit"
@@ -16368,7 +15366,6 @@
       "parks.gruenestadt",
       "umwelt.umwelt"
     ],
-    "length": 22,
     "classes": [
       "xxs",
       "postit"
@@ -16384,7 +15381,6 @@
       "mobilitaet.Parken",
       "stadtbild.autofrei"
     ],
-    "length": 132,
     "classes": [
       "m",
       "postit"
@@ -16397,7 +15393,6 @@
       "wirtschaft.carsharing",
       "bildung.bildung"
     ],
-    "length": 31,
     "classes": [
       "xxs",
       "postit"
@@ -16409,7 +15404,6 @@
     "categories": [
       "wirtschaft.konsum"
     ],
-    "length": 71,
     "classes": [
       "xs",
       "postit"
@@ -16423,7 +15417,6 @@
       "infrastruktur.Bauen",
       "gesellschaft.inklusion"
     ],
-    "length": 52,
     "classes": [
       "xs",
       "postit"
@@ -16438,7 +15431,6 @@
       "infrastruktur.Bauen",
       "gesellschaft.inklusion"
     ],
-    "length": 38,
     "classes": [
       "xxs",
       "postit"
@@ -16451,7 +15443,6 @@
     "categories": [
       "stadtbild.muell"
     ],
-    "length": 47,
     "classes": [
       "xs",
       "postit"
@@ -16464,7 +15455,6 @@
       "gesellschaft.familie",
       "gesellschaft.begegnung"
     ],
-    "length": 39,
     "classes": [
       "xxs",
       "postit"
@@ -16476,7 +15466,6 @@
     "categories": [
       "parks.gruenestadt"
     ],
-    "length": 10,
     "classes": [
       "xxs",
       "postit"
@@ -16489,7 +15478,6 @@
       "mobilitaet.verkehrsfluss",
       "mobilitaet.mobilitaet"
     ],
-    "length": 24,
     "classes": [
       "xxs",
       "postit"
@@ -16502,7 +15490,6 @@
       "mobilitaet.mobilitaet",
       "mobilitaet.individualverkehr"
     ],
-    "length": 16,
     "classes": [
       "xxs",
       "postit"
@@ -16517,7 +15504,6 @@
       "mobilitaet.radverkehr",
       "politik.sicherheit"
     ],
-    "length": 109,
     "classes": [
       "m",
       "postit"
@@ -16529,7 +15515,6 @@
     "categories": [
       "wirtschaft.konsum"
     ],
-    "length": 34,
     "classes": [
       "xxs",
       "postit"
@@ -16542,7 +15527,6 @@
       "stadtbild.muell",
       "stadtbild.stadtbild"
     ],
-    "length": 66,
     "classes": [
       "xs",
       "postit"
@@ -16555,7 +15539,6 @@
     "categories": [
       "gesellschaft.gemeinschaft"
     ],
-    "length": 83,
     "classes": [
       "s",
       "postit"
@@ -16567,7 +15550,6 @@
     "categories": [
       "stadtbild.muell"
     ],
-    "length": 26,
     "classes": [
       "xxs",
       "postit"
@@ -16580,7 +15562,6 @@
       "mobilitaet.verkehrsfluss",
       "mobilitaet.mobilitaet"
     ],
-    "length": 36,
     "classes": [
       "xxs",
       "postit"
@@ -16593,7 +15574,6 @@
       "parks.gruenestadt",
       "umwelt.umwelt"
     ],
-    "length": 9,
     "classes": [
       "xxs",
       "postit"
@@ -16606,7 +15586,6 @@
     "categories": [
       "mobilitaet.oepnv"
     ],
-    "length": 37,
     "classes": [
       "xxs",
       "postit"
@@ -16620,7 +15599,6 @@
       "gesellschaft.wohnraum",
       "infrastruktur.Bauen"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -16633,7 +15611,6 @@
       "mobilitaet.fussgaenger",
       "politik.sicherheit"
     ],
-    "length": 58,
     "classes": [
       "xs",
       "postit"
@@ -16646,7 +15623,6 @@
       "politik.engagement",
       "bildung.bildung"
     ],
-    "length": 56,
     "classes": [
       "xs",
       "postit"
@@ -16659,7 +15635,6 @@
       "infrastruktur.digitalisierung",
       "bildung.bildung"
     ],
-    "length": 34,
     "classes": [
       "xxs",
       "postit"
@@ -16673,7 +15648,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 12,
     "classes": [
       "xxs",
       "postit"
@@ -16687,7 +15661,6 @@
       "mobilitaet.radwege",
       "mobilitaet.radverkehr"
     ],
-    "length": 64,
     "classes": [
       "xs",
       "postit"
@@ -16701,7 +15674,6 @@
       "parks.gruenestadt",
       "umwelt.umwelt"
     ],
-    "length": 54,
     "classes": [
       "xs",
       "postit"
@@ -16713,7 +15685,6 @@
     "categories": [
       "stadtbild.autofrei"
     ],
-    "length": 20,
     "classes": [
       "xxs",
       "postit"
@@ -16728,7 +15699,6 @@
       "mobilitaet.verkehrsfluss",
       "infrastruktur.energieversorgung"
     ],
-    "length": 29,
     "classes": [
       "xxs",
       "postit"
@@ -16741,7 +15711,6 @@
       "infrastruktur.energieversorgung",
       "stadtbild.sanierung"
     ],
-    "length": 34,
     "classes": [
       "xxs",
       "postit"
@@ -16755,7 +15724,6 @@
       "politik.politik",
       "politik.transparenz"
     ],
-    "length": 89,
     "classes": [
       "s",
       "postit"
@@ -16767,7 +15735,6 @@
     "categories": [
       "gesellschaft.inklusion"
     ],
-    "length": 22,
     "classes": [
       "xxs",
       "postit"
@@ -16780,7 +15747,6 @@
       "gesellschaft.wohnraum",
       "gesellschaft.gerechtigkeit"
     ],
-    "length": 25,
     "classes": [
       "xxs",
       "postit"
@@ -16793,7 +15759,6 @@
       "gesellschaft.wohnraum",
       "politik.foerderung"
     ],
-    "length": 22,
     "classes": [
       "xxs",
       "postit"
@@ -16806,7 +15771,6 @@
     "categories": [
       "politik.politik"
     ],
-    "length": 14,
     "classes": [
       "xxs",
       "postit"
@@ -16820,7 +15784,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 35,
     "classes": [
       "xxs",
       "postit"
@@ -16835,7 +15798,6 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ],
-    "length": 41,
     "classes": [
       "xs",
       "postit"
@@ -16849,7 +15811,6 @@
       "kultur.nachtleben",
       "gesellschaft.begegnung"
     ],
-    "length": 52,
     "classes": [
       "xs",
       "postit"
@@ -16862,7 +15823,6 @@
     "categories": [
       "gesellschaft.gesellschaft"
     ],
-    "length": 27,
     "classes": [
       "xxs",
       "postit"
@@ -16875,7 +15835,6 @@
       "stadtbild.muell",
       "umwelt.umwelt"
     ],
-    "length": 74,
     "classes": [
       "xs",
       "postit"
@@ -16887,7 +15846,6 @@
     "categories": [
       "kultur.sport"
     ],
-    "length": 63,
     "classes": [
       "xs",
       "postit"
@@ -16902,7 +15860,6 @@
       "mobilitaet.Parken",
       "politik.flaechen"
     ],
-    "length": 51,
     "classes": [
       "xs",
       "postit"
@@ -16915,7 +15872,6 @@
     "categories": [
       "wirtschaft.konsum"
     ],
-    "length": 47,
     "classes": [
       "xs",
       "postit"
@@ -16929,7 +15885,6 @@
       "kultur.kulturangebot",
       "kultur.freizeit"
     ],
-    "length": 14,
     "classes": [
       "xxs",
       "postit"
@@ -16942,7 +15897,6 @@
       "gesellschaft.wohnraum",
       "politik.foerderung"
     ],
-    "length": 18,
     "classes": [
       "xxs",
       "postit"
@@ -16955,7 +15909,6 @@
       "wirtschaft.konsum",
       "kultur.nachtleben"
     ],
-    "length": 46,
     "classes": [
       "xs",
       "postit"
@@ -16967,7 +15920,6 @@
     "categories": [
       "gesellschaft.Jugend"
     ],
-    "length": 64,
     "classes": [
       "xs",
       "postit"
@@ -16979,7 +15931,6 @@
     "categories": [
       "wirtschaft.konsum"
     ],
-    "length": 24,
     "classes": [
       "xxs",
       "postit"
@@ -16995,7 +15946,6 @@
       "raeume.raeume",
       "raeume.experimentierraeume"
     ],
-    "length": 45,
     "classes": [
       "xs",
       "postit"
@@ -17009,7 +15959,6 @@
       "kultur.kulturangebot",
       "raeume.kreativraeume"
     ],
-    "length": 15,
     "classes": [
       "xxs",
       "postit"
@@ -17025,7 +15974,6 @@
       "raeume.kreativraeume",
       "raeume.experimentierraeume"
     ],
-    "length": 25,
     "classes": [
       "xxs",
       "postit"
@@ -17038,7 +15986,6 @@
       "infrastruktur.infrastruktur",
       "infrastruktur.Bauen"
     ],
-    "length": 26,
     "classes": [
       "xxs",
       "postit"
@@ -17052,7 +15999,6 @@
       "stadtbild.sanierung",
       "bildung.bildung"
     ],
-    "length": 37,
     "classes": [
       "xxs",
       "postit"
@@ -17065,7 +16011,6 @@
       "parks.gruenestadt",
       "umwelt.umwelt"
     ],
-    "length": 34,
     "classes": [
       "xxs",
       "postit"
@@ -17078,7 +16023,6 @@
       "parks.gruenestadt",
       "umwelt.umwelt"
     ],
-    "length": 37,
     "classes": [
       "xxs",
       "postit"
@@ -17093,7 +16037,6 @@
       "parks.gruenestadt",
       "umwelt.umwelt"
     ],
-    "length": 53,
     "classes": [
       "xs",
       "postit"
@@ -17106,7 +16049,6 @@
       "umwelt.umwelt",
       "wirtschaft.einzelhandel"
     ],
-    "length": 26,
     "classes": [
       "xxs",
       "postit"
@@ -17119,7 +16061,6 @@
       "gesellschaft.wohnraum",
       "politik.foerderung"
     ],
-    "length": 35,
     "classes": [
       "xxs",
       "postit"
@@ -17133,7 +16074,6 @@
       "kultur.kulturangebot",
       "kultur.freizeit"
     ],
-    "length": 68,
     "classes": [
       "xs",
       "postit"
@@ -17146,7 +16086,6 @@
       "gesellschaft.Jugend",
       "gesellschaft.gemeinschaft"
     ],
-    "length": 24,
     "classes": [
       "xxs",
       "postit"
@@ -17159,7 +16098,6 @@
       "stadtbild.muell",
       "mobilitaet.fussgaenger"
     ],
-    "length": 34,
     "classes": [
       "xxs",
       "postit"
@@ -17171,7 +16109,6 @@
     "categories": [
       "mobilitaet.fussgaenger"
     ],
-    "length": 31,
     "classes": [
       "xxs",
       "postit"
@@ -17183,7 +16120,6 @@
     "categories": [
       "infrastruktur.infrastruktur"
     ],
-    "length": 46,
     "classes": [
       "xs",
       "postit"
@@ -17198,7 +16134,6 @@
       "gesellschaft.gemeinschaft",
       "gesellschaft.begegnung"
     ],
-    "length": 35,
     "classes": [
       "xxs",
       "postit"
@@ -17210,7 +16145,6 @@
     "categories": [
       "gesellschaft.inklusion"
     ],
-    "length": 88,
     "classes": [
       "s",
       "postit"
@@ -17222,7 +16156,6 @@
     "categories": [
       "kultur.sport"
     ],
-    "length": 18,
     "classes": [
       "xxs",
       "postit"
@@ -17238,7 +16171,6 @@
       "raeume.kreativraeume",
       "raeume.experimentierraeume"
     ],
-    "length": 93,
     "classes": [
       "s",
       "postit"
@@ -17251,7 +16183,6 @@
       "umwelt.umwelt",
       "politik.foerderung"
     ],
-    "length": 35,
     "classes": [
       "xxs",
       "postit"
@@ -17265,7 +16196,6 @@
       "politik.foerderung",
       "politik.politik"
     ],
-    "length": 44,
     "classes": [
       "xs",
       "postit"
@@ -17278,7 +16208,6 @@
       "gesellschaft.kinderbetreuung",
       "gesellschaft.Jugend"
     ],
-    "length": 65,
     "classes": [
       "xs",
       "postit"
@@ -17291,7 +16220,6 @@
       "kultur.freizeit",
       "stadtbild.spielplaetze"
     ],
-    "length": 39,
     "classes": [
       "xxs",
       "postit"
@@ -17304,7 +16232,6 @@
       "gesellschaft.kinderbetreuung",
       "gesellschaft.Jugend"
     ],
-    "length": 11,
     "classes": [
       "xxs",
       "postit"
@@ -17317,7 +16244,6 @@
       "gesellschaft.Jugend",
       "kultur.kulturangebot"
     ],
-    "length": 29,
     "classes": [
       "xxs",
       "postit"
@@ -17330,7 +16256,6 @@
       "stadtbild.stadtgestaltung",
       "parks.gruenestadt"
     ],
-    "length": 72,
     "classes": [
       "xs",
       "postit"
@@ -17343,7 +16268,6 @@
       "wirtschaft.konsum",
       "wirtschaft.einzelhandel"
     ],
-    "length": 33,
     "classes": [
       "xxs",
       "postit"

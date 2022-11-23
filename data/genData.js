@@ -69,7 +69,6 @@ function enrichEntries(data) {
 	return data.map(entry => {
 		const length = entry?.text?.length || null;
 		if (length) {
-			entry['length'] = length;
 			entry['classes'] = getClassesByLength(length);
 		}
 		return entry;
@@ -129,19 +128,59 @@ function getCategoriesFromData(data) {
 	return categories;
 }
 
-function getStatisticsFromData(data){
+function getStatisticsFromData(data) {
+	const statsIdMap = new Map();
+
+	/** 
+	 * First we create only one entry for each ID.
+	 * This is necessary because multiple entries belong to the same ID.
+	 * If the same ID has different statistic values we show a warning.
+	 */
+	for (const entry of data) {
+		const id = Number(entry.ID || entry.id);
+		if (!id) {
+			console.warn('invalid entry: invalid ID: ', JSON.stringify(entry, null, false));
+		}
+
+		const entryStats = {
+			gender: entry.gender ?? 'unknown',
+			age: entry.age ?? 'unknown',
+			location: entry.location ?? 'unknown',
+		}
+
+		let statisticEntry = statsIdMap.get(id) ?? entryStats;
+
+		// handle warnings
+		['gender', 'age', 'location'].forEach(key => {
+			if (entryStats[key] !== 'unknown' && entryStats[key] !== statisticEntry[key]) {
+				console.warn(`invalid entry: the ID "${id}" has incompatible ${key}: "${entryStats[key]}" and "${ statisticEntry[key]}"`);
+			}
+		});
+
+		statsIdMap.set(id, statisticEntry);
+	}
+
+	/**
+	 * Go through all IDs and create a Map of gender details.
+	 */
 	const genderMap = new Map();
-	data.forEach(entry => {
+	for (const entry of statsIdMap.values()) {
 		let gender = entry.gender;
 		if (gender && gender !== "x") {
 			const genderValue = genderMap.get(gender) || 0;
 			genderMap.set(gender, genderValue + 1);
 		} else {
+			if (gender === "x") {
+				console.warn('invalid entry: gender should not be "x": ', JSON.stringify(entry, null, false));
+			}
 			const genderValue = genderMap.get('unknown') || 0;
 			genderMap.set('unknown', genderValue + 1);
 		}
-	});
+	};
 	
+	/**
+	 * Go through all IDs and create a Map of age details.
+	 */
 	const ageMap = new Map();
 	ageMap.set('unknown', 0);
 	ageMap.set('bis 20', 0);
@@ -151,7 +190,7 @@ function getStatisticsFromData(data){
 	ageMap.set('51-60', 0);
 	ageMap.set('61-70', 0);
 	ageMap.set('70+', 0);
-	for (let entry of data) {
+	for (const entry of statsIdMap.values()) {
 		let group;
 		const age = entry.age;
 		if (!age || age === "x") {
@@ -178,8 +217,11 @@ function getStatisticsFromData(data){
 		ageMap.set(group, groupValue + 1);
 	};
 	
+	/**
+	 * Go through all IDs and create a Map of location details.
+	 */
 	const locationMap = new Map();
-	data.forEach(entry => {
+	for (const entry of statsIdMap.values()) {
 		const location = entry.location;
 		if (location 
 		&& location !== "-"
@@ -190,7 +232,7 @@ function getStatisticsFromData(data){
 			locationValue = locationMap.get('unknown') || 0;
 			locationMap.set('unknown', locationValue + 1);
 		}
-	});
+	};
 
 	return {
 		gender: Array.from(genderMap.entries()).map(([key, value]) => ({key, value})),

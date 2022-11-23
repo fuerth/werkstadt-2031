@@ -2,111 +2,111 @@
   "gender": [
     {
       "key": "w",
-      "value": 449
+      "value": 158
     },
     {
       "key": "m",
-      "value": 381
+      "value": 125
     },
     {
       "key": "unknown",
-      "value": 235
+      "value": 91
     },
     {
       "key": "d",
-      "value": 11
+      "value": 2
     }
   ],
   "age": [
     {
       "key": "unknown",
-      "value": 229
+      "value": 90
     },
     {
       "key": "bis 20",
-      "value": 11
+      "value": 5
     },
     {
       "key": "21-30",
-      "value": 83
+      "value": 37
     },
     {
       "key": "31-40",
-      "value": 241
+      "value": 73
     },
     {
       "key": "41-50",
-      "value": 165
+      "value": 58
     },
     {
       "key": "51-60",
-      "value": 231
+      "value": 69
     },
     {
       "key": "61-70",
-      "value": 88
+      "value": 36
     },
     {
       "key": "70+",
-      "value": 28
+      "value": 8
     }
   ],
   "location": [
     {
       "key": "Poppenreuth",
-      "value": 14
-    },
-    {
-      "key": "Stadeln",
-      "value": 19
-    },
-    {
-      "key": "Südstadt",
-      "value": 222
-    },
-    {
-      "key": "Innenstadt",
-      "value": 350
-    },
-    {
-      "key": "Vach",
       "value": 5
     },
     {
-      "key": "unknown",
-      "value": 238
+      "key": "Stadeln",
+      "value": 5
     },
     {
-      "key": "Hardhöhe",
-      "value": 22
+      "key": "Südstadt",
+      "value": 82
     },
     {
-      "key": "Ronhof",
-      "value": 20
+      "key": "Innenstadt",
+      "value": 119
     },
     {
-      "key": "Dambach",
-      "value": 43
-    },
-    {
-      "key": "Burgfarrnbach",
-      "value": 15
-    },
-    {
-      "key": "Espan",
-      "value": 10
-    },
-    {
-      "key": "Oberfürberg",
+      "key": "Vach",
       "value": 4
     },
     {
+      "key": "unknown",
+      "value": 93
+    },
+    {
+      "key": "Hardhöhe",
+      "value": 8
+    },
+    {
+      "key": "Ronhof",
+      "value": 6
+    },
+    {
+      "key": "Dambach",
+      "value": 7
+    },
+    {
+      "key": "Burgfarrnbach",
+      "value": 4
+    },
+    {
+      "key": "Espan",
+      "value": 4
+    },
+    {
+      "key": "Oberfürberg",
+      "value": 2
+    },
+    {
       "key": "Eigenes Heim",
-      "value": 44
+      "value": 15
     },
     {
       "key": "Stadtgrenze",
-      "value": 13
+      "value": 5
     },
     {
       "key": "Ritzmannshof",
@@ -114,23 +114,23 @@
     },
     {
       "key": "Westvorstadt",
-      "value": 18
+      "value": 6
     },
     {
       "key": "Unterfürberg",
-      "value": 14
+      "value": 4
     },
     {
       "key": "Atzenhof",
-      "value": 2
+      "value": 1
     },
     {
       "key": "Unterfarrnbach",
-      "value": 13
+      "value": 4
     },
     {
       "key": "Mannhof",
-      "value": 9
+      "value": 1
     }
   ]
 }
