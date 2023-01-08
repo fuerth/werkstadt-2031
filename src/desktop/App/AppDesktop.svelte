@@ -6,7 +6,7 @@
 	import WerkstadtCards from './Cards.svelte';
 	import NavigationMain from './NavigationMain.svelte';
 	import NavigationSub from './NavigationSub.svelte';
-	import WerkstadtFooter from './Footer.svelte';
+	//import WerkstadtFooter from './Footer.svelte';
 
 	import { categoriesStore, selectedMainCategoryStore, selectedSubCategoryStore } from '../stores.js';
 
@@ -44,7 +44,7 @@
 	<main>
 		<aside>
 			<NavigationMain />
-			<WerkstadtFooter />
+			<!-- <WerkstadtFooter /> -->
 		</aside>
 		<article>
 			<header class="subCatHeader">

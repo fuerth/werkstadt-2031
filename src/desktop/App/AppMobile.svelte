@@ -1,5 +1,5 @@
 <script>
-	import WerkstadtFooter from './Footer.svelte';
+	//import WerkstadtFooter from './Footer.svelte';
 	import WerkstadtCards from './Cards.svelte';
 
 	import { categoriesStore, selectedMainCategoryStore, selectedSubCategoryStore } from '../stores.js';
@@ -37,7 +37,7 @@
 		</li>
 		{/each}<!-- end mainCat-->
 	</ul>
-	<WerkstadtFooter />
+	<!-- <WerkstadtFooter /> -->
 </div>
 
 <style>
@@ -92,6 +92,16 @@
 		
 		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 		font-size: 1.25rem;
+	}
+	li.accordion-item summary .sub-item-count {
+		display: flex;
+		align-items: center;
+		padding: 0.4rem;
+		
+		background-color: var(--card-color-1);
+		color: var(--text-main);
+		border-radius: 0rem;
+		box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
 	}
 
 	.accordion-content {
