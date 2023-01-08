@@ -15,7 +15,8 @@ Call This after you updated `data/werkstadt_2031.csv`!
 Start the svelte dev-webserver.
 
 This is useful while working on a svelte component.
-## `npm 11ty`
+
+## `npm run 11ty`
 
 Start the 11ty webserver.
 

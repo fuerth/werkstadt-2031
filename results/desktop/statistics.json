@@ -2,11 +2,11 @@
   "gender": [
     {
       "key": "w",
-      "value": 158
+      "value": 155
     },
     {
       "key": "m",
-      "value": 125
+      "value": 128
     },
     {
       "key": "unknown",
@@ -28,27 +28,27 @@
     },
     {
       "key": "21-30",
-      "value": 37
-    },
-    {
-      "key": "31-40",
-      "value": 73
-    },
-    {
-      "key": "41-50",
-      "value": 58
-    },
-    {
-      "key": "51-60",
-      "value": 69
-    },
-    {
-      "key": "61-70",
       "value": 36
     },
     {
+      "key": "31-40",
+      "value": 72
+    },
+    {
+      "key": "41-50",
+      "value": 59
+    },
+    {
+      "key": "51-60",
+      "value": 71
+    },
+    {
+      "key": "61-70",
+      "value": 41
+    },
+    {
       "key": "70+",
-      "value": 8
+      "value": 2
     }
   ],
   "location": [
@@ -66,7 +66,7 @@
     },
     {
       "key": "Innenstadt",
-      "value": 119
+      "value": 115
     },
     {
       "key": "Vach",
@@ -74,11 +74,11 @@
     },
     {
       "key": "unknown",
-      "value": 92
+      "value": 90
     },
     {
       "key": "Hardhöhe",
-      "value": 8
+      "value": 9
     },
     {
       "key": "Ronhof",
@@ -90,7 +90,7 @@
     },
     {
       "key": "Burgfarrnbach",
-      "value": 4
+      "value": 5
     },
     {
       "key": "Espan",
@@ -98,7 +98,11 @@
     },
     {
       "key": "Oberfürberg",
-      "value": 2
+      "value": 3
+    },
+    {
+      "key": "Unterfarrnbach",
+      "value": 5
     },
     {
       "key": "Eigenes Heim",
@@ -125,8 +129,8 @@
       "value": 1
     },
     {
-      "key": "Unterfarrnbach",
-      "value": 4
+      "key": "0",
+      "value": 2
     },
     {
       "key": "Mannhof",
