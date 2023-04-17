@@ -106,8 +106,7 @@
     "location": "Innenstadt",
     "categories": [
       "mobilitaet.Parken",
-      "politik.flaechen",
-      "raeume.raeume"
+      "politik.flaechen"
     ]
   },
   {
@@ -2214,10 +2213,7 @@
     "age": "21",
     "location": "Innenstadt",
     "categories": [
-      "mobilitaet.verkehrsfluss",
-      "mobilitaet.verkehrsnetz",
-      "mobilitaet.mobilitaet",
-      "stadtbild.stadtbild"
+      "mobilitaet.Parken"
     ]
   },
   {
@@ -2469,8 +2465,10 @@
     "age": "51",
     "location": "Südstadt",
     "categories": [
-      "stadtbild.autofrei",
-      "wirtschaft.einzelhandel"
+      "infrastruktur.Bauen",
+      "kultur.sport",
+      "wirtschaft.einzelhandel",
+      "stadtbild.spielplaetze"
     ]
   },
   {
@@ -3274,9 +3272,9 @@
     "age": "51",
     "location": "Stadeln",
     "categories": [
-      "infrastruktur.Bauen",
       "kultur.nachtleben",
-      "gesellschaft.begegnung"
+      "gesellschaft.begegnung",
+      "mobilitaet.fussgaenger"
     ]
   },
   {
@@ -3286,8 +3284,7 @@
     "age": "51",
     "location": "Stadeln",
     "categories": [
-      "stadtbild.stadtbild",
-      "politik.politik"
+      "stadtbild.stadtbild"
     ]
   },
   {
@@ -3309,10 +3306,7 @@
     "location": "Stadeln",
     "categories": [
       "mobilitaet.radwege",
-      "mobilitaet.radverkehr",
-      "stadtbild.stadtbild",
-      "stadtbild.sanierung",
-      "infrastruktur.Bauen"
+      "mobilitaet.radverkehr"
     ]
   },
   {
@@ -3337,10 +3331,7 @@
     "location": "Innenstadt",
     "categories": [
       "mobilitaet.oepnv",
-      "infrastruktur.energieversorgung",
-      "mobilitaet.radwege",
       "mobilitaet.verkehrsnetz",
-      "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet"
     ]
   },
@@ -3351,7 +3342,9 @@
     "age": "41",
     "location": "Innenstadt",
     "categories": [
-      "mobilitaet.mobilitaet"
+      "politik.flaechen",
+      "stadtbild.lebenswert",
+      "wirtschaft.einzelhandel"
     ]
   },
   {
@@ -3362,7 +3355,6 @@
     "location": "Innenstadt",
     "categories": [
       "wirtschaft.konsum",
-      "wirtschaft.einzelhandel",
       "politik.politik"
     ]
   },
@@ -3455,9 +3447,8 @@
     "location": "Innenstadt",
     "categories": [
       "mobilitaet.radwege",
-      "mobilitaet.radverkehr",
-      "infrastruktur.digitalisierung",
-      "politik.politik"
+      "mobilitaet.verkehrsnetz",
+      "mobilitaet.radverkehr"
     ]
   },
   {
@@ -3467,8 +3458,7 @@
     "age": "41",
     "location": "Innenstadt",
     "categories": [
-      "mobilitaet.verkehrsnetz",
-      "mobilitaet.mobilitaet"
+      "mobilitaet.Parken"
     ]
   },
   {
@@ -3478,7 +3468,8 @@
     "age": "41",
     "location": "Oberfürberg",
     "categories": [
-      "mobilitaet.Parken"
+      "stadtbild.autofrei",
+      "stadtbild.lebenswert"
     ]
   },
   {
@@ -3500,11 +3491,7 @@
     "age": "51",
     "location": "Eigenes Heim",
     "categories": [
-      "gesellschaft.Quartiersentwicklung",
-      "stadtbild.lebenswert",
-      "gesellschaft.gesellschaft",
-      "gesellschaft.gemeinschaft",
-      "raeume.kreativraeume"
+      "stadtbild.lebenswert"
     ]
   },
   {
@@ -3726,8 +3713,8 @@
     "age": "51",
     "location": "Südstadt",
     "categories": [
-      "raeume.raeume",
-      "raeume.kreativraeume"
+      "mobilitaet.Parken",
+      "parks.gruenestadt"
     ]
   },
   {
@@ -3782,6 +3769,7 @@
     "age": "51",
     "location": "Südstadt",
     "categories": [
+      "stadtbild.muell",
       "politik.strukturen",
       "politik.sicherheit"
     ]
@@ -3825,8 +3813,9 @@
     "age": "51",
     "location": "Innenstadt",
     "categories": [
-      "mobilitaet.verkehrsfluss",
-      "mobilitaet.verkehrsnetz"
+      "mobilitaet.verkehrsnetz",
+      "mobilitaet.mobilitaet",
+      "politik.politik"
     ]
   },
   {
@@ -3856,7 +3845,8 @@
     "age": "51",
     "location": "Innenstadt",
     "categories": [
-      "politik.politik"
+      "gesellschaft.wohnraum",
+      "politik.foerderung"
     ]
   },
   {
@@ -3922,8 +3912,9 @@
     "age": "51",
     "location": "Burgfarrnbach",
     "categories": [
-      "infrastruktur.digitalisierung",
-      "politik.politik"
+      "stadtbild.stadtbild",
+      "stadtbild.lebenswert",
+      "parks.gruenestadt"
     ]
   },
   {
@@ -3944,6 +3935,7 @@
     "location": "Eigenes Heim",
     "categories": [
       "mobilitaet.verkehrsnetz",
+      "stadtbild.stadtgestaltung",
       "parks.gruenestadt"
     ]
   },
@@ -3999,7 +3991,9 @@
     "location": "Hardhöhe",
     "categories": [
       "stadtbild.stadtgestaltung",
-      "kultur.freizeit"
+      "gesellschaft.begegnung",
+      "kultur.kulturangebot",
+      "raeume.raeume"
     ]
   },
   {
@@ -4009,8 +4003,9 @@
     "age": "31",
     "location": "Eigenes Heim",
     "categories": [
-      "stadtbild.stadtgestaltung",
-      "gesellschaft.gemeinschaft"
+      "mobilitaet.individualverkehr",
+      "mobilitaet.Parken",
+      "stadtbild.stadtgestaltung"
     ]
   },
   {
@@ -4043,9 +4038,7 @@
     "age": "31",
     "location": "Eigenes Heim",
     "categories": [
-      "kultur.freizeit",
-      "raeume.raeume",
-      "raeume.kreativraeume"
+      "raeume.experimentierraeume"
     ]
   },
   {
@@ -4079,7 +4072,7 @@
       "mobilitaet.radwege",
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet",
-      "mobilitaet.tempo30"
+      "mobilitaet.Parken"
     ]
   },
   {
@@ -4100,7 +4093,9 @@
     "location": "Dambach",
     "categories": [
       "mobilitaet.oepnv",
-      "mobilitaet.mobilitaet"
+      "mobilitaet.mobilitaet",
+      "politik.stadtplanung",
+      "infrastruktur.Bauen"
     ]
   },
   {
@@ -4154,7 +4149,8 @@
     "age": "41",
     "location": "Dambach",
     "categories": [
-      "mobilitaet.oepnv"
+      "mobilitaet.oepnv",
+      "gesellschaft.inklusion"
     ]
   },
   {
@@ -4164,6 +4160,7 @@
     "age": "41",
     "location": "Dambach",
     "categories": [
+      "infrastruktur.Bauen",
       "politik.politik"
     ]
   },
@@ -4195,6 +4192,7 @@
     "age": "31",
     "location": "Innenstadt",
     "categories": [
+      "gesellschaft.wohnraum",
       "politik.politik"
     ]
   },
@@ -4205,8 +4203,8 @@
     "age": "31",
     "location": "Innenstadt",
     "categories": [
-      "gesellschaft.wohnraum",
-      "politik.foerderung"
+      "wirtschaft.konsum",
+      "wirtschaft.einzelhandel"
     ]
   },
   {
@@ -4261,8 +4259,9 @@
     "age": "41",
     "location": "Burgfarrnbach",
     "categories": [
-      "mobilitaet.verkehrsfluss",
-      "mobilitaet.verkehrsnetz"
+      "mobilitaet.verkehrsnetz",
+      "politik.stadtplanung",
+      "politik.politik"
     ]
   },
   {
@@ -4272,8 +4271,7 @@
     "age": "41",
     "location": "Burgfarrnbach",
     "categories": [
-      "politik.stadtplanung",
-      "politik.politik"
+      "stadtbild.sanierung"
     ]
   },
   {
@@ -4284,7 +4282,8 @@
     "location": "Burgfarrnbach",
     "categories": [
       "politik.foerderung",
-      "politik.politik"
+      "politik.politik",
+      "politik.engagement"
     ]
   },
   {
@@ -4294,9 +4293,8 @@
     "age": "41",
     "location": "Burgfarrnbach",
     "categories": [
-      "politik.politik",
-      "politik.engagement",
-      "politik.strukturen"
+      "gesellschaft.inklusion",
+      "gesellschaft.gesellschaft"
     ]
   },
   {
@@ -4306,7 +4304,8 @@
     "age": "31",
     "location": "Innenstadt",
     "categories": [
-      "politik.politik"
+      "mobilitaet.mobilitaet",
+      "stadtbild.autofrei"
     ]
   },
   {
@@ -4316,10 +4315,9 @@
     "age": "31",
     "location": "Innenstadt",
     "categories": [
-      "mobilitaet.verkehrsfluss",
-      "mobilitaet.verkehrsnetz",
-      "stadtbild.stadtbild",
-      "stadtbild.autofrei"
+      "mobilitaet.oepnv",
+      "gesellschaft.inklusion",
+      "politik.foerderung"
     ]
   },
   {
@@ -4329,7 +4327,12 @@
     "age": "31",
     "location": "Innenstadt",
     "categories": [
-      "politik.foerderung"
+      "gesellschaft.Jugend",
+      "kultur.freizeit",
+      "raeume.raeume",
+      "raeume.werkstaetten",
+      "raeume.kreativraeume",
+      "raeume.experimentierraeume"
     ]
   },
   {
@@ -4356,7 +4359,9 @@
     "age": "61",
     "location": "Innenstadt",
     "categories": [
-      "gesellschaft.gemeinschaft",
+      "politik.flaechen",
+      "infrastruktur.Bauen",
+      "parks.gruenestadt",
       "raeume.werkstaetten"
     ]
   },
@@ -4390,7 +4395,7 @@
     "location": "Innenstadt",
     "categories": [
       "mobilitaet.mobilitaet",
-      "mobilitaet.Parken"
+      "wirtschaft.carsharing"
     ]
   },
   {
@@ -4440,7 +4445,8 @@
     "location": "Burgfarrnbach",
     "categories": [
       "mobilitaet.verkehrsfluss",
-      "mobilitaet.verkehrsnetz"
+      "mobilitaet.verkehrsnetz",
+      "politik.stadtplanung"
     ]
   },
   {
@@ -4450,6 +4456,7 @@
     "age": "41",
     "location": "Burgfarrnbach",
     "categories": [
+      "politik.flaechen",
       "parks.gruenestadt"
     ]
   },
@@ -4509,7 +4516,6 @@
       "stadtbild.atmosphäre",
       "stadtbild.stadtbild",
       "parks.gruenestadt",
-      "umwelt.umwelt",
       "gesellschaft.begegnung",
       "kultur.freizeit",
       "parks.parks"
@@ -4522,6 +4528,7 @@
     "age": "31",
     "location": "Eigenes Heim",
     "categories": [
+      "gesellschaft.inklusion",
       "gesellschaft.begegnung",
       "kultur.freizeit"
     ]
@@ -4536,9 +4543,9 @@
       "stadtbild.beleuchtung",
       "gesellschaft.Quartiersentwicklung",
       "politik.stadtplanung",
-      "parks.gruenestadt",
+      "stadtbild.lebenswert",
       "gesellschaft.gemeinschaft",
-      "kultur.freizeit"
+      "gesellschaft.begegnung"
     ]
   },
   {
@@ -4560,7 +4567,6 @@
     "age": "51",
     "location": "Innenstadt",
     "categories": [
-      "mobilitaet.verkehrsnetz",
       "mobilitaet.mobilitaet",
       "mobilitaet.individualverkehr",
       "mobilitaet.tempo30"
@@ -4573,6 +4579,7 @@
     "age": "51",
     "location": "Innenstadt",
     "categories": [
+      "stadtbild.stadtgestaltung",
       "umwelt.umwelt"
     ]
   },
@@ -4678,9 +4685,7 @@
     "age": "41",
     "location": "Unterfürberg",
     "categories": [
-      "mobilitaet.radwege",
-      "mobilitaet.radverkehr",
-      "mobilitaet.mobilitaet"
+      "gesellschaft.gemeinschaft"
     ]
   },
   {
@@ -4736,8 +4741,9 @@
     "age": "31",
     "location": "Dambach",
     "categories": [
-      "wirtschaft.konsum",
-      "wirtschaft.einzelhandel"
+      "gesellschaft.familie",
+      "gesellschaft.begegnung",
+      "raeume.raeume"
     ]
   },
   {
@@ -4781,8 +4787,6 @@
     "location": "0",
     "categories": [
       "mobilitaet.verkehrsfluss",
-      "mobilitaet.verkehrsnetz",
-      "mobilitaet.mobilitaet",
       "mobilitaet.Parken"
     ]
   },
@@ -4793,8 +4797,7 @@
     "age": "41",
     "location": "0",
     "categories": [
-      "mobilitaet.verkehrsfluss",
-      "mobilitaet.mobilitaet"
+      "mobilitaet.verkehrsfluss"
     ]
   },
   {
@@ -4804,7 +4807,8 @@
     "age": "31",
     "location": "Südstadt",
     "categories": [
-      "mobilitaet.mobilitaet"
+      "mobilitaet.mobilitaet",
+      "mobilitaet.tempo30"
     ]
   },
   {
@@ -4908,7 +4912,8 @@
     "age": "61",
     "location": "Innenstadt",
     "categories": [
-      "mobilitaet.mobilitaet"
+      "mobilitaet.Parken",
+      "parks.gruenestadt"
     ]
   },
   {
@@ -4918,9 +4923,7 @@
     "age": "61",
     "location": "Innenstadt",
     "categories": [
-      "mobilitaet.mobilitaet",
-      "mobilitaet.Parken",
-      "parks.gruenestadt"
+      "mobilitaet.tempo30"
     ]
   },
   {
@@ -4930,6 +4933,7 @@
     "age": "61",
     "location": "Innenstadt",
     "categories": [
+      "stadtbild.stadtgestaltung",
       "mobilitaet.fussgaenger"
     ]
   },
@@ -4966,7 +4970,8 @@
       "mobilitaet.radwege",
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet",
-      "stadtbild.autofrei"
+      "stadtbild.autofrei",
+      "mobilitaet.fussgaenger"
     ]
   },
   {
@@ -4977,7 +4982,8 @@
     "location": "Eigenes Heim",
     "categories": [
       "mobilitaet.oepnv",
-      "mobilitaet.mobilitaet"
+      "mobilitaet.mobilitaet",
+      "gesellschaft.inklusion"
     ]
   },
   {
@@ -4987,7 +4993,8 @@
     "age": "61",
     "location": "Eigenes Heim",
     "categories": [
-      "politik.foerderung"
+      "politik.foerderung",
+      "kultur.freizeit"
     ]
   },
   {
@@ -5007,9 +5014,7 @@
     "age": "51",
     "location": "Südstadt",
     "categories": [
-      "mobilitaet.radwege",
-      "mobilitaet.radverkehr",
-      "umwelt.umwelt"
+      "mobilitaet.radwege"
     ]
   },
   {
@@ -5020,8 +5025,7 @@
     "location": "Südstadt",
     "categories": [
       "mobilitaet.radwege",
-      "mobilitaet.verkehrsnetz",
-      "mobilitaet.radverkehr"
+      "mobilitaet.verkehrsnetz"
     ]
   },
   {
@@ -5096,7 +5100,8 @@
     "location": "Eigenes Heim",
     "categories": [
       "mobilitaet.radwege",
-      "mobilitaet.radverkehr"
+      "mobilitaet.radverkehr",
+      "mobilitaet.fussgaenger"
     ]
   },
   {
@@ -5106,7 +5111,9 @@
     "age": "41",
     "location": "Eigenes Heim",
     "categories": [
-      "mobilitaet.mobilitaet",
+      "stadtbild.atmosphäre",
+      "gesellschaft.begegnung",
+      "kultur.freizeit",
       "mobilitaet.fussgaenger"
     ]
   },
@@ -5117,10 +5124,9 @@
     "age": "41",
     "location": "Eigenes Heim",
     "categories": [
-      "stadtbild.atmosphäre",
-      "gesellschaft.gesellschaft",
+      "gesellschaft.Quartiersentwicklung",
       "gesellschaft.gemeinschaft",
-      "kultur.freizeit",
+      "kultur.kulturangebot",
       "raeume.raeume"
     ]
   },
@@ -5156,7 +5162,9 @@
     "location": "Südstadt",
     "categories": [
       "mobilitaet.oepnv",
-      "mobilitaet.mobilitaet"
+      "mobilitaet.mobilitaet",
+      "stadtbild.lebenswert",
+      "parks.gruenestadt"
     ]
   },
   {
@@ -5244,7 +5252,8 @@
     "age": "41",
     "location": "Westvorstadt",
     "categories": [
-      "stadtbild.muell"
+      "politik.stadtplanung",
+      "infrastruktur.Bauen"
     ]
   },
   {
@@ -5254,8 +5263,12 @@
     "age": "31",
     "location": "Südstadt",
     "categories": [
+      "infrastruktur.digitalisierung",
       "stadtbild.stadtbild",
-      "infrastruktur.Bauen"
+      "gesellschaft.gerechtigkeit",
+      "gesellschaft.gesellschaft",
+      "gesellschaft.generationen",
+      "gesellschaft.Jugend"
     ]
   },
   {
@@ -5308,8 +5321,7 @@
     "location": "Poppenreuth",
     "categories": [
       "mobilitaet.radwege",
-      "mobilitaet.radverkehr",
-      "politik.politik"
+      "mobilitaet.radverkehr"
     ]
   },
   {
@@ -5319,9 +5331,8 @@
     "age": "41",
     "location": "Poppenreuth",
     "categories": [
-      "mobilitaet.radwege",
       "mobilitaet.radverkehr",
-      "mobilitaet.mobilitaet"
+      "mobilitaet.Parken"
     ]
   },
   {
@@ -5331,7 +5342,9 @@
     "age": "41",
     "location": "Poppenreuth",
     "categories": [
-      "mobilitaet.mobilitaet"
+      "mobilitaet.mobilitaet",
+      "gesellschaft.Jugend",
+      "politik.sicherheit"
     ]
   },
   {
@@ -5353,9 +5366,9 @@
     "age": "41",
     "location": "Poppenreuth",
     "categories": [
-      "gesellschaft.Jugend",
       "kultur.kulturangebot",
-      "kultur.freizeit"
+      "kultur.freizeit",
+      "parks.parks"
     ]
   },
   {
@@ -5404,7 +5417,11 @@
     "categories": [
       "gesellschaft.Jugend",
       "gesellschaft.begegnung",
-      "kultur.freizeit"
+      "kultur.freizeit",
+      "raeume.raeume",
+      "raeume.werkstaetten",
+      "raeume.kreativraeume",
+      "raeume.experimentierraeume"
     ]
   },
   {
@@ -5414,7 +5431,8 @@
     "age": "61",
     "location": "Innenstadt",
     "categories": [
-      "infrastruktur.Bauen"
+      "infrastruktur.digitalisierung",
+      "politik.strukturen"
     ]
   },
   {
@@ -5425,8 +5443,7 @@
     "location": "Unterfarrnbach",
     "categories": [
       "mobilitaet.radwege",
-      "mobilitaet.radverkehr",
-      "politik.politik"
+      "mobilitaet.radverkehr"
     ]
   },
   {
@@ -5447,7 +5464,7 @@
     "age": "41",
     "location": "Ronhof",
     "categories": [
-      "politik.foerderung"
+      "stadtbild.spielplaetze"
     ]
   },
   {
@@ -5461,8 +5478,7 @@
       "gesellschaft.begegnung",
       "raeume.raeume",
       "raeume.kreativraeume",
-      "raeume.experimentierraeume",
-      "stadtbild.spielplaetze"
+      "raeume.experimentierraeume"
     ]
   },
   {
@@ -5484,7 +5500,7 @@
     "age": "41",
     "location": "Ronhof",
     "categories": [
-      "gesellschaft.gesellschaft",
+      "wirtschaft.konsum",
       "gesellschaft.gemeinschaft"
     ]
   },
@@ -5506,7 +5522,7 @@
     "age": "41",
     "location": "Südstadt",
     "categories": [
-      "mobilitaet.mobilitaet"
+      "mobilitaet.Parken"
     ]
   },
   {
@@ -5527,8 +5543,7 @@
     "age": "61",
     "location": "Südstadt",
     "categories": [
-      "umwelt.umwelt",
-      "kultur.freizeit"
+      "gesellschaft.gesellschaft"
     ]
   },
   {
@@ -5684,7 +5699,8 @@
     "age": "41",
     "location": "Südstadt",
     "categories": [
-      "mobilitaet.mobilitaet"
+      "politik.politik",
+      "politik.transparenz"
     ]
   },
   {
@@ -5695,7 +5711,8 @@
     "location": "Vach",
     "categories": [
       "mobilitaet.verkehrsnetz",
-      "politik.politik"
+      "wirtschaft.konsum",
+      "wirtschaft.einzelhandel"
     ]
   },
   {
@@ -5718,7 +5735,8 @@
     "age": "61",
     "location": "Stadtgrenze",
     "categories": [
-      "mobilitaet.mobilitaet"
+      "stadtbild.muell",
+      "parks.hunde"
     ]
   },
   {
@@ -5740,8 +5758,7 @@
     "age": "61",
     "location": "Stadtgrenze",
     "categories": [
-      "mobilitaet.mobilitaet",
-      "wirtschaft.carsharing"
+      "parks.parks"
     ]
   },
   {
@@ -5752,7 +5769,7 @@
     "location": "Stadtgrenze",
     "categories": [
       "parks.gruenestadt",
-      "parks.parks"
+      "umwelt.umwelt"
     ]
   },
   {
@@ -5774,9 +5791,12 @@
     "age": "41",
     "location": "Eigenes Heim",
     "categories": [
-      "mobilitaet.Parken",
+      "mobilitaet.oepnv",
+      "mobilitaet.verkehrsfluss",
+      "mobilitaet.mobilitaet",
       "stadtbild.stadtbild",
-      "politik.flaechen"
+      "politik.flaechen",
+      "parks.gruenestadt"
     ]
   },
   {
@@ -5797,7 +5817,10 @@
     "location": "Innenstadt",
     "categories": [
       "mobilitaet.mobilitaet",
-      "stadtbild.autofrei"
+      "parks.gruenestadt",
+      "gesellschaft.Jugend",
+      "raeume.raeume",
+      "stadtbild.spielplaetze"
     ]
   },
   {
@@ -5839,7 +5862,9 @@
     "age": "51",
     "location": "Unterfarrnbach",
     "categories": [
-      "mobilitaet.mobilitaet"
+      "mobilitaet.Parken",
+      "politik.flaechen",
+      "parks.gruenestadt"
     ]
   },
   {
@@ -5862,7 +5887,7 @@
     "age": "51",
     "location": "Unterfarrnbach",
     "categories": [
-      "parks.gruenestadt",
+      "gesellschaft.inklusion",
       "gesellschaft.gemeinschaft"
     ]
   },
@@ -5884,9 +5909,7 @@
     "age": "51",
     "location": "Südstadt",
     "categories": [
-      "kultur.kulturangebot",
-      "raeume.raeume",
-      "raeume.kreativraeume"
+      "kultur.kulturangebot"
     ]
   },
   {
@@ -5897,7 +5920,7 @@
     "location": "Südstadt",
     "categories": [
       "infrastruktur.energieversorgung",
-      "mobilitaet.mobilitaet"
+      "politik.foerderung"
     ]
   },
   {
@@ -5919,10 +5942,7 @@
     "location": "Innenstadt",
     "categories": [
       "mobilitaet.oepnv",
-      "mobilitaet.verkehrsnetz",
-      "stadtbild.stadtgestaltung",
-      "gesellschaft.Quartiersentwicklung",
-      "stadtbild.lebenswert"
+      "mobilitaet.mobilitaet"
     ]
   },
   {
@@ -5943,7 +5963,7 @@
     "age": "70",
     "location": "Innenstadt",
     "categories": [
-      "mobilitaet.mobilitaet"
+      "mobilitaet.Parken"
     ]
   },
   {
@@ -5978,7 +5998,8 @@
     "age": "31",
     "location": "Südstadt",
     "categories": [
-      "mobilitaet.tempo30"
+      "mobilitaet.Parken",
+      "stadtbild.stadtbild"
     ]
   },
   {
@@ -5988,9 +6009,9 @@
     "age": "31",
     "location": "Südstadt",
     "categories": [
-      "mobilitaet.Parken",
-      "stadtbild.stadtbild",
-      "stadtbild.autofrei"
+      "gesellschaft.familie",
+      "raeume.raeume",
+      "raeume.experimentierraeume"
     ]
   },
   {
@@ -6035,7 +6056,7 @@
     "age": "51",
     "location": "Stadeln",
     "categories": [
-      "gesellschaft.gerechtigkeit"
+      "parks.gruenestadt"
     ]
   },
   {
@@ -6046,10 +6067,9 @@
     "location": "Stadeln",
     "categories": [
       "mobilitaet.radverkehr",
-      "stadtbild.stadtbild",
-      "stadtbild.stadtgestaltung",
-      "stadtbild.lebenswert",
-      "parks.gruenestadt"
+      "gesellschaft.gerechtigkeit",
+      "mobilitaet.fussgaenger",
+      "politik.sicherheit"
     ]
   },
   {
@@ -6059,8 +6079,9 @@
     "age": "51",
     "location": "Hardhöhe",
     "categories": [
+      "politik.flaechen",
       "parks.gruenestadt",
-      "politik.politik"
+      "parks.parks"
     ]
   },
   {
@@ -6115,7 +6136,8 @@
     "location": "Südstadt",
     "categories": [
       "mobilitaet.radwege",
-      "mobilitaet.verkehrsnetz"
+      "mobilitaet.verkehrsnetz",
+      "mobilitaet.mobilitaet"
     ]
   },
   {
@@ -6136,7 +6158,10 @@
     "age": "41",
     "location": "Südstadt",
     "categories": [
-      "stadtbild.lebenswert"
+      "gesellschaft.Jugend",
+      "raeume.raeume",
+      "raeume.kreativraeume",
+      "raeume.experimentierraeume"
     ]
   },
   {
@@ -6171,7 +6196,8 @@
     "age": "41",
     "location": "Innenstadt",
     "categories": [
-      "mobilitaet.individualverkehr"
+      "infrastruktur.digitalisierung",
+      "politik.strukturen"
     ]
   },
   {
@@ -6181,8 +6207,7 @@
     "age": "41",
     "location": "Innenstadt",
     "categories": [
-      "infrastruktur.digitalisierung",
-      "politik.engagement"
+      "mobilitaet.Parken"
     ]
   },
   {
@@ -6285,7 +6310,8 @@
     "age": "51",
     "location": "Innenstadt",
     "categories": [
-      "gesellschaft.Jugend"
+      "gesellschaft.wohnraum",
+      "gesellschaft.gerechtigkeit"
     ]
   },
   {
@@ -6295,8 +6321,8 @@
     "age": "31",
     "location": "Innenstadt",
     "categories": [
-      "mobilitaet.verkehrsnetz",
-      "politik.politik"
+      "mobilitaet.mobilitaet",
+      "gesellschaft.Quartiersentwicklung"
     ]
   },
   {
@@ -6306,7 +6332,7 @@
     "age": "31",
     "location": "Innenstadt",
     "categories": [
-      "stadtbild.stadtbild"
+      "wirtschaft.einzelhandel"
     ]
   },
   {
@@ -6351,7 +6377,8 @@
     "age": "70",
     "location": "Hardhöhe",
     "categories": [
-      "mobilitaet.radverkehr"
+      "mobilitaet.radverkehr",
+      "politik.flaechen"
     ]
   },
   {
@@ -6372,7 +6399,9 @@
     "age": "70",
     "location": "Hardhöhe",
     "categories": [
-      "gesellschaft.gerechtigkeit"
+      "stadtbild.lebenswert",
+      "parks.gruenestadt",
+      "wirtschaft.konsum"
     ]
   },
   {
@@ -6438,8 +6467,7 @@
     "age": "61",
     "location": "Ronhof",
     "categories": [
-      "mobilitaet.oepnv",
-      "gesellschaft.gerechtigkeit"
+      "mobilitaet.oepnv"
     ]
   },
   {
@@ -6459,7 +6487,8 @@
     "age": "31",
     "location": "Innenstadt",
     "categories": [
-      "stadtbild.muell"
+      "stadtbild.muell",
+      "parks.hunde"
     ]
   },
   {
@@ -6495,7 +6524,9 @@
     "age": "31",
     "location": "Innenstadt",
     "categories": [
-      "mobilitaet.Parken"
+      "mobilitaet.verkehrsnetz",
+      "mobilitaet.tempo30",
+      "politik.sicherheit"
     ]
   },
   {
@@ -6529,8 +6560,8 @@
     "age": "21",
     "location": "Westvorstadt",
     "categories": [
-      "parks.gruenestadt",
-      "politik.klimawandel"
+      "wirtschaft.konsum",
+      "politik.foerderung"
     ]
   },
   {
@@ -6540,9 +6571,8 @@
     "age": "21",
     "location": "Westvorstadt",
     "categories": [
-      "politik.klimawandel",
-      "wirtschaft.einzelhandel",
-      "politik.foerderung"
+      "wirtschaft.konsum",
+      "politik.strukturen"
     ]
   },
   {
@@ -6552,8 +6582,8 @@
     "age": "21",
     "location": "Westvorstadt",
     "categories": [
-      "gesellschaft.gerechtigkeit",
-      "politik.klimawandel"
+      "politik.klimawandel",
+      "bildung.bildung"
     ]
   },
   {
@@ -6610,8 +6640,8 @@
     "age": "61",
     "location": "Innenstadt",
     "categories": [
-      "politik.klimawandel",
-      "politik.politik"
+      "stadtbild.muell",
+      "stadtbild.stadtbild"
     ]
   },
   {
@@ -6680,8 +6710,9 @@
     "location": "Mannhof",
     "categories": [
       "stadtbild.stadtgestaltung",
-      "gesellschaft.Jugend",
-      "bildung.bildung"
+      "stadtbild.lebenswert",
+      "gesellschaft.begegnung",
+      "raeume.raeume"
     ]
   },
   {
@@ -6691,7 +6722,10 @@
     "age": "51",
     "location": "Mannhof",
     "categories": [
-      "parks.gruenestadt"
+      "mobilitaet.mobilitaet",
+      "stadtbild.autofrei",
+      "gesellschaft.familie",
+      "politik.sicherheit"
     ]
   },
   {
@@ -6753,7 +6787,8 @@
     "age": "51",
     "location": "Mannhof",
     "categories": [
-      "gesellschaft.Quartiersentwicklung",
+      "gesellschaft.Jugend",
+      "politik.foerderung",
       "politik.engagement",
       "politik.strukturen"
     ]
@@ -6765,8 +6800,12 @@
     "age": "51",
     "location": "Mannhof",
     "categories": [
-      "gesellschaft.Jugend",
-      "politik.engagement"
+      "gesellschaft.inklusion",
+      "gesellschaft.senioren",
+      "gesellschaft.begegnung",
+      "politik.engagement",
+      "politik.strukturen",
+      "raeume.raeume"
     ]
   },
   {
@@ -6789,7 +6828,9 @@
     "age": "70",
     "location": "Dambach",
     "categories": [
-      "gesellschaft.Quartiersentwicklung"
+      "stadtbild.stadtbild",
+      "gesellschaft.Quartiersentwicklung",
+      "politik.flaechen"
     ]
   },
   {
@@ -6799,7 +6840,7 @@
     "age": "70",
     "location": "Dambach",
     "categories": [
-      "stadtbild.stadtbild"
+      "politik.foerderung"
     ]
   },
   {
@@ -6809,7 +6850,7 @@
     "age": "70",
     "location": "Dambach",
     "categories": [
-      "kultur.kulturangebot"
+      "politik.strukturen"
     ]
   },
   {
@@ -6819,8 +6860,8 @@
     "age": "51",
     "location": "Innenstadt",
     "categories": [
-      "politik.politik",
-      "politik.strukturen"
+      "wirtschaft.konsum",
+      "wirtschaft.einzelhandel"
     ]
   },
   {
@@ -6841,8 +6882,7 @@
     "age": "51",
     "location": "Innenstadt",
     "categories": [
-      "stadtbild.autofrei",
-      "politik.flaechen"
+      "stadtbild.stadtgestaltung"
     ]
   },
   {
@@ -6873,7 +6913,9 @@
     "age": "51",
     "location": "Innenstadt",
     "categories": [
-      "gesellschaft.gerechtigkeit"
+      "gesellschaft.gemeinschaft",
+      "gesellschaft.begegnung",
+      "kultur.kulturangebot"
     ]
   },
   {
@@ -6883,8 +6925,8 @@
     "age": "51",
     "location": "Innenstadt",
     "categories": [
-      "gesellschaft.gemeinschaft",
-      "gesellschaft.begegnung"
+      "gesellschaft.Jugend",
+      "kultur.freizeit"
     ]
   },
   {
@@ -6894,7 +6936,7 @@
     "age": "51",
     "location": "Innenstadt",
     "categories": [
-      "gesellschaft.Jugend"
+      "stadtbild.lebenswert"
     ]
   },
   {
@@ -6930,8 +6972,7 @@
       "stadtbild.stadtgestaltung",
       "gesellschaft.wohnraum",
       "politik.stadtplanung",
-      "gesellschaft.familie",
-      "politik.klimawandel"
+      "gesellschaft.familie"
     ]
   },
   {
@@ -6941,7 +6982,10 @@
     "age": "31",
     "location": "Südstadt",
     "categories": [
+      "mobilitaet.oepnv",
       "mobilitaet.radwege",
+      "mobilitaet.verkehrsnetz",
+      "stadtbild.stadtbild",
       "politik.stadtplanung"
     ]
   },
@@ -6952,7 +6996,7 @@
     "age": "31",
     "location": "Südstadt",
     "categories": [
-      "mobilitaet.individualverkehr"
+      "kultur.nachtleben"
     ]
   },
   {
@@ -6974,7 +7018,8 @@
     "age": "31",
     "location": "Südstadt",
     "categories": [
-      "stadtbild.stadtgestaltung",
+      "gesellschaft.Quartiersentwicklung",
+      "kultur.kulturangebot",
       "raeume.raeume",
       "raeume.kreativraeume"
     ]
@@ -6986,6 +7031,7 @@
     "age": "61",
     "location": "Südstadt",
     "categories": [
+      "politik.foerderung",
       "kultur.kulturangebot"
     ]
   },
@@ -6997,7 +7043,10 @@
     "location": "Südstadt",
     "categories": [
       "politik.foerderung",
-      "kultur.kulturangebot"
+      "raeume.raeume",
+      "raeume.werkstaetten",
+      "raeume.kreativraeume",
+      "raeume.experimentierraeume"
     ]
   },
   {
@@ -7007,7 +7056,6 @@
     "age": "61",
     "location": "Südstadt",
     "categories": [
-      "gesellschaft.inklusion",
       "gesellschaft.gemeinschaft",
       "gesellschaft.begegnung",
       "raeume.raeume"
@@ -7020,8 +7068,9 @@
     "age": "61",
     "location": "Südstadt",
     "categories": [
-      "gesellschaft.gemeinschaft",
-      "gesellschaft.begegnung"
+      "gesellschaft.inklusion",
+      "politik.foerderung",
+      "gesellschaft.gemeinschaft"
     ]
   },
   {
@@ -7043,9 +7092,7 @@
     "location": "Innenstadt",
     "categories": [
       "mobilitaet.radwege",
-      "mobilitaet.verkehrsnetz",
-      "mobilitaet.individualverkehr",
-      "stadtbild.autofrei"
+      "mobilitaet.verkehrsnetz"
     ]
   },
   {
@@ -7078,7 +7125,7 @@
     "age": "51",
     "location": "Innenstadt",
     "categories": [
-      "mobilitaet.fussgaenger"
+      "mobilitaet.Parken"
     ]
   },
   {
@@ -7088,8 +7135,9 @@
     "age": "51",
     "location": "Innenstadt",
     "categories": [
-      "mobilitaet.Parken",
-      "stadtbild.stadtbild"
+      "stadtbild.stadtbild",
+      "parks.gruenestadt",
+      "umwelt.umwelt"
     ]
   },
   {
@@ -7176,18 +7224,19 @@
     "location": "Dambach",
     "categories": [
       "mobilitaet.oepnv",
-      "stadtbild.autofrei",
-      "stadtbild.lebenswert"
+      "mobilitaet.mobilitaet"
     ]
   },
   {
     "ID": "188",
-    "text": "öffentlichen Nahverkehr behindertengerecht gestalten (in Max 5 Jahren)",
+    "text": " öffentlichen Nahverkehr behindertengerecht gestalten (in Max 5 Jahren)",
     "gender": "w",
     "age": "51",
     "location": "Dambach",
     "categories": [
-      "mobilitaet.oepnv"
+      "mobilitaet.oepnv",
+      "mobilitaet.mobilitaet",
+      "gesellschaft.inklusion"
     ]
   },
   {
@@ -7219,7 +7268,9 @@
     "age": "51",
     "location": "Dambach",
     "categories": [
-      "politik.politik"
+      "gesellschaft.Jugend",
+      "politik.politik",
+      "politik.strukturen"
     ]
   },
   {
@@ -7285,6 +7336,9 @@
     "age": "51",
     "location": "Vach",
     "categories": [
+      "mobilitaet.verkehrsnetz",
+      "mobilitaet.radverkehr",
+      "mobilitaet.individualverkehr",
       "politik.stadtplanung"
     ]
   },
@@ -7305,7 +7359,20 @@
     "age": "61",
     "location": "Südstadt",
     "categories": [
-      "mobilitaet.radwege"
+      "mobilitaet.radwege",
+      "mobilitaet.radverkehr",
+      "mobilitaet.mobilitaet"
+    ]
+  },
+  {
+    "ID": "190",
+    "text": "Keine Streetroller. Die sind immer im Weg, werden überall angestellt und die Fahrer sind der Ansicht sie dürfen auf Gehwegen fahren.",
+    "gender": "w",
+    "age": "61",
+    "location": "Südstadt",
+    "categories": [
+      "mobilitaet.mobilitaet",
+      "politik.sicherheit"
     ]
   },
   {
@@ -7327,6 +7394,8 @@
     "age": "61",
     "location": "Unterfarrnbach",
     "categories": [
+      "parks.gruenestadt",
+      "umwelt.umwelt",
       "mobilitaet.fussgaenger"
     ]
   },
@@ -7338,7 +7407,8 @@
     "location": "Unterfarrnbach",
     "categories": [
       "mobilitaet.radwege",
-      "mobilitaet.radverkehr"
+      "mobilitaet.radverkehr",
+      "mobilitaet.mobilitaet"
     ]
   },
   {
@@ -7349,6 +7419,7 @@
     "location": "Unterfarrnbach",
     "categories": [
       "mobilitaet.oepnv",
+      "mobilitaet.mobilitaet",
       "gesellschaft.inklusion"
     ]
   },
@@ -7382,6 +7453,17 @@
     "location": "Westvorstadt",
     "categories": [
       "mobilitaet.oepnv"
+    ]
+  },
+  {
+    "ID": "193",
+    "text": "Keine Nachverdichtung um jeden Preis in Villenvierteln: Da werden uralte wunderschöne Gärten mit riesigen Bauhausvillen zugebaut welche hunderte von Quadratmetern Wohnfläche für eine einzige Familie und bis zu vier Carports haben. Das ist nicht das was ich unter Nachverdichtung verstehe.",
+    "gender": "w",
+    "age": "51",
+    "location": "Westvorstadt",
+    "categories": [
+      "politik.flaechen",
+      "infrastruktur.Bauen"
     ]
   },
   {
@@ -7460,10 +7542,10 @@
     "age": "31",
     "location": "Eigenes Heim",
     "categories": [
+      "gesellschaft.familie",
       "gesellschaft.Jugend",
       "kultur.freizeit",
-      "raeume.raeume",
-      "stadtbild.spielplaetze"
+      "raeume.raeume"
     ]
   },
   {
@@ -7483,7 +7565,8 @@
     "age": "31",
     "location": "Eigenes Heim",
     "categories": [
-      "infrastruktur.digitalisierung"
+      "infrastruktur.digitalisierung",
+      "politik.strukturen"
     ]
   },
   {
@@ -7493,8 +7576,7 @@
     "age": "31",
     "location": "Eigenes Heim",
     "categories": [
-      "infrastruktur.digitalisierung",
-      "politik.strukturen"
+      "infrastruktur.digitalisierung"
     ]
   },
   {
@@ -7527,6 +7609,7 @@
     "age": "61",
     "location": "Innenstadt",
     "categories": [
+      "mobilitaet.mobilitaet",
       "mobilitaet.Parken"
     ]
   },
@@ -7538,7 +7621,18 @@
     "location": "Innenstadt",
     "categories": [
       "mobilitaet.radwege",
-      "mobilitaet.verkehrsnetz"
+      "mobilitaet.verkehrsnetz",
+      "mobilitaet.mobilitaet"
+    ]
+  },
+  {
+    "ID": "197",
+    "text": "Die Hundesteuer deutlich erhöhen und Hundebesitzer aufblenden, Grün-Erholungsflächen deutlich stärker kontrollieren sowie die Strafen empfindlich erhöhen. Die Verkotung der Wege und Wiesen ist in zunehmenden Maß widerlich und ekelhaft.",
+    "gender": "m",
+    "age": "61",
+    "location": "Innenstadt",
+    "categories": [
+      "parks.hunde"
     ]
   },
   {
@@ -7600,7 +7694,8 @@
     "age": "31",
     "location": "Innenstadt",
     "categories": [
-      "politik.flaechen"
+      "gesellschaft.gesellschaft",
+      "parks.gruenestadt"
     ]
   },
   {
@@ -7611,6 +7706,17 @@
     "location": "Innenstadt",
     "categories": [
       "gesellschaft.gesellschaft"
+    ]
+  },
+  {
+    "ID": "200",
+    "text": "verpackungsfreie Läden attraktiver machen.",
+    "gender": "w",
+    "age": "unter 20",
+    "location": "Hardhöhe",
+    "categories": [
+      "stadtbild.muell",
+      "wirtschaft.einzelhandel"
     ]
   },
   {
@@ -7651,10 +7757,10 @@
     "age": "31",
     "location": "Innenstadt",
     "categories": [
+      "mobilitaet.radwege",
       "mobilitaet.radverkehr",
       "mobilitaet.individualverkehr",
-      "stadtbild.autofrei",
-      "stadtbild.lebenswert"
+      "stadtbild.autofrei"
     ]
   },
   {
@@ -7690,7 +7796,8 @@
     "age": "31",
     "location": "Eigenes Heim",
     "categories": [
-      "stadtbild.autofrei"
+      "gesellschaft.gemeinschaft",
+      "raeume.experimentierraeume"
     ]
   },
   {
@@ -7711,7 +7818,10 @@
     "age": "31",
     "location": "Eigenes Heim",
     "categories": [
-      "parks.gruenestadt"
+      "parks.gruenestadt",
+      "umwelt.umwelt",
+      "politik.klimawandel",
+      "raeume.kreativraeume"
     ]
   },
   {
@@ -7731,7 +7841,19 @@
     "age": "21",
     "location": "Eigenes Heim",
     "categories": [
-      "kultur.sport"
+      "kultur.sport",
+      "parks.gruenestadt"
+    ]
+  },
+  {
+    "ID": "204",
+    "text": "mehr Spielplätze",
+    "gender": "w",
+    "age": "21",
+    "location": "Eigenes Heim",
+    "categories": [
+      "kultur.freizeit",
+      "stadtbild.spielplaetze"
     ]
   },
   {
@@ -7794,7 +7916,17 @@
     "categories": [
       "mobilitaet.radwege",
       "mobilitaet.radverkehr",
-      "mobilitaet.individualverkehr"
+      "mobilitaet.mobilitaet"
+    ]
+  },
+  {
+    "ID": "208",
+    "text": "flexiblere car sharing Angebot",
+    "gender": "w",
+    "age": "41",
+    "location": "Innenstadt",
+    "categories": [
+      "wirtschaft.carsharing"
     ]
   },
   {
@@ -7844,7 +7976,7 @@
     "age": "51",
     "location": "Südstadt",
     "categories": [
-      "kultur.sport",
+      "raeume.experimentierraeume",
       "stadtbild.spielplaetze"
     ]
   },
@@ -7900,8 +8032,19 @@
     "age": "51",
     "location": "Südstadt",
     "categories": [
+      "mobilitaet.radwege",
       "mobilitaet.radverkehr",
-      "gesellschaft.gerechtigkeit"
+      "mobilitaet.mobilitaet"
+    ]
+  },
+  {
+    "ID": "209",
+    "text": "Vermeidung von grellen Licht bei der Straßenbeleuchtung",
+    "gender": "w",
+    "age": "51",
+    "location": "Südstadt",
+    "categories": [
+      "stadtbild.beleuchtung"
     ]
   },
   {
@@ -7911,8 +8054,7 @@
     "age": "21",
     "location": "Südstadt",
     "categories": [
-      "mobilitaet.radverkehr",
-      "politik.klimawandel"
+      "mobilitaet.radverkehr"
     ]
   },
   {
@@ -7922,7 +8064,8 @@
     "age": "21",
     "location": "Südstadt",
     "categories": [
-      "mobilitaet.Parken"
+      "parks.gruenestadt",
+      "parks.hunde"
     ]
   },
   {
@@ -7943,7 +8086,8 @@
     "age": "21",
     "location": "Südstadt",
     "categories": [
-      "mobilitaet.tempo30"
+      "wirtschaft.konsum",
+      "wirtschaft.einzelhandel"
     ]
   },
   {
@@ -7960,7 +8104,10 @@
     "age": "61",
     "location": "Espan",
     "categories": [
-      "stadtbild.muell"
+      "politik.politik",
+      "politik.engagement",
+      "raeume.kreativraeume",
+      "raeume.experimentierraeume"
     ]
   },
   {
@@ -7980,6 +8127,7 @@
     "age": "51",
     "location": "Südstadt",
     "categories": [
+      "infrastruktur.digitalisierung",
       "politik.politik",
       "politik.transparenz"
     ]
@@ -7992,6 +8140,7 @@
     "location": "Südstadt",
     "categories": [
       "politik.politik",
+      "politik.engagement",
       "politik.transparenz"
     ]
   },
@@ -8002,7 +8151,10 @@
     "age": "51",
     "location": "Südstadt",
     "categories": [
-      "politik.engagement"
+      "gesellschaft.gerechtigkeit",
+      "politik.politik",
+      "politik.engagement",
+      "politik.transparenz"
     ]
   },
   {
@@ -8012,9 +8164,9 @@
     "age": "51",
     "location": "Südstadt",
     "categories": [
+      "mobilitaet.radwege",
       "mobilitaet.radverkehr",
-      "politik.engagement",
-      "politik.strukturen"
+      "mobilitaet.mobilitaet"
     ]
   },
   {
@@ -8030,13 +8182,24 @@
   },
   {
     "ID": "215",
+    "text": "Verkehrsberuhigung mit allgemeiner Tempo 30 Zone",
+    "gender": "m",
+    "age": "51",
+    "location": "Südstadt",
+    "categories": [
+      "mobilitaet.tempo30",
+      "stadtbild.stadtgestaltung"
+    ]
+  },
+  {
+    "ID": "215",
     "text": "Fahrradstraßen ausbauen, Fußgänger stärken, Park and Ride stärken und damit MIV aus der Stadt halten",
     "gender": "m",
     "age": "51",
     "location": "Südstadt",
     "categories": [
-      "mobilitaet.radverkehr",
-      "mobilitaet.tempo30"
+      "mobilitaet.radwege",
+      "mobilitaet.radverkehr"
     ]
   },
   {
@@ -8059,8 +8222,8 @@
     "age": "51",
     "location": "Südstadt",
     "categories": [
-      "wirtschaft.konsum",
-      "wirtschaft.einzelhandel"
+      "gesellschaft.wohnraum",
+      "wirtschaft.konsum"
     ]
   },
   {
@@ -9379,7 +9542,6 @@
       "raeume.werkstaetten",
       "raeume.kreativraeume",
       "raeume.experimentierraeume",
-      "stadtbild.spielplaetze",
       "bildung.bildung"
     ]
   },
@@ -10519,8 +10681,7 @@
     "age": "28",
     "location": "Westvorstadt",
     "categories": [
-      "stadtbild.muell",
-      "stadtbild.autofrei"
+      "stadtbild.muell"
     ]
   },
   {
@@ -11483,6 +11644,13 @@
   },
   {
     "ID": "342",
+    "text": "mehr Arbeitsplätze",
+    "categories": [
+      "gesellschaft.gesellschaft"
+    ]
+  },
+  {
+    "ID": "342",
     "text": "keine Verbrenner in der Innenstadt (Taxis und Busse elektrisch)",
     "categories": [
       "mobilitaet.oepnv",
@@ -11993,6 +12161,13 @@
   },
   {
     "ID": "373",
+    "text": "wir brauchen einen neuen Bürgermeister, der ein lebenswertes Führt wiederherstellt",
+    "categories": [
+      "politik.strukturen"
+    ]
+  },
+  {
+    "ID": "373",
     "text": "Integration verbessern",
     "categories": [
       "gesellschaft.inklusion"
@@ -12377,7 +12552,7 @@
   },
   {
     "ID": "388",
-    "text": "Mieten deckeln",
+    "text": "Mieten deckeln ",
     "gender": "w",
     "age": "61",
     "location": "Innenstadt",

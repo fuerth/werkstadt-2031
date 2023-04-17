@@ -2,22 +2,22 @@
   {
     "id": "gesellschaft",
     "name": "gesellschaft",
-    "count": 458,
+    "count": 482,
     "sub": [
       {
         "id": "familie",
         "name": "familie",
-        "count": 17
+        "count": 21
       },
       {
         "id": "Jugend",
         "name": "Jugend",
-        "count": 69
+        "count": 72
       },
       {
         "id": "wohnraum",
         "name": "wohnraum",
-        "count": 49
+        "count": 52
       },
       {
         "id": "Quartiersentwicklung",
@@ -27,32 +27,32 @@
       {
         "id": "gerechtigkeit",
         "name": "gerechtigkeit",
-        "count": 44
+        "count": 42
       },
       {
         "id": "gemeinschaft",
         "name": "gemeinschaft",
-        "count": 69
+        "count": 68
       },
       {
         "id": "begegnung",
         "name": "begegnung",
-        "count": 49
+        "count": 54
       },
       {
         "id": "inklusion",
         "name": "inklusion",
-        "count": 46
+        "count": 54
       },
       {
         "id": "senioren",
         "name": "senioren",
-        "count": 11
+        "count": 12
       },
       {
         "id": "generationen",
         "name": "generationen",
-        "count": 8
+        "count": 9
       },
       {
         "id": "gentrifizierung",
@@ -67,14 +67,14 @@
       {
         "id": "gesellschaft",
         "name": "gesellschaft",
-        "count": 33
+        "count": 35
       }
     ]
   },
   {
     "id": "kultur",
     "name": "kultur",
-    "count": 184,
+    "count": 187,
     "sub": [
       {
         "id": "freizeit",
@@ -84,12 +84,12 @@
       {
         "id": "kulturangebot",
         "name": "kulturangebot",
-        "count": 64
+        "count": 66
       },
       {
         "id": "nachtleben",
         "name": "nachtleben",
-        "count": 22
+        "count": 23
       },
       {
         "id": "sport",
@@ -101,66 +101,66 @@
   {
     "id": "parks",
     "name": "parks",
-    "count": 152,
+    "count": 167,
     "sub": [
       {
         "id": "parks",
         "name": "parks",
-        "count": 43
+        "count": 45
       },
       {
         "id": "gruenestadt",
         "name": "gruenestadt",
-        "count": 95
+        "count": 104
       },
       {
         "id": "hunde",
         "name": "hunde",
-        "count": 14
+        "count": 18
       }
     ]
   },
   {
     "id": "raeume",
     "name": "raeume",
-    "count": 137,
+    "count": 157,
     "sub": [
       {
         "id": "raeume",
         "name": "raeume",
-        "count": 63
+        "count": 69
       },
       {
         "id": "kreativraeume",
         "name": "kreativraeume",
-        "count": 43
+        "count": 45
       },
       {
         "id": "werkstaetten",
         "name": "werkstaetten",
-        "count": 14
+        "count": 17
       },
       {
         "id": "experimentierraeume",
         "name": "experimentierraeume",
-        "count": 17
+        "count": 26
       }
     ]
   },
   {
     "id": "stadtbild",
     "name": "stadtbild",
-    "count": 368,
+    "count": 369,
     "sub": [
       {
         "id": "autofrei",
         "name": "autofrei",
-        "count": 72
+        "count": 66
       },
       {
         "id": "stadtbild",
         "name": "stadtbild",
-        "count": 81
+        "count": 79
       },
       {
         "id": "atmosphäre",
@@ -175,69 +175,69 @@
       {
         "id": "stadtgestaltung",
         "name": "stadtgestaltung",
-        "count": 58
+        "count": 60
       },
       {
         "id": "lebenswert",
         "name": "lebenswert",
-        "count": 41
+        "count": 44
       },
       {
         "id": "muell",
         "name": "muell",
-        "count": 43
+        "count": 45
       },
       {
         "id": "spielplaetze",
         "name": "spielplaetze",
-        "count": 15
+        "count": 16
       },
       {
         "id": "beleuchtung",
         "name": "beleuchtung",
-        "count": 2
+        "count": 3
       }
     ]
   },
   {
     "id": "politik",
     "name": "politik",
-    "count": 443,
+    "count": 454,
     "sub": [
       {
         "id": "flaechen",
         "name": "flaechen",
-        "count": 51
+        "count": 57
       },
       {
         "id": "sicherheit",
         "name": "sicherheit",
-        "count": 39
+        "count": 44
       },
       {
         "id": "foerderung",
         "name": "foerderung",
-        "count": 99
+        "count": 103
       },
       {
         "id": "stadtplanung",
         "name": "stadtplanung",
-        "count": 44
+        "count": 47
       },
       {
         "id": "politik",
         "name": "politik",
-        "count": 114
+        "count": 105
       },
       {
         "id": "strukturen",
         "name": "strukturen",
-        "count": 24
+        "count": 28
       },
       {
         "id": "transparenz",
         "name": "transparenz",
-        "count": 13
+        "count": 15
       },
       {
         "id": "engagement",
@@ -247,29 +247,29 @@
       {
         "id": "klimawandel",
         "name": "klimawandel",
-        "count": 34
+        "count": 30
       }
     ]
   },
   {
     "id": "mobilitaet",
     "name": "mobilitaet",
-    "count": 892,
+    "count": 895,
     "sub": [
       {
         "id": "fussgaenger",
         "name": "fussgaenger",
-        "count": 39
+        "count": 42
       },
       {
         "id": "mobilitaet",
         "name": "mobilitaet",
-        "count": 236
+        "count": 237
       },
       {
         "id": "individualverkehr",
         "name": "individualverkehr",
-        "count": 49
+        "count": 47
       },
       {
         "id": "tempo30",
@@ -279,56 +279,56 @@
       {
         "id": "verkehrsfluss",
         "name": "verkehrsfluss",
-        "count": 54
+        "count": 51
       },
       {
         "id": "verkehrsnetz",
         "name": "verkehrsnetz",
-        "count": 80
+        "count": 77
       },
       {
         "id": "Parken",
         "name": "Parken",
-        "count": 67
+        "count": 72
       },
       {
         "id": "oepnv",
         "name": "oepnv",
-        "count": 84
+        "count": 87
       },
       {
         "id": "radwege",
         "name": "radwege",
-        "count": 125
+        "count": 126
       },
       {
         "id": "radverkehr",
         "name": "radverkehr",
-        "count": 131
+        "count": 129
       }
     ]
   },
   {
     "id": "umwelt",
     "name": "umwelt",
-    "count": 80,
+    "count": 81,
     "sub": [
       {
         "id": "umwelt",
         "name": "umwelt",
-        "count": 80
+        "count": 81
       }
     ]
   },
   {
     "id": "infrastruktur",
     "name": "infrastruktur",
-    "count": 147,
+    "count": 149,
     "sub": [
       {
         "id": "Bauen",
         "name": "Bauen",
-        "count": 55
+        "count": 57
       },
       {
         "id": "infrastruktur",
@@ -338,34 +338,34 @@
       {
         "id": "energieversorgung",
         "name": "energieversorgung",
-        "count": 28
+        "count": 27
       },
       {
         "id": "digitalisierung",
         "name": "digitalisierung",
-        "count": 14
+        "count": 15
       }
     ]
   },
   {
     "id": "wirtschaft",
     "name": "wirtschaft",
-    "count": 116,
+    "count": 127,
     "sub": [
       {
         "id": "konsum",
         "name": "konsum",
-        "count": 62
+        "count": 69
       },
       {
         "id": "einzelhandel",
         "name": "einzelhandel",
-        "count": 46
+        "count": 49
       },
       {
         "id": "carsharing",
         "name": "carsharing",
-        "count": 8
+        "count": 9
       }
     ]
   },
