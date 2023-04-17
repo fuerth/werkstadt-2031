@@ -63,7 +63,7 @@ module.exports = async function(data) {
 		'<link rel="stylesheet" type="text/css" href="https://cdn.bluepingu.de/plyr/3.6.3/plyr.css" media="all"></link>',
 		'<script src="https://cdn.bluepingu.de/jquery/3.6.0/jquery-3.6.0.min.js"></script>',
 		'<script src="https://fuerth.bluepingu.de/typo3conf/ext/def_cookieconsent/Resources/Public/JavaScript/cookieconsent.js?1620639799"></script>',
-		'<script src="https://fuerth.bluepingu.de/typo3conf/ext/powermail/Resources/Public/JavaScript/Powermail/Form.min.js?1628678410"></script>',
+		'<script src="https://fuerth.bluepingu.de/typo3conf/ext/powermail/Resources/Public/JavaScript/Powermail/Form.min.js?1661243542"></script>',
 		'<script src="https://cdn.bluepingu.de/parsley/2.9.2/parsley.min.js"></script>',
 		'<script src="https://cdn.bluepingu.de/smoothscroll/2.2.0/jquery.smoothscroll.min.js"></script>',
 		'<script src="https://cdn.bluepingu.de/zebrapin/2.0.0/zebrapin.min.js"></script>',
