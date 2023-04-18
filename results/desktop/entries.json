@@ -154,7 +154,7 @@
     "categories": [
       "stadtbild.atmosphäre",
       "stadtbild.stadtbild",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -728,7 +728,7 @@
     "location": "Innenstadt",
     "categories": [
       "stadtbild.stadtbild",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt",
       "kultur.freizeit"
     ],
@@ -827,7 +827,7 @@
     "location": "Ronhof",
     "categories": [
       "stadtbild.stadtgestaltung",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -1067,7 +1067,7 @@
       "stadtbild.atmosphäre",
       "stadtbild.stadtbild",
       "infrastruktur.Bauen",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -1314,7 +1314,7 @@
     "location": "Innenstadt",
     "categories": [
       "stadtbild.stadtgestaltung",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -1413,7 +1413,7 @@
     "age": "61",
     "location": "Espan",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -1444,7 +1444,7 @@
     "location": "Oberfürberg",
     "categories": [
       "stadtbild.stadtgestaltung",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "gesellschaft.begegnung"
     ],
     "classes": [
@@ -1475,7 +1475,7 @@
     "age": "31",
     "location": "Innenstadt",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt",
       "parks.parks"
     ],
@@ -1651,7 +1651,7 @@
     "categories": [
       "gesellschaft.Quartiersentwicklung",
       "gesellschaft.inklusion",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "gesellschaft.gemeinschaft",
       "gesellschaft.begegnung"
     ],
@@ -1672,7 +1672,7 @@
       "politik.stadtplanung",
       "infrastruktur.Bauen",
       "gesellschaft.gentrifizierung",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "politik.foerderung"
     ],
     "classes": [
@@ -1803,7 +1803,7 @@
     "age": "51",
     "location": "Espan",
     "categories": [
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "s",
@@ -2122,7 +2122,7 @@
     "categories": [
       "mobilitaet.radwege",
       "mobilitaet.radverkehr",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "kultur.kulturangebot",
       "kultur.freizeit"
     ],
@@ -2175,7 +2175,7 @@
       "mobilitaet.radverkehr",
       "mobilitaet.mobilitaet",
       "stadtbild.autofrei",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "s",
@@ -2203,7 +2203,7 @@
     "location": "Südstadt",
     "categories": [
       "stadtbild.autofrei",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "wirtschaft.konsum"
     ],
     "classes": [
@@ -2371,7 +2371,7 @@
     "location": "Innenstadt",
     "categories": [
       "politik.flaechen",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "m",
@@ -2419,7 +2419,7 @@
     "location": "Südstadt",
     "categories": [
       "stadtbild.atmosphäre",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -2589,7 +2589,7 @@
       "stadtbild.sanierung",
       "politik.flaechen",
       "gesellschaft.wohnraum",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "l",
@@ -2719,7 +2719,7 @@
       "mobilitaet.radwege",
       "mobilitaet.radverkehr",
       "stadtbild.autofrei",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "m",
@@ -2830,7 +2830,7 @@
     "age": "51",
     "location": "Poppenreuth",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "parks.parks"
     ],
     "classes": [
@@ -2897,7 +2897,7 @@
       "mobilitaet.verkehrsfluss",
       "mobilitaet.verkehrsnetz",
       "mobilitaet.Parken",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "xs",
@@ -3059,7 +3059,7 @@
     "location": "Innenstadt",
     "categories": [
       "mobilitaet.Parken",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt",
       "gesellschaft.gemeinschaft"
     ],
@@ -3187,7 +3187,7 @@
     "location": "Stadtgrenze",
     "categories": [
       "stadtbild.autofrei",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "m",
@@ -3330,7 +3330,7 @@
     "categories": [
       "mobilitaet.mobilitaet",
       "stadtbild.autofrei",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "wirtschaft.einzelhandel"
     ],
     "classes": [
@@ -3398,7 +3398,7 @@
     "location": "Südstadt",
     "categories": [
       "stadtbild.autofrei",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -3536,7 +3536,7 @@
     "age": "51",
     "location": "Südstadt",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt",
       "politik.klimawandel"
     ],
@@ -3939,7 +3939,7 @@
     "location": "Südstadt",
     "categories": [
       "stadtbild.stadtbild",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "xxs",
@@ -3970,7 +3970,7 @@
     "age": "31",
     "location": "Südstadt",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "gesellschaft.gemeinschaft",
       "raeume.raeume",
       "raeume.werkstaetten",
@@ -3989,7 +3989,7 @@
     "location": "Innenstadt",
     "categories": [
       "infrastruktur.Bauen",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "xs",
@@ -4275,7 +4275,7 @@
     "age": "41",
     "location": "Innenstadt",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt",
       "parks.parks"
     ],
@@ -4466,7 +4466,7 @@
     "location": "Innenstadt",
     "categories": [
       "stadtbild.stadtbild",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "xxs",
@@ -4681,7 +4681,7 @@
     "location": "Innenstadt",
     "categories": [
       "politik.flaechen",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "xs",
@@ -4873,7 +4873,7 @@
     "location": "Innenstadt",
     "categories": [
       "infrastruktur.energieversorgung",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "politik.klimawandel"
     ],
     "classes": [
@@ -4934,7 +4934,7 @@
     "location": "Südstadt",
     "categories": [
       "mobilitaet.Parken",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "xs",
@@ -5127,7 +5127,7 @@
     "categories": [
       "stadtbild.stadtbild",
       "stadtbild.lebenswert",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "wirtschaft.konsum",
       "umwelt.umwelt"
     ],
@@ -5206,7 +5206,7 @@
     "categories": [
       "stadtbild.stadtbild",
       "stadtbild.lebenswert",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "m",
@@ -5236,7 +5236,7 @@
     "categories": [
       "mobilitaet.verkehrsnetz",
       "stadtbild.stadtgestaltung",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "m",
@@ -5343,7 +5343,7 @@
     "age": "31",
     "location": "Eigenes Heim",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt",
       "parks.parks"
     ],
@@ -5809,7 +5809,7 @@
     "categories": [
       "politik.flaechen",
       "infrastruktur.Bauen",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "raeume.werkstaetten"
     ],
     "classes": [
@@ -5825,7 +5825,7 @@
     "location": "Dambach",
     "categories": [
       "politik.stadtplanung",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "xxs",
@@ -5937,7 +5937,7 @@
     "location": "Burgfarrnbach",
     "categories": [
       "politik.flaechen",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "xxs",
@@ -5998,7 +5998,7 @@
     "categories": [
       "stadtbild.atmosphäre",
       "stadtbild.stadtbild",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -6015,7 +6015,7 @@
     "categories": [
       "stadtbild.atmosphäre",
       "stadtbild.stadtbild",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "gesellschaft.begegnung",
       "kultur.freizeit",
       "parks.parks"
@@ -6501,7 +6501,7 @@
     "age": "31",
     "location": "Südstadt",
     "categories": [
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "m",
@@ -6549,7 +6549,7 @@
     "location": "Innenstadt",
     "categories": [
       "mobilitaet.Parken",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "l",
@@ -6716,7 +6716,7 @@
     "location": "Innenstadt",
     "categories": [
       "stadtbild.stadtbild",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -6888,7 +6888,7 @@
       "mobilitaet.oepnv",
       "mobilitaet.mobilitaet",
       "stadtbild.lebenswert",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "xs",
@@ -6906,7 +6906,7 @@
       "politik.stadtplanung",
       "infrastruktur.Bauen",
       "gesellschaft.gerechtigkeit",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "kultur.freizeit",
       "parks.parks"
     ],
@@ -6941,7 +6941,7 @@
     "categories": [
       "stadtbild.atmosphäre",
       "stadtbild.stadtgestaltung",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "xs",
@@ -6974,7 +6974,7 @@
     "location": "Innenstadt",
     "categories": [
       "stadtbild.autofrei",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "xs",
@@ -7700,7 +7700,7 @@
     "age": "61",
     "location": "Stadtgrenze",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -7736,7 +7736,7 @@
       "mobilitaet.mobilitaet",
       "stadtbild.stadtbild",
       "politik.flaechen",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "l",
@@ -7765,7 +7765,7 @@
     "location": "Innenstadt",
     "categories": [
       "mobilitaet.mobilitaet",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "gesellschaft.Jugend",
       "raeume.raeume",
       "stadtbild.spielplaetze"
@@ -7828,7 +7828,7 @@
     "categories": [
       "mobilitaet.Parken",
       "politik.flaechen",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "s",
@@ -7842,7 +7842,7 @@
     "age": "51",
     "location": "Unterfarrnbach",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt",
       "gesellschaft.begegnung",
       "raeume.raeume"
@@ -8088,7 +8088,7 @@
     "age": "51",
     "location": "Stadeln",
     "categories": [
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "xs",
@@ -8120,7 +8120,7 @@
     "location": "Hardhöhe",
     "categories": [
       "politik.flaechen",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "parks.parks"
     ],
     "classes": [
@@ -8321,7 +8321,7 @@
     "age": "41",
     "location": "Innenstadt",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -8475,7 +8475,7 @@
     "location": "Innenstadt",
     "categories": [
       "stadtbild.stadtbild",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt",
       "raeume.raeume"
     ],
@@ -8552,7 +8552,7 @@
     "location": "Hardhöhe",
     "categories": [
       "stadtbild.lebenswert",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "wirtschaft.konsum"
     ],
     "classes": [
@@ -8752,7 +8752,7 @@
     "age": "21",
     "location": "Westvorstadt",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "wirtschaft.konsum",
       "umwelt.umwelt"
     ],
@@ -9540,7 +9540,7 @@
     "location": "Innenstadt",
     "categories": [
       "stadtbild.stadtbild",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -9630,7 +9630,7 @@
     "categories": [
       "stadtbild.stadtbild",
       "infrastruktur.Bauen",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "xxs",
@@ -9890,7 +9890,7 @@
     "age": "61",
     "location": "Unterfarrnbach",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt",
       "mobilitaet.fussgaenger"
     ],
@@ -9953,7 +9953,7 @@
     "age": "51",
     "location": "Westvorstadt",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "politik.foerderung"
     ],
     "classes": [
@@ -10027,7 +10027,7 @@
     "location": "Südstadt",
     "categories": [
       "stadtbild.lebenswert",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "wirtschaft.konsum"
     ],
     "classes": [
@@ -10243,7 +10243,7 @@
     "categories": [
       "stadtbild.stadtgestaltung",
       "politik.flaechen",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -10261,7 +10261,7 @@
       "gesellschaft.gerechtigkeit",
       "gesellschaft.inklusion",
       "gesellschaft.gesellschaft",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "politik.politik",
       "politik.engagement"
     ],
@@ -10295,7 +10295,7 @@
     "location": "Innenstadt",
     "categories": [
       "gesellschaft.gesellschaft",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "xxs",
@@ -10448,7 +10448,7 @@
     "location": "Eigenes Heim",
     "categories": [
       "stadtbild.atmosphäre",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "xxs",
@@ -10462,7 +10462,7 @@
     "age": "31",
     "location": "Eigenes Heim",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt",
       "politik.klimawandel",
       "raeume.kreativraeume"
@@ -10494,7 +10494,7 @@
     "location": "Eigenes Heim",
     "categories": [
       "kultur.sport",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "xs",
@@ -10580,7 +10580,7 @@
     "text": "Nach wie vor: zuviel Autos, zuwenig grün.",
     "categories": [
       "mobilitaet.individualverkehr",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "xs",
@@ -10796,7 +10796,7 @@
     "age": "21",
     "location": "Südstadt",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "parks.hunde"
     ],
     "classes": [
@@ -11053,7 +11053,7 @@
     "age": "10",
     "location": "Hardhöhe",
     "categories": [
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "xs",
@@ -11111,7 +11111,7 @@
     "location": "Innenstadt",
     "categories": [
       "infrastruktur.Bauen",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "politik.klimawandel"
     ],
     "classes": [
@@ -11185,7 +11185,7 @@
     "age": "21",
     "location": "Innenstadt",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt",
       "politik.klimawandel"
     ],
@@ -11234,7 +11234,7 @@
     "location": "Südstadt",
     "categories": [
       "stadtbild.lebenswert",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "xxs",
@@ -11249,7 +11249,7 @@
     "location": "Südstadt",
     "categories": [
       "stadtbild.stadtgestaltung",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -11376,7 +11376,7 @@
     "location": "Innenstadt",
     "categories": [
       "stadtbild.stadtbild",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -12545,7 +12545,7 @@
     "categories": [
       "stadtbild.muell",
       "stadtbild.stadtbild",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "parks.parks"
     ],
     "classes": [
@@ -12623,7 +12623,7 @@
     "age": "41",
     "location": "Innenstadt",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -12874,7 +12874,7 @@
     "age": "37",
     "location": "Innenstadt",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "politik.klimawandel"
     ],
     "classes": [
@@ -12904,7 +12904,7 @@
     "age": "73",
     "location": "Innenstadt",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "politik.klimawandel"
     ],
     "classes": [
@@ -12923,7 +12923,7 @@
       "stadtbild.stadtgestaltung",
       "gesellschaft.Quartiersentwicklung",
       "stadtbild.lebenswert",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt",
       "kultur.freizeit",
       "parks.parks"
@@ -13024,7 +13024,7 @@
     "age": "38",
     "location": "Südstadt",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -13041,7 +13041,7 @@
     "categories": [
       "stadtbild.stadtbild",
       "politik.flaechen",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -13393,7 +13393,7 @@
       "stadtbild.stadtbild",
       "stadtbild.stadtgestaltung",
       "stadtbild.lebenswert",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt",
       "politik.klimawandel"
     ],
@@ -13885,7 +13885,7 @@
     "categories": [
       "politik.flaechen",
       "infrastruktur.Bauen",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -13996,7 +13996,7 @@
     "location": "Südstadt",
     "categories": [
       "politik.flaechen",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt",
       "politik.klimawandel"
     ],
@@ -14250,7 +14250,7 @@
     "location": "Stadtgrenze",
     "categories": [
       "politik.stadtplanung",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "kultur.freizeit",
       "parks.parks"
     ],
@@ -14362,7 +14362,7 @@
     "text": "Flußdreieick müllfrei machen",
     "categories": [
       "stadtbild.muell",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt",
       "politik.politik",
       "parks.parks"
@@ -14427,7 +14427,7 @@
       "stadtbild.stadtgestaltung",
       "politik.stadtplanung",
       "stadtbild.lebenswert",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "xs",
@@ -15086,7 +15086,7 @@
       "stadtbild.stadtbild",
       "stadtbild.autofrei",
       "stadtbild.stadtgestaltung",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -15201,7 +15201,7 @@
     "categories": [
       "stadtbild.stadtbild",
       "stadtbild.stadtgestaltung",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "parks.parks"
     ],
     "classes": [
@@ -15335,7 +15335,7 @@
     "text": "Mehr Flächen für interkulturelle Gärten",
     "categories": [
       "politik.flaechen",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "kultur.kulturangebot"
     ],
     "classes": [
@@ -16134,7 +16134,7 @@
     "ID": "359",
     "text": "mehr Grün in der Stadt",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -16229,7 +16229,7 @@
     "ID": "363",
     "text": "mehr Bäume",
     "categories": [
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "xxs",
@@ -16335,7 +16335,7 @@
     "ID": "367",
     "text": "mehr Grün",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -16432,7 +16432,7 @@
     "ID": "370",
     "text": "mehr Bäume am grünen Markt, Innenstadt, Fussgängerzone",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -16771,7 +16771,7 @@
     "ID": "381",
     "text": "Fassade Begrünen (Parkhäuser z.B.)",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -16783,7 +16783,7 @@
     "ID": "381",
     "text": "Mehr Pop up Blumenwiesen in der Stadt",
     "categories": [
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -16796,7 +16796,7 @@
     "text": "An der Kläranlage im Wiesengrund Rosenbüsche pflanzen",
     "categories": [
       "stadtbild.lebenswert",
-      "parks.gruenestadt",
+      "umwelt.gruenestadt",
       "umwelt.umwelt"
     ],
     "classes": [
@@ -17015,7 +17015,7 @@
     "text": "Autohäuser und Supermarktflächen als Grünflächen und Gemeinschaftsgärten",
     "categories": [
       "stadtbild.stadtgestaltung",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "xs",
@@ -17059,7 +17059,7 @@
       "mobilitaet.Parken",
       "stadtbild.stadtbild",
       "politik.flaechen",
-      "parks.gruenestadt"
+      "umwelt.gruenestadt"
     ],
     "classes": [
       "xxl",

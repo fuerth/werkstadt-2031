@@ -101,17 +101,12 @@
   {
     "id": "parks",
     "name": "parks",
-    "count": 167,
+    "count": 63,
     "sub": [
       {
         "id": "parks",
         "name": "parks",
         "count": 45
-      },
-      {
-        "id": "gruenestadt",
-        "name": "gruenestadt",
-        "count": 104
       },
       {
         "id": "hunde",
@@ -311,8 +306,13 @@
   {
     "id": "umwelt",
     "name": "umwelt",
-    "count": 81,
+    "count": 185,
     "sub": [
+      {
+        "id": "gruenestadt",
+        "name": "gruenestadt",
+        "count": 104
+      },
       {
         "id": "umwelt",
         "name": "umwelt",
