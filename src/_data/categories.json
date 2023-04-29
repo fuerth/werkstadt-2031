@@ -99,14 +99,24 @@
     ]
   },
   {
-    "id": "parks",
-    "name": "parks",
-    "count": 63,
+    "id": "GrüneStadt",
+    "name": "GrüneStadt",
+    "count": 248,
     "sub": [
       {
         "id": "parks",
         "name": "parks",
         "count": 45
+      },
+      {
+        "id": "GrüneStadt",
+        "name": "GrüneStadt",
+        "count": 104
+      },
+      {
+        "id": "umwelt",
+        "name": "umwelt",
+        "count": 81
       },
       {
         "id": "hunde",
@@ -116,28 +126,28 @@
     ]
   },
   {
-    "id": "raeume",
-    "name": "raeume",
+    "id": "Räume",
+    "name": "Räume",
     "count": 157,
     "sub": [
       {
-        "id": "raeume",
-        "name": "raeume",
+        "id": "Räume",
+        "name": "Räume",
         "count": 69
       },
       {
-        "id": "kreativraeume",
-        "name": "kreativraeume",
+        "id": "Kreativräume",
+        "name": "Kreativräume",
         "count": 45
       },
       {
-        "id": "werkstaetten",
-        "name": "werkstaetten",
+        "id": "Werkstätten",
+        "name": "Werkstätten",
         "count": 17
       },
       {
-        "id": "experimentierraeume",
-        "name": "experimentierraeume",
+        "id": "Experimentierräume",
+        "name": "Experimentierräume",
         "count": 26
       }
     ]
@@ -178,13 +188,13 @@
         "count": 44
       },
       {
-        "id": "muell",
-        "name": "muell",
+        "id": "müll",
+        "name": "müll",
         "count": 45
       },
       {
-        "id": "spielplaetze",
-        "name": "spielplaetze",
+        "id": "Spielplätze",
+        "name": "Spielplätze",
         "count": 16
       },
       {
@@ -200,8 +210,8 @@
     "count": 454,
     "sub": [
       {
-        "id": "flaechen",
-        "name": "flaechen",
+        "id": "Flächen",
+        "name": "Flächen",
         "count": 57
       },
       {
@@ -210,8 +220,8 @@
         "count": 44
       },
       {
-        "id": "foerderung",
-        "name": "foerderung",
+        "id": "Förderung",
+        "name": "Förderung",
         "count": 103
       },
       {
@@ -247,18 +257,18 @@
     ]
   },
   {
-    "id": "mobilitaet",
-    "name": "mobilitaet",
+    "id": "Mobilität",
+    "name": "Mobilität",
     "count": 895,
     "sub": [
       {
-        "id": "fussgaenger",
-        "name": "fussgaenger",
+        "id": "Fussgänger",
+        "name": "Fussgänger",
         "count": 42
       },
       {
-        "id": "mobilitaet",
-        "name": "mobilitaet",
+        "id": "Mobilität",
+        "name": "Mobilität",
         "count": 237
       },
       {
@@ -287,8 +297,8 @@
         "count": 72
       },
       {
-        "id": "oepnv",
-        "name": "oepnv",
+        "id": "ÖPNV",
+        "name": "ÖPNV",
         "count": 87
       },
       {
@@ -300,23 +310,6 @@
         "id": "radverkehr",
         "name": "radverkehr",
         "count": 129
-      }
-    ]
-  },
-  {
-    "id": "umwelt",
-    "name": "umwelt",
-    "count": 185,
-    "sub": [
-      {
-        "id": "gruenestadt",
-        "name": "gruenestadt",
-        "count": 104
-      },
-      {
-        "id": "umwelt",
-        "name": "umwelt",
-        "count": 81
       }
     ]
   },
